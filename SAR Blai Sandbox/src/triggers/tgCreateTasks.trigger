@@ -3,8 +3,7 @@
 * Description: Crea tareas en función de los cambios de la oportunidad
 * Copyright:   Konozca 
 * @author:     Sergi Aguilar
-* Modification Log 
-
+* Modification Logs 
 * =============================================================== 
 *Date        Author           Modification 
 * 09/10/2014 CAndinach        Ampliacion de creacion de tareas y evento automaticos
