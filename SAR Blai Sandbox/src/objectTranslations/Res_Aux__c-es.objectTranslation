@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Res Aux</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Res Aux</value>
+    </caseValues>
+    <fields>
+        <label><!-- id --></label>
+        <name>id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta --></label>
+        <name>idcuenta__c</name>
+        <relationshipLabel><!-- Res Aux --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

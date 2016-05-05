@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Mail Bienvenida Catala</name>
+    <style>none</style>
+    <subject>Benvinguts a sarquavitae</subject>
+    <textOnly>Documento sin título
+
+
+Benvinguts a SARquavitae Apreciada família,
+
+Els  donem la benvinguda al nostre centre i ens posem a la seva  disposició per a qualsevol cosa que  necessitin.
+Estem  encantats d&apos;acollir-los i, en aquesta  etapa nova que avui comença, estarem al seu  costat i els acompanyarem perquè l&apos;adaptació del seu familiar i la seva  integració a la vida del centre siguin satisfactòries i reconfortants.
+
+El  nostre objectiu principal  és  proporcionar al seu ser estimat una atenció personalitzada, d&apos;acord amb els  seus gustos i preferències, que a vostès també els generi confiança i  seguretat. Per a això comptem amb un equip de professionals que els atendrà amb  respecte i afecte tenint sempre en compte el que és important per a vostès i el  seu familiar.
+
+No dubtin a posar-se en contacte amb nosaltres sempre  que ho desitgin i, en aquest sentit, posem a la seva disposició el blog del  nostre centre, que els permetrà estar puntualment informats de les activitats i  notícies de la residència.  Els animem a  consultar-lo i a deixar-nos els seus comentaris.
+
+Els  agraïm la confiança que han dipositat en nosaltres i farem tot el que estigui a  les nostres mans per garantir el benestar del seu familiar i la seva  tranquil·litat.
+
+Rebin  una  salutació cordial,
+
+La direcció
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

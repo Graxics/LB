@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Centro2__c</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Residente__c</field>
+    </columns>
+    <columns>
+        <field>CUST_LAST_UPDATE</field>
+    </columns>
+    <description>Oportunidades por etapa del equipo a cargo</description>
+    <filter>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Etapa__c</column>
+            <operator>notEqual</operator>
+            <value>Ingreso,No ingreso,Cerrada por el sistema</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Oportunidad_platform__c.Etapa__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Oportunidades por etapa (No cerradas)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Oportunidad_platform__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

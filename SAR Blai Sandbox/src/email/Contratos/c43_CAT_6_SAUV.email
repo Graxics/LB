@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+<p align="center"><strong>CONTRATO DE ESTANCIA  Y ATENCIÓN GERONTOLÓGICA EN RESIDENCIA PARA PERSONAS MAYORES (SAUV)<br>
+  <em>SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}</em></strong></p>
+<p><strong>&nbsp;</strong></p>
+<p align="right">En {!Oportunidad_platform__c.Ciudad_Centro__c}, a {!Fecha_Dia} de {!Fecha_Mes} de  {!Fecha_Anyo} </p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Primera.-  Usuario y tipo de ingreso</strong></p>
+<p>{!Residente.FirstName} {!Residente.LastName}, con DNI nº {!Oportunidad_platform__c.DNI_Residente__c} ha resultado adjudicatario de una plaza temporal del  servicio de urgencias del Servei d&rsquo;Acolliment d&rsquo;Urgències en la Vellesa del  Ayuntamiento de Barcelona en el Centro {!Oportunidad_platform__c.Nombre_Centro__c} desde  el día {!Oportunidad_platform__c.Dia_Ingreso} de {!Oportunidad_platform__c.Mes_Ingreso} de {!Oportunidad_platform__c.Anyo_Ingreso}. </p>
+<p><strong>Segunda.-  Precio y forma de pago</strong></p>
+<p>Según se establece en el  Pacto Económico realizado por el Área de Calidad de Vida, Igualdad y Deportes  del Ayuntamiento, el usuario deberá pagar al centro residencial la cantidad de {!Oportunidad_platform__c.Precio_Total__c} mensuales, según lo  dispuesto en el Decreto 394/1996, de 12 de septiembre de la Generalitat de  Cataluña. </p>
+<p>Por otro lado, en el  momento en que el usuario pierda su derecho a disfrutar de una plaza  subvencionada del SAUV, el precio por la asistencia personalizada como cuota de  su estancia y atención será fijado por el Centro, de conformidad con las  tarifas oficiales del Centro, en función de la estimación que el equipo médico  del Centro realice del nivel de dependencia del Usuario, de cuyo pago  responderán el residente, su representante legal y/o sus familiares.</p>
+<p>En todo caso una vez  efectuado el pago, se entregará al residente su correspondiente recibo.</p>
+<p>La residencia entregará  factura mensual en la que constará el coste total del servicio.</p>
+<p>Los gastos ocasionados  por eventuales devoluciones bancarias de los recibos serán abonados por el  usuario y/o persona responsable, y bajo este concepto serán incluidos en el  mismo recibo devuelto, que se girará de nuevo.</p>
+<p>El incumplimiento en el  pago de las cuotas correspondientes, podrá dar lugar a la resolución del  presente contrato, que será comunicada por la residencia al usuario y/o  familiares responsables y/o representantes legales o de hecho, según cada caso.</p>
+<p align='left'>Los datos bancarios del usuario o de  la persona que pagará la estancia son los siguientes:<br>
+Nombre de la entidad bancaria: {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}.<br>
+Localidad: {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}. <br>
+Nº de cuenta: {!Oportunidad_platform__c.IBAN__c}.<br>
+Nombre del titular de la cuenta y obligado al pago en este contrato: {!Oportunidad_platform__c.Cuenta_Pagador__c}
+</p>
+<p><strong>Tercera.-  Bienes de los usuarios.</strong></p>
+<p>Los usuarios tendrán  derecho a depositar en la Dirección del Centro objetos de valor de su propiedad  para su custodia, responsabilizándose aquella de devolverlos en el momento en  que así le sea requerido por el interesado. </p>
+<p>El Centro no se  responsabiliza de ningún bien, objeto, joyas o dinero del usuario si éste o sus  familiares no lo han entregado de manera expresa en custodia a la Dirección del Centro. En  virtud de ello, el Centro no se responsabiliza de robos, hurtos, rotura,  desperfectos, conservación, mantenimiento o reparación de bienes, joyas o  dinero que no le hayan sido entregados de manera expresa en custodia.</p>
+  <p>
+  Eximiendo al Centro del usuario y / o sus familiares de cualquier incidencia  que pudiera resultar en relación con bienes o dinero que no se hayan entregado  directamente en depósito a la   Dirección del Centro.</p>
+<p><strong>Cuarta.- Acompañantes</strong></p>
+<p>El  residente o familiar responsable podrán optar por la intervención de un  acompañante del residente en las instalaciones de la residencia o persona  contratada por ellos mismos. La actividad de estas personas no podrá interferir  en las actividades diarias de los profesionales de la residencia, y en  cualquier caso, la residencia estará exonerada por las actuaciones que estos  puedan desarrollar.</p>
+<p>Dichas  personas sólo podrán realizar labores de acompañamiento y nunca labores  asistenciales.</p>
+<p><strong>Quinta.- Resolución del  contrato.</strong></p>
+<p>El  incumplimiento de lo estipulado en la cualquiera de las cláusulas del presente  contrato o de lo dispuesto en el Reglamento de Régimen Interno implicará la  resolución de la relación contractual entre las partes, que comportará, por  parte del Usuario el abandono del Centro en el plazo de 15 días desde que se le  hubiera notificado por escrito, al mismo o a su cónyuge/descendiente directo  mayor de edad/hermano (familiar responsable), o representante legal  la rescisión del contrato por las causas  determinadas en este contrato o en el Reglamento de Régimen Interno que se  adjunta a este documento. </p>
+<p><strong>Sexta.- Protección de datos  de carácter personal.</strong></p>
+<p>Los datos  personales recogidos en el presente documento serán incorporados y tratados en  un fichero titularidad de<strong> </strong><strong>{!Oportunidad_platform__c.Sociedad_Centro__c}</strong> con la finalidad de cumplir el propio contrato de prestación de servicios suscrito  y gestionar los agradecimientos, sugerencias y reclamaciones. Así mismo podrán  ser utilizados para el envío de información sobre productos, servicios y  eventos de <strong>{!Oportunidad_platform__c.Sociedad_Centro__c}</strong> y de las distintas sociedades  de SARquavitae, así como para la realización de encuestas de calidad del  servicio.</p>
+<p>Sus datos  podrán ser cedidos, exclusivamente para las finalidades indicadas  anteriormente, a otras entidades socio-sanitarias, siempre que las mismas  pertenezcan directa o indirectamente al Grupo Societario SARquavitae (<a href="http://www.sarquavitae.es">www.sarquavitae.es</a>), todo ello  tanto si se formalizase o no operación alguna como, en su caso, una vez  extinguida la relación contractual existente, respetando en todo caso la legislación  española sobre protección de datos de carácter personal y sin necesidad de que  le sea comunicada cada primera cesión que se efectúe a los referidos  cesionarios.</p>
+<p>El  interesado podrá ejercer los derechos de acceso, rectificación, cancelación y oposición  mediante comunicación escrita dirigida a Departamento Jurídico de SARquavitae,  C/Aribau 185 Entlo, 08021 – Barcelona o al propio Centro en el que se presta el  servicio objeto de contrato.</p>
+<p>{!F5}       Vd. Puede marcar esta casilla en caso de  oponerse al tratamiento y comunicación de los datos de carácter personal para  fines comerciales.</p>
+ <p> {!F5}       Vd. Puede marcar esta casilla en caso de  oponerse al tratamiento y comunicación de los datos de carácter personal para  la realización de encuestas de satisfacción.</p>
+<p>En caso de  que los datos facilitados se refieran a personas físicas distintas del  interesado, éste deberá, con carácter previo a su inclusión en el presente  documento, informarles de los extremos contenidos en los párrafos anteriores.</p>
+
+<div>
+	<div style="float: left;">
+		<p>Por <strong> {!Oportunidad_platform__c.Sociedad_Centro__c}</strong></p>
+		<form type="text" name="firmaDirector" class="sign">ANCHOR_DIR</form>
+	</div>
+	<div style="float: right;">
+		<p><strong>El Usuario/representante legal</strong></p><form type="text" name="firmaResidente" class="sign">ANCHOR_USUARIO</form>
+	</div>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+	<span style="float: left;">Fdo.; D/Dª {!Director.FirstName} {!Director.LastName}</span>
+	<span style="float: right;">Fdo.: D/Dª {!Nombre_residente_rep_legal} {!Apellidos_residente_rep_legal}</span></p>
+<p>&nbsp;</p>
+
+<div>
+	<div style="float: left;">
+		<p><strong>La persona de referencia</strong></p>
+		<form type="text" name="firmaPersonaRef"  class="sign">ANCHOR_PER_REF</form>
+	</div>
+	<div style="float: right;">
+		<p><strong>El pagador</strong></p>
+		<form type="text" name="firmaPersonaRef"  class="sign">ANCHOR_PAGADOR</form>
+	</div>	
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>
+	<span style="float: left;">Fdo.; D/Dª  {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName}</span>
+	<span style="float: right;">Fdo.; D/Dª  {!Pagador.FirstName} {!Pagador.LastName}</span>
+</p>
+</body>
+</html>

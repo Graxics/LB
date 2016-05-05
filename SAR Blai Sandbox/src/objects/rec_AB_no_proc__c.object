@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Clasif_tipo_rec_RES__c</fullName>
+        <externalId>false</externalId>
+        <label>Clasificación tipo recomendador RES</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Entidad_Recomendadora__c</fullName>
+        <externalId>false</externalId>
+        <label>Entidad Recomendadora</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nombre_de_la_cuenta__c</fullName>
+        <externalId>false</externalId>
+        <label>Nombre de la cuenta</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Propietario_de_la_cuenta__c</fullName>
+        <externalId>false</externalId>
+        <label>Propietario de la cuenta</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Recomendadores A-B no procesados</label>
+    <visibility>Public</visibility>
+</CustomObject>

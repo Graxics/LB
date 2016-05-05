@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Entidad/Centro de trabajo</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>company_lead</name>
+    </fields>
+    <fields>
+        <label><!-- Apellidos Familiar --></label>
+        <name>Apellidos_Familiar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apellidos Solicitante --></label>
+        <name>Apellidos_Solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apellidos Usuario --></label>
+        <name>Apellidos_Usuario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle --></label>
+        <name>Calle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cargo --></label>
+        <name>Cargo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Categoría Profesional --></label>
+        <name>Categoria_Profesional__c</name>
+        <picklistValues>
+            <masterLabel>Directivo</masterLabel>
+            <translation><!-- Directivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enfermero</masterLabel>
+            <translation><!-- Enfermero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefes de Servicio</masterLabel>
+            <translation><!-- Jefes de Servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mandos Intermedios</masterLabel>
+            <translation><!-- Mandos Intermedios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Médico</masterLabel>
+            <translation><!-- Médico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profesionales -por cuenta ajena-</masterLabel>
+            <translation><!-- Profesionales -por cuenta ajena- --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Propietario Negocio</masterLabel>
+            <translation><!-- Propietario Negocio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador Social</masterLabel>
+            <translation><!-- Trabajador Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Técnico</masterLabel>
+            <translation><!-- Técnico --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Centro SARquavitae --></label>
+        <name>Centro_SARquavitae__c</name>
+    </fields>
+    <fields>
+        <label><!-- Centro Trabajo --></label>
+        <name>Centro_Trabajo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ciudad --></label>
+        <name>Ciudad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código Postal --></label>
+        <name>Codigo_Postal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comunidad Autónoma --></label>
+        <name>Comunidad_Autonoma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concepto --></label>
+        <name>Concepto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correo electrónico secundaria --></label>
+        <name>Correo_electronico_secundaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta Bancaria --></label>
+        <name>Cuenta_Bancaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNI Solicitante --></label>
+        <name>DNI_Solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNI Usuario --></label>
+        <name>DNI_Usuario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departamento --></label>
+        <name>Departamento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direccion --></label>
+        <name>Direccion__c</name>
+    </fields>
+    <fields>
+        <label><!-- División --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>Adorea</masterLabel>
+            <translation><!-- Adorea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domiciliaria</masterLabel>
+            <translation><!-- Domiciliaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial</masterLabel>
+            <translation><!-- Residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SARDomus</masterLabel>
+            <translation><!-- SARDomus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teleasistencia</masterLabel>
+            <translation><!-- Teleasistencia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Solicitante --></label>
+        <name>Email_Solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escalera --></label>
+        <name>Escalera__c</name>
+    </fields>
+    <fields>
+        <label><!-- Especialidad Médica --></label>
+        <name>Especialidad_Medica__c</name>
+        <picklistValues>
+            <masterLabel>Cardiólogo</masterLabel>
+            <translation><!-- Cardiólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cirujano</masterLabel>
+            <translation><!-- Cirujano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dermatólogo</masterLabel>
+            <translation><!-- Dermatólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostico por Imagen</masterLabel>
+            <translation><!-- Diagnostico por Imagen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endocrino</masterLabel>
+            <translation><!-- Endocrino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enfermero (DUE)</masterLabel>
+            <translation><!-- Enfermero (DUE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gastroenterólogo</masterLabel>
+            <translation><!-- Gastroenterólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerontólogo</masterLabel>
+            <translation><!-- Gerontólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ginecólogo</masterLabel>
+            <translation><!-- Ginecólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hematólogo</masterLabel>
+            <translation><!-- Hematólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infectólogo</masterLabel>
+            <translation><!-- Infectólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicina Interna</masterLabel>
+            <translation><!-- Medicina Interna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicina Preventiva</masterLabel>
+            <translation><!-- Medicina Preventiva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicina de Familia</masterLabel>
+            <translation><!-- Medicina de Familia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microbiólogo</masterLabel>
+            <translation><!-- Microbiólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Médico de Família</masterLabel>
+            <translation><!-- Médico de Família --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nefrólogo</masterLabel>
+            <translation><!-- Nefrólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neumólogo</masterLabel>
+            <translation><!-- Neumólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neurólogo</masterLabel>
+            <translation><!-- Neurólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutricionista</masterLabel>
+            <translation><!-- Nutricionista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oftalmólogo</masterLabel>
+            <translation><!-- Oftalmólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oncólogo</masterLabel>
+            <translation><!-- Oncólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paliatólogo</masterLabel>
+            <translation><!-- Paliatólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pediatra</masterLabel>
+            <translation><!-- Pediatra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psicólogo</masterLabel>
+            <translation><!-- Psicólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traumatólogo</masterLabel>
+            <translation><!-- Traumatólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UCI</masterLabel>
+            <translation><!-- UCI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgencias</masterLabel>
+            <translation><!-- Urgencias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urólogo</masterLabel>
+            <translation><!-- Urólogo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha de nacimiento --></label>
+        <name>Fecha_de_nacimiento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fuente --></label>
+        <name>Fuente__c</name>
+        <picklistValues>
+            <masterLabel>Bancs y Cajas</masterLabel>
+            <translation><!-- Bancs y Cajas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consejeros Confide</masterLabel>
+            <translation><!-- Consejeros Confide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consejeros SARquavitae</masterLabel>
+            <translation><!-- Consejeros SARquavitae --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contactos corporativos</masterLabel>
+            <translation><!-- Contactos corporativos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección General</masterLabel>
+            <translation><!-- Dirección General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formación</masterLabel>
+            <translation><!-- Formación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundación</masterLabel>
+            <translation><!-- Fundación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jornadas y eventos</masterLabel>
+            <translation><!-- Jornadas y eventos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa</masterLabel>
+            <translation><!-- Prensa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presidencia</masterLabel>
+            <translation><!-- Presidencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profesionales Confide</masterLabel>
+            <translation><!-- Profesionales Confide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profesionales SARquavitae</masterLabel>
+            <translation><!-- Profesionales SARquavitae --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suscritores blogs centros</masterLabel>
+            <translation><!-- Suscritores blogs centros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webs sector</masterLabel>
+            <translation><!-- Webs sector --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hora de llamada --></label>
+        <name>Hora_de_llamada__c</name>
+        <picklistValues>
+            <masterLabel>12 – 14h</masterLabel>
+            <translation><!-- 12 – 14h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 – 16h</masterLabel>
+            <translation><!-- 14 – 16h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 – 19h</masterLabel>
+            <translation><!-- 16 – 19h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19 – 21h</masterLabel>
+            <translation><!-- 19 – 21h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 – 9h</masterLabel>
+            <translation><!-- 8 – 9h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 – 12h</masterLabel>
+            <translation><!-- 9 – 12h --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ID Campaña --></label>
+        <name>ID_Campa_a__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Centro --></label>
+        <name>ID_Centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Servicio --></label>
+        <name>ID_Servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Idioma de contacto --></label>
+        <name>Idioma_de_contacto__c</name>
+        <picklistValues>
+            <masterLabel>Castellano</masterLabel>
+            <translation><!-- Castellano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalán</masterLabel>
+            <translation><!-- Catalán --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Euskera</masterLabel>
+            <translation><!-- Euskera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallego</masterLabel>
+            <translation><!-- Gallego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inglés</masterLabel>
+            <translation><!-- Inglés --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Industry</name>
+        <picklistValues>
+            <masterLabel>Agricultura</masterLabel>
+            <translation><!-- Agricultura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alimentos y bebidas</masterLabel>
+            <translation><!-- Alimentos y bebidas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banca</masterLabel>
+            <translation><!-- Banca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotecnología</masterLabel>
+            <translation><!-- Biotecnología --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comunicaciones</masterLabel>
+            <translation><!-- Comunicaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construcción</masterLabel>
+            <translation><!-- Construcción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultoría</masterLabel>
+            <translation><!-- Consultoría --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educación</masterLabel>
+            <translation><!-- Educación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrónica</masterLabel>
+            <translation><!-- Electrónica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energía</masterLabel>
+            <translation><!-- Energía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entretenimiento</masterLabel>
+            <translation><!-- Entretenimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envíos</masterLabel>
+            <translation><!-- Envíos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fabricación</masterLabel>
+            <translation><!-- Fabricación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finanzas</masterLabel>
+            <translation><!-- Finanzas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gobierno</masterLabel>
+            <translation><!-- Gobierno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indumentaria</masterLabel>
+            <translation><!-- Indumentaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingeniería</masterLabel>
+            <translation><!-- Ingeniería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maquinaria</masterLabel>
+            <translation><!-- Maquinaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medio ambiente</masterLabel>
+            <translation><!-- Medio ambiente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medios de comunicación</masterLabel>
+            <translation><!-- Medios de comunicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minorista</masterLabel>
+            <translation><!-- Minorista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Química</masterLabel>
+            <translation><!-- Química --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recepciones</masterLabel>
+            <translation><!-- Recepciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreación</masterLabel>
+            <translation><!-- Recreación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salud</masterLabel>
+            <translation><!-- Salud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguros</masterLabel>
+            <translation><!-- Seguros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios públicos</masterLabel>
+            <translation><!-- Servicios públicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin fines de lucro</masterLabel>
+            <translation><!-- Sin fines de lucro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tecnología</masterLabel>
+            <translation><!-- Tecnología --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecomunicaciones</masterLabel>
+            <translation><!-- Telecomunicaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportes</masterLabel>
+            <translation><!-- Transportes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Jornada Actual --></label>
+        <name>Jornada_Actual__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Feria</masterLabel>
+            <translation><!-- Feria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por comentarios de terceros</masterLabel>
+            <translation><!-- Por comentarios de terceros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publicidad</masterLabel>
+            <translation><!-- Publicidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referencia del empleado</masterLabel>
+            <translation><!-- Referencia del empleado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referencia externa</masterLabel>
+            <translation><!-- Referencia externa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relaciones públicas</masterLabel>
+            <translation><!-- Relaciones públicas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminario - Interno</masterLabel>
+            <translation><!-- Seminario - Interno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminario - Socio</masterLabel>
+            <translation><!-- Seminario - Socio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Socio</masterLabel>
+            <translation><!-- Socio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mensaje --></label>
+        <name>Mensaje__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo Consulta --></label>
+        <name>Motivo_Consulta__c</name>
+        <picklistValues>
+            <masterLabel>ADOREA viviendas con servicios</masterLabel>
+            <translation><!-- ADOREA viviendas con servicios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centro de día</masterLabel>
+            <translation><!-- Centro de día --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empleo</masterLabel>
+            <translation><!-- Empleo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Médicos a domicilio</masterLabel>
+            <translation><!-- Médicos a domicilio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencia</masterLabel>
+            <translation><!-- Residencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teleasistencia</masterLabel>
+            <translation><!-- Teleasistencia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- No encuestar --></label>
+        <name>No_encuestar__c</name>
+    </fields>
+    <fields>
+        <label><!-- No quiero Recibir --></label>
+        <name>No_quiero_Recibir__c</name>
+        <picklistValues>
+            <masterLabel>Información Comercial</masterLabel>
+            <translation><!-- Información Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jornadas y Eventos</masterLabel>
+            <translation><!-- Jornadas y Eventos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newsletter</masterLabel>
+            <translation><!-- Newsletter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- No tiene teléfono --></label>
+        <name>No_tiene_telefono__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Centro --></label>
+        <name>Nombre_Centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Familiar --></label>
+        <name>Nombre_Familiar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Solicitante --></label>
+        <name>Nombre_Solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Usuario --></label>
+        <name>Nombre_Usuario__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumCalle --></label>
+        <name>NumCalle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero de formulario --></label>
+        <name>Numero_de_formulario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pais Formulario Web --></label>
+        <name>Pais_Formulario_Web__c</name>
+    </fields>
+    <fields>
+        <label><!-- País --></label>
+        <name>Pais__c</name>
+    </fields>
+    <fields>
+        <label><!-- Piso --></label>
+        <name>Piso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provincia Usuario --></label>
+        <name>Provincia_Usuario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provincia --></label>
+        <name>Provincia__c</name>
+        <picklistValues>
+            <masterLabel>A Coruña</masterLabel>
+            <translation><!-- A Coruña --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alacant</masterLabel>
+            <translation><!-- Alacant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albacete</masterLabel>
+            <translation><!-- Albacete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Almería</masterLabel>
+            <translation><!-- Almería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asturias</masterLabel>
+            <translation><!-- Asturias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Badajoz</masterLabel>
+            <translation><!-- Badajoz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barcelona</masterLabel>
+            <translation><!-- Barcelona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bizkaia</masterLabel>
+            <translation><!-- Bizkaia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burgos</masterLabel>
+            <translation><!-- Burgos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cantabria</masterLabel>
+            <translation><!-- Cantabria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castelló</masterLabel>
+            <translation><!-- Castelló --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceuta</masterLabel>
+            <translation><!-- Ceuta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ciudad Real</masterLabel>
+            <translation><!-- Ciudad Real --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuenca</masterLabel>
+            <translation><!-- Cuenca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cáceres</masterLabel>
+            <translation><!-- Cáceres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cádiz</masterLabel>
+            <translation><!-- Cádiz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Córdoba</masterLabel>
+            <translation><!-- Córdoba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gipuzkoa</masterLabel>
+            <translation><!-- Gipuzkoa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Girona</masterLabel>
+            <translation><!-- Girona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Granada</masterLabel>
+            <translation><!-- Granada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadalajara</masterLabel>
+            <translation><!-- Guadalajara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Huelva</masterLabel>
+            <translation><!-- Huelva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Huesca</masterLabel>
+            <translation><!-- Huesca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illes Balears</masterLabel>
+            <translation><!-- Illes Balears --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaén</masterLabel>
+            <translation><!-- Jaén --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Rioja</masterLabel>
+            <translation><!-- La Rioja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Las Palmas</masterLabel>
+            <translation><!-- Las Palmas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>León</masterLabel>
+            <translation><!-- León --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lleida</masterLabel>
+            <translation><!-- Lleida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lugo</masterLabel>
+            <translation><!-- Lugo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madrid</masterLabel>
+            <translation><!-- Madrid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melilla</masterLabel>
+            <translation><!-- Melilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Murcia</masterLabel>
+            <translation><!-- Murcia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Málaga</masterLabel>
+            <translation><!-- Málaga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navarra</masterLabel>
+            <translation><!-- Navarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otra</masterLabel>
+            <translation><!-- Otra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ourense</masterLabel>
+            <translation><!-- Ourense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palencia</masterLabel>
+            <translation><!-- Palencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pontevedra</masterLabel>
+            <translation><!-- Pontevedra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salamanca</masterLabel>
+            <translation><!-- Salamanca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Cruz de Tenerife</masterLabel>
+            <translation><!-- Santa Cruz de Tenerife --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Segovia</masterLabel>
+            <translation><!-- Segovia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sevilla</masterLabel>
+            <translation><!-- Sevilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soria</masterLabel>
+            <translation><!-- Soria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarragona</masterLabel>
+            <translation><!-- Tarragona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teruel</masterLabel>
+            <translation><!-- Teruel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toledo</masterLabel>
+            <translation><!-- Toledo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valencia</masterLabel>
+            <translation><!-- Valencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valladolid</masterLabel>
+            <translation><!-- Valladolid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zamora</masterLabel>
+            <translation><!-- Zamora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zaragoza</masterLabel>
+            <translation><!-- Zaragoza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Álava</masterLabel>
+            <translation><!-- Álava --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ávila</masterLabel>
+            <translation><!-- Ávila --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Puerta --></label>
+        <name>Puerta__c</name>
+    </fields>
+    <fields>
+        <name>Rating</name>
+        <picklistValues>
+            <masterLabel>Caliente</masterLabel>
+            <translation><!-- Caliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frío</masterLabel>
+            <translation><!-- Frío --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tibio</masterLabel>
+            <translation><!-- Tibio --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Responsable contacto --></label>
+        <name>Responsable_contacto__c</name>
+        <picklistValues>
+            <masterLabel>Dirección Administración</masterLabel>
+            <translation><!-- Dirección Administración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Comercial</masterLabel>
+            <translation><!-- Dirección Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Compras</masterLabel>
+            <translation><!-- Dirección Compras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Desarrollo Negocios privados</masterLabel>
+            <translation><!-- Dirección Desarrollo Negocios privados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Fundación</masterLabel>
+            <translation><!-- Dirección Fundación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección General</masterLabel>
+            <translation><!-- Dirección General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Infraestructuras</masterLabel>
+            <translation><!-- Dirección Infraestructuras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Marketing</masterLabel>
+            <translation><!-- Dirección Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección RR.HH.</masterLabel>
+            <translation><!-- Dirección RR.HH. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección Tesorería</masterLabel>
+            <translation><!-- Dirección Tesorería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presidencia</masterLabel>
+            <translation><!-- Presidencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDG Explotación</masterLabel>
+            <translation><!-- SDG Explotación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDG Finanzas y Jurídico</masterLabel>
+            <translation><!-- SDG Finanzas y Jurídico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDG RRII</masterLabel>
+            <translation><!-- SDG RRII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDG Soporte</masterLabel>
+            <translation><!-- SDG Soporte --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Secretaria --></label>
+        <name>Secretaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Servicio --></label>
+        <name>Servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sexo --></label>
+        <name>Sexo__c</name>
+        <picklistValues>
+            <masterLabel>Hombre</masterLabel>
+            <translation><!-- Hombre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mujer</masterLabel>
+            <translation><!-- Mujer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Abrir</masterLabel>
+            <translation><!-- Abrir --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contactado</masterLabel>
+            <translation><!-- Contactado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Habilitado</masterLabel>
+            <translation><!-- Habilitado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No habilitado</masterLabel>
+            <translation><!-- No habilitado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Telefono Solicitante --></label>
+        <name>Telefono_Solicitante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono Usuario --></label>
+        <name>Telefono_Usuario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Titulacion --></label>
+        <name>Titulacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- VIP --></label>
+        <name>VIP__c</name>
+    </fields>
+    <layouts>
+        <layout>Formato de candidatos</layout>
+        <sections>
+            <label><!-- Datos Personales --></label>
+            <section>Datos Personales</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de contacto --></label>
+            <section>Datos de contacto</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Ya se ha informado un teléfono --></errorMessage>
+        <name>Telefono_informado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El teléfono debe tener un mínimo de 9 valores numéricos --></errorMessage>
+        <name>validacion_num_telefono</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Attach_Email_campaign --></label>
+        <name>emvsf__Attach_Email_campaign</name>
+    </webLinks>
+</CustomObjectTranslation>

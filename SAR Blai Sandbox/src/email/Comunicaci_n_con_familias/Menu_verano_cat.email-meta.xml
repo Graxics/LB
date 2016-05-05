@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Menu verano cat</name>
+    <style>none</style>
+    <subject>Menú d&apos;estiu</subject>
+    <textOnly>Documento sin título
+
+
+Menú - SARquavitae Apreciada família,
+
+Amb motiu de l&apos;arribada de l&apos;estiu, SARquavitae renova els seus menús diaris.
+
+L&apos;equip de nutricionistes de SARquavitae, NutriSARquavitae, en col·laboració amb el centre, ha creat els nous menús utilitzant receptes típiques de la nostra gastronomia. S&apos;han incorporat plats estiuencs hidratants i nutritius, plats amb aliments de temporada amb alt contingut en aigua, vitamines, minerals i antioxidants. Nutrients importants per tenir cura de l&apos;organisme en aquesta època de l&apos;any. Plats elaborats amb mètodes de cocció lleugers o sense cocció, com les amanides, que ajuden al nostre cos a regular la temperatura corporal..
+
+Si vol conèixer amb més detall els menús diaris pot posar-se en contacte amb nosaltres per telèfon o responent a aquest mateix email. Amb molt de gust li facilitarem tota la informació que requereixi.
+
+Així mateix, li recordem que el centre posa a la seva disposició la possibilitat de contractació de menús per a vostè i els seus familiars si els ve de gust acompanyar al seu familiar resident i provar les nostres opcions gastronòmiques. Per realitzar la contractació contacti amb la nostra recepció.
+
+No dubtin en contactar amb l&apos;equip de direcció del centre per a qualsevol informació que requereixin.
+
+Estem a la seva disposició.
+
+Rebin una cordial salutació.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

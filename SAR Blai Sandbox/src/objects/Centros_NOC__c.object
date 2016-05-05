@@ -1,0 +1,2020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Centros que comparten una misma NOC</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Activo__c</fullName>
+        <externalId>false</externalId>
+        <label>Activo</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Campo_control_duplicados__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Campo control duplicados</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Central__c</fullName>
+        <externalId>false</externalId>
+        <label>Central</label>
+        <picklist>
+            <picklistValues>
+                <fullName>MADRID</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SEVILLA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SEVILLA NACIONAL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>MADRID_Prueba</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Centro__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Centro</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QAeAAAW</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Centros NOCs</relationshipLabel>
+        <relationshipName>Centros_NOCs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Cuota_inicial__c</fullName>
+        <externalId>false</externalId>
+        <label>Cuota inicial</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Descuento_Dispositivo__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Dispositivo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Periodo_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Periodo_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Periodo_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Periodo_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Periodo_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Periodo_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 6</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_permanente_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Descuento permanente 1</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_permanente_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Descuento permanente 2</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_permanente_3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Descuento permanente 3</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Division__c</fullName>
+        <externalId>false</externalId>
+        <label>División</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Duracion_Periodo_1__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>En días</inlineHelpText>
+        <label>Duración Periodo 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duracion_Periodo_2__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>En días</inlineHelpText>
+        <label>Duración Periodo 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duracion_Periodo_3__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>En días</inlineHelpText>
+        <label>Duración Periodo 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duracion_Periodo_4__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>En días</inlineHelpText>
+        <label>Duración Periodo 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duracion_Periodo_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Duración Periodo 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duracion_Periodo_6__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>En días</inlineHelpText>
+        <label>Duración Periodo 6</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grado__c</fullName>
+        <externalId>false</externalId>
+        <label>Grado</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Grado 1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Grado 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Grado 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Importe_Periodo_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Periodo_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Periodo_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Periodo_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Periodo_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Periodo_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 6</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NOC_TAD__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>NOC</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>NOC__c.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QBd0,012b0000000QBcg</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>NOC__c</referenceTo>
+        <relationshipLabel>Centros / Servicios NOCs TA</relationshipLabel>
+        <relationshipName>Centros_NOCs1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>NOC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>NOC</label>
+        <referenceTo>NOC__c</referenceTo>
+        <relationshipLabel>Centros / Servicios NOCs Residencial</relationshipLabel>
+        <relationshipName>Centros_NOCs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Precio_Dispositivo_Base__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tarifa_TA__r.Precio_dispositivo__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Precio Dispositivo (Base)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Precio_Dispositivo__c</fullName>
+        <externalId>false</externalId>
+        <label>Precio Dispositivo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Precio_Servicio_Base__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tarifa_TA__r.Precio_servicio__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Precio Servicio (Base)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Precio_UCR_adicional_Base__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tarifa_TA__r.Precio_ucr_adicional__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Precio UCR adicional (Base)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Precio__c</fullName>
+        <externalId>false</externalId>
+        <label>Precio</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Provincia__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Centro__r.Provincia__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Provincia</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Servicio_TA__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Servicio TA</label>
+        <referenceTo>Servicio__c</referenceTo>
+        <relationshipLabel>Centros NOCs (Servicio TA)</relationshipLabel>
+        <relationshipName>Centros_NOCs1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Servicio__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Servicio</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Servicio__c.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012110000000hiy</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Servicio__c</referenceTo>
+        <relationshipLabel>Centros NOCs</relationshipLabel>
+        <relationshipName>Centros_NOCs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tarifa_TA__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Tarifa TA</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Tarifa__c.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Tarifas TAD, Tarifas TAM</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Tarifa__c</referenceTo>
+        <relationshipLabel>Centros NOCs</relationshipLabel>
+        <relationshipName>Centros_NOCs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_Estancia_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Estancia</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Permanente</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Temporal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Tipo_Ocupacion_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Ocupación</label>
+        <picklist>
+            <picklistValues>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jornada Completa</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Media Jornada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1 hora</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>6 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>7 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fisio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Tipo_Servicio_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Servicio</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Centro de Día</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Centro de Noche</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Convalecencia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fijo Discontinuo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hospital de Día</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Paleativo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Respiro</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UDC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UPG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>USM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UTC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_periferico__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de periférico</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Periférico Movil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Per. Humo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Per. Gas (butano, propano y natural)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Per. Movilidad (detector de pasillo)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Per. Presencia (electroimán)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_servicio_TA__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de servicio TA</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Adapta 24</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contigo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Seguimiento Especial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>+Seguro</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Te acompaña</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dispositivo tipo A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Colgante</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Esencial 10</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Tipo_estancia__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Servicio__r.Tipo_Estancia__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo estancia</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tipo_ocupacion__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Servicio__r.Tipo_Ocupacion__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo ocupación</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tipo_servicio__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Servicio__r.Tipo_Servicio__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo servicio</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Transporte__c</fullName>
+        <externalId>false</externalId>
+        <label>Transporte</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Zona_Comercial_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Zona Comercial</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Zona_Comercial__c</fullName>
+        <externalId>false</externalId>
+        <formula>text( Centro__r.Zona_Comercial_del__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Zona Comercial</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zona_Territorial__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Centro__r.Zona_Comercial_del__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Zona Territorial</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <gender>Feminine</gender>
+    <label>Centros/Servicios NOC</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{000000}</displayFormat>
+        <label>Nombre de Centros NOC</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Centros NOCs</pluralLabel>
+    <recordTypes>
+        <fullName>Centros_NOC</fullName>
+        <active>true</active>
+        <label>Centros NOC</label>
+        <picklistValues>
+            <picklist>Activo__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Central__c</picklist>
+            <values>
+                <fullName>MADRID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA NACIONAL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cuota_inicial__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_periferico__c</picklist>
+            <values>
+                <fullName>Periférico Movil</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio_TA__c</picklist>
+            <values>
+                <fullName>%2BSeguro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adapta 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colgante</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contigo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispositivo tipo A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Esencial 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento Especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te acompaña</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Centros_Servicios_NOC</fullName>
+        <active>false</active>
+        <label>Centros/Servicios NOC</label>
+        <picklistValues>
+            <picklist>Activo__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Central__c</picklist>
+            <values>
+                <fullName>MADRID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA NACIONAL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cuota_inicial__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_periferico__c</picklist>
+            <values>
+                <fullName>Periférico Movil</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio_TA__c</picklist>
+            <values>
+                <fullName>%2BSeguro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adapta 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colgante</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contigo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispositivo tipo A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Esencial 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento Especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te acompaña</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Centros_Servicios_NOC_TA</fullName>
+        <active>true</active>
+        <label>Centros/Servicios NOC TA</label>
+        <picklistValues>
+            <picklist>Activo__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Central__c</picklist>
+            <values>
+                <fullName>MADRID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MADRID_Prueba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA NACIONAL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cuota_inicial__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grado__c</picklist>
+            <values>
+                <fullName>Grado 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grado 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grado 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Estancia_2__c</picklist>
+            <values>
+                <fullName>Permanente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Ocupacion_2__c</picklist>
+            <values>
+                <fullName>1 hora</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fisio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornada Completa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media Jornada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Servicio_2__c</picklist>
+            <values>
+                <fullName>Centro de Día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro de Noche</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convalecencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fijo Discontinuo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospital de Día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paleativo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respiro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UPG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>USM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UTC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_periferico__c</picklist>
+            <values>
+                <fullName>Per%2E Gas %28butano%2C propano y natural%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Per%2E Humo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Per%2E Movilidad %28detector de pasillo%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Per%2E Presencia %28electroimán%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio_TA__c</picklist>
+            <values>
+                <fullName>%2BSeguro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adapta 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colgante</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contigo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispositivo tipo A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Esencial 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento Especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te acompaña</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Transporte__c</picklist>
+            <values>
+                <fullName>Medio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial_2__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Centros_Servicios_NOC_mejorada</fullName>
+        <active>true</active>
+        <label>Centros/Servicios NOC (mejorada)</label>
+        <picklistValues>
+            <picklist>Activo__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Central__c</picklist>
+            <values>
+                <fullName>MADRID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA NACIONAL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cuota_inicial__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grado__c</picklist>
+            <values>
+                <fullName>Grado 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grado 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grado 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Estancia_2__c</picklist>
+            <values>
+                <fullName>Permanente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Ocupacion_2__c</picklist>
+            <values>
+                <fullName>1 hora</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fisio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornada Completa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media Jornada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Servicio_2__c</picklist>
+            <values>
+                <fullName>Centro de Día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro de Noche</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convalecencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fijo Discontinuo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospital de Día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paleativo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respiro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UPG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>USM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UTC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_periferico__c</picklist>
+            <values>
+                <fullName>Periférico Movil</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio_TA__c</picklist>
+            <values>
+                <fullName>%2BSeguro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adapta 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colgante</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contigo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispositivo tipo A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Esencial 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento Especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te acompaña</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Transporte__c</picklist>
+            <values>
+                <fullName>Medio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial_2__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Servicios_NOC</fullName>
+        <active>true</active>
+        <label>Servicios NOC</label>
+        <picklistValues>
+            <picklist>Activo__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Central__c</picklist>
+            <values>
+                <fullName>MADRID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEVILLA NACIONAL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cuota_inicial__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_periferico__c</picklist>
+            <values>
+                <fullName>Periférico Movil</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio_TA__c</picklist>
+            <values>
+                <fullName>%2BSeguro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adapta 24</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colgante</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contigo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispositivo tipo A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Esencial 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento Especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Te acompaña</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Centro__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Servicio__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Tipo_servicio__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Tipo_estancia__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Tipo_ocupacion__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Provincia__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Bloquear_NOC_Aprobada</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL(NOC__r.Estado_Flujo__c , &apos;Aprobado&apos;) &amp;&amp; $Profile.Id &lt;&gt; &apos;00eb0000000zplj&apos;</errorConditionFormula>
+        <errorMessage>No se puede modificar una NOC Aprobada</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Descuento_no_valido</fullName>
+        <active>true</active>
+        <errorConditionFormula>Descuento__c &gt; 1 || Descuento__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>Descuento__c</errorDisplayField>
+        <errorMessage>Descuento no válido</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Importe_o_descuento</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NOT( ISBLANK(Importe_Periodo_1__c) ) &amp;&amp; NOT( ISBLANK( Descuento_Periodo_1__c ) )) ||  
+(NOT( ISBLANK(Importe_Periodo_2__c) ) &amp;&amp; NOT( ISBLANK( Descuento_Periodo_2__c ) )) || 
+(NOT( ISBLANK(Importe_Periodo_3__c) ) &amp;&amp; NOT( ISBLANK( Descuento_Periodo_3__c ) ))</errorConditionFormula>
+        <errorMessage>Sólo se permite informar importes o descuentos</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Division_Zona_Comercial_o_Cent</fullName>
+        <active>true</active>
+        <errorConditionFormula>((ISBLANK(Division__c)  &amp;&amp;   ISBLANK(Zona_Comercial_2__c  )  &amp;&amp;   ISBLANK(Centro__c ) )  || 
+
+(NOT(ISBLANK(Division__c))  &amp;&amp;   (NOT(ISBLANK(Zona_Comercial_2__c  ))   ||    NOT(ISBLANK(Centro__c ))) )  || 
+
+(NOT(ISBLANK(Zona_Comercial_2__c  ))  &amp;&amp;   (NOT(ISBLANK(Division__c))   ||    NOT(ISBLANK(Centro__c ))) )  || 
+
+(NOT(ISBLANK(Centro__c ))  &amp;&amp;   (NOT(ISBLANK(Zona_Comercial_2__c  ))   ||  NOT(ISBLANK(Division__c))  ) )) &amp;&amp;  RecordType.Id !=&apos;012110000000hj3&apos;</errorConditionFormula>
+        <errorMessage>Debe estar informado sólo uno de los 3 campos: División, Zona Comercial o Centro</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Duracion</fullName>
+        <active>true</active>
+        <errorConditionFormula>((NOT( ISBLANK(Importe_Periodo_1__c) ) || NOT( ISBLANK( Descuento_Periodo_1__c ))) &amp;&amp; ISBLANK( Duracion_Periodo_1__c ) &amp;&amp;  Descuento_permanente_1__c=false) || ((NOT( ISBLANK(Importe_Periodo_2__c) ) || NOT( ISBLANK( Descuento_Periodo_2__c ))) &amp;&amp; ISBLANK( Duracion_Periodo_2__c ) &amp;&amp; Descuento_permanente_2__c=false) || ((NOT( ISBLANK(Importe_Periodo_3__c) ) || NOT( ISBLANK( Descuento_Periodo_3__c ))) &amp;&amp; ISBLANK( Duracion_Periodo_3__c ) &amp;&amp; Descuento_permanente_3__c=false)</errorConditionFormula>
+        <errorMessage>Se tiene que seleccionar una Duración del descuento.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_descuento</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.DeveloperName &lt;&gt;&apos;Centros_Servicios_NOC_TA&apos;  &amp;&amp; (ISBLANK(Descuento__c)   &amp;&amp;  ISBLANK( Precio__c ) )  ||  ( NOT(ISBLANK(Descuento__c))   &amp;&amp;  NOT(ISBLANK(Precio__c )) )</errorConditionFormula>
+        <errorMessage>Es obligatorio informar un descuento o precio final</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_grado</fullName>
+        <active>true</active>
+        <errorConditionFormula>INCLUDES(  Tipo_Estancia_2__c , &apos;Permanente&apos;) &amp;&amp;  ISBLANK( Grado__c )</errorConditionFormula>
+        <errorDisplayField>Grado__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_servicio</fullName>
+        <active>false</active>
+        <description>Sólo se permite escojer un servicio</description>
+        <errorConditionFormula>RecordType.DeveloperName=&apos;Centros_Servicios_NOC_TA&apos;  &amp;&amp; 
+ (ISBLANK( Servicio__c )  &amp;&amp;  Servicio_sin_colgante__c =false  &amp;&amp;  Servicio_con_colgante__c=false) || 
+(NOT(ISBLANK( Servicio__c ))  &amp;&amp;  Servicio_sin_colgante__c =true &amp;&amp;  Servicio_con_colgante__c=true) ||
+(NOT(ISBLANK( Servicio__c ))  &amp;&amp;  Servicio_sin_colgante__c =true &amp;&amp;  Servicio_con_colgante__c=false) ||
+(NOT(ISBLANK( Servicio__c ))  &amp;&amp;  Servicio_sin_colgante__c =false &amp;&amp;  Servicio_con_colgante__c=true) ||
+(ISBLANK( Servicio__c )  &amp;&amp;  Servicio_sin_colgante__c =true &amp;&amp;  Servicio_con_colgante__c=true)</errorConditionFormula>
+        <errorMessage>Debe escojer solamente un servicio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_solo_un_periodo_como_permanente</fullName>
+        <active>true</active>
+        <errorConditionFormula>( Descuento_permanente_1__c= true  &amp;&amp;   (Descuento_permanente_2__c =true  ||  Descuento_permanente_3__c =true))
+ || 
+(Descuento_permanente_2__c= true  &amp;&amp;   (Descuento_permanente_1__c =true  ||  Descuento_permanente_3__c =true))
+ || 
+(Descuento_permanente_3__c= true  &amp;&amp;   (Descuento_permanente_2__c =true  ||  Descuento_permanente_1__c =true))</errorConditionFormula>
+        <errorMessage>Sólo se puede informar un periodo permaente</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_informar_duracion_periodo_permanente</fullName>
+        <active>true</active>
+        <errorConditionFormula>( Descuento_permanente_1__c =true   &amp;&amp;   NOT(ISBLANK(  Duracion_Periodo_1__c )))
+  || 
+(Descuento_permanente_2__c=true   &amp;&amp;   NOT(ISBLANK(  Duracion_Periodo_2__c )))
+ || 
+(Descuento_permanente_3__c=true   &amp;&amp;   NOT(ISBLANK(  Duracion_Periodo_3__c )))</errorConditionFormula>
+        <errorMessage>No se puede informar duración de un periodo con descuento permanente</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Nuevo</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Nueva centros/servicios noc TA</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/a00/e?CF00N11000001FOjd={!NOC__c.Name}&amp;CF00N11000001FOjd_lkid={!NOC__c.Id}&amp;retURL=%2F{!NOC__c.Id}&amp;RecordType=012110000000hj3&amp;ent=01Ib0000000omEF</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Nuevo_Centro_Servicio</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Nuevo Centro/Servicio</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/a00/e?retURL={!NOC__c.Id}&amp;RecordType=012b0000000QCVk&amp;ent=01Ib0000000omEF&amp;CF00Nb0000009Sx9G={!NOC__c.Name}&amp;CF00Nb0000009Sx9G_lkid={!NOC__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Nuevo_Servicio_s</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Nuevo Servicio/s</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/a00/e?retURL={!NOC__c.Id}&amp;RecordType=012b0000000QEJEAA4&amp;ent=01Ib0000000omEF &amp;CF00Nb0000009T6rU={!NOC__c.Centro__c}&amp;CF00Nb0000009T6rU_lkid={!NOC__c.CentroId__c}&amp;CF00Nb0000009Sx9G={!NOC__c.Name}&amp;CF00Nb0000009Sx9G_lkid={!NOC__c.Id}</url>
+    </webLinks>
+</CustomObject>

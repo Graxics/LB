@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>if(RowCount&gt;0,1,0)</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>1 Visita por op</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <columns>
+        <field>Oportunidad_platform__c.Activities$Subject</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$RecordType</column>
+            <operator>equals</operator>
+            <value>Event.Visita_a_Cliente</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$ActivityDate</column>
+            <operator>equals</operator>
+            <value>THIS_WEEK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$ActivityDate</column>
+            <operator>equals</operator>
+            <value>N_WEEKS_AGO:52</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Week</dateGranularity>
+        <field>Oportunidad_platform__c.Activities$ActivityDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Oportunidad_platform__c$Centro2__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Oportunidad_platform__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Visitas de clientes por centro (sem)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Actividades_vs_Oportunidades__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Oportunidad_platform__c$Fecha_cierre_No_Ingreso__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

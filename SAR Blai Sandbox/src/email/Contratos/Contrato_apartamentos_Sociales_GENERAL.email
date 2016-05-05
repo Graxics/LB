@@ -1,0 +1,147 @@
+<p><strong>&nbsp;</strong></p>
+<p align="center"><strong>REUNIDOS</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>De una parte, D/Dª {!Director.FirstName}
+{!Director.LastName}
+
+, con  DNI nº {!Oportunidad_platform__c.DNI_Director__c}
+, en su condición de Director/a del Centro <strong>SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+</strong>, sito en {!Oportunidad_platform__c.Calle_Centro__c} {!Oportunidad_platform__CP_Centro__c}
+ ,{!Oportunidad_platform__c.Ciudad_Centro__c}, cuya gestión corresponde  a  la Empresa <strong> {!Oportunidad_platform__c.Sociedad_Centro__c}
+. </strong>con  C.I.F. nº: {!Oportunidad_platform__c.CIF_Sociedad__c}
+, y domicilio en la calle {!Oportunidad_platform__c.Calle_Sociedad__c} {!Oportunidad_platform__c.Ciudad_Sociedad__c},  a la que representa en este acto<em>.</em></p>
+<p>De otra parte,<strong> D./Dña.   {!Residente.FirstName}
+{!Residente.LastName}
+
+,</strong> mayor de edad con <strong>D.N. I{!Oportunidad_platform__c.DNI_Residente__c}
+ </strong>y domicilio en {!Oportunidad_platform__c.Calle_Residente__c}
+,  actuando en su propio nombre y representación / representado por {!Representante.FirstName}
+{!Representante.LastName}
+ con D.N.I {!Representante.CIF_NIF__c}
+ y domicilio en{!Representante.Calle}, {!Oportunidad_platform__Localidad_Representante__c}
+.  en calidad de  representante o tutor representación que acredita mediante testimonio  de{!Oportunidad_platform__c.Testimonio_que_acredita_su_calidad__c}
+ y que queda  adjunta y formando parte de este Contrato.<strong> </strong></p>
+<p>&nbsp;</p>
+<p>Ambas partes reconocen la capacidad legal para  realizar el presente contrato de prestación de servicios y voluntariamente</p>
+<p>&nbsp;</p>
+<p align="center"><strong>MANIFIESTAN</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>1º.–      Que <strong>{!Oportunidad_platform__c.Sociedad_Centro__c}
+</strong>., gestiona en la localidad de San Sebastián el centro  denominado <strong>SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+. </strong></p>
+<p>2º.–      Que <strong>D./Dña {!Residente.FirstName}
+{!Residente.LastName}
+
+</strong>, ha solicitado ingresar en el centro. </p>
+<p>3º.–     Que con fecha a {!Oportunidad_platform__c.Dia_Ingreso}
+ de {!Oportunidad_platform__c.Mes_Ingreso}
+de {!Oportunidad_platform__c.Anyo_Ingreso}
+<strong>, </strong>la Administración Pública ha autorizado el ingreso en los  apartamentos sociales sitos en el citado Centro SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+, mediante la  oportuna resolución remitida a este centro.  </p>
+<p>4º.–       El centro señala  como persona de referencia para cualquier asunto relacionado con la persona  residente a  <strong>D./Dña {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName}
+.</strong>, y la familia por su  parte señala como interlocutor a <strong>D./Dña. {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName}
+</strong></p>
+<p>5º.-       Que <strong>     D./Dña.{!Representante.FirstName} {!Representante.LastName}
+</strong>, en su propio nombre o<strong> </strong><strong>D./Dña {!Representante.FirstName} {!Representante.LastName}
+</strong> como su representante o  tutor legal en este acto, es conocedor y se muestra conforme con las  instalaciones, materiales y accesos utilizados en el centro {!Oportunidad_platform__c.Nombre_Centro__c}
+, así como del  Reglamento de Régimen Interior realizando el ingreso de manera libre y  voluntaria por su parte, por lo que firman el presente contrato de conformidad  con las siguientes </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center"><strong>ESTIPULACIONES</strong></p>
+<p>&nbsp;</p>
+<p><strong>Primera.-</strong>  <strong>D./Dña {!Residente.FirstName}
+{!Residente.LastName}
+
+.</strong> ingresará en el centro SARquavitae  {!Oportunidad_platform__c.Nombre_Centro__c}
+ el día <strong> {!Oportunidad_platform__c.Dia_Ingreso}
+de {!Oportunidad_platform__c.Mes_Ingreso}
+ de {!Oportunidad_platform__c.Anyo_Ingreso}
+</strong>, ocupando el  apartamento  <strong>APARTAMENTO NÚMERO {!Numero_De_Vivienda}
+ </strong></p>
+<p><strong>Segunda.- </strong>La persona residente podrá  instalar de forma voluntaria aquellos objetos de carácter personal que  considere necesario, previa conformidad del centro. </p>
+<p><strong>Tercera.-</strong> La persona residente  tendrá derecho a disfrutar del uso del apartamento que ocupa, del comedor,  salas, lavandería, cocina y de los elementos y espacios comunes. La persona  residente cuidará del mobiliario y del equipamiento, respondiendo de los  desperfectos que no se deban al uso normal del los mismos.</p>
+<p><strong>Cuarta.-</strong> La persona residente tiene en su apartamento los enseres y  ropas que se detallan en el anexo adjunto y que estarán debidamente  identificados. El centro, no se responsabiliza de los objetos que no estén bajo  su custodia y dispone para uso de las personas residentes de una caja fuerte  donde pueden guardarse dinero, joyas y objetos de valor. </h3>
+
+<p><strong>Quinta.- D./Dña> {!Residente.FirstName}
+{!Residente.LastName}
+
+ </strong>recibirá  en virtud de la asistencia concertada con Administración Pública competente los  servicios que se detallan en su Catálogo de Servicios. </p>
+<p><strong>Sexta.-</strong>,<strong> D./Dña {!Residente.FirstName}
+{!Residente.LastName}
+
+  /</strong> <strong>D./Dña {!Representante.FirstName} {!Representante.LastName}
+ </strong>  se compromete a abonar la cantidad de {!Oportunidad_platform__c.Precio_Total__c}
+
+ , en concepto  de cuota de estancia,<strong></strong> y será abonada de manera mensual mediante  domiciliación en la siguiente cuenta bancaria titularidad de <strong>D./Dña {!Pagador.FirstName}
+{!Pagador.LastName}
+
+: {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}
+{!Oportunidad_platform__c.IBAN__c} </strong> </p>
+<p><strong>Séptima.- </strong>Para hacer constar que, presentes en  este acto,</p>
+<p>Don/Dña  {!Representante.FirstName} {!Representante.LastName}
+con DNI nº:{!Representante.CIF_NIF__c}
+ y con domicilio en {!Representante.Calle}
+{!Representante.Ciudad}
+,  en su calidad de descendientes/ascendientes/cónyuge o representante legal de  Don/Dña {!Residente.FirstName}
+{!Residente.LastName}
+
+, garantizan personal y solidariamente las  obligaciones económicas asumidas en este documento por el legal representante,  así como el cumplimiento de las obligaciones sociales que contiene el  Reglamento de Régimen Interno.</p>
+<p><strong>Octava.- </strong>La plaza ocupada está  financiada conjuntamente por Administración Pública competente y la persona que  adquiere el compromiso, de acuerdo con la estipulación sexta y por la cuantía  establecida en su resolución.</p>
+<p>
+<p><strong>Novena.-</strong>  La aportación económica fijada  en el presente contrato, en la estipulación sexta, estará sujeta a revisión  anual sobre la base de la tarifa establecida y de acuerdo con el compromiso  económico adquirido por parte de la persona residente o su representante legal. </p>
+<p><strong>Décima.- </strong>En los periodos de ausencia del  centro, la aportación económica estará sujeta a las normas que rigen en el  convenio con Administración Pública competente.</p>
+ 
+ <p> <strong>Undécima.-  </strong>La  persona residente aportará con anterioridad a la admisión el historial médico correspondiente  y cuanta información sea relevante para la mejor atención durante su  permanencia en el centro. </p>
+<p><strong>Duodécima.- </strong> La persona residente y/o su representante o  interlocutores podrán colaborar con los profesionales del centro en elaboración  del plan de atención individual. </p>
+<p><strong>Decimotercera.- </strong> La condición de persona residente se pierde  por alguna de las siguientes causas:</p>
+<ul>
+  <li>Baja  voluntaria </li>
+  <li>Por  no satisfacer las cuotas económicas mensuales fijadas, con una demora de dos  meses acumulativos.</li>
+  <li>Por  necesidad de una atención especializada, siempre que el centro no pueda  dispensarla y pueda acceder a un servicio que cubra la atención requerida.</li>
+  <li>Por  pérdida de las condiciones que dan derecho de acceso a los apartamentos  sociales.</li>
+  <li>Por  incumplimiento del Reglamento de Régimen Interior. </li>
+  <li>Por  falsear deliberadamente datos en el expediente administrativo para solicitar el  acceso a la plaza.</li>
+  <li>Por  fallecimiento.</li>
+</ul>
+<p>
+<p><strong>Decimocuarta.- </strong>La ubicación en la habitación, así como la persona de  referencia que fija el centro puede ser objeto de variación por criterio de  organización. </p>
+<p><strong>Decimoquinta.-  </strong>Durante la estancia en el centro la atención médica  será responsabilidad de su Centro de Salud.</p>
+<p>
+<p><strong>Decimosexta.-</strong> Las partes reunidas de mutuo acuerdo someten  cualquier diferencia o conflicto que pudiera surgir, como consecuencia de la  interpretación, cumplimiento o resolución de este contrato, a la Administración  Pública competente. </p>
+<p><strong>Decimoséptima.- Protección de datos de carácter personal</strong></p>
+<p>Los datos personales recogidos en el presente documento  serán incorporados y tratados en un fichero titularidad de {!Oportunidad_platform__c.Sociedad_Centro__c}
+, con la finalidad de cumplir el propio contrato de prestación  de servicios suscrito y gestionar los agradecimientos, sugerencias y  reclamaciones. Así mismo podrán ser utilizados para el envío de información  sobre productos, servicios y eventos de {!Oportunidad_platform__c.Sociedad_Centro__c}
+U  y de las distintas sociedades de SARquavitae,  así como para la realización de encuestas de calidad del servicio.</p>
+<p>Sus datos podrán ser cedidos, exclusivamente para  las finalidades indicadas anteriormente, a otras entidades sociosanitarias,  siempre que las mismas pertenezcan directa o indirectamente al Grupo Societario  SARquavitae (www.sarquavitae.es), todo ello tanto si se formalizase o no operación  alguna como, en su caso, una vez extinguida la relación contractual existente,  respetando en todo caso la legislación española sobre protección de datos de  carácter personal y sin necesidad de que le sea comunicada cada primera cesión  que se efectúe a los referidos cesionarios.</p>
+<p>El interesado podrá ejercer los derechos de acceso,  rectificación, cancelación y oposición mediante comunicación escrita dirigida a  Departamento Jurídico, SARquavitae, C/Aribau 185 Entlo, 08021 – Barcelona o al  propio centro en el que se presta el servicio objeto de contrato.</p>
+
+  <p>{!F5}    Vd. Puede  marcar esta casilla en caso de oponerse al tratamiento y comunicación de los  datos de carácter personal para fines comerciales.</p>
+  <p>{!F5}    Vd. Puede  marcar esta casilla en caso de oponerse al tratamiento y comunicación de los  datos de carácter personal para la realización de encuestas de satisfacción.</p>
+
+
+<p>&nbsp;</p>
+<p>En caso de que los datos facilitados se refieran a  personas físicas distintas del interesado, éste deberá, con carácter previo a  su inclusión en el presente documento, informarles de los extremos contenidos  en los párrafos anteriores.</p>
+<p>Leído el presente documento y en prueba de  conformidad, las partes compareciente firman el presente contrato por duplicado  y a un solo efecto en </p>
+<p>&nbsp;</p>
+<p>{!Oportunidad_platform__c.Ciudad_Centro__c}  a {!Fecha_Dia}  de  {!Fecha_Mes}  de {!Fecha_Anyo}
+<p>&nbsp;</p>
+<p><span style="float: left;">Por <strong> {!Oportunidad_platform__c.Sociedad_Centro__c}</strong></span><span style="float: right;"><strong>El Usuario/representante legal</strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Fdo.; D/Dª {!Director.FirstName} {!Director.LastName}</span><span style="float: right;">Fdo.: D/Dª {!Nombre_residente_rep_legal} {!Apellidos_residente_rep_legal}</span></p>
+<p>&nbsp;</p>
+<p><span style="float: left;"><strong>La persona de referencia</strong></span><span style="float: right;"><strong>El avalista</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Fdo.; D/Dª  {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName}</span><span style="float: right;">Fdo.;D/Dª {!Avalista.FirstName} {!Avalista.LastName}</span></p>
+<p>&nbsp;</p>
+<p><span style="float: left;"><strong>El pagador</strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Fdo.; D/Dª  {!Pagador.FirstName} {!Pagador.LastName}</span></p>

@@ -1,0 +1,2925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Agradecimientos, sugerencias y reclamaciones</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Centro__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Centro</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.Activo__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <filterItems>
+                <field>Account.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QAeAAAW</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>ASR y Satisfacion Clientes (Centro)</relationshipLabel>
+        <relationshipName>ASR</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Cliente__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Cliente</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>Cliente/Familiar</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Satisfacion Clientes</relationshipLabel>
+        <relationshipName>ASR_y_Satisfacion_Clientes</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Colectivo__c</fullName>
+        <externalId>false</externalId>
+        <label>Colectivo</label>
+        <picklist>
+            <controllingField>Tipo_de_Servicio__c</controllingField>
+            <picklistValues>
+                <fullName>ALCALÁ DE HENARES FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALCOBENDAS FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALTA RIBAGORÇA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ALT D&apos;URGELL</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ARÁN</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ARGANDA DEL REY FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO ALBAIDA DEL ALJARAFE</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO ALHAURÍN EL GRANDE</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO ARGANDA DEL REY</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO AVILÉS</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTOCÁDIZ</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO CAMPOS</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO CANTILLA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO DON BENITO</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO ÉCIJA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO EL PEDROSO</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO EL RUBIO</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO EL SAUCEJO</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO GERENA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO HERRERA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO JEREZ DE LA FRONTERA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO LA ALGABA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO LA PUEBLA DEL RIO</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO LA RODA DE ANDALUCÍA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO LAS NAVAS DE LA CONCEPCIÓN</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO LORA DEL RÍO</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO LOS CORRALES</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO LOS MOLARES</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO MARTÍN DE LA JARA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO MONTELLANO</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO OLIVARES</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO OROPESA DEL MAR</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO PEDRERA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO PILAS</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO PLASENCIA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO PONFERRADA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO PRUNA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO RIVAS-VACIAMADRID</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO SALTERAS</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO SAN FERNANDO DE HENARES</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO SAN SEBASTIÁN DE LOS REYES</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO TERUEL</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO TORREJÓN DE ARDOZ</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO TRES CANTOS</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO VALENCIA DEL MOMBUEY</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AYUNTAMIENTO VILLAMANRIQUE</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>COLMENAR VIEJO FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CONSELL MENORCA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>COSLADA FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GETAFE FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PALLARS JUSSÁ</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PALLARS SOBIRÁ</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PLA D&apos;URGELL</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RIVAS-VACIAMADRID FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAN FERNANDO DE HENARES FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAN SEBASTIÁN DE LOS REYES FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SEGARRA</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SOLSONÉS</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TELEASISTENCIA FIJA</fullName>
+                <controllingFieldValues>Privado</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TELEASISTENCIA MÓVIL</fullName>
+                <controllingFieldValues>Privado</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TORREJÓN DE ARDOZ FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TRES CANTOS FEMP</fullName>
+                <controllingFieldValues>Público</controllingFieldValues>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Descripcion__c</fullName>
+        <externalId>false</externalId>
+        <label>Descripción</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Division__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Centro__r.Division__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>División</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_ATC_centro__c</fullName>
+        <externalId>false</externalId>
+        <label>Email ATC centro</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_director_centro__c</fullName>
+        <externalId>false</externalId>
+        <label>Email director centro</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estado__c</fullName>
+        <externalId>false</externalId>
+        <label>Estado</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Anulada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_cierre__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha cierre</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_contestacion__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha contestación</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_encuesta__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha encuesta</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_recepcion__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha recepción</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Motivo__c</fullName>
+        <externalId>false</externalId>
+        <label>Motivo</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Actividad Comercial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Administración - Facturación, Tarifa, forma pago</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Administración - Gestiones y trámites</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Atención alarmas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Atención demandas/resolución de situaciones</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Atención emergencias en domicilio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ayudas técnicas y/ó tecnológicas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Convivencia entre residentes/usuarios/clientes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Coordinación con administración</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Facturación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Funcionamiento dispositivos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Funcionamiento sistemas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Incidencia con llaves</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Información a familia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Instalaciones</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Llamadas seguimiento</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Organización y Confort</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Otros (detallar)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prestación del Servicio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prestación del Servicio - Actividades y Terapias</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prestación del Servicio - Atención y cuidados</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prestación del Servicio - Enseres personales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prestación del Servicio - Extravío/Hurto/Robo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prestación del Servicio - Información</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prestación del Servicio - Material utilizado</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Resolución de incidencias</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RRHH - Incumplimiento</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RRHH - Nómina u otros trámites</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RRHH-Organización y distribución tareas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SSHH - Lavandería</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SSHH - Limpieza</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SSHH - Serv. Alimentación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trato en atención de alarmas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trato en atención emergencias en domicilio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trato y Atención del personal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Variación precios</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Nombre_del_receptor__c</fullName>
+        <externalId>false</externalId>
+        <label>Nombre del receptor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nombre_responsable_accion__c</fullName>
+        <externalId>false</externalId>
+        <label>Nombre responsable acción</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Observaciones__c</fullName>
+        <externalId>false</externalId>
+        <label>Observaciones</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Origen__c</fullName>
+        <externalId>false</externalId>
+        <label>Origen</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Hoja ASR SARq</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Libro oficial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Verbal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Correo electrónico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Otros_Emisores__c</fullName>
+        <externalId>false</externalId>
+        <label>Otros Emisores</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Persona_Emisora__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Persona Emisora</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QAe0AAG</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>ASR (Persona Emisora)</relationshipLabel>
+        <relationshipName>ASR1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Receptor__c</fullName>
+        <externalId>false</externalId>
+        <label>Receptor</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Administración</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Asistente/a a Dirección</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ATC Zona</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Atención al Cliente</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Auxiliar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Call Center</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CAT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Coordinador/a</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dirección control interno</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dirección División</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dirección médica</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director/a</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director/a General</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director/a Territorial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director departamento/área</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DUE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Educador/a Social</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Enfermería</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Equipo Coordinación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Equipo técnico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jefe/a de SSHH</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Médico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Personal del centro</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Personal SS.HH</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Por revisar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Presidente</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Recepcionista</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Responsable Absentismo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Responsable del servicio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Supervisor/a</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trabajador/a</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trabajador/a Social</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Recomendador__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Recomendador</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>ASR (Recomendador)</relationshipLabel>
+        <relationshipName>ASR3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Referente_a__c</fullName>
+        <externalId>false</externalId>
+        <label>Referente a</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Residente_usuario__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Residente / Usuario</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.Residente__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>ASR (Residente)</relationshipLabel>
+        <relationshipName>ASR2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Responsable_Accion__c</fullName>
+        <externalId>false</externalId>
+        <label>Responsable Acción</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Administración</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Asistente de Dirección</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ATC Zona</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Atención al Cliente</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Coordinador/a</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Coordinador/a DUE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dirección División</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dirección médica</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director/a</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director/a Territorial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Directora control interno</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jefa Call Center</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jefe de SSHH</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Médico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Responsable Absentismo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Responsable del servicio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Responsable de mantenimiento</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Responsable de transporte</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trabajador/a Social</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_Emisor__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Emisor</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Administración</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Amigo / conocido</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Comercial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consejo de Clientes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Consejo de Residentes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director administración</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director Asistencial nacional</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director comercial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director de compras</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director de zona</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director General</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director médico provincial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director médico territorial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director o jefe calidad</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director provincial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Director regional</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Equipo de Coordinación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Familiar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Institución</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jefe de ventas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Por revisar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Profesional externo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Proveedor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Responsable de negocio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trabajador</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tutor legal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Usuario Adorea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Usuario centro de día</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Usuario residencia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Usuario Servicio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Agradecimiento</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sugerencia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reclamación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Incidencia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_Servicio__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de Servicio</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Privado</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Público</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_encuesta__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo encuesta</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No contratan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nuevos Clientes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fidelización</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Altas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <gender>Masculine</gender>
+    <label>ASR / Encuesta Satisfación</label>
+    <listViews>
+        <fullName>ASR</fullName>
+        <columns>NAME</columns>
+        <columns>Centro__c</columns>
+        <columns>Estado__c</columns>
+        <columns>Tipo__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>Fecha_recepcion__c</columns>
+        <columns>Origen__c</columns>
+        <columns>Receptor__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Estado__c</field>
+            <operation>equals</operation>
+            <value>Abierta</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>ASR__c.ASR</value>
+        </filters>
+        <label>ASR Abiertos</label>
+    </listViews>
+    <listViews>
+        <fullName>ASR_Vencidas</fullName>
+        <columns>NAME</columns>
+        <columns>Centro__c</columns>
+        <columns>Estado__c</columns>
+        <columns>Fecha_recepcion__c</columns>
+        <columns>Fecha_contestacion__c</columns>
+        <columns>Motivo__c</columns>
+        <columns>Origen__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Fecha_recepcion__c</field>
+            <operation>lessThan</operation>
+            <value>N_DAYS_AGO:5</value>
+        </filters>
+        <filters>
+            <field>Estado__c</field>
+            <operation>equals</operation>
+            <value>Abierta</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>ASR__c.ASR</value>
+        </filters>
+        <label>ASR Vencidos</label>
+    </listViews>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Centro__c</columns>
+        <columns>Motivo__c</columns>
+        <columns>Descripcion__c</columns>
+        <columns>Estado__c</columns>
+        <columns>Origen__c</columns>
+        <columns>Fecha_recepcion__c</columns>
+        <columns>Fecha_contestacion__c</columns>
+        <columns>Fecha_cierre__c</columns>
+        <columns>Persona_Emisora__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>ASR__c.ASR</value>
+        </filters>
+        <label>Todos</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{YYYY}-{000000}</displayFormat>
+        <label>Contador</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>ASR y Satisfacion Clientes</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>ASR</fullName>
+        <active>true</active>
+        <description>Agradecimientos, sugerencias y recomendaciones</description>
+        <label>ASR</label>
+        <picklistValues>
+            <picklist>Colectivo__c</picklist>
+            <values>
+                <fullName>ALCALÁ DE HENARES FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALCOBENDAS FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALT D%27URGELL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALTA RIBAGORÇA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARGANDA DEL REY FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARÁN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO ALBAIDA DEL ALJARAFE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO ALHAURÍN EL GRANDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO ARGANDA DEL REY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO AVILÉS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO CAMPOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO CANTILLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO DON BENITO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO EL PEDROSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO EL RUBIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO EL SAUCEJO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO GERENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO HERRERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO JEREZ DE LA FRONTERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LA ALGABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LA PUEBLA DEL RIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LA RODA DE ANDALUCÍA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LAS NAVAS DE LA CONCEPCIÓN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LORA DEL RÍO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LOS CORRALES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LOS MOLARES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO MARTÍN DE LA JARA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO MONTELLANO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO OLIVARES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO OROPESA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PEDRERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PILAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PLASENCIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PONFERRADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PRUNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO RIVAS-VACIAMADRID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO SALTERAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO SAN FERNANDO DE HENARES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO SAN SEBASTIÁN DE LOS REYES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO TERUEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO TORREJÓN DE ARDOZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO TRES CANTOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO VALENCIA DEL MOMBUEY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO VILLAMANRIQUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO ÉCIJA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTOCÁDIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COLMENAR VIEJO FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONSELL MENORCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COSLADA FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GETAFE FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PALLARS JUSSÁ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PALLARS SOBIRÁ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PLA D%27URGELL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RIVAS-VACIAMADRID FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN FERNANDO DE HENARES FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN SEBASTIÁN DE LOS REYES FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEGARRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOLSONÉS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TELEASISTENCIA FIJA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TELEASISTENCIA MÓVIL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TORREJÓN DE ARDOZ FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRES CANTOS FEMP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado__c</picklist>
+            <values>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anulada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo__c</picklist>
+            <values>
+                <fullName>Actividad Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administración - Facturación%2C Tarifa%2C forma pago</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administración - Gestiones y trámites</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atención alarmas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atención demandas%2Fresolución de situaciones</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atención emergencias en domicilio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ayudas técnicas y%2Fó tecnológicas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convivencia entre residentes%2Fusuarios%2Fclientes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinación con administración</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Facturación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Funcionamiento dispositivos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Funcionamiento sistemas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidencia con llaves</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Información a familia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instalaciones</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamadas seguimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Organización y Confort</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros %28detallar%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestación del Servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestación del Servicio - Actividades y Terapias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestación del Servicio - Atención y cuidados</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestación del Servicio - Enseres personales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestación del Servicio - Extravío%2FHurto%2FRobo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestación del Servicio - Información</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prestación del Servicio - Material utilizado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RRHH - Incumplimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RRHH - Nómina u otros trámites</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RRHH-Organización y distribución tareas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resolución de incidencias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSHH - Lavandería</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSHH - Limpieza</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSHH - Serv%2E Alimentación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trato en atención de alarmas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trato en atención emergencias en domicilio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trato y Atención del personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Variación precios</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origen__c</picklist>
+            <values>
+                <fullName>Correo electrónico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hoja ASR SARq</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Libro oficial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verbal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Receptor__c</picklist>
+            <values>
+                <fullName>ATC Zona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administración</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asistente%2Fa a Dirección</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atención al Cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auxiliar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinador%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección División</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección control interno</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección médica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director departamento%2Fárea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director%2Fa General</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director%2Fa Territorial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Educador%2Fa Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enfermería</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipo Coordinación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipo técnico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jefe%2Fa de SSHH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Médico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal SS%2EHH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal del centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por revisar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presidente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recepcionista</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable Absentismo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable del servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supervisor%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador%2Fa Social</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Responsable_Accion__c</picklist>
+            <values>
+                <fullName>ATC Zona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administración</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asistente de Dirección</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atención al Cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinador%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinador%2Fa DUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección División</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección médica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director%2Fa Territorial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Directora control interno</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jefa Call Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jefe de SSHH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Médico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable Absentismo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable de mantenimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable de transporte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable del servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador%2Fa Social</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Emisor__c</picklist>
+            <values>
+                <fullName>Administración</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amigo %2F conocido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consejo de Clientes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consejo de Residentes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director Asistencial nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director General</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director administración</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director de compras</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director de zona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director médico provincial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director médico territorial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director o jefe calidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director provincial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director regional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipo de Coordinación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familiar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Institución</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jefe de ventas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por revisar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profesional externo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proveedor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable de negocio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tutor legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario Servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario centro de día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario residencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Agradecimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reclamación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sugerencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Servicio__c</picklist>
+            <values>
+                <fullName>Privado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Público</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_encuesta__c</picklist>
+            <values>
+                <fullName>Altas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fidelización</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No contratan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nuevos Clientes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Satisfacion_Cliente</fullName>
+        <active>true</active>
+        <description>Encuestas de satisfación cliente</description>
+        <label>Satisfación Cliente</label>
+        <picklistValues>
+            <picklist>Colectivo__c</picklist>
+            <values>
+                <fullName>ALCALÁ DE HENARES FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALCOBENDAS FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALT D%27URGELL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALTA RIBAGORÇA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARGANDA DEL REY FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARÁN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO ALBAIDA DEL ALJARAFE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO ALHAURÍN EL GRANDE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO ARGANDA DEL REY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO AVILÉS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO CAMPOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO CANTILLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO DON BENITO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO EL PEDROSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO EL RUBIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO EL SAUCEJO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO GERENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO HERRERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO JEREZ DE LA FRONTERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LA ALGABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LA PUEBLA DEL RIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LA RODA DE ANDALUCÍA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LAS NAVAS DE LA CONCEPCIÓN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LORA DEL RÍO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LOS CORRALES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO LOS MOLARES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO MARTÍN DE LA JARA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO MONTELLANO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO OLIVARES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO OROPESA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PEDRERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PILAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PLASENCIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PONFERRADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO PRUNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO RIVAS-VACIAMADRID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO SALTERAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO SAN FERNANDO DE HENARES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO SAN SEBASTIÁN DE LOS REYES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO TERUEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO TORREJÓN DE ARDOZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO TRES CANTOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO VALENCIA DEL MOMBUEY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO VILLAMANRIQUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTO ÉCIJA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AYUNTAMIENTOCÁDIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COLMENAR VIEJO FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONSELL MENORCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COSLADA FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GETAFE FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PALLARS JUSSÁ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PALLARS SOBIRÁ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PLA D%27URGELL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RIVAS-VACIAMADRID FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN FERNANDO DE HENARES FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN SEBASTIÁN DE LOS REYES FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEGARRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOLSONÉS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TELEASISTENCIA FIJA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TELEASISTENCIA MÓVIL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TORREJÓN DE ARDOZ FEMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TRES CANTOS FEMP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado__c</picklist>
+            <values>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anulada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo__c</picklist>
+            <values>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros %28detallar%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RRHH-Organización y distribución tareas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trato y Atención del personal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origen__c</picklist>
+            <values>
+                <fullName>Correo electrónico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hoja ASR SARq</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Libro oficial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verbal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Receptor__c</picklist>
+            <values>
+                <fullName>Administración</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asistente%2Fa a Dirección</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atención al Cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auxiliar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Call Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinador%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección División</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección control interno</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección médica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director departamento%2Fárea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director%2Fa General</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Educador%2Fa Social</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipo Coordinación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipo técnico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jefe%2Fa de SSHH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Médico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal SS%2EHH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal del centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por revisar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presidente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recepcionista</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable Absentismo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supervisor%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador%2Fa Social</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Responsable_Accion__c</picklist>
+            <values>
+                <fullName>Administración</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asistente de Dirección</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atención al Cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinador%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinador%2Fa DUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección División</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dirección médica</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director%2Fa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Directora control interno</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jefa Call Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jefe de SSHH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Médico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable Absentismo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable de mantenimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable de transporte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador%2Fa Social</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Emisor__c</picklist>
+            <values>
+                <fullName>Administración</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amigo %2F conocido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consejo de Clientes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consejo de Residentes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director Asistencial nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director General</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director administración</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director de compras</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director de zona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director médico provincial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director médico territorial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director o jefe calidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director provincial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director regional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipo de Coordinación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familiar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Institución</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jefe de ventas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Por revisar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Profesional externo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proveedor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsable de negocio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tutor legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario Servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario centro de día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario residencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Agradecimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reclamación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sugerencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_Servicio__c</picklist>
+            <values>
+                <fullName>Privado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Público</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_encuesta__c</picklist>
+            <values>
+                <fullName>Altas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fidelización</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No contratan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nuevos Clientes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Informar_emisor</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( Persona_Emisora__c )   &amp;&amp;   ISBLANK( Residente_usuario__c )  &amp;&amp;  ISBLANK( Recomendador__c )  &amp;&amp;  ISBLANK( Otros_Emisores__c )</errorConditionFormula>
+        <errorMessage>Es obligatorio informar el emisor</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_fecha_cierre</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Estado__c , &apos;Cerrada&apos;) &amp;&amp;  ISBLANK( Fecha_cierre__c)</errorConditionFormula>
+        <errorDisplayField>Fecha_cierre__c</errorDisplayField>
+        <errorMessage>Campo obligatorio para cerrarla</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_observaciones</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL(Estado__c  , &apos;Cerrada&apos;)  &amp;&amp;  ISBLANK( Observaciones__c )</errorConditionFormula>
+        <errorDisplayField>Observaciones__c</errorDisplayField>
+        <errorMessage>Obligatorio informar</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_modificar_ASR_cerrada</fullName>
+        <active>true</active>
+        <description>No permitir modificar una ASR cerrada</description>
+        <errorConditionFormula>ISPICKVAL(PRIORVALUE(Estado__c), &apos;Cerrada&apos;) &amp;&amp;  NOT($User.Id=&apos;005b0000001JSTy&apos; || $User.Id=&apos;005b0000000kiZe&apos; ||$User.Id=&apos;005b0000000kj7H&apos;)</errorConditionFormula>
+        <errorMessage>No se puede modificar una ASR en estado Cerrada</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Nuevo_ASR</fullName>
+        <availability>online</availability>
+        <description>Informando Persona Emisora</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Nuevo ASR</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/a02/e?retURL={!Account.Id}&amp;RecordType=012b0000000QCc8AAG&amp;ent=01Ib0000000ogST&amp;CF00Nb0000009SIp7={!Account.Name}&amp;CF00Nb0000009SIp7_ileinner={!Account.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Nuevo_ASR_2</fullName>
+        <availability>online</availability>
+        <description>Informando el Residente</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Nuevo ASR</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/a02/e?retURL={!Account.Id}&amp;RecordType=012b0000000QCc8AAG&amp;ent=01Ib0000000ogST&amp;CF00Nb0000009SIpC={!Account.Name}&amp;CF00Nb0000009SIpC_lkid={!Account.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Nuevo_ASR_3</fullName>
+        <availability>online</availability>
+        <description>Informar Recomendador</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Nuevo ASR</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/a02/e?retURL={!Account.Id}&amp;RecordType=012b0000000QCc8AAG&amp;ent=01Ib0000000ogST&amp;CF00Nb0000009SIpH={!Account.Name}&amp;CF00Nb0000009SIpH_mod={!Account.Id}</url>
+    </webLinks>
+</CustomObject>

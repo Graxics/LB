@@ -1,0 +1,79 @@
+<!-- Page: -->
+<apex:page controller="escogerTableta">
+    <apex:PageBlock >
+        <apex:pageBlockSection >
+            
+            <apex:form >
+                <apex:actionFunction name="myFunction" action="{!enviarPDF}" status="status" oncomplete="finish()" rerender="out">    
+                    <apex:param name="aname" assignTo="{!idTablet}" value="" />
+                </apex:actionFunction>                
+                <b>Escoge una tablet</b>
+                <apex:selectRadio value="{!tableta}"><apex:selectOptions value="{!items}"/></apex:selectRadio>
+                <apex:commandButton value="Enviar PDF"  onclick="disable()" rerender="backBtn" />
+                <apex:commandButton id="backBtn" value="Volver"  status="status" action="{!backOP}" />
+            </apex:form>
+            
+            <apex:outputPanel >
+                <apex:actionstatus id="status" onstart="loading" startText="cargando..." >
+                    <apex:facet name="stop">
+                       <apex:outputPanel id="out" style="{!visible}">
+                            <span>Result: </span>
+                            <apex:outputText value="{!result}" />
+                       </apex:outputPanel>                        
+                       
+                    </apex:facet>
+                </apex:actionstatus>
+            </apex:outputPanel>
+            
+        </apex:pageBlockSection>
+    </apex:PageBlock>
+    
+    
+    <script type="text/javascript">
+    
+        var inputs = document.getElementsByTagName('input'); 
+        var options = new Array();
+        var btn;
+        for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].type === "radio") {
+                options.push(inputs[i]);
+            }else if(inputs[i].type === "button"){
+                btn = inputs[i];
+            }       
+        }
+    
+        if(options.length > 0) {
+            options[0].checked = true;
+        }        
+
+        function disable(){
+            btn.disabled = true;
+            var ichecked = 0;
+            for (var i = 0; i < options.length; i++){
+                options[i].disabled = true;
+                if(options[i].checked) {ichecked = i;}
+            }
+            myFunction(options[ichecked].value);
+        }
+    
+        function finish(){
+            btn.disabled = true;
+            /*
+            var getURLParameter = function(name) {
+                    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + 
+                           '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+            };
+            */
+        }
+    
+        function getIdSelectedTable(){
+            for(var i = 0; i < options[i].length; i++){
+                if(options[i].checked){
+                    return options[i].value;
+                }    
+            }
+            return options[0].value;
+        }
+
+    </script>
+</apex:page>

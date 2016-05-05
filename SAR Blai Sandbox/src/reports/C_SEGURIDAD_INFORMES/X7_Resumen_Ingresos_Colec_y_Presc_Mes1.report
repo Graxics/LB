@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filter>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Procedencia__c</column>
+            <operator>equals</operator>
+            <value>Colectivo,Prescriptor</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Fecha_real_de_ingreso__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Oportunidad_platform__c.Oportunidad_privada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Tipo_Servicio__c</column>
+            <operator>notEqual</operator>
+            <value>Centro de Día</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$Account.Clasificacion_tipo_recomendador__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$Account.Zona_comercial__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>7. Resumen Ingresos Colec.y Presc. Mes</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Oportunidad_platform__c@Oportunidad_platform__c.Empresa_Recomendadora__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Oportunidad_platform__c.Fecha_real_de_ingreso__c</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

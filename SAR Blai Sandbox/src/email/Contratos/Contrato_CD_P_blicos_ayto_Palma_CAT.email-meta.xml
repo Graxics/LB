@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>c13 Contrato CD Públicos (ayto Palma) CAT</name>
+    <style>none</style>
+    <subject>Contrato CD públicos (Ayto Palma) CAT</subject>
+    <textOnly>&lt;body&gt;
+&lt;p&gt;&lt;img width=&quot;468&quot; height=&quot;116&quot; src=&quot;file:///C|/Users/Usuario/AppData/Roaming/Adobe/Dreamweaver CC 2014/es_ES/OfficeImageTemp/clip_image002_0003.jpg&quot;&gt;&lt;u&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&amp;nbsp;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;MODEL DE CONTRACTE  ASISTENCIAL&lt;/u&gt;&lt;/p&gt;
+&lt;div&gt;
+  &lt;p align=&quot;left&quot;&gt;Dades del centre:&lt;br&gt;
+    Nom del centre: ..........................................................................&lt;br&gt;
+    Nom de l&amp;rsquo;entitat: ......................................................................CIF:  ...................................  Carrer..........................................................Núm.:       ...............Localitat:......................... &lt;br&gt;
+    Director/ responsable del centre: .......................................................  DNI: .......................&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;p align=&quot;left&quot;&gt;Dades de la persona usuària:&lt;br&gt;
+    Nom i llinatges:..................................................................................&lt;br&gt;
+    Carrer:  ............................................................Núm.:  ..................Localitat: ........................&lt;br&gt;
+    DNI:........................................Núm.  seguretat social:.........................................................&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;p&gt;Dades del familiar responsable/ representant legal:&lt;br&gt;
+    Nom i llinatges:....................................................................   DNI: ......................................&lt;br&gt;
+    Carrer:  ............................................................Núm.:  ..................Localitat:.........................  Telèfon de contacte:........................................Parentesc: ...................................................&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;El centre,  l&amp;rsquo;usuari i /o el familiar es comprometen als següents ACORDS:&lt;/p&gt;
+&lt;p&gt;PRIMER: Que l&amp;rsquo;ingrés s&amp;rsquo;efectua LLIURAMENT.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;SEGON: El centre de dia per persones majors és un centre que  ofereix els serveis d&amp;rsquo;acolliment i suport, amb finalitat terapèutica i  rehabilitadora durant un determinat nombre d&amp;rsquo;hores al dia, com també  d&amp;rsquo;assistència d&amp;rsquo;activitats de la vida diària a persones majors amb  dependències.&lt;br&gt;
+  &lt;br&gt;
+  TERCER: La persona usuària, familiar i/o  tutor,  coneixen i accepten  les normes del Reglament de règim interior  del qual s&amp;rsquo;adjunta una còpia i del qual es firma un rebut en prova de la  recepció del mateix i de conformitat amb el seu contingut.&lt;br&gt;
+  .&lt;/p&gt;
+&lt;p&gt;QUART: El centre s&amp;rsquo;obliga a respectar els drets dels usuaris  reconeguts en el Reglament de règim interior.&lt;/p&gt;
+&lt;p&gt;CINQUÈ: S&amp;rsquo;estableix un període d&amp;rsquo;adaptació o de prova de 20  dies, amb l&amp;rsquo;objecte de conèixer tant el medi com el grau d&amp;rsquo;adaptació, a partir  de la signatura del present contracte.&lt;/p&gt;
+&lt;p&gt;SISÈ: L&amp;rsquo;usuari, familiar i/o tutor es comprometen a aportar  la documentació següent:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;DNI&lt;/li&gt;
+  &lt;li&gt;Targeta  seguretat social&lt;/li&gt;
+  &lt;li&gt;Informe  mèdic actualitzat&lt;/li&gt;
+  &lt;li&gt;Informe  social&lt;/li&gt;
+  &lt;li&gt;Contactes  de familiars de referència&lt;/li&gt;
+  &lt;li&gt;Sentència  d&amp;rsquo;incapacitació legal, curatela o poders per actuar en nom de la persona  usuària, si existeixen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;                                                                                                                                                                                                 &lt;br&gt;
+  SETÈ: Els sotasignats estan obligats a informar sobre qualsevol  canvi que es produeixi quant a la seva situació personal, familiar, mèdica,  social i econòmica que pogués donar lloc a la modificació o suspensió del  servei. &lt;/p&gt;
+&lt;p&gt;VUITÈ: Els familiars i/o tutor coneixen i accepten que pel  fet d&amp;rsquo;estar a un centre, no els eximeix de les seves responsabilitats envers de  la persona usuària.&lt;/p&gt;
+&lt;p&gt;NOVÈ: Els familiars i/o tutor, es comprometen a col·laborar  amb aquelles activitats en les que el centre els sol·licita la seva  col·laboració.&lt;/p&gt;
+&lt;p&gt;DESÈ: El centre d&amp;rsquo;estades diürnes garanteix l&amp;rsquo;atenció  medicosanitària complementada pels serveis de L&amp;rsquo;IB-SALUT.&lt;/p&gt;
+&lt;p&gt;ONZÈ: El preu del servei fixat per dependència és de ........  €/dia. El preu de l&amp;rsquo;estança es facturarà a més vençut. L&amp;rsquo;usuari, familiar o  tutor abonaran puntualment la quota fixada per l&amp;rsquo;estada al centre que es  realitzarà per domiciliació bancària dins els primers quinze dies del mes  següent. El preu s&amp;rsquo;actualitzarà anualment i es contemplarà la pujada anual del  IPC.&lt;/p&gt;
+&lt;p&gt;Les dades  bancaries a efectes de domiciliació del pagament dels rebuts son les següents:&lt;br&gt;
+  &lt;br&gt;
+  Nom de l&amp;rsquo;entitat  bancaria: ……………………………………………………...………………&lt;br&gt;
+  Localitat: ……………………………….…………………………&lt;br&gt;
+  Oficina nº: ……………………………………Nº  de compte: ……………………………………&lt;br&gt;
+  Nom del titular  del compte: ……………………………………………………………………&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;usuari i/o  titular del compte autoritzen el càrrec dels rebuts en el número de compte  indicat. &lt;/p&gt;
+&lt;p&gt;A l&amp;rsquo;entrada al centre, s&amp;rsquo;exigirà a l&amp;rsquo;usuari un dipòsit  equivalent a15 dies del preu del servei, en concepte de garantia de pagament  (aquesta quantitat no serà superior a 15 dies del preu del servei). Aquest  dipòsit es retornarà dins dels 45 dies posteriors al dia de la baixa de  l&amp;rsquo;usuari en el centre.&lt;/p&gt;
+&lt;p&gt;DOTZÈ: &lt;br&gt;
+  Les prestacions  compromeses són (exemples):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Acollida  i convivència&lt;/li&gt;
+  &lt;li&gt;Servei  de manutenció (esmorzar, dinar i berenar)&lt;/li&gt;
+  &lt;li&gt;Servei  d&amp;rsquo;infermeria&lt;/li&gt;
+  &lt;li&gt;Atenció  social personalitzada a les famílies.&lt;/li&gt;
+  &lt;li&gt;Servei  de fisioteràpia.&lt;/li&gt;
+  &lt;li&gt;Servei  de teràpia ocupacional&lt;/li&gt;
+  &lt;li&gt;Activitats  d&amp;rsquo;oci i temps lliure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Els serveis  complementaris: &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Servei  de transport.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TRETZÈ: L&amp;rsquo;horari del centre és el següent 8,00 a 17,00 h. L&amp;rsquo;horari de  visites és de 10,00 a 16,00 hores &lt;/p&gt;
+&lt;p&gt;CATORZÈ: El present contracte es podrà rescindir per voluntat  expressa de les parts contractants, si es produís qualsevol d&amp;rsquo;aquestes  circumstàncies:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Per  renúncia voluntària de l&amp;rsquo;usuari o del representant legal.&lt;/li&gt;
+  &lt;li&gt;Per  incompliment dels pactes acordats.&lt;/li&gt;
+  &lt;li&gt;Per  tancament degudament autoritzat del centre.&lt;/li&gt;
+  &lt;li&gt;Per  totes les causes que s&amp;rsquo;expressin al reglament de règim intern.                                                                         &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;QUINZÈ: El present contracte estarà en vigor mentre es mantingui  la condició d&amp;rsquo; usuari. Aquest contracte té una duració indefinida.&lt;br&gt;
+  Qualsevol de les  parts podrà donar per finalitzada la relació, sempre que es comuniqui per  escrit amb 15 dies d&amp;rsquo;antelació.&lt;/p&gt;
+&lt;p&gt;SEXTÈ: L&amp;rsquo;usuari i la família hauran d&amp;rsquo;informar al centre de  qualsevol canvi que pugui afectar al benestar físic i emocional de l&amp;rsquo;usuari  (situació familiar, canvis de residència, problemes de comportament....).&lt;/p&gt;
+&lt;p&gt;DESSETÈ: L&amp;rsquo;usuari i la família hauran de respectar els horaris  d&amp;rsquo;entrada i de sortida.&lt;/p&gt;
+&lt;p&gt;DIVUITÈ: Les dades personals recollides  en el present document seran incorporades i tractades en un fitxer titularitat  de SAR RESIDENCIAL Y ASISTENCIAL S.A.U., amb la finalitat de complir el  contracte de prestació de serveis subscrit i gestionar els agraïments,  suggeriments i reclamacions. Així mateix podran ser utilitzades per l&apos;enviament  d&apos;informació sobre productes , serveis i esdeveniments de SAR RESIDENCIAL Y  ASISTENCIAL S.A.U  i de les diferents  societats de SARquavitae , així com per a la realització d&apos;enquestes de  qualitat del servei.&lt;/p&gt;
+&lt;p&gt;Les seves dades podran ser cedides, exclusivament per a les finalitats  indicades anteriorment , a altres entitats sociosanitàries , sempre que  aquestes pertanyin directament o indirectament al Grup Societari SARquavitae (  www.sarquavitae.es ), tot això tant si es formalitzés o no cap operació com, si  escau, un cop extingida la relació contractual existent, respectant en tot cas  la legislació espanyola sobre protecció de dades de caràcter personal i sense  necessitat que li sigui comunicada cada primera cessió que s&apos;efectuï als  referits cessionaris.&lt;/p&gt;
+&lt;p&gt;L&apos;interessat podrà exercir els drets d&apos;accés , rectificació, cancel•lació  i oposició mitjançant comunicació escrita dirigida a Departament Jurídic,  SARquavitae, C/ Aribau 185 Entresòl , 08021 - Barcelona o al propi centre en  què es presta el servei objecte de contracte.&lt;/p&gt;
+&lt;p&gt;         Vostè pot marcar aquesta  casella en cas d&apos;oposar-se al tractament i comunicació de les dades de caràcter  personal per a finalitats comercials .&lt;/p&gt;
+&lt;p&gt;         Vostè pot marcar aquesta  casella en cas d&apos;oposar-se al tractament i comunicació de les dades de caràcter  personal per a la realització d&apos;enquestes de satisfacció.&lt;/p&gt;
+&lt;p&gt;En cas que les dades facilitades es refereixin a persones físiques  diferents de l&apos;interessat, aquest haurà , amb caràcter previ a la seva inclusió  en el present document , informar-los dels extrems continguts en els paràgrafs  anteriors.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;Palma  .......................... d ......................... de 200...&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;ACCEPTA I CONFORMA                                      ACCEPTA I  CONFORMA                                                                                &lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;L&amp;rsquo;usuari/el resident                                                            Familiar  i/o Tutor&lt;br&gt;
+  &lt;br&gt;
+  &lt;strong&gt;                                                                                        &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h1&gt;&amp;nbsp;&lt;/h1&gt;
+&lt;h1&gt;&amp;nbsp;&lt;/h1&gt;
+&lt;h1&gt;&amp;nbsp;&lt;/h1&gt;
+&lt;p&gt;ACCEPTA  I CONFORMA&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Direcció&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/body&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

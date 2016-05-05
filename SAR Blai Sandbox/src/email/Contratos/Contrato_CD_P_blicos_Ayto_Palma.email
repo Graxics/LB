@@ -1,0 +1,127 @@
+<p align='center'>{!logo_ayuntamiento}</p>
+<p>&nbsp;</p>
+
+<p align="center"><u><strong>MODELO DE CONTRATO  ASISTENCIAL</strong></u></p>
+<p>&nbsp;</p>
+<table  border="1" style="width:100%; border: 1px solid black;">
+<tr>
+  <td align="left"style="padding-bottom:7px;border:0px;padding-left:7px; padding-top:7px;"><strong>Datos del centro:</strong> <br>
+      Nombre del centro: {!Oportunidad_platform__c.Nombre_Centro__c} <br>
+    Nombre de la entidad:  {!Oportunidad_platform__c.Sociedad_Centro__c}
+      CIF:  {!Oportunidad_platform__c.CIF_Sociedad__c} <br>
+     Calle y Núm: {!Oportunidad_platform__c.Calle_Sociedad__c}
+Localidad:{!Oportunidad_platform__c.Ciudad_Sociedad__c}<br>
+      Director/ responsable del centro {!Director.FirstName} {!Director.LastName} </td>
+
+</tr>
+</table>
+<br>
+
+<table  border="1" style="width:100%; border: 1px solid black;">
+<tr>
+<td align="left" style="padding-bottom:7px;border:0px;padding-left:7px; padding-top:7px;">
+<strong>Datos de la persona usuaria:</strong><br>
+    Nombre y  apellidos {!Residente.FirstName}
+{!Residente.LastName}<br>
+    Calle y Núm:    {!Oportunidad_platform__c.Calle_Residente__c}
+Localidad: {!Oportunidad_platform__c.Ciudad_Residente__c}<br>
+    DNI:{!Oportunidad_platform__c.DNI_Residente__c}
+Núm.Seguridad  Social{!Oportunidad_platform__SS_Residente__c}
+</td>
+</tr>
+</table>
+<br>
+<table  border="1" style="width:100%; border: 1px solid black;">
+<tr>
+
+  <td align="left"style="padding-bottom:7px;border:0px;padding-left:7px; padding-top:7px;"><strong>Datos del familiar responsable/ representante legal:</strong><br>
+    Nombre y Apellidos {!Representante.FirstName}
+{!Representante.LastName}
+    DNI: {!Representante.CIF_NIF__c}<br>
+    Calle y Num: {!Representante.Calle}
+.Localidad: {!Oportunidad_platform__Localidad_Representante__c}<br>
+  Teléfono contacto:{!Representante.Phone}
+Parentesco: {!relacionContacto.Relacion_personal__c}
+</td>
+</tr>
+</table>
+
+<p>El  centro, usuario  y /o el familiar se  comprometen a los siguientes  <strong>ACUERDOS:</strong></p>
+<p><strong>PRIMERO</strong>: Que el ingreso se realiza <strong>LIBREMENTE.</strong></p>
+<p><strong>SEGUNDO</strong>: El Centro  de día para personas mayores es un centro que ofrece los servicios de acogida y  apoyo, con un fin  terapéutico y  rehabilitador durante unas determinadas horas al día, al mismo tiempo que  ofrece asistencia en  actividades de la  vida diaria a personas mayores con problemas de  dependencia.</p>
+<p><strong>TERCERO:</strong>La persona usuaria, familiar y/o  tutor,  conocen y aceptan  las normas del Reglamento de régimen  interno del  cual se adjunta una copia y del cual se firma  un recibí en prueba de la recepción del mismo y su conformidad con el  contenido.</p>
+<p><strong>CUARTO:</strong> El centro se obliga a respetar  los derechos de los usuarios reconocidos en el Reglamento  de régimen interno.</p>
+<p><strong>CINCO: </strong>Se establece un período de adaptación  o de prueba de 20 días, para dar a  conocer  tanto el servicio como el grado de adaptación, a partir de la firma del presente  contrato.</p>
+<p><strong>SEXTO:</strong> La persona usuaria, familiar y/o  tutor se comprometen a aportar la documentación siguiente:</p>
+<ul>
+  <li>DNI</li>
+  <li>Tarjeta  seguridad social</li>
+  <li>Informe  médico actualizado</li>
+  <li>Informe  social</li>
+  <li>Contactos de familiares  de referencia</li>
+  <li>Sentencia de  incapacitación legal, curatela o poderes sobre el usuario, en el caso de que  existan.</li>
+</ul>
+<p>                                                                                                                                                                                          <br>
+  <strong>SEPTIMO:</strong> Los  abajo firmantes están  obligados a informar sobre cualquier cambio que pueda producirse  en la  situación  personal, familiar, médica, social y económica  que diera   lugar  a la modificación o  suspensión del servicio. </p>
+<p><strong>OCTAVO: </strong>Los  familiares y/o tutor  conocen y  aceptan, que por el hecho  de estar en un centro, no se les  exime  de  sus responsabilidades sobre  la persona usuaria.</p>
+<p><strong>NOVENO:</strong> Los familiares y/o tutor, se  comprometen a colaborar en aquellas actividades en las que el centro pudiera  solicitar su colaboración. </p>
+<p><strong>DECIMO:</strong> El Centro de día  garantiza la atención socio-sanitaria  complementada por los servicios de IBSALUT.</p>
+<p><strong>UNDÉCIMO:</strong> El precio del servicio establecido por la dirección general del Gobierno de las Illes Balears competente en materia de dependencia es de {!Oportunidad_platform__c.precio_total}
+ €/día.  El precio por la estancia se facturará a mes  vencido. La persona usuaria, familiar o tutor abonarán puntualmente la cuota  fijada para la estancia en el  centro,  realizándose a través de  domiciliación  bancaria en los primeros  quince días del mes siguiente. El precio se actualizara  anualmente, contemplando  la subida anual  del IPC.</p>
+<p>Los datos bancarios a  efectos de domiciliación del pago de los recibos son los siguientes:</p>
+  <p align="left">Nombre de la entidad  bancaria: {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}<br>
+  Localidad: {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}<br>
+  IBAN: {!Oportunidad_platform__c.IBAN__c}<br>
+  Nombre del titular de la cuenta y obligado al pago en este contrato: {!Oportunidad_platform__c.Cuenta_Pagador__c}
+</p>
+<p>El usuario y/o titular de la  cuenta autoriza el cargo de los recibos en el número de cuenta indicado.</p>
+</p>
+<p><strong>DUODÉCIMO: </strong></p>
+<p>Las  prestaciones que se ofrecen:</p>
+<ul>
+  <li>Acogida  y convivencia</li>
+  <li>Servicio  de manutención (desayuno, comida y   merienda)</li>
+  <li>Servicio  de enfermería</li>
+  <li>Atención   social personalizada a las familias</li>
+  <li>Servicio  de fisioterapia</li>
+  <li>Servicio  de terapia ocupacional</li>
+  <li>Actividades  de ocio y tiempo libre</li>
+</ul>
+<p>Servicios  complementarios: </p>
+<ul>
+  <li>Servicio  de transporte.</li>
+</ul>
+<p><strong>DECIMOTERCERO: </strong>El horario del centro estipulado es  de  8,00 a 17,00 h. El horario  de visitas será de 10,00 a 16,00 horas </p>
+<p><strong>DECIMOCUARTO: </strong>El presente contrato se podrá resolver mediante voluntad expresa de las partes contratantes, y con motivo de  las siguientes circunstancias:</p>
+<ul>
+  <li>Por  renuncia voluntaria de la persona usuaria o de su representante legal.</li>
+  <li>Por   incumplimiento de lo acordado.</li>
+  <li>Por  cierre  debidamente autorizado del centro.</li>
+  <li>Por   las causas expresadas en el  reglamento de régimen  interno.                                                                         </li>
+</ul>
+<p><strong>DECIMOQUINTO:</strong> El presente contrato estará en  vigor mientras se  mantenga la condición  de persona  usuaria. El presente contrato tiene una  duración indefinida. El usuario podrá dar por finalizada la relación, siempre que se comunique por escrito con 15 días de antelación.</p>
+<p><strong>DECIMOSEXTO: </strong>La persona usuaria y la familia  deberán informar al centro  sobre  cualquier cambio que pueda afectar al bienestar  físico y emocional de la persona usuaria  (situación familiar, cambios  de residencia,  problemas de comportamiento....).</p>
+<p><strong>DECIMOSEPTIMO:</strong> La persona usuaria y la familia  deberán respetar los horarios de entrada y de salida.</p>
+<p><strong>DECIMOCTAVO:</strong> </strong>Los datos personales recogidos  en el presente documento serán incorporados y tratados en un fichero  titularidad de {!Oportunidad_platform__c.Sociedad_Centro__c}
+, con la finalidad de cumplir el propio contrato de prestación de servicios suscrito y gestionar  los agradecimientos, sugerencias y  reclamaciones. </p>
+<p>El  interesado podrá ejercer los derechos de acceso, rectificación, cancelación y  oposición mediante comunicación escrita dirigida a <em>Departamento Jurídico,  SARquavitae, C/Aribau 185 Entlo, 08021 – Barcelona</em> o al propio centro en el  que se presta el servicio objeto de contrato.</p>
+<p>En  caso de que los datos facilitados se refieran a personas físicas distintas del  interesado, éste deberá, con carácter previo a su inclusión en el presente  documento, informarles de los extremos contenidos en los párrafos anteriores.</p>
+<p>&nbsp;</p>
+<p>Palma,  a {!Fecha_Dia}
+de {!Fecha_Mes}
+ de   {!Fecha_Anyo}
+</p>
+<p>&nbsp;</p>
+<p><strong>ACEPTA Y FIRMA</strong>                                                                                <strong>     ACEPTA  Y FIRMA   </strong>                                                                                       </p>
+<p>&nbsp;</p>
+<p>La  persona usuaria                                                                                                                                                                                                                                                     Familiar y/o Tutor</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>ACEPTA Y FIRMA</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>La  Dirección</p>
+<br clear="all">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>

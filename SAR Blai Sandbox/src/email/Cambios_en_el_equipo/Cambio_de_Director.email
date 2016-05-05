@@ -1,0 +1,14 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div style="text-align: right;">(Ciudad),a (día) de (mes) de (año)</div>]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[Estimado Cliente,<div><br></div><div>Tenemos el gusto de informarle que se ha producido un cambio en la dirección de la residencia SARquavitae NOMBRE_CENTRO. El nuevo director del centro es&nbsp;NOMBRE_DIRECTOR.</div><div><br></div><div>Asimismo, le informamos que estamos a su disposición para cualquier consulta que desee realizarnos y le recordamos que el teléfono de contacto es el (teléfono del centro), también puede enviar un mail a (e-mail director) con mucho gusto le atenderemos.</div>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[<div style="text-align: right;">Reciba un cordial saludo</div><div style="text-align: right;"><br></div><div style="text-align: right;"><span style="text-align: start;">NOMBRE_DIRECTOR</span></div><div style="text-align: right;"><span style="text-align: start;"><br></span></div><div style="text-align: right;">NOMBRE_CENTRO</div><div style="text-align: right;"><span style="text-align: start;"><br></span></div><div style="text-align: right;"><br></div><div style="text-align: right;"><br></div>]]></td>
+</tr>
+</table>

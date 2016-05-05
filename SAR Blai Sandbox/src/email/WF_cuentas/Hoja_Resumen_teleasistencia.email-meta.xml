@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Hoja Resumen teleasistencia</name>
+    <style>none</style>
+    <subject>Hoja Resumen Teleasistencia</subject>
+    <textOnly>COLECTIVO  {!Oportunidad_platform__c.COLECTIVO}
+PROVINCIA  {!Oportunidad_platform__c.PROVINCIA}
+FECHA SOLICITUD CONTRATO  {!Oportunidad_platform__c.FECHA_SOLICITUD_CONTRATO}
+TIPO DE TARIFA  {!Oportunidad_platform__c.TIPO_DE_TARIFA}
+SERVICIO  {!Oportunidad_platform__c.SERVICIO}
+Contratante NOMBRE  {!Oportunidad_platform__c.Contratante_NOMBRE}
+Contratante APELLIDOS  {!Oportunidad_platform__c.Contratante_APELLIDOS}
+Contratante DNI  {!Oportunidad_platform__c.Contratante_DNI}
+Contratante DOMICILIO (CP y Provincia)  {!Oportunidad_platform__c.Contratante_DOMICILIO}
+Contratante TELEFONO  {!Oportunidad_platform__c.Contratante_TELEFONO}
+C/C  {!Oportunidad_platform__c.C/C}
+Beneficiario NOMBRE  {!Oportunidad_platform__c.Beneficiario_NOMBRE}
+Beneficiario APELLIDOS  {!Oportunidad_platform__c.Beneficiario_APELLIDOS}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

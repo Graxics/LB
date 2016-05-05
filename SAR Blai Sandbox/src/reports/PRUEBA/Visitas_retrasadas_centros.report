@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Oportunidad_platform__c$Zona_Territorial__c</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c$Centro2__c</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c$Name</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Activities$RecordType</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Activities$ActivityDate</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Activities$Resultado__c</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c$Etapa__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$RecordType</column>
+            <operator>equals</operator>
+            <value>Event.Visita_a_Cliente</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$Subject</column>
+            <operator>equals</operator>
+            <value>Visita concertada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$Resultado__c</column>
+            <operator>equals</operator>
+            <value>Acción Abierta</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$ActivityDate</column>
+            <operator>lessThan</operator>
+            <value>2/19/2015 12:00 AM</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>0001 Eventos clientes retrasados</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Actividades_vs_Oportunidades__c</reportType>
+    <scope>team</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Oportunidad_platform__c.Activities$ActivityDate</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Oportunidad_platform__c.Activities$ActivityDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

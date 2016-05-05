@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Nueva tarea batch</name>
+    <style>none</style>
+    <subject>ASUNTO_TAREA</subject>
+    <textOnly>Nueva tarea
+Para: ATC_CENTRO
+
+Se le ha asignado una nueva tarea en salesforce:
+
+Asunto: NOMBRE_ASUNTO_TAREA
+Centro: NOMBRE_CENTRO
+Fecha de vencimiento: FECHA_VENCIMIENTO_TAREA
+Prioridad: PRIORIDAD_TAREA
+Comentarios:  URGENTE_COMENTARIOS
+COMENTARIOS_TAREANEGRITA_COMENTARIOS
+
+Si desea más información, haga clic en el siguiente vínculo:
+LINK_TAREA_BATCH</textOnly>
+    <type>custom</type>
+</EmailTemplate>

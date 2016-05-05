@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Mail Bienvenida Gallego</name>
+    <style>none</style>
+    <subject>Benvido Sarquavitae</subject>
+    <textOnly>Documento sin título
+
+
+Bienvenidos a SARquavitae Querida familia,
+
+Dámoslles a benvida ao noso centro e  poñémonos á súa enteira disposición para o que poidan precisar.
+
+Estamos encantados de acollelos e, nesta nova  etapa que comeza, estaremos ao seu carón e acompañarémolos para que a  adaptación do seu familiar e a súa integración na vida do centro sexa  satisfactoria e reconfortante.
+
+O noso principal obxectivo é proporcionar ao  seu ser querido unha atención personalizada, consonte os seus gustos e  preferencias, que tamén xere confianza e seguridade en vostedes. Para iso  contamos cun equipo de profesionais que os atenderá con respecto e afecto,  tendo sempre en conta o que é importante para vostedes e o seu familiar.
+
+Non dubiden en pórse en contacto connosco  sempre que o desexen. Con esta finalidade, pomos á súa disposición o blog do  noso centro, que permitirá que estean puntualmente informados das actividades e  das novas da residencia. Animámoslles a consultalo e a deixar os seus  comentarios.
+
+Agradecemos a confianza  que depositaron en nós e faremos todo o posible para garantir o benestar do seu  familiar e a súa propia tranquilidade.
+
+Reciban  un cordial saúdo,
+
+A dirección
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

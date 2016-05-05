@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Telefono_Contacto__c</field>
+    </columns>
+    <columns>
+        <field>FK_PC_EMAIL</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>CUST_RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>Oportunidad_platform__c.Oportunidad_privada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Etapa__c</column>
+            <operator>equals</operator>
+            <value>Ingreso,No ingreso,Cerrada por el sistema</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Fecha_de_Alta__c</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_PC_EMAIL</column>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Respiros OPs cerradas SS 15</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Oportunidad_platform__c@Oportunidad_platform__c.Persona_de_Contacto__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Oportunidad_platform__c.Fecha_cierre__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

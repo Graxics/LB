@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Oportunidad_platform__c$Name</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Activities$Subject</field>
+    </columns>
+    <description>Atención hay que cambiar en el filtro siempre y poner fecha menor que  hoy()</description>
+    <filter>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$RecordType</column>
+            <operator>equals</operator>
+            <value>Event.Visita_a_Cliente</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$Resultado__c</column>
+            <operator>equals</operator>
+            <value>Acción Abierta</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$ActivityDate</column>
+            <operator>lessThan</operator>
+            <value>5/4/2015 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c$RecordType</column>
+            <operator>equals</operator>
+            <value>Oportunidad_platform__c.Oportunidad_privada</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Oportunidad_platform__c.Activities$RecordType</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Month</dateGranularity>
+        <field>Oportunidad_platform__c.Activities$ActivityDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Oportunidad_platform__c$Zona_Territorial__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Oportunidad_platform__c$Centro2__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>2.3.1 Nº Visitas retrasadas centros</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Actividades_vs_Oportunidades__c</reportType>
+    <scope>team</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Oportunidad_platform__c.Activities$ActivityDate</dateColumn>
+        <interval>INTERVAL_CURY</interval>
+    </timeFrameFilter>
+</Report>

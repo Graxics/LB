@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condiciones Contratos</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Condiciones Contratos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Aplica --></label>
+        <name>Aplica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Centro --></label>
+        <name>Centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código --></label>
+        <name>Codigo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Documento --></label>
+        <name>Documento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Idioma --></label>
+        <name>Idioma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Num Contrato --></label>
+        <name>Num_Contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Protocolo --></label>
+        <name>Protocolo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registro --></label>
+        <name>Registro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revisión --></label>
+        <name>Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo Estancia --></label>
+        <name>Tipo_Estancia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo Servicio --></label>
+        <name>Tipo_Servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Financiación --></label>
+        <name>Tipo_de_Financiacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Título --></label>
+        <name>Titulo__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

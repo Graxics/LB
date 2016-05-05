@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Membrete_SarQ</letterhead>
+    <name>Cambio de Director</name>
+    <style>formalLetter</style>
+    <subject>Cambio de director</subject>
+    <textOnly>(Ciudad),a (día) de (mes) de (año)
+Estimado Cliente,
+
+Tenemos el gusto de informarle que se ha producido un cambio en la dirección de la residencia SARquavitae NOMBRE_CENTRO. El nuevo director del centro es NOMBRE_DIRECTOR.
+
+Asimismo, le informamos que estamos a su disposición para cualquier consulta que desee realizarnos y le recordamos que el teléfono de contacto es el (teléfono del centro), también puede enviar un mail a (e-mail director) con mucho gusto le atenderemos.
+Reciba un cordial saludo
+
+NOMBRE_CENTRO
+
+NOMBRE_DIRECTOR</textOnly>
+    <type>html</type>
+</EmailTemplate>

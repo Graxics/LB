@@ -1,0 +1,171 @@
+<body>
+<h1 align="center">&nbsp;</h1>
+<p align="center"><strong>CONTRATO DE INGRESO PARA PERSONAS MAYORES EN SITUACION DE DEPENDENCIA EN UNIDAD DE  ESTANCIA DIURNA</strong></p>
+<br>
+<p><strong>Código Provincia ...................
+ Código Centro ...................
+Nº  de Contrato ...................</strong>
+</strong><br>
+  <strong>                                                 <u></u></strong><br>
+  <strong> </strong></p>
+<p align="right">En  {!Oportunidad_platform__c.Ciudad_Centro__c}, a  {!Fecha_Dia}
+ de {!Fecha_Mes}
+ de {!Fecha_Anyo}
+</p>
+<p>&nbsp;</p>
+<p align="center"><strong>REUNIDOS</strong></p>
+<p>&nbsp;</p>
+<p>De una parte, D/Dª {!Director.FirstName}
+{!Director.LastName}
+, con D.N.I. nº {!Oportunidad_platform__c.DNI_Director__c}
+,  en nombre y representación de la Entidad {!Oportunidad_platform__c.Sociedad_Centro__c}
+,  como titular de la dirección del centro para personas mayores en situación de  dependencia SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+sito  en {!Oportunidad_platform__c.Calle_Centro__c}
+{!Oportunidad_platform__c.Ciudad_Centro__c}
+ inscrita  en el Registro ................................
+</p>
+<p>Y de otra, D/Dª {!Residente.FirstName}
+{!Residente.LastName}
+  con DNI nº {!Oportunidad_platform__c.DNI_Residente__c}
+con domicilio en {!Oportunidad_platform__c.Calle_Residente__c}
+.y  nº de teléfono {!Oportunidad_platform__Residente_Phone} 
+</p>
+
+<dl>
+  <dd>{!F1}  Con plena  capacidad de obrar y obligarse en este acto.</dd>
+
+  <dd>{!F2}  Mediante auto  de autorización judicial de internamiento.</dd>
+
+  <dd>{!F3}  A través de  su representante legal D/Dª {!Representante_con.FirstName} {!Representante_con.LastName}
+.<strong> </strong>con DNI nº {!Representante_con.CIF_NIF__c}
+,  con domicilio en {!Representante_con.Calle}
+{!Representante_con.Ciudad}
+y nº de teléfono {!Representante_con.Phone}
+,representación  que mediante testimonio {!Oportunidad_platform__c.Testimonio_que_acredita_su_calidad__c}
+     acredita su  calidad y se une al  ejemplar de este contrato.</dd>
+
+  <dd>{!F4}  A través de  la persona de referencia D/Dª{!Persona_Referencia.FirstName}
+{!Persona_Referencia.LastName}
+con   DNI nº {!Persona_Referencia.CIF_NIF__c}
+, con domicilio en {!Persona_Referencia.Calle}, 
+{!Persona_Referencia.Ciudad}
+ y nº  de teléfono {!Persona_Referencia.Phone}
+</dd>
+</dl>
+
+<p>&nbsp;</p>
+<p>Reconociendo  las partes la capacidad legal necesaria para contratar y obligarse.</p>
+<p>                                        <br>
+  <p align="center"><strong>EXPONEN:</strong></p>
+<p>Que es intención de las partes comparecientes la  formalización de un contrato que determine el vínculo jurídico existente entre  ambas, para el acceso a la condición de persona usuaria y en el que se hace constar  la aceptación expresa de las normas de organización y funcionamiento del  centro, de sus derechos y obligaciones como persona usuaria y el compromiso de  participación en el coste del servicio.</p>
+  <br>
+  <p align="center"><strong>ACUERDAN:</strong></p>
+<p>Formalizar el presente contrato conforme a las  siguientes.</p>
+<p>                                                         </p>
+<p align="center"><strong>CLAUSULAS:</strong></p>
+<p><strong>PRIMERA. </strong>El presente contrato tiene por objeto configurar la  relación jurídica asistencial que se da entre la entidad titular del centro y  la persona atendida, determinando los derechos y deberes de cada parte, así  como el ingreso en el centro, como centro destinado a prestar una atención  integral durante parte del día, a las personas mayores en situación de  dependencia y que forman parte del Sistema de Autonomía y Atención a la Dependencia en  Andalucía.</p>
+<p><strong>SEGUNDA.</strong> En este sentido, se manifiesta que la Entidad Titular  del Centro asume las siguientes obligaciones, con respecto a la persona  usuaria:</p>
+<p>&nbsp;</p>
+<p>1º.- Garantizar los derechos legalmente reconocidos  por la Ley  6/1999, del 7 julio, de Atención y Protección a las personas mayores de  Andalucía.</p>
+<p>2º.- Cumplir y hacer cumplir las estipulaciones  contenidas en el Reglamento de Régimen Interior del centro.</p>
+<p>3º.- Garantizar la atención a la persona usuaria a  través de, al menos, de los siguientes servicios:</p>
+<ul>
+  <li>Alojamiento y  Manutención, atendiéndose, en caso justificado, a un régimen especial de  alimentación.</li>
+  <li>Seguimiento  Sanitario y Farmacéutico</li>
+  <li>Medidas  Higiénica-sanitarias</li>
+  <li>Terapia y  Rehabilitación</li>
+  <li>Programa de  Prevención</li>
+  <li>Atención  Social Individual, Grupal y Comunitaria</li>
+  <li>Atención  Social-Familiar</li>
+</ul>
+<p>4º.- Facilitar a la persona usuaria, dentro del  centro, servicios de carácter complementaria y opcional como podología,  peluquería, cafetería y otros que se puedan ofertar por la entidad titular.  Estos servicios serán de pago individualizado según su uso y consumo, sin estar  incluidos en el precio fijado para la plaza.</p>
+<p>5º.- Realizar un programación general de  actividades, revisada anualmente, la cual estará a disposición de la persona  usuaria, familiares, persona de referencia o su representante legal, así como  una programación individual de intervención con la persona usuaria de acuerdo  con sus necesidades y características.</p>
+<p>6º.- Constar con un sistema  de participación  democrática de las personas usuarias, de  conformidad con la establecido, en el Reglamento de Régimen Interior.</p>
+<p>7º.- Tener a disposición de la personas usuarias, y  de sus representantes legales las Hojas de Reclamaciones.</p>
+<p>8º.- No cobrar a las personas usuarias  cantidad suplementaria alguna  por liquidación de estancias o por cualquier  otra prestación  de carácter obligatorio.</p>
+<p>9º.- La incapacidad sobrevenida de la persona  residente en el centro deberá ser comunicada por los responsables del mismo a  los familiares de aquélla, al objeto de que promuevan su incapacitación. En el  caso de que, transcurrido un mes desde dicha comunicación, el centro no tuviera  noticia alguna sobre las actuaciones efectuadas por los familiares ante el  órgano judicial competente, o el interesado careciere de familiares o fuesen  desconocidos, deberá ponerlo en conocimiento del Ministerio Fiscal.</p>
+<p>10º.- El centro deberá informar expresamente a las  personas que ingresen sobre los derechos y obligaciones que tienen como  usurarias del mismo,  haciéndoles entrega  de una copia de documento contractual de ingreso suscrito y de un ejemplar del  Reglamento de Régimen Interior, así como de la forma de tramitar sus quejas y  reclamaciones, a través de los procedimientos establecidos para ello.</p>
+<p><strong>TERCERA. </strong>Por su parte, la persona usuaria, familiares,  persona de referencia y / o su representante legal quedarán obligadas a:</p>
+<p>1º.- Cumplir las normas recogidas en el Reglamento  de Régimen Interior del Centro, que se le entrega y se le da a conocer,  previamente a la firma del presente contrato.</p>
+<p>2º.- Aceptar un período de adaptación hasta un  máximo de cuatro meses.</p>
+<p>3º.- Abonar los gastos ocasionados por  desplazamientos con acompañamiento del personal del centro, cuando sea  pertinente conforme a lo  establecido en  Reglamento de Régimen Interior del Centro.</p>
+<p>4º.- Participar en la financiación de la plaza  mediante las aportaciones económicas que se  determinen legalmente.</p>
+<p>5º.- La persona usuaria del servicio deberá  incorporase al centro en el plazo máximo de 15 días hábiles, desde la fecha de  la notificación de la resolución del Programa Individual de Atención, salvo  causa de fuerza mayor debidamente acreditada que impida dicha incorporación.</p>
+<p>6º.- La persona usuraria, o su representante legal,  deberá aporta aquella documentación que le sea requerida por parte del centro y  sea exigible de acuerdo con la normativa que resulte de aplicación.</p>
+<p>7º.- El Centro sólo se hará responsable de aquellas  pertenencias que hayan sido previamente inventariadas y depositadas en lugar  destinado al efecto bajo la responsabilidad del centro. </p>
+<p>8º.- En caso de fallecimiento de la persona usuaria,  sus pertenencias personales y otros bienes muebles de inferior valor, deberán  ser retirados, en el plazo de una semana, por la persona que se concrete a los  citados efectos en el documento contractual.</p>
+<p>9º.- El familiar, la persona de referencia que  conste en este documento contractual y/o aquel que represente a la persona  usuaria, deberá mantener el máximo contacto con la persona usuaria, a través de  las visitas, llamadas telefónicas, encuentros en el ámbito familiar,  acompañándole en visitas médicas, y especialmente en los ingresos hospitalarios  que se pudieran producir.</p>
+<p>10º.- El familiar, la persona de referencia que  conste en este documento contractual y/o aquel que represente a la persona  usuaria, comunicará cualquier cambio de domicilio y pondrá a disposición del  centro al menos un número de teléfono para ser localizado en caso necesario.</p>
+<p><strong>CUARTA.</strong> El centro   tendrá derecho a:</p>
+<p>1º.- Organizar los servicios y horarios de la forma  que crea más conveniente para la correcta prestación de los mismos, de acuerdo  con lo dispuesto en el Reglamento de Régimen   Interior y la normativa vigente de aplicación.</p>
+<p>2º.- A requerir a los familiares, a la persona de  referencia que conste en el documento contractual y/o aquella que lo  represente, a la colaboración en aquellas actividades o gestiones que no puedan  realizar las personas usuarias por si mismas y no sean de competencia expresa  del centro. También podrá solicitársele su participación en los diferentes  eventos organizados por el centro.</p>
+<p>3º.- A adoptar las medidas oportunas en caso de  producirse una situación de urgencia, comunicándolo a los familiares, persona  de referencia y/o representante legal a la mayor brevedad posible.</p>
+<p><strong>QUINTA. </strong>La persona usuaria tendrá derecho a:</p>
+<p>1º.- La reserva de su plaza por:</p>
+<ul>
+  <li>Ausencia por atención sanitaria en  régimen de hospitalización.</li>
+  <li>Ausencia voluntaria, siempre que no  exceda de treinta días naturales al año, comunicada debidamente a la dirección  del centro con al menos cuarenta y ocho horas de antelación, (no serán  computadas, a estos efectos, las ausencias de fines de semana).</li>
+  <li>Excepcionalmente, en los centros de día  en que así se disponga, podrá reservarse la plaza durante el tiempo de  realización de un trabajo con carácter temporal o de un curso de formación  profesional para el empleo. Dicha reserva requerirá la autorización  administrativa pertinente.</li>
+</ul>
+<p>Mientras exista el derecho de reserva  de plaza subsistirá la obligación de las personas usuarias de participar en la  financiación del servicio.</p>
+  2º.- En caso de que la persona usuaria, con motivo  de circunstancias familiares u otras causas debidamente justificadas, deba  ausentarse temporalmente del centro, lo comunicará con la mayor antelación  posible  a la Dirección del mismo.</p>
+<p>3º.- Recibir visitas todos los días en la zonas  destinadas a tal efecto y en las horas establecidas, respetando el  funcionamiento del centro.</p>
+<p>4º.- Las personas usuarias podrán salir del centro, solas o  acompañadas, siempre que sus condiciones físicas o psíquicas lo permitan. En  caso contrario, mediante comunicación expresa al centro, podrán los familiares,  persona de referencia o representante legal acompañarlos en sus salidas, siendo  los mismos responsables, en su caso, de los daños y perjuicios por accidente o  percance sufridos por la persona usuaria fuera del centro.</p>
+<p>Las personas usuarias que salgan del centro deberán  notificarlo al mismo, donde quedará constancia de la salida por escrito.</p>
+<p>5º.- Las personas usuarias podrán tener acceso a las  comunicaciones de que disponga el centro, que se ubicarán en un lugar que  permita la intimidad de las mismas. Asimismo, dispondrán, si fuera necesario,  de ayuda de carácter personal para hacer efectivas la mismas. El coste de las  llamadas será a cargo de la persona usuaria.</p>
+<p><strong>SEXTA. </strong>En el supuesto de que la persona usuaria firme el  contrato mediante estampación de huella dactilar, ésta deberá ser diligenciada  mediante la firma de dos testigos que deberán ser personal trabajador del  centro.</p>
+<p><strong>SEPTIMA: </strong>El presente contrato quedará extinguido por  concurrencia de alguna de las siguientes causas:</p>
+<ul>
+  <li>Cuando, como consecuencia del  procedimiento de revisión de Programa Individual de Atención, se asigne otro  servicio o prestación económica o se modifique el servicio asignado, siempre  que en este último supuesto se prescriba un centro de distinta tipología.</li>
+  <li>Por extinción del servicio entre  otros, en los siguientes casos:<br>
+
+<p align="left">1.- Por fallecimiento de la persona usuaria.<br>
+2.- Por voluntad expresa del residente o de quien  ostente su representación legal, formalizada por escrito y comunicada a la Dirección del Centro.<br>
+3.- Por impago de la participación correspondiente en  la financiación durante más de dos meses.<br>
+4.- Por ausencia voluntaria cuando exceda del máximo  permitido.<br>
+5.- Falseamiento, ocultación o negativa reiterada de  la obligación de facilitar los datos que les sean requeridos o deban  suministrar a la   Administración.<br>
+6.- Incumplimientos muy graves de los deberes y normas  de convivencia que impongan la legislación vigente y las normas de régimen  interior del centro.</p>
+</li>
+  <li>En el caso de personas usuarias de  plazas financiadas por la Junta  de Andalucía, por resolución administrativa firme acordando el traslado  definitivo.</li>
+</ul>
+<p>Cualquier de estas circunstancias se pondrá en  conocimiento de la   Delegación Provincial para la Conserjería para la Igualdad y Bienestar  Social, a la mayor brevedad posible y, en todo caso, dentro de los cinco días  siguientes a la fecha en que se hubiesen producido.</p>
+<p><strong>OCTAVA.  </strong>Para todo lo no recogido en este documento  contractual se estará a lo dispuesto en el Reglamento de Régimen Interior del  centro.</p>
+<p><strong>NOVENA</strong>. Las partes se someten expresamente al fuero de los  Juzgados y Tribunales del lugar donde esté ubicado el centro, con renuncia de  cualquier otro que pudiera corresponderle.</p>
+<p>&nbsp;</p>
+<p>Y para que así conste, firman el presente en el  lugar y fecha arriba indicado</p>
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="288" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>Fdo.: D/Dª {!Residente.FirstName}
+{!Residente.LastName}
+ <br>
+        </p></td>
+    <td width="288" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>Fdo.; D/Dª. {!Director.FirstName}
+{!Director.LastName}
+ <br>
+       </p></td>
+  </tr>
+  <tr>
+    <td width="288" valign="top"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>Fdo.;D/Dª {!Representante.FirstName}
+{!Representante.LastName}
+         </p></td>
+    <td width="288" valign="top"><p>&nbsp;</p>
+ 
+      <p>&nbsp;</p>
+            <p>Fdo.; D/Dª {!Persona_Referencia.FirstName}
+{!Persona_Referencia.LastName}
+  </p></td>
+          <td width="114" valign="top"><p>&nbsp;</p></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<p>Protección  de datos: En cumplimiento de los dispuesto en la Ley Orgánica 15/1999, de  Protección de Datos de Carácter Personal, la Consejería para la Igualdad y  Bienestar Social le informa que los datos personales obtenidos mediante la  cumplimentación de este documento/impreso/formulario y demás que se adjuntan  van a ser incorporados, para su tratamiento, en un fichero automatizado. Asimismo,  se le informa que la recogida y tratamiento de dichos datos tienen como  finalidad la liquidación de estancia. De acuerdo con lo previsto en la citada  Ley Orgánica, puede ejercitar los derechos de acceso, rectificación,  cancelación y oposición dirigiendo un escrito a la Consejería para la Igualdad  y Bienestar Social, sita en Avda. de Hytasa núm. 14. 41071-Sevilla. </p>
+</body>

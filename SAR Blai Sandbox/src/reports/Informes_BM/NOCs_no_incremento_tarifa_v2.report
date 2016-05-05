@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Oportunidad_platform__c.Pagador__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Oportunidad_platform__c.Residente__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>CUST_RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>NOC__c.NOC_11_Descuento_Personal,NOC__c.NOC_11_Descuento_Personal_Renegociado</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>NOCs no incremento tarifa v2</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$NOC__c@NOC__c.Oportunidad__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>NOC__c.Fecha_fin_flujo__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

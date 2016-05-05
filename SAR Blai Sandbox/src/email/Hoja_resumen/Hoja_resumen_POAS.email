@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style>
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td{
+	padding:5px;
+}
+.c1{
+	text-align:center;
+	background-color:#FFC000;
+}
+.c2{
+	background-color:#FFCC99;
+}
+.c3{
+	background-color:#CCFFCC;
+}
+.c4{
+	background-color:#CCFFFF;
+}
+.c5{
+	background-color:#CC99FF;
+}
+.c6{
+	background-color:#FFFF99;
+}
+</style>
+</head>
+<body>
+<table style="margin:0 auto;"">
+ <!-- <col width="210" />
+  <col width="180" /> -->
+  <tr>
+    <td class="c1"><strong>HOJA    RESUMEN DEL SERVICIO DE TEACOMPA&Ntilde;A</strong></td>
+    <td class="c2" ></td>
+  </tr>
+  <tr class="c2" >
+    <td>PROVINCIA</td>
+    <td>{!Usuario_principal.provincia}</td>
+  </tr>
+  <tr class="c2" >
+    <td>FECHA    SOLICITUD CONTRATO</td>
+    <td>{!Oportunidad_platform__c.Fecha_solicitud__c}</td>
+  </tr>
+  <tr class="c2" >
+    <td>SERVICIO</td>
+    <td>{!Oportunidad_platform__c.Servicio.Name}</td>
+  </tr>
+  <tr class="c2" >
+    <td>TIPO    TERMINAL&nbsp;</td>
+    <td>{!Oportunidad_platform__c.Servicio.Tipo_de_dispositivos__c}</td>
+  </tr>
+  <tr class="c4">
+    <td>Beneficiario    NOMBRE</td>
+    <td>{!Beneficiario.Nombre}</td>
+  </tr>
+  <tr class="c4">
+    <td width="210">Beneficiario APELLIDOS</td>
+    <td width="180">{!Beneficiario.Apellidos}</td>
+  </tr>
+  <tr class="c4">
+    <td>Beneficiario    DNI</td>
+    <td>{!Beneficiario.DNI}</td>
+  </tr>
+  <tr class="c4">
+    <td width="210">Beneficiario DOMICILIO (CP y Provincia)</td>
+    <td width="180">{!Beneficiario.Domicilio}</td>
+  </tr>
+  <tr class="c4">
+    <td>Beneficiario    TELEFONO</td>
+    <td>{!Beneficiario.Telefono}</td>
+  </tr>
+  <tr class="c4">
+    <td>Beneficiario    FECHA NACIMIENTO</td>
+    <td>{!Beneficiario.Nacimineto}</td>
+  </tr>
+  <tr class="c4">
+    <td>Email    (Acceso al portal)</td>
+    <td>{!Beneficiario.Email}</td>
+  </tr>
+  <tr class="c4">
+    <td>Recursos    Personal1</td>
+    <td></td>
+  </tr>
+  <tr class="c4">
+    <td>Recursos    Personal2</td>
+    <td></td>
+  </tr>
+  <tr class="c6">
+    <td width="210">OBSERVACIONES</td>
+    <td width="180">{!Oportunidad_platform__c.Descripcion__c}</td>
+  </tr>
+  <tr class="c6">
+    <td>GESTOR    QUE HACE CONTRATO</td>
+    <td>{!Oportunidad_platform__c.Propietario}</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Activacion_comunicacion_familias</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Activacion_comunicacion_familias</shortDescription>
+        <value>Si</value>
+    </labels>
+    <labels>
+        <fullName>Activacion_de_la_integracion</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Activación de la integración</shortDescription>
+        <value>Si</value>
+    </labels>
+    <labels>
+        <fullName>Activacion_de_validacion_de_dni</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Activación de validación de dni</shortDescription>
+        <value>Si</value>
+    </labels>
+    <labels>
+        <fullName>Activacion_tg_Residente_Contacto</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Activacion tg Residente Contacto</shortDescription>
+        <value>Si</value>
+    </labels>
+    <labels>
+        <fullName>BorrarCandidatosWeb</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>BorrarCandidatosWeb</shortDescription>
+        <value>Si</value>
+    </labels>
+    <labels>
+        <fullName>ClaveBlog</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>ClaveBlog</shortDescription>
+        <value>ZSF345DFGPLWMU9743F9BHG</value>
+    </labels>
+    <labels>
+        <fullName>EMAIL_PRUEBA_ATC</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>EMAIL PRUEBA ATC</shortDescription>
+        <value>alexander.shubin@konozca.com</value>
+    </labels>
+    <labels>
+        <fullName>Email_Soporte</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Email Soporte</shortDescription>
+        <value>backoffice@soporte.sarquavitae.es;</value>
+    </labels>
+    <labels>
+        <fullName>TriggerRecomenadors</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>TriggerRecomenadorsActiu</shortDescription>
+        <value>Si</value>
+    </labels>
+    <labels>
+        <fullName>Trigger_Candidats_to_account</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>Trigger_Candidats_to account</shortDescription>
+        <value>Si</value>
+    </labels>
+    <labels>
+        <fullName>UsuarioTareasCAT</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>UsuarioTareasCAT</shortDescription>
+        <value>konozca</value>
+    </labels>
+    <labels>
+        <fullName>email_Errores_Batch</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>email Errores Batch</shortDescription>
+        <value>alexander.shubin@konozca.com</value>
+    </labels>
+    <labels>
+        <fullName>tgAuxiliarMotivoAltaComercial_Activado</fullName>
+        <language>es</language>
+        <protected>false</protected>
+        <shortDescription>tgAuxiliarMotivoAltaComercial Activado</shortDescription>
+        <value>Si</value>
+    </labels>
+</CustomLabels>

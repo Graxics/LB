@@ -1,0 +1,2731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewEvent</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewSfdcEvent</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Today</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ActivityDate</fullName>
+    </fields>
+    <fields>
+        <fullName>ActivityDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DurationInMinutes</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>EndDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>EventSubtype</fullName>
+    </fields>
+    <fields>
+        <fullName>IsAllDayEvent</fullName>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+    </fields>
+    <fields>
+        <fullName>Location</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>ShowAs</fullName>
+    </fields>
+    <fields>
+        <fullName>StartDateTime</fullName>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Correo electrónico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reunión</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Enviar carta / presupuesto</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Visita</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Acción Comercial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Llamada reconfirmación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Envío Documentación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Seguimiento Cliente</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Visita concertada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Visita espontánea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Visita a domicilio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Visita a hospital</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jornadas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Congresos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Otros eventos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Correo electrónico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reunión</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Visita</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <recordTypes>
+        <fullName>Evento_a_Recomendador</fullName>
+        <active>true</active>
+        <label>Evento a Recomendador</label>
+        <picklistValues>
+            <picklist>Canal__c</picklist>
+            <values>
+                <fullName>Chat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada emitida CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada recibida CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Registro vía web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lugar_de_la_visita__c</picklist>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro Hospitalario</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lugar de residencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medida_de_retencion__c</picklist>
+            <values>
+                <fullName>15%25 dto%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CUM a precio de SUM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESENCIAL 1O%21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No se ofrece oferta especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opcion conviviente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respiro familiar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sensor gratis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tad movil</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medios_de_comunicacion__c</picklist>
+            <values>
+                <fullName>Buzoneo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E-Mailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Folletos y flyers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa escrita</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo__c</picklist>
+            <values>
+                <fullName>No existe centro en la Zona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No sustituye al Móvil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No tiene custodia de llaves %28Unidad Móvil%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio del dispositivo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio del servicio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo_intencion_de_baja__c</picklist>
+            <values>
+                <fullName>A Empresa de la competencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empeoramiento titular</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fallecimiento de Titular</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familiar o cuidador contratado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No servicio de llaves</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio no se ajusta a sus necesidades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio publico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario abandona domicilio habitual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario no usa el servicio%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo_no_interesado__c</picklist>
+            <values>
+                <fullName>Acompañamiento de auxiliar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Acompañamiento de familiar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contrata con competencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Datos de contacto erróneos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fallecimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falta de interés en contratar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingreso en centro residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingreso en hospital</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No contesta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No disponer servicio de llaves</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio del servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio no se adapta a sus necesidades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio público</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario final rechaza servicio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Otro_profesional__c</picklist>
+            <values>
+                <fullName>Asistente de dirección</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinador Enfermería%2FDUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fisioterapeuta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitores de tiempo libre</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Médicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psicólogo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsables Servicios Hoteleros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terapeuta Ocupacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador social</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pagina_web__c</picklist>
+            <values>
+                <fullName>Infoelder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inforesidencias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Sarquavitae</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Procedencia__c</picklist>
+            <values>
+                <fullName>Centro Sarquavitae</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clientes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colectivo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado Banca y Seguro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado CAI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado Caja Madird</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado Ibercaja</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medios de comunicación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal Sarquavitae</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador Social SF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vecindad</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Provincia_centro_s__c</picklist>
+            <values>
+                <fullName>A Coruña</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alacant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Albacete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Almería</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asturias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Badajoz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bizkaia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Burgos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cantabria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Castelló</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ceuta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ciudad Real</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cuenca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cáceres</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cádiz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Córdoba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gipuzkoa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Girona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Granada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guadalajara</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huelva</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huesca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Illes Balears</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jaén</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Rioja</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Palmas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>León</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lleida</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lugo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Madrid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Melilla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Murcia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Málaga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ourense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Palencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pontevedra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salamanca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santa Cruz de Tenerife</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Segovia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sevilla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Soria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarragona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teruel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toledo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valladolid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zamora</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Álava</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ávila</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Recurso__c</picklist>
+            <values>
+                <fullName>ADOREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTROS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SARDOMUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resultado__c</picklist>
+            <values>
+                <fullName>Acción Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Acción Cerrada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Servicio__c</picklist>
+            <values>
+                <fullName>ADOREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTROS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SARDOMUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subclasificacion__c</picklist>
+            <values>
+                <fullName>Fijo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Móvil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Periféricos</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Congresos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros eventos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visita</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subtipo_TA__c</picklist>
+            <values>
+                <fullName>Confirmación de contratación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Envio de información</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada de seguimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente de cuestiones técnicas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente de decisión final</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primera llamada de información</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subtipo__c</picklist>
+            <values>
+                <fullName>Agradecimiento en Oportunidad derivada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charla en el centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacto en Congresos%2C Jornadas y otros eventos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacto médico referencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enseñar Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Felicitación de Navidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invitación a acto o jornada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail de acción promocional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primera visita</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recepción y atención llamada recibida</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reenvío correo de agenda microsite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento de Cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visita siguiente</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Fidelización</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Identificación%2FCaptación</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio__c</picklist>
+            <values>
+                <fullName>Privado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Público</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Correo electrónico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reunión</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Eventos_Personales</fullName>
+        <active>true</active>
+        <label>Eventos Personales</label>
+        <picklistValues>
+            <picklist>Canal__c</picklist>
+            <values>
+                <fullName>Chat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada emitida CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada recibida CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Registro vía web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lugar_de_la_visita__c</picklist>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro Hospitalario</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lugar de residencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medida_de_retencion__c</picklist>
+            <values>
+                <fullName>15%25 dto%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CUM a precio de SUM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESENCIAL 1O%21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No se ofrece oferta especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opcion conviviente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respiro familiar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sensor gratis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tad movil</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medios_de_comunicacion__c</picklist>
+            <values>
+                <fullName>Buzoneo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E-Mailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Folletos y flyers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa escrita</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo__c</picklist>
+            <values>
+                <fullName>No existe centro en la Zona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No sustituye al Móvil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No tiene custodia de llaves %28Unidad Móvil%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio del dispositivo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio del servicio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo_intencion_de_baja__c</picklist>
+            <values>
+                <fullName>A Empresa de la competencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empeoramiento titular</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fallecimiento de Titular</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familiar o cuidador contratado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No servicio de llaves</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio no se ajusta a sus necesidades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio publico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario abandona domicilio habitual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario no usa el servicio%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo_no_interesado__c</picklist>
+            <values>
+                <fullName>Acompañamiento de auxiliar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Acompañamiento de familiar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contrata con competencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Datos de contacto erróneos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fallecimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falta de interés en contratar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingreso en centro residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingreso en hospital</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No contesta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No disponer servicio de llaves</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio del servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio no se adapta a sus necesidades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio público</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario final rechaza servicio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Otro_profesional__c</picklist>
+            <values>
+                <fullName>Asistente de dirección</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinador Enfermería%2FDUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fisioterapeuta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitores de tiempo libre</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Médicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psicólogo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsables Servicios Hoteleros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terapeuta Ocupacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador social</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pagina_web__c</picklist>
+            <values>
+                <fullName>Infoelder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inforesidencias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Sarquavitae</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Procedencia__c</picklist>
+            <values>
+                <fullName>Centro Sarquavitae</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clientes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colectivo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado Banca y Seguro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado CAI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado Caja Madird</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado Ibercaja</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medios de comunicación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal Sarquavitae</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador Social SF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vecindad</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Provincia_centro_s__c</picklist>
+            <values>
+                <fullName>A Coruña</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alacant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Albacete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Almería</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asturias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Badajoz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bizkaia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Burgos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cantabria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Castelló</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ceuta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ciudad Real</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cuenca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cáceres</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cádiz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Córdoba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gipuzkoa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Girona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Granada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guadalajara</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huelva</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huesca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Illes Balears</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jaén</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Rioja</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Palmas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>León</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lleida</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lugo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Madrid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Melilla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Murcia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Málaga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ourense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Palencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pontevedra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salamanca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santa Cruz de Tenerife</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Segovia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sevilla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Soria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarragona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teruel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toledo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valladolid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zamora</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Álava</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ávila</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Recurso__c</picklist>
+            <values>
+                <fullName>ADOREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTROS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SARDOMUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resultado__c</picklist>
+            <values>
+                <fullName>Contrato TAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Información</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No interesa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presupuesto</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Servicio__c</picklist>
+            <values>
+                <fullName>ADOREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTROS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SARDOMUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subclasificacion__c</picklist>
+            <values>
+                <fullName>Fijo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Móvil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Periféricos</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Correo electrónico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enviar carta %2F presupuesto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros eventos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reunión</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subtipo_TA__c</picklist>
+            <values>
+                <fullName>Confirmación de contratación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Envio de información</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada de seguimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente de cuestiones técnicas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente de decisión final</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primera llamada de información</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subtipo__c</picklist>
+            <values>
+                <fullName>Agradecimiento en Oportunidad derivada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charla en el centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacto en Congresos%2C Jornadas y otros eventos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacto médico referencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enseñar Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Felicitación de Navidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invitación a acto o jornada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail de acción promocional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primera visita</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recepción y atención llamada recibida</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reenvío correo de agenda microsite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento de Cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visita siguiente</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Fidelización</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Identificación%2FCaptación</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio__c</picklist>
+            <values>
+                <fullName>Privado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Público</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Correo electrónico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reunión</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Visita_a_Cliente</fullName>
+        <active>true</active>
+        <label>Visita Cliente</label>
+        <picklistValues>
+            <picklist>Canal__c</picklist>
+            <values>
+                <fullName>Chat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada emitida CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada recibida CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Registro vía web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lugar_de_la_visita__c</picklist>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro Hospitalario</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lugar de residencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medida_de_retencion__c</picklist>
+            <values>
+                <fullName>15%25 dto%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CUM a precio de SUM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESENCIAL 1O%21</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No se ofrece oferta especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opcion conviviente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respiro familiar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sensor gratis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tad movil</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medios_de_comunicacion__c</picklist>
+            <values>
+                <fullName>Buzoneo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E-Mailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Folletos y flyers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa escrita</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo__c</picklist>
+            <values>
+                <fullName>No existe centro en la Zona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No sustituye al Móvil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No tiene custodia de llaves %28Unidad Móvil%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio del dispositivo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio del servicio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo_intencion_de_baja__c</picklist>
+            <values>
+                <fullName>A Empresa de la competencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empeoramiento titular</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fallecimiento de Titular</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familiar o cuidador contratado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No servicio de llaves</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio no se ajusta a sus necesidades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio publico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario abandona domicilio habitual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario no usa el servicio%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Motivo_no_interesado__c</picklist>
+            <values>
+                <fullName>Acompañamiento de auxiliar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Acompañamiento de familiar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contrata con competencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Datos de contacto erróneos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fallecimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Falta de interés en contratar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingreso en centro residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingreso en hospital</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No contesta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No disponer servicio de llaves</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Precio del servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio no se adapta a sus necesidades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicio público</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usuario final rechaza servicio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Otro_profesional__c</picklist>
+            <values>
+                <fullName>Asistente de dirección</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coordinador Enfermería%2FDUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fisioterapeuta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitores de tiempo libre</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Médicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psicólogo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Responsables Servicios Hoteleros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terapeuta Ocupacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador social</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pagina_web__c</picklist>
+            <values>
+                <fullName>Infoelder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inforesidencias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Sarquavitae</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Procedencia__c</picklist>
+            <values>
+                <fullName>Centro Sarquavitae</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clientes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colectivo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado Banca y Seguro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado CAI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado Caja Madird</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Empleado Ibercaja</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medios de comunicación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal Sarquavitae</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prescriptor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trabajador Social SF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vecindad</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Provincia_centro_s__c</picklist>
+            <values>
+                <fullName>A Coruña</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alacant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Albacete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Almería</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asturias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Badajoz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bizkaia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Burgos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cantabria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Castelló</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ceuta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ciudad Real</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cuenca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cáceres</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cádiz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Córdoba</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gipuzkoa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Girona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Granada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guadalajara</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huelva</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huesca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Illes Balears</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jaén</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Rioja</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Palmas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>León</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lleida</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lugo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Madrid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Melilla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Murcia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Málaga</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ourense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Palencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pontevedra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salamanca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santa Cruz de Tenerife</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Segovia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sevilla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Soria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarragona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teruel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toledo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valladolid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zamora</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Álava</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ávila</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Recurso__c</picklist>
+            <values>
+                <fullName>ADOREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTROS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SARDOMUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resultado__c</picklist>
+            <values>
+                <fullName>Acción Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Acción Cerrada</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Servicio__c</picklist>
+            <values>
+                <fullName>ADOREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OTROS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SARDOMUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subclasificacion__c</picklist>
+            <values>
+                <fullName>Fijo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Móvil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Periféricos</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Visita a domicilio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visita a hospital</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visita concertada</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Visita espontánea</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subtipo_TA__c</picklist>
+            <values>
+                <fullName>Confirmación de contratación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Envio de información</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada de seguimiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente de cuestiones técnicas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente de decisión final</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primera llamada de información</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subtipo__c</picklist>
+            <values>
+                <fullName>Agradecimiento en Oportunidad derivada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Charla en el centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacto en Congresos%2C Jornadas y otros eventos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contacto médico referencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enseñar Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Felicitación de Navidad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invitación a acto o jornada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mail de acción promocional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primera visita</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recepción y atención llamada recibida</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reenvío correo de agenda microsite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento de Cliente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visita siguiente</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Fidelización</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Identificación%2FCaptación</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio__c</picklist>
+            <values>
+                <fullName>Privado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Público</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Visita</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Informar_lugar_de_visita</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.DeveloperName=&apos;Visita_a_Cliente&apos; &amp;&amp;   Subject=&apos;Visita concertada&apos;   &amp;&amp;  ISPICKVAL(Lugar_de_la_visita__c, &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Lugar_de_la_visita__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+</CustomObject>

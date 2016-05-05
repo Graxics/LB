@@ -1,0 +1,6 @@
+Apreciado/a,
+
+Le informamos que se aproxima la fecha de vencimiento para la NOC {!NOC__c.Name}  de {!NOC__c.CreatedBy}. 
+
+
+Reciba un cordial saludo.

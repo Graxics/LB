@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Mail Bienvenida Castellano</name>
+    <style>none</style>
+    <subject>Bienvenida Sarquavitae</subject>
+    <textOnly>Documento sin título
+
+
+Bienvenidos a SARquavitae Apreciada familia,
+
+Les damos la bienvenida a nuestro centro y  nos ponemos a su  entera disposición para lo que puedan necesitar.
+
+Estamos encantados de  acogerles y, en esta nueva etapa que  hoy comienza, estaremos a su lado y les acompañaremos para que la adaptación de  su familiar y su integración en la vida del centro sea satisfactoria y  reconfortante.
+
+Nuestro principal objetivo es proporcionarle a su ser querido una atención  personalizada, de acuerdo con sus gustos y preferencias, que a ustedes también les  genere confianza y seguridad. Para ello contamos con un equipo de  profesionales que les atenderá con respeto y afecto teniendo siempre en cuenta  lo que es importante para ustedes y su familiar.
+
+No duden en ponerse en contacto con nosotros siempre que lo deseen  y, en este sentido, ponemos a su disposición el blog de nuestro centro,   que les permitirá  estar puntualmente informados de las actividades   y  noticias  de  la residencia. Le animamos a consultarlo y a dejarnos  sus comentarios.
+
+Les agradecemos  la  confianza que han depositado en nosotros y haremos todo lo que esté en  nuestras manos para garantizar el bienestar de su familiar y su propia  tranquilidad.
+
+Reciba un cordial saludo,
+
+La dirección.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

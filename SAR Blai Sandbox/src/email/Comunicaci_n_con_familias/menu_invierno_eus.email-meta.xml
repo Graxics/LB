@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>menu invierno euskera</name>
+    <style>none</style>
+    <subject>Menua NOMBRE_MES</subject>
+    <textOnly>Documento sin título
+
+
+SARquavitae - Menua Familia estimatu hori,
+
+Datorren hilabeteko menua, dagoeneko eskuragarri duzue gure zentroaren  blogean!
+
+Badakizuenez, SARquavitaeren nutrizionista  taldeak, NutriSARquavitaek, menu berriak sortu ditu zentroarekin elkarlanean,  dieta orekatu bat, egoiliarren gustuak eta hurbileko zein sasoiko produktuak  kontuan hartuta.
+
+Era berean, gogorarazten dizuegu zentroak zuen esku jartzen duela menuak  kontratatzeko aukera, egoitzan duzuen familiarrarekin jan eta gure aukera  gastronomikoak dastatu nahi izanez gero. Kontratazioa egiteko, jarri  harremanetan gure harrera-lekuarekin.
+
+Jarri harremanetan zentroko zuzendaritza taldearekin elikadurari buruzko  edozein informazio jaso nahi izanez gero, edota gure zerbitzuari buruzko beste  edozein alderdi argitu nahi izanez gero.
+
+Zuen esanetara gaude.
+
+Agur bero bat eta ongi izan.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

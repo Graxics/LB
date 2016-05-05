@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Se le ha asignado una solicitud de aprobación</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Solicitud de aprobación</name>
+    <style>none</style>
+    <subject>Solicitud de aprobación</subject>
+    <type>text</type>
+</EmailTemplate>

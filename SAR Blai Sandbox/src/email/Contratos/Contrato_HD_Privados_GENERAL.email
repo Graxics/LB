@@ -1,0 +1,271 @@
+<p align="center"><strong>CONTRATO DE ESTANCIA DIURNA Y ATENCIÓN SANITARIA  EN<br>
+  HOSPITAL DE DÍA <br>
+  SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>En Barcelona, a {!Fecha_Dia} de 
+de {!Fecha_Mes}
+{!Fecha_Anyo}
+</p>
+<p>&nbsp;</p>
+<p align="center"><strong>REUNIDOS</strong></p>
+<p>&nbsp;</p>
+<p>Por una parte, <strong>Sr. {!Director.FirstName}
+{!Director.LastName}
+, </strong>provisto de DNI n     {!Oportunidad_platform__c.DNI_Director__c}
+ en nombre y representación de la  sociedad <strong>{!Oportunidad_platform__c.Sociedad_Centro__c}
+, </strong>con CIF nº {!Oportunidad_platform__c.CIF_Sociedad__c}
+ y  domicilio social en{!Oportunidad_platform__c.Calle_Sociedad__c} de 
+{!Oportunidad_platform__c.Ciudad_Sociedad__c}
+,<strong> </strong>en  su condición de apoderado y Director de <strong>SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+</strong> del que es  titular la Empresa<strong> </strong>a la que representa en este acto .</p>
+<p>Y de otra  parte, <strong>Don/Dña {!Residente.FirstName}
+{!Residente.LastName}
+,</strong> mayor  de edad, con DNI nº {!Oportunidad_platform__c.DNI_Residente__c}
+ domiciliado en calle {!Oportunidad_platform__c.Calle_Residente__c}
+ que actúa </p>
+<dl>
+  <dd>{!F1} En  nombre propio  y con plena capacidad de  obrar y obligarse.</dd>
+  <dd>{!F2} A  través de su representante legal D./Dª{!Representante_con.FirstName}
+{!Representante_con.LastName}
+, con DNI nº{!Representante_con.CIF_NIF__c}
+,  con domicilio en {!Representante_con.Calle},
+{!Representante_con.Ciudad}
+, con número de teléfono {!Representante_con.Phone}
+,  representación que acredita mediante testimonio de {!Oportunidad_platform__c.Testimonio_que_acredita_su_calidad__c}
+ y que queda adjunta y formando parte de  este Contrato.</dd>
+  <dd>{!F3} A  través de la persona de referencia, D./Dª{!Persona_Referencia.FirstName}
+{!Persona_Referencia.LastName}
+ con DNI nº{!Persona_Referencia.CIF_NIF__c}
+,  con domicilio en {!Persona_Referencia.Calle},
+{!Persona_Referencia.Ciudad}
+, con número de teléfono {!Persona_Referencia.Phone}
+,</dd>
+</dl>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Se reconocen la capacidad legal  necesaria para contratar y obligarse, y por todo ello, de mutuo acuerdo</p>
+<p>&nbsp;</p>
+<p align="center"><strong>MANIFIESTAN</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>I.-</strong> Que el Centro<strong> SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+</strong> es un servicio de atención diurna sociosanitari de iniciativa mercantil,  inscrito en {!Lugar_de_inscripción}
+.</p>
+<p><strong>II.- </strong>Que el Centro SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+  dispone de cuantas autorizaciones, visados o permisos exige la normativa  vigente.</p>
+<p><strong>III.- </strong>Que el usuario conoce las instalaciones  del Centro, así como las condiciones de estancia, atención y el precio de  estancia, considerándolo todo ello satisfactorio.</p>
+<p><strong>IV.- </strong>Que se hace entrega al usuario en este  acto, aceptándolo, de una copia del Reglamento Interno del Hospital de Día SARquavitae  {!Oportunidad_platform__c.Nombre_Centro__c}
+ comprometiéndose por su parte a respetarlo y cumplirlo diligentemente,  expresando ambas partes su deseo de procurar que sean igualmente respetados y  cumplidos por el resto de miembros de la comunidad del Centro.</p>
+<p><strong>V.- </strong>Que el usuario efectúa el ingreso en el  Centro voluntaria y libremente, voluntad puesta de manifiesto mediante este  documento por él mismo.</p>
+<p>Por todo lo cual las partes convienen  en otorgar el presente <strong>CONTRATO DE Hospital de DíA</strong> <strong><em>SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+</em></strong>,  de conformidad con las siguientes:</p>
+<p align="center"><strong>CLÁUSULAS</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Primera.-</strong> <strong>Ingreso  y Servicios incluidos</strong></p>
+<p>El Centro se compromete a ofrecer una  atención integral al usuario, la cual incluye los siguientes servicios:</p>
+<ol type="a">
+  <li>Estancia.</li>
+  <li>Cuidados personales y atención  especializada.</li>
+  <li>Acogida y convivencia.</li>
+  <li>Atención personal en las actividades de  la vida diaria.</li>
+  <li>Atención personalizada dirigida a  favorecer las relaciones de la familia del usuario y su entorno.</li>
+  <li>Atención sanitaria (control y  vigilancia).</li>
+</ol>
+<p>
+<p>Se acuerda que el ingreso se produzca  el próximo día {!Oportunidad_platform__c.Dia_Ingreso}
+de {!Oportunidad_platform__c.Mes_Ingreso}
+  de {!Oportunidad_platform__c.Anyo_Ingreso}
+  con carácter de estancia diurna </p>
+<p>
+<p><strong>Segunda.- Precio y forma de pago</strong></p>
+<p>El precio por la estancia  así como el precio de los servicios  adicionales, es el que consta en el Anexo 1 que se adjunta a este contrato. </p>
+<p>El usuario y su {!relacionContacto.Relacion_personal__c}
+, se comprometen a abonar al Centro, como precio de su estancia y  atención durante todos los días laborables del mes, <u>la cantidad de  {!Oportunidad_platform__c.Precio_Total__c}
+
+</u> IVA incluido.</p>
+<p>SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+ no desembolsará  ninguna compensación por los días que el usuario no asista a la Unidad de Estancia  Diurna por cualquier motivo.</p>
+  <p>
+  En el caso de tratarse de una estancia  superior a un mes, el pago de la mensualidad se hará, por adelantado <u>mediante  domiciliación bancaria</u></p>
+<p>En el caso de tratarse de una estancia  inferior a un mes, el pago de la totalidad de la estancia se hará <u>en el  momento del ingreso</u>, por el importe de {!Oportunidad_platform__c.Precio_Total__c}
+
+ Euros/día IVA incluido.</p>
+<p>En todo caso una vez efectuado el pago,  se entregará al usuario a su cónyuge/ descendiente directo mayor de edad/  hermano, como familiares responsables o de su representante legal, el  correspondiente recibo.</p>
+<p>El Centro entregará factura mensual en  la que constará el coste total del servicio.</p>
+<p>Los gastos ocasionados por eventuales  devoluciones bancarias de los recibos serán abonados por el usuario y/o persona  responsable, y bajo este concepto serán incluidos en el mismo recibo devuelto,  que se girará de nuevo.</p>
+<p>El incumplimiento en el pago de las  cuotas correspondientes, podrá dar lugar a la resolución del presente contrato,  que será comunicada por el Centro al usuario, a su representante legal o a la  persona responsable.</p>
+<p>Los  datos bancarios del usuario o de la persona que pagará la estancia son los  siguientes:</p>
+<p align="left">Nombre  de la entidad bancaria: {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}
+<br>
+  Localidad: {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}
+<br>
+  IBAN: {!Oportunidad_platform__c.IBAN__c}
+<br>
+  Nombre  del titular de la cuenta:{!Oportunidad_platform__c.Cuenta_Pagador__c}
+</p>
+<p><strong>Tercera.-   Liquidación.</strong></p>
+<p>Al finalizar con carácter definitivo la  estancia del usuario, se hará la correspondiente  liquidación en función del tiempo real que  haya estado ingresado.  A estos efectos,  se tendrán en cuenta las siguientes consideraciones:</p>
+<ol type="a">
+  <li>Baja voluntaria: el usuario y su  cónyuge/ descendiente directo mayor de edad/ hermano, como familiares  responsables o su representante legal, deberán comunicar la baja a los  responsables del Centro, con un preaviso de 15 días. En caso contrario, en el  momento de hacer la liquidación, se podrá cobrar hasta un máximo de 15 días  adicionales  del precio de la estancia,  como compensación.</li>
+
+  <li>La liquidación por baja definitiva del  usuario, se hará como máximo en el plazo de 60 días.</li>
+
+  <li>En caso de baja como consecuencia de  éxitus/ finalización de la estancia del usuario, la liquidación se realizará en  atención a los días reales de estancia del usuario, antes de su defunción/  baja.</li>
+</ol>
+<p>
+<p><strong>Cuarta.- Actualización y/o modificación  del precio. </strong></p>
+<p>El precio acordado será anualmente actualizado y modificado en el mes de  enero de cada año, en un porcentaje equivalente a la variación del Índice de  Precios al Consumo nacional (IPC) que publique el Instituto Nacional de  Estadística referido al ejercicio anterior u organismo que lo pueda sustituir.</p>
+<p>Esta actualización del precio por IPC también se hará extensiva a los  servicios complementarios/ adicionales no incluidos  en la tarifa básica de asistencia.</p>
+<p>En todo caso, el Centro podrá repercutir en el precio acordado por las  partes, el porcentaje del incremento del coste que, en su caso, pueda suponer  la aplicación de las normas legales de obligada observancia o de servicios de  prestación obligatoria.</p>
+<p>En todo lo no regulado en este contrato, se estará a lo dispuesto en el  Reglamento de Régimen Interior.</p>
+<p>En todo caso, la modificación del  precio otorga al usuario y a su cónyuge/ descendiente directo mayor de edad/  hermano, como familiares responsables o de su representante legal, la facultad  de desistir del contrato desde la notificación de la modificación, mediante  escrito dirigido a la Dirección del Centro con una antelación mínima de 15  días.</p>
+<p><strong>Quinta.- Solicitud de aval. </strong></p>
+<p>Para hacer constar que, presentes en  este acto,D./Dña  {!Avalista.FirstName}
+{!Avalista.LastName}
+, con DNI nº {!Avalista.DNI}
+
+ y domicilio en {!Avalista.Calle}, 
+{!Avalista.Ciudad}
+
+ en su calidad de <strong><u> {!relacionContacto.Relacion_personal__c}
+</u></strong> de D./Dª  {!Residente.FirstName}
+{!Residente.LastName}
+,  garantizan personal y solidariamente las obligaciones económicas asumidas en  este documento por el legal representante, así como el cumplimiento de las  obligaciones sociales que contiene el Reglamento de Régimen Interno. </p>
+<p><strong>Sexta.- Servicios complementarios. </strong></p>
+<p>Se consideraran servicios  complementarios, y quedan, por tanto, excluidos del precio fijado en concepto  de servicios generales necesarios referidos en la cláusula Primera, aquéllos  que no vengan expresamente recogidos en el Reglamento de Régimen Interior para  las Unidades de Estancias Diurnas del Grupo SARquavitae, adjunto a este  contrato y del que forma parte.</p>
+<p>Todos los servicios complementarios que el usuario y su  cónyuge/ descendiente directo mayor de edad/ hermano, como familiares  responsables o de su representante legal, soliciten y se presten por el Centro,  serán facturados el mes siguiente a su utilización bajo el concepto de  complementarios, diferenciado de la cuota general, en el recibo mensual  mediante domiciliación bancaria.</p>
+<p>El alcance y coste de estos servicios  constarán tanto en el tablón de anuncios como en el Anexo 1 que se adjunta a  este contrato, pudiendo ser modificados, ampliados o suprimidos, mediante  comunicación a la otra parte y aviso en el tablón de anuncios del Centro, con  una antelación de 15 días.</p>
+<p><strong>Séptima.- Ausencias.</strong></p>
+<p>Las ausencias prolongadas del usuario  deben ser comunicadas por su cónyuge/ descendiente directo mayor de edad/  hermano, como familiares responsables o de su representante legal, con una  antelación suficiente, así como los días de ausencia previstos, excepto para el  caso de ausencia forzosa imprevista.</p>
+<p><strong>Octava.-  Período de prueba.</strong></p>
+<p>
+<p>La plena efectividad del presente  contrato queda sometida a un período previo de prueba de 20 días, que permita  se produzca el correspondiente proceso de adaptación a la Unidad del usuario y  la verificación por parte de su cónyuge/ descendiente directo mayor de edad/  hermano, como familiares responsables o de su representante legal,  de las condiciones en que se desarrolla la  vida cotidiana y la atención que se ofrece, durante el cual ambas partes pueden resolverlo unilateralmente,  retornando el depósito de garantía, sin necesidad de preaviso siempre que esté  al corriente de pago de todos los servicios prestados por la Unidad. </p>
+<p><strong>Novena.-</strong> <strong>Persona  de referencia. </strong></p>
+<p>Se designa a D./Dª  {!Persona_Referencia.FirstName}
+{!Persona_Referencia.LastName}
+ con DNI {!Persona_Referencia.CIF_NIF__c}
+, domicilio en {!Persona_Referencia.Calle}, 
+{!Persona_Referencia.Ciudad}
+nº de teléfono   {!Persona_Referencia.Phone}
+ en  calidad de    {!relacionContacto.Relacion_personal__c}
+ como persona de  referencia a la que informar de cualquier eventualidad que pueda producirse en  relación a su persona, bienes o cualquier otra circunstancia que le afecte.<strong></strong></p>
+<p><strong>Décima.-  Información sobre el usuario.</strong></p>
+<p>
+<p>El usuario o en su caso, cónyuge/ descendiente directo mayor  de edad/ hermano, como familiares responsables o de su representante legal, se  comprometen a facilitar al personal del Centro la información que le sea solicitada  con relación a su salud, alimentación, hábitos de vida cotidiana etc., a fin de  que pueda serle facilitada la atención más adecuada de conformidad con sus  necesidades y costumbres. </p>
+<p>
+<p>De manera especial deberán informar al  personal asistencial del Centro de su estado de salud, enfermedades y  tratamientos en curso, medicación etc., otorgando en este acto su  consentimiento para que dicho personal desarrolle, en coordinación con el  Sistema Sanitario habitual del usuario, las tareas de atención y seguimiento de  su estado de salud.</p>
+<p>
+<p><strong>Undécima.- Bienes de los  usuarios.</strong></p>
+<p>
+<p>En el momento del ingreso se deberá  aportar por el cónyuge /descendiente directo mayor de edad/ hermano (familiar  responsable), o representante legal nombrado a tal efecto, bienes de uso cotidiano  del usuario. El Centro comprobará que los bienes que aporta son los necesarios  para la correcta estancia en el Centro.</p>
+<p>Los usuarios tendrán derecho a  depositar en la Dirección  del Centro objetos de valor de su propiedad para su custodia, responsabilizándose  aquella de devolverlos en el momento en que así le sea requerido por el  interesado. </p>
+<p>El Centro no se responsabiliza de  ningún bien, objeto, joyas o dinero del usuario si éste o sus familiares no lo  han entregado de manera expresa en custodia a la Dirección del Centro. En  virtud de ello, el Centro no se responsabiliza de robos, hurtos, rotura,  desperfectos, conservación, mantenimiento o reparación de bienes, joyas o  dinero que no le hayan sido entregados de manera expresa en custodia.</p>
+<p>Eximiendo al Centro del usuario y / o  sus familiares de cualquier incidencia que pudiera resultar en relación con  bienes o dinero que no se hayan entregado directamente en depósito a la Dirección del Centro.</p>
+<p><strong>Decimosegunda.- Seguro de responsabilidad civil. </strong></p>
+<p>
+<p>El Centro manifiesta tener contratada  Póliza de Seguro de responsabilidad civil. Serán a cargo del usuario todos los  desperfectos causados en las instalaciones y propiedades del Centro, así como a  otros usuarios o personal del Centro, cuando los mismos no estuvieran cubiertos  por la póliza de responsabilidad civil.</p>
+<p><strong>Decimocuarta.- Derechos de los usuarios.</strong></p>
+<p>El Centro se obliga a respetar los  derechos de los usuarios reconocidos en la legislación vigente aplicable al  respecto y el Reglamento de Régimen Interno que acompaña a este contrato y en  concreto a:</p>
+<ol type="a">
+  <li>Derecho a la intimidad y no divulgación  de los datos personales que figuren en sus expedientes o historiales.</li>
+
+  <li>Derecho a la integridad física y moral,  y a un trato digno tanto por parte del personal del Centro como de los otros  usuarios.</li>
+
+  <li>Derecho a no ser discriminados en el  tratamiento por razón de edad, nacimiento, raza, sexo, religión, opinión o  cualquier otra condición o circunstancia personal o social.</li>
+
+  <li>Derecho a la información y a la  participación de forma que, en todos los servicios y centros de servicios  sociales, funcionen los mecanismos de participación de los usuarios o de sus  representantes legales a que se establecerán en el desarrollo reglamentario de  la presente Ley.</li>
+
+  <li>Derecho a una atención individualizada  acorde con sus necesidades específicas.</li>
+
+  <li>Derecho a que se les faciliten las  prestaciones sanitarias, farmacéuticas, así como los tratamientos  técnico-científicos  y asistenciales que  corresponda servicio o centro según su finalidad y conforme a las necesidades  del usuario.</li>
+
+  <li>Derecho a mantener relaciones  interpersonales, incluido el derecho a recibir visitas, siendo obligación de la  dirección de los centros promover las relaciones periódicas con sus familiares,  tutores o curadores.</li>
+
+  <li>Derecho a cesar en la utilización de  los servicios o en la permanencia en el centro por voluntad propia salvo cuando  ello venga excluido por lo previsto en la normativa que resulte de aplicación.</li>
+
+  <li>Derecho a ser protegidos por Ley, tanto  ellos como sus bienes, cuando como consecuencia de la pérdida de sus facultades  mentales, pierdan su capacidad de autogobierno, tanto si están en una  institución como en el ámbito familiar.</li>
+</ol>
+<p>
+<p><strong>Decimosexta.-   Obligaciones de los usuarios.</strong></p>
+<p>El usuario/ familiar responsable/ tutor legal se obliga a facilitar la  percepción de los servicios contratados, y en especial a:</p>
+<ol type="a">
+  <li>Observar una  conducta inspirada en el mutuo respeto, tolerancia y colaboración, encaminada a  facilitar una mejor convivencia, entre los usuarios y el personal que presta  sus servicios en los centros.</li>
+
+  <li>Respetar los  derechos de los demás usuarios.</li>
+
+  <li>Cumplir las  normas que rijan el funcionamiento del Centro, determinadas en el Reglamento de  Régimen Interno.</li>
+
+
+  <li>Abonar el  importe de las liquidaciones de estancias o los precios de los servicios que se  establezcan en el contrato, teniendo en cuenta el que disponga la legislación  vigente en materia de concierto de plazas.</li>
+
+  <li>Facilitar  correctamente los datos que puedan dar lugar al derecho a la prestación o  servicio.</li>
+</ol>
+<p>
+<p>El incumplimiento probado de las obligaciones anteriormente especificadas  podrá comportar la resolución del contrato.</p>
+<p><strong>Décimoséptima.</strong><strong> - Duración del contrato. </strong></p>
+<p>El presente contrato tiene vigencia desde el {!Oportunidad_platform__c.Dia_Ingreso} de {!Oportunidad_platform__c.Mes_Ingreso}
+ de {!Oportunidad_platform__c.Anyo_Ingreso}
+ hasta el día 31 de diciembre del año de la firma del contrato.  Finalizado el período de vigencia, se entenderá renovado tácitamente por las  partes, excepto que alguna de las partes comunique a la otra, mediante escrito  dirigido al Centro y con una antelación de 15 días, su voluntad de rescindirlo.</p>
+<p>Igualmente, también podrá ser  rescindido el contrato por parte del Centro, siempre que se produzcan motivos  de fuerza mayor o de aplicación de medidas correctoras contenidas en el  Reglamento del Régimen Interno de la Unidad de Estancia Diurna SARquavitae  {!Oportunidad_platform__c.Nombre_Centro__c}
+, en cuyo caso se seguirá el  procedimiento establecido en éste.</p>
+<p><strong>Decimoctava.- Incumplimiento contractual.</strong></p>
+<p>El incumplimiento de lo estipulado en  cualquiera de las cláusulas del presente contrato o de lo que dispone el  Reglamento de Régimen Interno, implicará la resolución de la relación  contractual entre las partes, que comportará, por parte del usuario/ usuaria el  abandono del Centro en el plazo de 15 días desde que se le hubiera notificado  por escrito, al cónyuge/ descendiente directo mayor de edad/ hermano (familiar  responsable), o representante legal, la rescisión del contrato por las causas  determinadas en este contrato o en el Reglamento de Régimen Interno que se  adjunta a este documento.</p>
+<p>En cualquier caso, se seguirá en todo momento el  procedimiento sancionador establecido en el Reglamento de Régimen Interno,  dando audiencia al presunto infractor.</p>
+<p>En estos casos, el centro podrá remitir  al usuario a su domicilio o al de la persona de referencia o persona  responsable que conste en este contrato. Para el supuesto de personas  incapaces, se estará a lo dispuesto en el   Reglamento del Régimen Interno de la Unidad de Estancia Diurna SARquavitae  {!Oportunidad_platform__c.Nombre_Centro__c}
+ .</p>
+<p><strong>Décimonovena.-  Resolución del contrato.</strong></p>
+<p>El incumplimiento por parte del usuario y  de su cónyuge/ descendiente directo mayor de edad/ hermano, como familiares  responsables o de su representante legal, de cualquiera de las obligaciones establecidas en  el presente contrato, podrá dar lugar a la resolución del contrato. En caso de  resolución del contrato, el usuario quedará obligado a dejar la Unidad.</p>
+<p>En concreto, el contrato se resolverá por:</p>
+<p>a) El retraso en el pago del precio de la estancia o  de cualquier otra cantidad que el usuario se haya obligado a pagar, superior a  treinta días.</p>
+<p>b) La comisión de una falta muy grave, conforme a lo  establecido en el Reglamento de Régimen Interno y en el presente contrato.</p>
+<p>c) La alteración en el uso y/o destino de las  dependencias, así como de sus características.</p>
+<p>d) El incumplimiento por cualquiera de las partes de  las obligaciones esenciales del contrato.</p>
+<p>e) La realización, por parte del usuario, de  actividades ilícitas o prohibidas, o que pongan en peligro la salud de los  otros usuarios y residentes, la salubridad, higiene e integridad de la Unidad,  o que menoscaben la tranquilidad y sosiego de la convivencia en el edificio.</p>
+<p>f) La ruina o la pérdida de la propiedad del  edificio de la Unidad por parte de la Propiedad, por causa no imputable a la  misma.</p>
+<p>g) Por defunción del usuario.</p>
+<p>h) Por vulneración e infracción de las normas de  convivencia recogidas en este contrato y en el Reglamento que se adjunta,  respecto otros usuarios del Centro o respecto el personal del mismo.</p>
+<p>i) Cualquiera otras previstas en la legislación  vigente, el presente contrato o en el Reglamento de Régimen Interior.</p>
+<p>j) Por voluntad del usuario y de  su cónyuge/ descendiente directo mayor de edad/ hermano, como familiares  responsables o de su representante legal, notificándolo por escrito con 15 días de  antelación.</p>
+<p>En todo caso, la resolución del contrato no podrá  producirse sin previa comunicación escrita al usuario. En caso de resolución  del contrato, el usuario queda obligado a abandonar el centro en un plazo de 30  días desde la notificación de la rescisión del contrato.</p>
+<p><strong>Vigésima.- Protección de datos de  carácter personal</strong></p>
+<p>Los datos personales recogidos en el presente  documento serán incorporados y tratados en un fichero titularidad de {!Oportunidad_platform__c.Sociedad_Centro__c}
+, con la finalidad de cumplir el propio contrato  de prestación de servicios suscrito y gestionar los agradecimientos,  sugerencias y reclamaciones. Así mismo podrán ser utilizados para el envío de  información sobre productos, servicios y eventos de {!Oportunidad_platform__c.Sociedad_Centro__c}
+  y de las distintas  sociedades de SARquavitae, así como para la realización de encuestas de calidad  del servicio.</p>
+<p>Sus datos podrán ser cedidos, exclusivamente para  las finalidades indicadas anteriormente, a otras entidades sociosanitarias,  siempre que las mismas pertenezcan directa o indirectamente al Grupo Societario  SARquavitae (www.sarquavitae.es), todo ello tanto si se formalizase o no  operación alguna como, en su caso, una vez extinguida la relación contractual  existente, respetando en todo caso la legislación española sobre protección de  datos de carácter personal y sin necesidad de que le sea comunicada cada  primera cesión que se efectúe a los referidos cesionarios.</p>
+<p>El interesado podrá ejercer los derechos de acceso,  rectificación, cancelación y oposición mediante comunicación escrita dirigida a  Departamento Jurídico, SARquavitae, C/Aribau 185 Entlo, 08021 – Barcelona o al  propio centro en el que se presta el servicio objeto de contrato.</p>
+<p>{!F5}    Vd. Puede  marcar esta casilla en caso de oponerse al tratamiento y comunicación de los  datos de carácter personal para fines comerciales.</p>
+<p>{!F5}     Vd. Puede  marcar esta casilla en caso de oponerse al tratamiento y comunicación de los  datos de carácter personal para la realización de encuestas de satisfacción.</p>
+
+<p>&nbsp;</p>
+<p>En caso de que los datos facilitados se refieran a  personas físicas distintas del interesado, éste deberá, con carácter previo a  su inclusión en el presente documento, informarles de los extremos contenidos  en los párrafos anteriores.</p>
+<p><strong>Vigésimo primera.- Fuero Interno.</strong></p>
+<p>Para cualquier divergencia o litigio  que pueda surgir sobre la interpretación o aplicación del presente contrato las  partes se someten, con renuncia expresa de cualquier otro fuero, a los  Tribunales y  Juzgados del domicilio del  Centro.<br>
+  <br>
+ <p> <strong>Vigésimo segunda .- Disposición  derogatoria.</strong></p>
+<p>La firma del presente contrato implica  la rescisión de cualquier otro anterior otorgado por las partes con el mismo  objeto.</p>
+<p>Y en muestra de conformidad con lo que  antecede, ambas partes contratantes firman el presente contrato por duplicado y  a un solo efecto en el lugar y fecha indicados.</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Por el residente <strong></strong></span><span style="float: right;"><strong>Por:{!Oportunidad_platform__c.Sociedad_Centro__c} </strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Firma: {!Residente.FirstName}
+{!Residente.LastName}</p><br><p><span style="float: left;">DNI:{!Oportunidad_platform__c.DNI_Residente__c}
+</p>
+</span><span style="float: right;">Firma:{!Director.FirstName}
+{!Director.LastName}</span></p>
+<p>&nbsp;</p>
+<p><span style="float: left;"><strong>Por la persona de referencia</strong></span><span style="float: right;"><strong>Por el avalista</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Firma: {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName}</span><br><p><span style="float: left;">DNI {!Persona_Referencia.CIF_NIF__c}
+:</p><span style="float: right;">Firma: {!Avalista.FirstName} {!Avalista.LastName}</span><br><p><span style="float: right;">DNI:{!Avalista.DNI}
+</p></p>
+<p>&nbsp;</p>
+<p><span style="float: left;"><strong>El pagador</strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Fdo.; D/Dª  {!Pagador.FirstName} {!Pagador.LastName}</span></p>

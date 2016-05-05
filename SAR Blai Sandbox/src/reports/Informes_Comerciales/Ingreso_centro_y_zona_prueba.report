@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filter>
+        <booleanFilter>(1 AND  2) AND 3</booleanFilter>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Etapa__c</column>
+            <operator>equals</operator>
+            <value>Ingreso</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_CREATED_DATE</column>
+            <operator>equals</operator>
+            <value>N_YEARS_AGO:1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_CREATED_DATE</column>
+            <operator>lessThan</operator>
+            <value>N_MONTHS_AGO:12</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Week</dateGranularity>
+        <field>CUST_CREATED_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Oportunidad_platform__c.Zona_Territorial__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Oportunidad_platform__c.Centro2__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Ingreso centro y zona (prueba)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Oportunidad_platform__c@Oportunidad_platform__c.Servicio__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Oportunidad_platform__c.Fecha_cierre__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

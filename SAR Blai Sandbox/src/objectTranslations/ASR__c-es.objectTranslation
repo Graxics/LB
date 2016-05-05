@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ASR / Encuesta Satisfación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ASR y Satisfacion Clientes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Centro --></label>
+        <name>Centro__c</name>
+        <relationshipLabel><!-- ASR y Satisfacion Clientes (Centro) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cliente --></label>
+        <name>Cliente__c</name>
+        <relationshipLabel><!-- Satisfacion Clientes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Colectivo --></label>
+        <name>Colectivo__c</name>
+        <picklistValues>
+            <masterLabel>ALCALÁ DE HENARES FEMP</masterLabel>
+            <translation><!-- ALCALÁ DE HENARES FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALCOBENDAS FEMP</masterLabel>
+            <translation><!-- ALCOBENDAS FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALT D&apos;URGELL</masterLabel>
+            <translation><!-- ALT D&apos;URGELL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALTA RIBAGORÇA</masterLabel>
+            <translation><!-- ALTA RIBAGORÇA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARGANDA DEL REY FEMP</masterLabel>
+            <translation><!-- ARGANDA DEL REY FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARÁN</masterLabel>
+            <translation><!-- ARÁN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO ALBAIDA DEL ALJARAFE</masterLabel>
+            <translation><!-- AYUNTAMIENTO ALBAIDA DEL ALJARAFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO ALHAURÍN EL GRANDE</masterLabel>
+            <translation><!-- AYUNTAMIENTO ALHAURÍN EL GRANDE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO ARGANDA DEL REY</masterLabel>
+            <translation><!-- AYUNTAMIENTO ARGANDA DEL REY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO AVILÉS</masterLabel>
+            <translation><!-- AYUNTAMIENTO AVILÉS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO CAMPOS</masterLabel>
+            <translation><!-- AYUNTAMIENTO CAMPOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO CANTILLA</masterLabel>
+            <translation><!-- AYUNTAMIENTO CANTILLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO DON BENITO</masterLabel>
+            <translation><!-- AYUNTAMIENTO DON BENITO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO EL PEDROSO</masterLabel>
+            <translation><!-- AYUNTAMIENTO EL PEDROSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO EL RUBIO</masterLabel>
+            <translation><!-- AYUNTAMIENTO EL RUBIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO EL SAUCEJO</masterLabel>
+            <translation><!-- AYUNTAMIENTO EL SAUCEJO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO GERENA</masterLabel>
+            <translation><!-- AYUNTAMIENTO GERENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO HERRERA</masterLabel>
+            <translation><!-- AYUNTAMIENTO HERRERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO JEREZ DE LA FRONTERA</masterLabel>
+            <translation><!-- AYUNTAMIENTO JEREZ DE LA FRONTERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO LA ALGABA</masterLabel>
+            <translation><!-- AYUNTAMIENTO LA ALGABA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO LA PUEBLA DEL RIO</masterLabel>
+            <translation><!-- AYUNTAMIENTO LA PUEBLA DEL RIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO LA RODA DE ANDALUCÍA</masterLabel>
+            <translation><!-- AYUNTAMIENTO LA RODA DE ANDALUCÍA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO LAS NAVAS DE LA CONCEPCIÓN</masterLabel>
+            <translation><!-- AYUNTAMIENTO LAS NAVAS DE LA CONCEPCIÓN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO LORA DEL RÍO</masterLabel>
+            <translation><!-- AYUNTAMIENTO LORA DEL RÍO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO LOS CORRALES</masterLabel>
+            <translation><!-- AYUNTAMIENTO LOS CORRALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO LOS MOLARES</masterLabel>
+            <translation><!-- AYUNTAMIENTO LOS MOLARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO MARTÍN DE LA JARA</masterLabel>
+            <translation><!-- AYUNTAMIENTO MARTÍN DE LA JARA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO MONTELLANO</masterLabel>
+            <translation><!-- AYUNTAMIENTO MONTELLANO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO OLIVARES</masterLabel>
+            <translation><!-- AYUNTAMIENTO OLIVARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO OROPESA DEL MAR</masterLabel>
+            <translation><!-- AYUNTAMIENTO OROPESA DEL MAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO PEDRERA</masterLabel>
+            <translation><!-- AYUNTAMIENTO PEDRERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO PILAS</masterLabel>
+            <translation><!-- AYUNTAMIENTO PILAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO PLASENCIA</masterLabel>
+            <translation><!-- AYUNTAMIENTO PLASENCIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO PONFERRADA</masterLabel>
+            <translation><!-- AYUNTAMIENTO PONFERRADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO PRUNA</masterLabel>
+            <translation><!-- AYUNTAMIENTO PRUNA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO RIVAS-VACIAMADRID</masterLabel>
+            <translation><!-- AYUNTAMIENTO RIVAS-VACIAMADRID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO SALTERAS</masterLabel>
+            <translation><!-- AYUNTAMIENTO SALTERAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO SAN FERNANDO DE HENARES</masterLabel>
+            <translation><!-- AYUNTAMIENTO SAN FERNANDO DE HENARES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO SAN SEBASTIÁN DE LOS REYES</masterLabel>
+            <translation><!-- AYUNTAMIENTO SAN SEBASTIÁN DE LOS REYES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO TERUEL</masterLabel>
+            <translation><!-- AYUNTAMIENTO TERUEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO TORREJÓN DE ARDOZ</masterLabel>
+            <translation><!-- AYUNTAMIENTO TORREJÓN DE ARDOZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO TRES CANTOS</masterLabel>
+            <translation><!-- AYUNTAMIENTO TRES CANTOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO VALENCIA DEL MOMBUEY</masterLabel>
+            <translation><!-- AYUNTAMIENTO VALENCIA DEL MOMBUEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO VILLAMANRIQUE</masterLabel>
+            <translation><!-- AYUNTAMIENTO VILLAMANRIQUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTO ÉCIJA</masterLabel>
+            <translation><!-- AYUNTAMIENTO ÉCIJA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AYUNTAMIENTOCÁDIZ</masterLabel>
+            <translation><!-- AYUNTAMIENTOCÁDIZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COLMENAR VIEJO FEMP</masterLabel>
+            <translation><!-- COLMENAR VIEJO FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSELL MENORCA</masterLabel>
+            <translation><!-- CONSELL MENORCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COSLADA FEMP</masterLabel>
+            <translation><!-- COSLADA FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GETAFE FEMP</masterLabel>
+            <translation><!-- GETAFE FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PALLARS JUSSÁ</masterLabel>
+            <translation><!-- PALLARS JUSSÁ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PALLARS SOBIRÁ</masterLabel>
+            <translation><!-- PALLARS SOBIRÁ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLA D&apos;URGELL</masterLabel>
+            <translation><!-- PLA D&apos;URGELL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RIVAS-VACIAMADRID FEMP</masterLabel>
+            <translation><!-- RIVAS-VACIAMADRID FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN FERNANDO DE HENARES FEMP</masterLabel>
+            <translation><!-- SAN FERNANDO DE HENARES FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAN SEBASTIÁN DE LOS REYES FEMP</masterLabel>
+            <translation><!-- SAN SEBASTIÁN DE LOS REYES FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEGARRA</masterLabel>
+            <translation><!-- SEGARRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOLSONÉS</masterLabel>
+            <translation><!-- SOLSONÉS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TELEASISTENCIA FIJA</masterLabel>
+            <translation><!-- TELEASISTENCIA FIJA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TELEASISTENCIA MÓVIL</masterLabel>
+            <translation><!-- TELEASISTENCIA MÓVIL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TORREJÓN DE ARDOZ FEMP</masterLabel>
+            <translation><!-- TORREJÓN DE ARDOZ FEMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRES CANTOS FEMP</masterLabel>
+            <translation><!-- TRES CANTOS FEMP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>Descripcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- División --></label>
+        <name>Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email ATC centro --></label>
+        <name>Email_ATC_centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email director centro --></label>
+        <name>Email_director_centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>Estado__c</name>
+        <picklistValues>
+            <masterLabel>Abierta</masterLabel>
+            <translation><!-- Abierta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anulada</masterLabel>
+            <translation><!-- Anulada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerrada</masterLabel>
+            <translation><!-- Cerrada --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha cierre --></label>
+        <name>Fecha_cierre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha contestación --></label>
+        <name>Fecha_contestacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha encuesta --></label>
+        <name>Fecha_encuesta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha recepción --></label>
+        <name>Fecha_recepcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo --></label>
+        <name>Motivo__c</name>
+        <picklistValues>
+            <masterLabel>Actividad Comercial</masterLabel>
+            <translation><!-- Actividad Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administración - Facturación, Tarifa, forma pago</masterLabel>
+            <translation><!-- Administración - Facturación, Tarifa, forma pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administración - Gestiones y trámites</masterLabel>
+            <translation><!-- Administración - Gestiones y trámites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atención alarmas</masterLabel>
+            <translation><!-- Atención alarmas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atención demandas/resolución de situaciones</masterLabel>
+            <translation><!-- Atención demandas/resolución de situaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atención emergencias en domicilio</masterLabel>
+            <translation><!-- Atención emergencias en domicilio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ayudas técnicas y/ó tecnológicas</masterLabel>
+            <translation><!-- Ayudas técnicas y/ó tecnológicas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convivencia entre residentes/usuarios/clientes</masterLabel>
+            <translation><!-- Convivencia entre residentes/usuarios/clientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coordinación con administración</masterLabel>
+            <translation><!-- Coordinación con administración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facturación</masterLabel>
+            <translation><!-- Facturación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funcionamiento dispositivos</masterLabel>
+            <translation><!-- Funcionamiento dispositivos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funcionamiento sistemas</masterLabel>
+            <translation><!-- Funcionamiento sistemas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incidencia con llaves</masterLabel>
+            <translation><!-- Incidencia con llaves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Información a familia</masterLabel>
+            <translation><!-- Información a familia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instalaciones</masterLabel>
+            <translation><!-- Instalaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamadas seguimiento</masterLabel>
+            <translation><!-- Llamadas seguimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevos servicios</masterLabel>
+            <translation><!-- Nuevos servicios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organización y Confort</masterLabel>
+            <translation><!-- Organización y Confort --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros (detallar)</masterLabel>
+            <translation><!-- Otros (detallar) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestación del Servicio</masterLabel>
+            <translation><!-- Prestación del Servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestación del Servicio - Actividades y Terapias</masterLabel>
+            <translation><!-- Prestación del Servicio - Actividades y Terapias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestación del Servicio - Atención y cuidados</masterLabel>
+            <translation><!-- Prestación del Servicio - Atención y cuidados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestación del Servicio - Enseres personales</masterLabel>
+            <translation><!-- Prestación del Servicio - Enseres personales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestación del Servicio - Extravío/Hurto/Robo</masterLabel>
+            <translation><!-- Prestación del Servicio - Extravío/Hurto/Robo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestación del Servicio - Información</masterLabel>
+            <translation><!-- Prestación del Servicio - Información --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prestación del Servicio - Material utilizado</masterLabel>
+            <translation><!-- Prestación del Servicio - Material utilizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RRHH - Incumplimiento</masterLabel>
+            <translation><!-- RRHH - Incumplimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RRHH - Nómina u otros trámites</masterLabel>
+            <translation><!-- RRHH - Nómina u otros trámites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RRHH-Organización y distribución tareas</masterLabel>
+            <translation><!-- RRHH-Organización y distribución tareas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolución de incidencias</masterLabel>
+            <translation><!-- Resolución de incidencias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSHH - Lavandería</masterLabel>
+            <translation><!-- SSHH - Lavandería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSHH - Limpieza</masterLabel>
+            <translation><!-- SSHH - Limpieza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSHH - Serv. Alimentación</masterLabel>
+            <translation><!-- SSHH - Serv. Alimentación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trato en atención de alarmas</masterLabel>
+            <translation><!-- Trato en atención de alarmas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trato en atención emergencias en domicilio</masterLabel>
+            <translation><!-- Trato en atención emergencias en domicilio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trato y Atención del personal</masterLabel>
+            <translation><!-- Trato y Atención del personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variación precios</masterLabel>
+            <translation><!-- Variación precios --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nombre del receptor --></label>
+        <name>Nombre_del_receptor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre responsable acción --></label>
+        <name>Nombre_responsable_accion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observaciones --></label>
+        <name>Observaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origen --></label>
+        <name>Origen__c</name>
+        <picklistValues>
+            <masterLabel>Correo electrónico</masterLabel>
+            <translation><!-- Correo electrónico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoja ASR SARq</masterLabel>
+            <translation><!-- Hoja ASR SARq --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libro oficial</masterLabel>
+            <translation><!-- Libro oficial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada</masterLabel>
+            <translation><!-- Llamada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verbal</masterLabel>
+            <translation><!-- Verbal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Otros Emisores --></label>
+        <name>Otros_Emisores__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persona Emisora --></label>
+        <name>Persona_Emisora__c</name>
+        <relationshipLabel><!-- ASR (Persona Emisora) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Receptor --></label>
+        <name>Receptor__c</name>
+        <picklistValues>
+            <masterLabel>ATC Zona</masterLabel>
+            <translation><!-- ATC Zona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administración</masterLabel>
+            <translation><!-- Administración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asistente/a a Dirección</masterLabel>
+            <translation><!-- Asistente/a a Dirección --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atención al Cliente</masterLabel>
+            <translation><!-- Atención al Cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auxiliar</masterLabel>
+            <translation><!-- Auxiliar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAT</masterLabel>
+            <translation><!-- CAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call Center</masterLabel>
+            <translation><!-- Call Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coordinador/a</masterLabel>
+            <translation><!-- Coordinador/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DUE</masterLabel>
+            <translation><!-- DUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección División</masterLabel>
+            <translation><!-- Dirección División --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección control interno</masterLabel>
+            <translation><!-- Dirección control interno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección médica</masterLabel>
+            <translation><!-- Dirección médica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director departamento/área</masterLabel>
+            <translation><!-- Director departamento/área --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director/a</masterLabel>
+            <translation><!-- Director/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director/a General</masterLabel>
+            <translation><!-- Director/a General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director/a Territorial</masterLabel>
+            <translation><!-- Director/a Territorial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educador/a Social</masterLabel>
+            <translation><!-- Educador/a Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enfermería</masterLabel>
+            <translation><!-- Enfermería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipo Coordinación</masterLabel>
+            <translation><!-- Equipo Coordinación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipo técnico</masterLabel>
+            <translation><!-- Equipo técnico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefe/a de SSHH</masterLabel>
+            <translation><!-- Jefe/a de SSHH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Médico</masterLabel>
+            <translation><!-- Médico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal SS.HH</masterLabel>
+            <translation><!-- Personal SS.HH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal del centro</masterLabel>
+            <translation><!-- Personal del centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por revisar</masterLabel>
+            <translation><!-- Por revisar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presidente</masterLabel>
+            <translation><!-- Presidente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recepcionista</masterLabel>
+            <translation><!-- Recepcionista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsable Absentismo</masterLabel>
+            <translation><!-- Responsable Absentismo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsable del servicio</masterLabel>
+            <translation><!-- Responsable del servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supervisor/a</masterLabel>
+            <translation><!-- Supervisor/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador/a</masterLabel>
+            <translation><!-- Trabajador/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador/a Social</masterLabel>
+            <translation><!-- Trabajador/a Social --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recomendador --></label>
+        <name>Recomendador__c</name>
+        <relationshipLabel><!-- ASR (Recomendador) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referente a --></label>
+        <name>Referente_a__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residente / Usuario --></label>
+        <name>Residente_usuario__c</name>
+        <relationshipLabel><!-- ASR (Residente) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Responsable Acción --></label>
+        <name>Responsable_Accion__c</name>
+        <picklistValues>
+            <masterLabel>ATC Zona</masterLabel>
+            <translation><!-- ATC Zona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administración</masterLabel>
+            <translation><!-- Administración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asistente de Dirección</masterLabel>
+            <translation><!-- Asistente de Dirección --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atención al Cliente</masterLabel>
+            <translation><!-- Atención al Cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coordinador/a</masterLabel>
+            <translation><!-- Coordinador/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coordinador/a DUE</masterLabel>
+            <translation><!-- Coordinador/a DUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección División</masterLabel>
+            <translation><!-- Dirección División --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dirección médica</masterLabel>
+            <translation><!-- Dirección médica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director/a</masterLabel>
+            <translation><!-- Director/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director/a Territorial</masterLabel>
+            <translation><!-- Director/a Territorial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Directora control interno</masterLabel>
+            <translation><!-- Directora control interno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefa Call Center</masterLabel>
+            <translation><!-- Jefa Call Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefe de SSHH</masterLabel>
+            <translation><!-- Jefe de SSHH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Médico</masterLabel>
+            <translation><!-- Médico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsable Absentismo</masterLabel>
+            <translation><!-- Responsable Absentismo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsable de mantenimiento</masterLabel>
+            <translation><!-- Responsable de mantenimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsable de transporte</masterLabel>
+            <translation><!-- Responsable de transporte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsable del servicio</masterLabel>
+            <translation><!-- Responsable del servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador/a Social</masterLabel>
+            <translation><!-- Trabajador/a Social --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo Emisor --></label>
+        <name>Tipo_Emisor__c</name>
+        <picklistValues>
+            <masterLabel>Administración</masterLabel>
+            <translation><!-- Administración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amigo / conocido</masterLabel>
+            <translation><!-- Amigo / conocido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comercial</masterLabel>
+            <translation><!-- Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consejo de Clientes</masterLabel>
+            <translation><!-- Consejo de Clientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consejo de Residentes</masterLabel>
+            <translation><!-- Consejo de Residentes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director Asistencial nacional</masterLabel>
+            <translation><!-- Director Asistencial nacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director General</masterLabel>
+            <translation><!-- Director General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director administración</masterLabel>
+            <translation><!-- Director administración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director comercial</masterLabel>
+            <translation><!-- Director comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director de compras</masterLabel>
+            <translation><!-- Director de compras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director de zona</masterLabel>
+            <translation><!-- Director de zona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director médico provincial</masterLabel>
+            <translation><!-- Director médico provincial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director médico territorial</masterLabel>
+            <translation><!-- Director médico territorial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director o jefe calidad</masterLabel>
+            <translation><!-- Director o jefe calidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director provincial</masterLabel>
+            <translation><!-- Director provincial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director regional</masterLabel>
+            <translation><!-- Director regional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipo de Coordinación</masterLabel>
+            <translation><!-- Equipo de Coordinación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Familiar</masterLabel>
+            <translation><!-- Familiar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Institución</masterLabel>
+            <translation><!-- Institución --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefe de ventas</masterLabel>
+            <translation><!-- Jefe de ventas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por revisar</masterLabel>
+            <translation><!-- Por revisar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profesional externo</masterLabel>
+            <translation><!-- Profesional externo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proveedor</masterLabel>
+            <translation><!-- Proveedor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsable de negocio</masterLabel>
+            <translation><!-- Responsable de negocio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador</masterLabel>
+            <translation><!-- Trabajador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tutor legal</masterLabel>
+            <translation><!-- Tutor legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usuario Adorea</masterLabel>
+            <translation><!-- Usuario Adorea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usuario Servicio</masterLabel>
+            <translation><!-- Usuario Servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usuario centro de día</masterLabel>
+            <translation><!-- Usuario centro de día --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usuario residencia</masterLabel>
+            <translation><!-- Usuario residencia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo --></label>
+        <name>Tipo__c</name>
+        <picklistValues>
+            <masterLabel>Agradecimiento</masterLabel>
+            <translation><!-- Agradecimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incidencia</masterLabel>
+            <translation><!-- Incidencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclamación</masterLabel>
+            <translation><!-- Reclamación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sugerencia</masterLabel>
+            <translation><!-- Sugerencia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Servicio --></label>
+        <name>Tipo_de_Servicio__c</name>
+        <picklistValues>
+            <masterLabel>Privado</masterLabel>
+            <translation><!-- Privado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Público</masterLabel>
+            <translation><!-- Público --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo encuesta --></label>
+        <name>Tipo_encuesta__c</name>
+        <picklistValues>
+            <masterLabel>Altas</masterLabel>
+            <translation><!-- Altas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fidelización</masterLabel>
+            <translation><!-- Fidelización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No contratan</masterLabel>
+            <translation><!-- No contratan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevos Clientes</masterLabel>
+            <translation><!-- Nuevos Clientes --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato ASR</layout>
+        <sections>
+            <label><!-- Datos Emisor --></label>
+            <section>Datos Emisor</section>
+        </sections>
+        <sections>
+            <label><!-- Datos Receptor --></label>
+            <section>Datos Receptor</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle del ASR --></label>
+            <section>Detalle del ASR</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Satisfacción Clientes</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Información del Sistema --></label>
+            <section>Información del Sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- ASR --></label>
+        <name>ASR</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Satisfación Cliente --></label>
+        <name>Satisfacion_Cliente</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Es obligatorio informar el emisor --></errorMessage>
+        <name>Informar_emisor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio para cerrarla --></errorMessage>
+        <name>Informar_fecha_cierre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Obligatorio informar --></errorMessage>
+        <name>Informar_observaciones</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar una ASR en estado Cerrada --></errorMessage>
+        <name>No_modificar_ASR_cerrada</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Nuevo_ASR --></label>
+        <name>Nuevo_ASR</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nuevo_ASR_2 --></label>
+        <name>Nuevo_ASR_2</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nuevo_ASR_3 --></label>
+        <name>Nuevo_ASR_3</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- Recuerde contestar la ASR en un plazo máximo de 5 días --></description>
+        <name>Recordatorio_contestar_ASR</name>
+        <subject><!-- Recordatorio contestar ASR --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

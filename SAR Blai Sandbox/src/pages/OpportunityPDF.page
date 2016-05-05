@@ -1,0 +1,269 @@
+<apex:page standardController="Oportunidad_platform__c" extensions="GenerateOpportunity" renderAs="PDF" applyBodyTag="false">
+<HEAD>
+<STYLE type="text/css">
+
+body {margin-top: 0px;margin-left: 0px;overflow: visible;}
+
+#page_1 {position:relative; overflow: visible;margin: 0px 0px 0px 0px;padding: 0px;border: none;width: 748px;}
+#page_1 #id_1 {border:none;margin: 145px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_1 #id_2 {border:none;margin: 31px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_1 #id_2 #id_2_1 {float:left;border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 324px;overflow: hidden;}
+#page_1 #id_2 #id_2_2 {float:left;border:none;margin: 35px 0px 0px 0px;padding: 0px;border:none;width: 394px;overflow: hidden;}
+#page_1 #id_3 {border:none;margin: 15px 0px 0px 21px;padding: 0px;border:none;width: 727px;overflow: hidden;}
+
+#page_1 #dimg1 {margin:0;padding:0;position:absolute;top:0px;left:-15px;z-index:-1;width:760px;height:998px;}
+#page_1 #dimg1 #img1 {margin:0;padding:0;position:absolute;top:0px;left:-15px;width:760px;height:998px;}
+
+
+
+
+#page_2 {position:relative; overflow: hidden;margin: 63px 0px 0px 0px;padding: 0px;border: none;width: 748px;}
+#page_2 #id_1 {border:none;margin: 145px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_2 #id_1 #id_1_1 {float:left;border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 360px;overflow: hidden;}
+#page_2 #id_1 #id_1_2 {float:left;border:none;margin: 20px 0px 0px 0px;padding: 0px;border:none;width: 358px;overflow: hidden;}
+#page_2 #id_2 {border:none;margin: 40px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_2 #id_3 {border:none;margin: 20px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_2 #id_3 #id_3_1 {float:left;border:none;margin: 47px 0px 0px 0px;padding: 0px;border:none;width: 360px;overflow: hidden;}
+#page_2 #id_3 #id_3_2 {float:left;border:none;margin: 47px 0px 0px 0px;padding: 0px;border:none;width: 358px;overflow: hidden;}
+#page_2 #id_4 {border:none;margin: 68px 0px 0px 20px;padding: 0px;border:none;width: 660px;overflow: hidden;}
+#page_2 #id_5 {border:none;margin: 12px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_2 #id_5 #id_5_1 {float:left;border:none;margin: 30px 0px 0px 0px;padding: 0px;border:none;width: 360px;overflow: hidden;}
+#page_2 #id_5 #id_5_2 {float:left;border:none;margin: 30px 0px 0px 0px;padding: 0px;border:none;width: 358px;overflow: hidden;}
+#page_2 #id_6 {border:none;margin: 63px 0px 0px 20px;padding: 0px;border:none;width: 728px;overflow: hidden;}
+
+#page_2 #dimg1 {position:absolute;top:0px;left:-15px;z-index:-1;width:760px;height:998px;}
+#page_2 #dimg1 #img1 {position:absolute;top:0px;left:-15px;width:760px;height:998px;}
+
+
+
+
+.dclr {clear:both;float:none;height:1px;margin:0px;padding:0px;overflow:hidden;}
+
+.ft0{font: bold 19px 'Arial';color: #ffffff;line-height: 22px;}
+.ft1{font: 12px 'Verdana';line-height: 17px;}
+.ft2{font: 12px 'Verdana';line-height: 14px;}
+.ft3{font: bold 12px 'Arial';color: #ffffff;line-height: 15px;}
+.ft4{font: 12px 'Verdana';margin-left: 4px;line-height: 14px;}
+.ft5{font: 12px 'Verdana';margin-left: 4px;line-height: 16px;}
+.ft6{font: 12px 'Verdana';line-height: 16px;}
+.ft7{font: 12px 'Verdana';margin-left: 4px;line-height: 16px;}
+.ft8{font: 12px 'Verdana';line-height: 16px;}
+.ft9{font: 12px 'Verdana';margin-left: 4px;line-height: 17px;}
+.ft10{font: 8px 'Verdana';line-height: 11px;}
+.ft11{font: 9px 'Verdana';color: #808080;line-height: 12px;}
+.ft12{font: bold 12px 'Arial';color: #ffffff;line-height: 13px;}
+.ft13{font: 1px 'Verdana';line-height: 1px;}
+.ft14{font: 1px 'Verdana';line-height: 8px;}
+.ft15{font: 12px 'Verdana';line-height: 13px;}
+.ft16{font: bold 12px 'Verdana';line-height: 14px;}
+.ft17{font: bold 12px 'Verdana';line-height: 15px;}
+.ft18{font: 12px 'Verdana';line-height: 15px;}
+.ft19{font: 9px 'Verdana';line-height: 12px;}
+.ft20{font: 1px 'Verdana';line-height: 7px;}
+.ft21{font: italic bold 12px 'Verdana';line-height: 14px;}
+
+.p0{text-align: left;padding-left: 30px;margin-top: 0px;margin-bottom: 0px;}
+.p1{text-align: left;padding-left: 10px;padding-right: 84px;margin-top: 270px;margin-bottom: 0px;}
+.p2{text-align: left;margin-top: 3px;margin-bottom: 0px;}
+.p3{text-align: justify;margin-top: 20px;margin-bottom: 0px;}
+.p4{text-align: justify;margin-top: 3px;margin-bottom: 0px;}
+.p5{text-align: justify;margin-top: 2px;margin-bottom: 0px;}
+.p6{text-align: left;padding-right: 42px;margin-top: 3px;margin-bottom: 0px;}
+.p7{text-align: left;margin-top: 26px;margin-bottom: 0px;}
+.p8{text-align: justify;padding-right: 30px;margin-top: 80px;margin-bottom: 0px;}
+.p9{text-align: justify;padding-right: 32px;margin-top: 3px;margin-bottom: 0px;}
+.p10{text-align: left;padding-right: 30px;margin-top: 1px;margin-bottom: 0px;}
+.p11{text-align: left;padding-right: 30px;margin-top: 3px;margin-bottom: 0px;}
+.p12{text-align: justify;padding-right: 93px;margin-top: 0px;margin-bottom: 0px;}
+.p13{text-align: left;padding-right: 87px;margin-top: 2px;margin-bottom: 0px;}
+.p14{text-align: justify;margin-top: 0px;margin-bottom: 0px;}
+.p15{text-align: justify;padding-right: 88px;margin-top: 80px;margin-bottom: 0px;}
+.p16{text-align: left;padding-right: 106px;margin-top: 2px;margin-bottom: 0px;}
+.p17{text-align: justify;padding-right: 99px;margin-top: 3px;margin-bottom: 0px;}
+.p18{text-align: justify;margin-top: 1px;margin-bottom: 0px;}
+.p19{text-align: justify;padding-right: 100px;margin-top: 3px;margin-bottom: 0px;}
+.p20{text-align: left;padding-right: 53px;margin-top: 0px;margin-bottom: 0px;}
+.p21{text-align: left;margin-top: 10px;margin-bottom: 0px;}
+.p22{text-align: left;padding-right: 39px;margin-top: 20px;margin-bottom: 0px;}
+.p23{text-align: justify;padding-right: 83px;margin-top: 1px;margin-bottom: 0px;}
+.p24{text-align: justify;padding-right: 47px;margin-top: 1px;margin-bottom: 0px;}
+.p25{text-align: justify;padding-right: 133px;margin-top: 1px;margin-bottom: 0px;}
+.p26{text-align: justify;padding-right: 100px;margin-top: 1px;margin-bottom: 0px;}
+.p27{text-align: justify;padding-right: 33px;margin-top: 0px;margin-bottom: 0px;}
+.p28{text-align: justify;padding-right: 63px;margin-top: 1px;margin-bottom: 0px;}
+.p29{text-align: left;padding-left: 20px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p30{text-align: left;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p31{text-align: left;padding-right: 34px;margin-top: 27px;margin-bottom: 0px;}
+.p32{text-align: justify;padding-right: 88px;margin-top: 0px;margin-bottom: 0px;}
+.p33{text-align: left;margin-top: 27px;margin-bottom: 0px;}
+.p34{text-align: left;padding-right: 105px;margin-top: 0px;margin-bottom: 0px;}
+.p35{text-align: left;padding-left: 27px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p36{text-align: left;padding-left: 27px;margin-top: 27px;margin-bottom: 0px;}
+.p37{text-align: left;padding-left: 1px;padding-right: 53px;margin-top: 41px;margin-bottom: 0px;}
+.p38{text-align: left;padding-left: 1px;margin-top: 12px;margin-bottom: 0px;}
+
+.td0{padding: 0px;margin: 0px;width: 370px;vertical-align: bottom;background: #88a1c0;}
+.td1{padding: 0px;margin: 0px;width: 290px;vertical-align: bottom;background: #88a1c0;}
+.td2{padding: 0px;margin: 0px;width: 370px;vertical-align: bottom;}
+.td3{padding: 0px;margin: 0px;width: 290px;vertical-align: bottom;}
+.td4{padding: 0px;margin: 0px;width: 382px;vertical-align: bottom;background: #88a1c0;}
+.td5{padding: 0px;margin: 0px;width: 278px;vertical-align: bottom;background: #88a1c0;}
+.td6{padding: 0px;margin: 0px;width: 382px;vertical-align: bottom;}
+.td7{padding: 0px;margin: 0px;width: 278px;vertical-align: bottom;}
+
+.tr0{height: 17px;}
+.tr1{height: 8px;}
+.tr2{height: 13px;}
+.tr3{height: 14px;}
+.tr4{height: 18px;}
+.tr5{height: 7px;}
+.tr6{height: 15px;}
+.tr7{height: 25px;}
+
+.t0{width: 660px;font: 12px 'Verdana';}
+.t1{width: 660px;font: 12px 'Verdana';}
+
+</STYLE>
+</HEAD>
+
+<BODY>
+<DIV id="page_1">
+<DIV id="dimg1">
+<IMG src="https://sarquavitae--c.eu2.content.force.com/servlet/servlet.ImageServer?id=015b0000000oYdN&oid=00Db0000000eNpx&lastMod=1400769590000" id="img1"/>
+</DIV>
+
+<DIV style="position:absolute;top:105px;left:490px;width:170px;height:100px">
+    <p style="font:'Verdana';color:white">{!centro.Ciudad__c}, {!td}</p>
+</DIV>
+
+<p style="font: 20px 'Verdana';position:absolute;top:140px;left:50px;color:white">{!res.Name}</p>
+
+<DIV class="dclr"></DIV>
+<DIV id="id_1">
+
+<P class="p1 ft1">El Centro SARquavitae {!centro.Name} le ofrece un servicio integral personalizado para disfrutar de la máxima comodidad durante su estancia con un trato familiar y el mejor equipo de profesionales especializados en la atención sociosanitaria.</P>
+<P class="p2 ft2" style="padding-left:10px;">Durante su estancia se incluyen y quedan a su entera disposición nuestros servicios:</P>
+</DIV>
+<DIV id="id_2">
+<DIV id="id_2_1">
+<P class="p3 ft2" style="padding-left:10px;margin-top:35px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Médico propio.</SPAN></P>
+<P class="p4 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Servicio de enfermería de 24 horas.</SPAN></P>
+<P class="p4 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Sistema de aviso en la habitación de 24 horas.</SPAN></P>
+<P class="p6 ft6" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft5">Disponibilidad de dietas especiales por causa médica o adaptada por intolerancias alimenticias supervisadas por un equipo de nutricionistas.</SPAN></P>
+<P class="p8 ft6" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft5">Cama ergonómica y baño asistido en la habitación.</SPAN></P>
+<P class="p5 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Limpieza diaria de la habitación.</SPAN></P>
+<P class="p5 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Lavandería, planchado y repaso de ropa.</SPAN></P>
+<P class="p9 ft8" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft7">Posibilidad de incorporar mobiliario personal y elementos decorativos en la habitación.</SPAN></P>
+<P class="p10 ft6" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft5">Restauración propia elaborada con productos de calidad, en régimen de pensión completa que incluye desayuno, comida, merienda y cena.</SPAN></P>
+<P class="p11 ft1" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft9">Actividades lúdicas diarias, celebraciones de cumpleaños, onomásticas y fiestas tradicionales, organizadas por monitores.</SPAN></P>
+</DIV>
+<DIV id="id_2_2">
+<P class="p12 ft6"><SPAN class="ft2">•</SPAN><SPAN class="ft5">Fisioterapia individual, rehabilitación y gimnasia de mantenimiento.</SPAN></P>
+<P class="p5 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Servicio de gestión de recetas médicas.</SPAN></P>
+<P class="p13 ft1"><SPAN class="ft2">•</SPAN><SPAN class="ft9">Servicio de control y aplicación de tratamientos médicos, cuidados de enfermería y seguimiento de medicación.</SPAN></P>
+<P class="p14 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Servicio de apoyo y atención psicológico.</SPAN></P>
+<P class="p15 ft6"><SPAN class="ft2">•</SPAN><SPAN class="ft5">Un servicio al mes de podología profesional en el propio centro adaptada a sus necesidades.</SPAN></P>
+<P class="p16 ft6"><SPAN class="ft2">•</SPAN><SPAN class="ft5">Peluquería profesional en el propio centro con servicio de lavado, corte y marcado cada dos semanas.</SPAN></P>
+<P class="p5 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Sala de estar con prensa y televisión.</SPAN></P>
+<P class="p17 ft6"><SPAN class="ft2">•</SPAN><SPAN class="ft5">Sala de juegos en la que se pueden desarrollar actividades personales o en grupo.</SPAN></P>
+<P class="p18 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Gimnasio totalmente acondicionado.</SPAN></P>
+<P class="p19 ft6"><SPAN class="ft2">•</SPAN><SPAN class="ft5">Jardín y terrazas especialmente pensados para disfrutar del aire libre.</SPAN></P>
+</DIV>
+</DIV>
+
+</DIV>
+<DIV id="page_2">
+<DIV id="dimg1">
+<IMG src="https://sarquavitae--c.eu2.content.force.com/servlet/servlet.ImageServer?id=015b0000000oYdX&oid=00Db0000000eNpx&lastMod=1400769612000" id="img1"/>
+</DIV>
+
+
+<DIV id="id_1">
+<DIV id="id_1_1">
+<P class="p22 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Encuentros periódicos con la familia, además de un servicio de atención familiar, que se adapta totalmente a sus necesidades.</SPAN></P>
+<P class="p5 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Horario libre de visitas y de recepción de llamadas.</SPAN></P>
+<P class="p23 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Las visitas disponen opcionalmente de salas especialmente dispuestas para ello.</SPAN></P>
+<P class="p24 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Servicio de atención a sugerencias del residente y de la familia.</SPAN></P>
+</DIV>
+<DIV id="id_1_2">
+<P class="p14 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Gestión de visitas a especialistas médicos.</SPAN></P>
+<P class="p18 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Parking gratuito para las vistas.</SPAN></P>
+<P class="p25 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Informe periódico a la Familia de la situación del residente.</SPAN></P>
+<P class="p26 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Profesionales al servicio de los familiares para resolver cualquier duda.</SPAN></P>
+</DIV>
+</DIV>
+<DIV id="id_3">
+<DIV id="id_3_1">
+<P class="p14 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Servicio de fisioterapia y rehabilitación especiales.</SPAN></P>
+<P class="p27 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Servicio de acompañamiento para salidas médicas o lúdicas periódicas.</SPAN></P>
+<P class="p28 ft2" style="padding-left:10px;"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Servicios adicionales de peluquería, manicura y podología profesional.</SPAN></P>
+</DIV>
+<DIV id="id_3_2">
+<P class="p14 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Servicios de arreglos especiales de ropa.</SPAN></P>
+<P class="p18 ft2"><SPAN class="ft2">•</SPAN><SPAN class="ft4">Alquiler de ayudas técnicas.</SPAN></P>
+</DIV>
+</DIV>
+<DIV id="id_4">
+<TABLE class="t0">
+<TR>
+    <TD class="tr2 td2"><P class="p29 ft15"><b class="ft16">{!tit1}</b>{!fila1}</P></TD>
+    <TD class="tr2 td3"><P class="p30 ft15"><b class="ft16">• Grado de dependencia estimado:</b> {!serv.Grado_Dependencia__c}</P></TD>
+</TR>
+<TR>
+    <TD class="tr3 td2"><P class="p29 ft15"><b class="ft16">{!tit2}</b>{!fila2}</P></TD>
+    <TD class="tr3 td3"><P class="p30 ft15"><b class="ft16">• Fecha validez del presupuesto:</b> Hasta el {!fFi}</P></TD>
+</TR>
+<TR>
+    <TD class="tr0 td2"><P class="p29 ft15"><b class="ft16">{!tit3}</b>{!fila3}</P></TD>
+    <TD class="tr0 td3"><P class="p30 ft13">&nbsp;</P></TD>
+</TR>
+<TR>
+    <TD class="tr3 td2"><P class="p29 ft15"><b class="ft16">{!tit4}</b>{!fila4}</P></TD>
+</TR>
+</TABLE>
+</DIV>
+<DIV id="id_5">
+<DIV id="id_5_1">
+<P class="p31 ft18" style="padding-left:10px;"><SPAN class="ft17">Fianza</SPAN>: en el momento del ingreso se abonará el importe correspondiente de media mensualidad para estancias superiores a un mes en concepto de fianza.</P>
+</DIV>
+<DIV id="id_5_2">
+<P class="p33 ft16">Importe Fianza<SPAN class="ft2">: {!fianza}€</SPAN></P>
+<P class="p34 ft18">La facturación correspondiente al mes se realizará el primer día del mismo mes.</P>
+</DIV>
+</DIV>
+<DIV id="id_6">
+<TABLE class="t1">
+<TR>
+    <TD class="tr6 td6"><P class="p29 ft2">Son los descritos en la hoja anterior correspondientes</P></TD>
+    <TD class="tr6 td7"><P class="p30 ft2">Servicios a su ELECCIÓN no incluidos en el</P></TD>
+</TR>
+<TR>
+    <TD class="tr3 td6"><P class="p29 ft2">a los apartados:</P></TD>
+    <TD class="tr3 td7"><P class="p30 ft2">precio presupuestado de este plan</P></TD>
+</TR>
+<TR>
+    <TD class="tr6 td6"><P class="p29 ft16"><SPAN class="ft2">• </SPAN>Servicios ASISTENCIALES</P></TD>
+    <TD class="tr6 td7"><P class="p30 ft2">personalizado se facturarán al mes</P></TD>
+</TR>
+<TR>
+    <TD class="tr6 td6"><P class="p29 ft16"><SPAN class="ft2">• </SPAN>Servicios de CONFORT Y OCIO</P></TD>
+    <TD class="tr6 td7"><P class="p30 ft2">siguiente al de su prestación</P></TD>
+</TR>
+<TR>
+    <TD class="tr3 td6"><P class="p29 ft21"><SPAN class="ft2">• </SPAN>Servicios de ATENCIÓN AL FAMILIAR</P></TD>
+    <TD class="tr3 td7"><P class="p30 ft13">&nbsp;</P></TD>
+</TR>
+<TR>
+    <TD class="tr6 td6"><P class="p30 ft13">&nbsp;</P></TD>
+    <TD class="tr6 td7"><P class="p30 ft2">Muchas gracias por confiar en SARquavitae.</P></TD>
+</TR>
+<TR>
+    <TD class="tr7 td6"><P class="p35 ft2">Le atendió: {!ofc.CreatedBy.Name}</P></TD>
+    <TD class="tr7 td7"><P class="p30 ft13">&nbsp;</P></TD>
+</TR>
+</TABLE>
+<P class="p36 ft16">Responsable de Atención al Cliente del Centro SARquavitae:&nbsp;&nbsp;&nbsp;&nbsp;{!ATCName}</P>
+</DIV>
+</DIV>
+</BODY>
+</apex:page>

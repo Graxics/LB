@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>c27 Contratos Centros de día Públicos Galicia</name>
+    <style>none</style>
+    <subject>Contratos Centros de Día Públicos Galicia</subject>
+    <textOnly>&lt;body&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;CONTRATO  DO CENTRO DE DÍA&lt;/strong&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot;&gt;En …………………. , a …………. del ...............   do 20……&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2 align=&quot;center&quot;&gt;&lt;strong&gt;REUNIDOS&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dunha banda D/Dª …………………………………..….  con D.N.I. …………………… en calidade  de Director   do Centro de Día  de …………………………………………  ………………………………………. ,que  é xestionado  pola empresa QUAVITAE SERVICIOS ASISTENCIALES S.A.U. CIF No:  A-80106842, con domicilio na Paseo de la  Castellana, nº 52, 5ª de Madrid, o que representa neste evento.&lt;/p&gt;
+&lt;p&gt;E  doutra parte, &lt;strong&gt;Don/Dña …………………………………………….,&lt;/strong&gt; maior de idade, con DNI nº …………. domiciliado na calle …………………………………………………….…….. que actúa &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;E doutra parte, &lt;strong&gt;Don/Dña  …………………………………………….,&lt;/strong&gt; maior de idade, con DNI nº  …………. domiciliado na calle …………………………………………………….……..  que actúa&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;En nome propio&amp;nbsp; e con plena capacidade de obrar e  obrigarse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mediante auto de autorización xudicial de internamento. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;A través do seu representante legal D./Dª……………………….……….., con DNI nº ……….., con domicilio en ……………………………………………….…., con número de teléfono ……….…, representación que acredita mediante  testimonio&amp;nbsp; de ……………………..………….(auto,  sentencia, poder, libro de familia) e que queda adxunta e formando parte deste  Contrato. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A través do persoa de referencia, D./Dª……………………………………. con DNI nº ……….., con domicilio en …………………………………….…………., con número de teléfono ………………..…, &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Ambas partes recoñécense plena capacidade legal  para contratar e obligarse, e na sua virtude:&lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;strong&gt;MANIFESTAN:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I.- O Centro de  Día é un centro dependente da  Consellería  de Traballo e Benestar – Dirección Xeral da Dependencia e Autonomía Persoal,  que ten como finalidade acoller en réxime de media xornada ou xornada completa,  prestando atención integral a Persoas Maiores con Alzheimer e outras patoloxía  dexenerativas.&lt;/p&gt;
+&lt;p&gt;II.- Que o usuario  coñece as instalacións do Centro de Día, así como as condicións de estancia,  sociais, sanitarias e económicas, segundo establece  a normativa vixente para este tipo de centros,  considerándoas da súa completa satisfacción.&lt;/p&gt;
+&lt;p&gt;III.-Que ó mencionado usuario foille concedida pola  Dirección Xeral da Dependencia e Autonomía Persoal praza  no indicado centro.                        .&lt;/p&gt;
+&lt;p&gt;IV.-Que o ingreso  do usuario efectúase libre e voluntariamente.&lt;/p&gt;
+&lt;p&gt;V.-Que o usuario  coñece e acepta o Regulamento de Réxime Interior aprobado pola Dirección Xeral  da Dependencia e Autonomía Persoal, para a Centro de Día de Alzheimer de  Bembrive, copia do que se  entrega ao usuario neste acto, comprometéndose  ó seu  estricto cumprimento.&lt;/p&gt;
+&lt;p&gt;VI.-Que o usuario ingresou no Centro de Día de  Alzheimer de Bembrive, o pasado --------------------------------------------               .&lt;/p&gt;
+&lt;p&gt;VII.-Que o usuario superou positivamente o período de proba de trinta días  naturais seguintes ao do ingreso, sendo o seu ingreso no centro definitivo e  con efectos do día indicado no punto anterior.&lt;/p&gt;
+&lt;p&gt;Por todo isto&lt;/p&gt;
+&lt;h4&gt;&lt;strong&gt;ACORDAN&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PRIMEIRO&lt;/strong&gt;.-O usuario ou o seu  representante, no seu caso, participan dende o momento do seu ingreso na  financiación do coste da súa  estancia no  Centro de Día. Dita cantidade corresponde ao que establezca a resolución de  concesión de praza pola Consellería de Traballo e Benestar. O resto ata  completar o 100% do prezo praza/día será abonado pola Xunta de Galicia.&lt;/p&gt;
+&lt;p&gt;Esta liquidación  da aportación realizarase  nos termos que  fixa o Prego de cláusulas administrativas particulares para a contratación do Centro  de Día de Alzheimer de Bembrive.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SEGUNDO.-&lt;/strong&gt;Dito pago  realizarase  a empresa QUAVITAE SERVICIOS ASISTENCIALES S.A.U., prestataria do servizo,  mediante domiciliación bancaria na conta que  a continuación se indica e a mes vencido. &lt;/p&gt;
+&lt;p&gt;BANCO OU CAIXA…………………………………………………………………………………… &lt;br&gt;
+  SUCURSAL………………………………………………………………………………………………..&lt;br&gt;
+  Conta Corrente…………………………………………………………………………………………….                   &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TERCEIRO.- &lt;/strong&gt;O usuario poderá  disfrutar de vacacións ou ausencias voluntarias, as cales non poderán ter unha  duración superior conxunta a 30 días naturais ó ano.&lt;/p&gt;
+&lt;p&gt;Cada período de  ausencia deberá ser  previamente  comunicado ó Director do Centro con 3 días de antelación ó da saída.&lt;/p&gt;
+&lt;p&gt;No caso de  ausencias superiores a 10 días naturais en virtude de períodos de permisos,  vacacións ou internamento en establecementos hospitalarios, o adxudicatario  percibirá do usuario a cantidade que establezca a resolución de concesión da  praza, aportando a Consellería de Traballo e Dependencia o resto ata completar  o 62,25% do prezo praza/día.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CUARTO&lt;/strong&gt;.- O Centro de Día  comprométese a cumprir e facer cumprir ó persoal ó seu servicio,  as estipulacións  contidas no Regulamento de Réxime Interior  aprobado pola Dirección Xeral da Dependencia e Autonomía, prestando especial  atención a todos aqueles que poidan facer   mais confortable e agradable a estancia no Centro de Día  ós seus clientes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;QUINTO.-&lt;/strong&gt;O  Centro de Día   de Alzheimer e outras patoloxías dexenerativas de Bembrive, prestará ó  menos os seguintes servizos:&lt;/p&gt;
+&lt;p&gt;                      -O aloxamento, que comprenderá: o uso  de zonas de convivencia;  a manutención e  adecuada limpeza das instalacións, así como o seu mantemento.&lt;/p&gt;
+&lt;p&gt;                        -O coidado persoal,  control e protección do usuario, que comprenderá a prestación da asistencia necesaria  para a realización das actividades elementais da vida diaria (aseo, vestido,  alimentación) así como daquelas actividades encamiñadas á salvagarda da  integridade persoal dos  usuarios.&lt;br&gt;
+  -Atención xerontolóxica  integral (xeriátrica, psicolóxica e rehabilitadora), que deberá comprende-las  actuacións propias do seu campo, así como o desenvolvemento de programas de  rehabilitación (fisioterapia, terapia ocupacional entre outros), atención  médica, de enfermería e psicolóxica, sen prexuízo da utilización ou  coordinación, no seu caso, cos servizos  sanitarios do Sistema Xeral.&lt;/p&gt;
+&lt;p&gt;                        -Atención social, que  incluirá entre as súas actividades a valoración das circunstancias sociais dos  usuarios, a promoción da súa integración e participación na vida do centro e no  medio no que este se ubica, a animación sociocultural e as relacións coas  familias dos usuarios.&lt;/p&gt;
+&lt;p&gt;                        -Outros servizos (transporte,  perruquería, podoloxía, etc.).&lt;/p&gt;
+&lt;h3&gt;&amp;nbsp;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;SEXTO.-&lt;/strong&gt;Para calquer diverxencia  ou litixio que poida xurdir sobre a interpretación ou aplicación  do estipulado neste documento, as partes, con  renuncia ó seu propio foro, sométense expresamente á xurisdicción competente no  territorio  da residencia.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SETIMO:-&lt;/strong&gt;O Centro manifesta que  ten contrada unha póliza de Responsabilidade Civil para os accidentes que poideran  producirse pola intervención do persoal do Centro no desenvolvemento das súas  funcións.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OCTAVO.-&lt;/strong&gt;&amp;nbsp; Os datos persoais  recollidos no presente documento serán incorporados e tratados nun ficheiro  titularidade de QUAVITAE SERVICIOS ASISTENCIALES , SAU, coa finalidades de  cumprir o propio contrato de prestación de servizos subscrito e xestionar os  agradecementos, suxestións e reclamacións.   Así mesmo poderán ser utilizados para o envío de información sobre  produtos, servizos e eventos de QUAVITAE SERVICIOS ASISTENCIALES S.A.U. e das  distintas sociedades de SARquavitae, así como para a realización de enquisas de  calidade do servizo.&lt;/p&gt;
+&lt;p&gt;Os seus datos  poderán ser cedidos, exclusivamente para as finalidades indicadas  anteriormente, a outras entidades sociosanitarias, sempre que estas pertenzan  directa ou indirectamente ao Grupo Societario SARquavitae (www.sarquavitae.es),  todo iso tanto se se formalizase ou non operación ningunha como, se é o caso,  unha vez extinguida a relación contractual existente, respectando en todo caso  a lexislación española sobre protección de datos de carácter persoal e sen  necesidade de que lle sexa comunicada cada primeira cesión que se efectúe aos  referidos cesionarios.&lt;/p&gt;
+&lt;p&gt;O interesado  poderá exercer os dereitos de acceso, rectificación, cancelación e oposición  mediante comunicación escrita dirixida a Departamento Xurídico, SARquavitae,  C/Aribau 185 Entlo, 08021 - Barcelona ou ao propio centro no que se presta o  servizo obxecto de contrato.&lt;/p&gt;
+&lt;p&gt;Vostede Pode  marcar esta casa en caso de opoñerse ao tratamento e comunicación dos datos de  carácter persoal para fins comerciais.&lt;br&gt;
+  Vostede Pode  marcar esta casa en caso de opoñerse ao tratamento e comunicación dos datos de  carácter persoal para a realización de enquisas de satisfacción.&lt;/p&gt;
+&lt;p&gt;En caso de que os  datos facilitados se refiran a persoas físicas distintas do interesado, este  deberá, con carácter previo á súa inclusión no presente documento, informalos  dos extremos contidos nos parágrafos anteriores.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+  &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Asdo.: .&lt;br&gt;
+  En calidade de  Director da  Residencia.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Asdo.: &lt;br&gt;
+  En calidade do residente ou legal representante do  residente. &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Asdo.:……………………………………………………….&lt;br&gt;
+  En calidade de ………  …… ……… …… …… …… &lt;/p&gt;
+&lt;/body&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

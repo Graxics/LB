@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>http://sts.sarquavitae.es/adfs/services/trust</issuer>
+    <loginUrl>https://sts.sarquavitae.es/adfs/ls/</loginUrl>
+    <name>STS</name>
+    <oauthTokenEndpoint>https://sarquavitae--test.cs18.my.salesforce.com/services/oauth2/token?so=00D1100000C0aak</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>0</requestSignatureMethod>
+    <salesforceLoginUrl>https://sarquavitae--test.cs18.my.salesforce.com?so=00D1100000C0aak</salesforceLoginUrl>
+    <samlEntityId>https://sarquavitae.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC4DCCAcigAwIBAgIQfQ1jskERnbpMhrJ9eg2QMDANBgkqhkiG9w0BAQsFADAsMSowKAYDVQQDEyFBREZTIFNpZ25pbmcgLSBzdHMuc2FycXVhdml0YWUuZXMwHhcNMTUwMzE5MTQwMzIzWhcNMTYwMzE4MTQwMzIzWjAsMSowKAYDVQQDEyFBREZTIFNpZ25pbmcgLSBzdHMuc2FycXVhdml0YWUuZXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFRnnvlwP+Z2uEizsJJjj9D+tSpKnaB4l5mPOlz6fEc/DQJlQvjwTo7USjrKxV41PRWMBFOWWuOtneiQXcGoC4G1X9OB+9qtVhzCfM3yQS46nc3OCUpwQYMd+gzPlaYwjNTjBhFguL5YdE9G0K9TYsUXZ74SDfaDQxlBI1inQE6DO7o3+l1XdLemHc7NO22Hr364WPPQb9dnMaLtzD90uaYDYVX9CkQdhtGWMTNawMdiBC95PJrNebH2MuxnF0Oo2xkcMj/fSq845dprzJ6DLTZ4z7Fh3LMqmBrpTTqS8PW87ncS0w8c5fbXFEjO0uGfcU+dmlczMRgYI6gpgvj+odAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAEvWXZ8Vz3juVo38yXzGQc5GdLCkSRDZF184L+wrZBXyxRnbu8Vn+cnJgrOrZTREo6orqxp5gfEApA3hTRzrCyFjgqu352HQp500wuVpjs6uawOcwuWxf4lmJQ3V2oAJGtkOGnWu6m2il5DOIT7W6mLzhwlwDQErxkCFpH4g+H8yytL+m7kgn/j17o536E0G/3aTJS6CA63lbDHD87vclGCfhRVfJjvH42soIVXaR8AF1/bXV5S1p0OZv6GXvMWGCMEvzRZvrXbV6vMTo0C6VMyYYWHkZxo5sSeQNNI+eOzsvQJwAawEO/dO02FZuBWJ7HQnmndCWTvHV73I0VBXXuI=</validationCert>
+</SamlSsoConfig>

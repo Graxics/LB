@@ -1,0 +1,21 @@
+Hola,
+
+Se ha recibido una llamada al CAT preguntando sobre su servicio.
+
+La llamada recibida ha proporcionada la siguiente información:
+
+-  Nombre: {!Task.What}
+-  Teléfono: {!Account.Phone}
+-  Teléfono móvil: {!Account.PersonMobilePhone}
+-  Correo electrónico: {!Account.PersonEmail}
+-  Ciudad: {!Account.Ciudad__c}
+-  Procedencia: {!Task.Procedencia__c}
+-  Descripción procedencia: {!Task.Descripcion_procedencia__c}
+-  Descripción: {!Task.Description}
+-  Franja horaria de contacto: {!Account.Franja_horaria_de_contacto__c}
+
+Póngase en contacto con ella lo antes posible.
+
+Atentamente,
+
+CAT

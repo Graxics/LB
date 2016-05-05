@@ -1,0 +1,188 @@
+<body>
+<p align="center"><strong><u>CONTRATO  DE ARRENDAMIENTO POR TEMPORADA </u></strong><br>
+  <strong><u>DE  VIVIENDA Y SERVICIOS</u></strong></p>
+<p align="center"><strong>Referente a la unidad - vivienda nº {!Numero_De_Vivienda}
+ situada en la planta {!Numero_planta}
+del edificio &ldquo;ADOREA {!Oportunidad_platform__c.Nombre_Centro__c}
+&rdquo;, </strong><strong>ubicado en {!Oportunidad_platform__c.Calle_Centro__c}
+{!Oportunidad_platform__CP_Centro__c} ,
+{!Oportunidad_platform__c.Ciudad_Centro__c}
+.</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>En {!Oportunidad_platform__c.Ciudad_Centro__c}
+a, {!Fecha_Dia}
+de {!Fecha_Mes}
+ de {!Fecha_Anyo}
+</p>
+<p>&nbsp;</p>
+
+<p align="center"><strong>LAS  PARTES</strong></p>
+
+<p>De una parte <strong>D/Dª{!Residente.FirstName}
+{!Residente.LastName}
+</strong> , mayor de edad, vecino al presente  de {!Oportunidad_platform__c.Calle_Residente__c}
+, provisto de NIF Nº {!Oportunidad_platform__c.DNI_Residente__c}
+ , actuando en su propio nombre y representación (en adelante, y a todos  los efectos, el <strong>arrendatario</strong>)</p>
+<p>Y de otra <strong>{!Director.FirstName}
+{!Director.LastName}
+</strong>, provista de N.I.F. nº {!Oportunidad_platform__c.DNI_Director__c}
+ en su condición de  Directora del edificio en el que se encuentra situada la vivienda objeto del  presente contrato, del que es titular la empresa <strong>{!Oportunidad_platform__c.Sociedad_Centro__c}
+</strong>, domiciliada en {!Oportunidad_platform__c.Calle_Sociedad__c}, 
+{!Oportunidad_platform__c.Ciudad_Sociedad__c}
+ y provista de CIF nº {!Oportunidad_platform__c.CIF_Sociedad__c}
+, y a la que  representa en este acto en virtud de su condición de directora y apoderada. (en  adelante, y a todos los efectos, el <strong>arrendador</strong>) </p>
+<p>Reconociéndose  ambas partes plena capacidad para contratar y obligarse en virtud de las  respectivas calidades en que actúan </p>
+<p align="center"><strong>ACUERDAN</strong></p>
+
+<p>Contratar en este acto el arrendamiento temporal de la vivienda que ha  sido descrita e identificada en el encabezado de este contrato, así como de los  servicios que se dirán, de acuerdo y con arreglo a las siguientes: </p>
+<p>&nbsp;</p>
+<p align="center"><strong>CLÁUSULAS</strong></p>
+<p><strong>PRIMERA.- </strong><u>Objeto del contrato</u><strong> </strong></p>
+<p>El objeto de este contrato es el alquiler temporal exclusivo para el  destino a vivienda del arrendatario, persona mayor de 55 años, mientras sea  capaz de participar en el mantenimiento y cuidado de la vivienda, no pudiendo  instalar en él comercio, industria ni siquiera manual, ni oficina o despacho  profesional, ni manipular materias explosivas, inflamables, nocivas o insalubres,  ni realizar actividades incómodas, molestas, peligrosas o ilícitas dentro de la  vivienda ni tampoco en el inmueble del que forma parte.</p>
+<p>Es objeto del arrendamiento, exclusivamente,  la superficie situada dentro de las paredes de la vivienda incluyendo terraza y  jardín en su caso, quedando especialmente excluida la fachada, partes laterales  de la entrada, azotea y vestíbulo de la escalera, así como el derecho de vuelo  y de suelo.</p>
+<p>El presente arrendamiento constituye un  Arrendamiento de Temporada y bajo ningún concepto y situación que se produzca, la  vivienda objeto de este contrato podrá usarse de forma habitual.<strong> </strong></p>
+<p>
+<p><strong>SEGUNDA.- </strong><u>Duración del contrato.</u></p>
+<p>El presente contrato se otorga por la temporada de {!Numero_Dias_Contrato}
+días, desde el {!Oportunidad_platform__c.Dia_Ingreso} de
+{!Oportunidad_platform__c.Mes_Ingreso} de
+{!Oportunidad_platform__c.Anyo_Ingreso}
+, a las 12.00 pm, y quedará automáticamente  resuelto sin necesidad de aviso alguno, el día {!Oportunidad_platform__c.Dia_Salida} de
+{!Oportunidad_platform__c.Mes_Salida} de
+{!Oportunidad_platform__c.Anyo_Salida}
+, a las 12.00 pm,  debiendo la parte Arrendataria entregar las llaves con anterioridad.</p>
+<p>La parte Arrendataria deberá devolver el apartamento en  el estado en que lo encontró, dejándolo libre de efectos y enseres, permaneciendo  en perfecto estado tanto los muebles como los servicios de que dispone, <u>sin  que quepa prórroga del mismo salvo acuerdo escrito entre las </u>partes. </p>
+<p>
+<p><strong>TERCERA.- </strong><u>Mobiliario y enseres. Obligaciones de conservación y mantenimiento.</u></p>
+<p>La vivienda que se alquila está provista de mobiliario y de enseres,  si bien se entrega con equipamientos. A dichos efectos, se incorpora, como <strong>Anexo I</strong> al presente contrato,  inventario de los equipamientos de la vivienda acorde con la especificación, el  cual es aceptado y firmado en duplicado ejemplar y a su entera conformidad por  ambas partes.</p>
+<p>La vivienda objeto de este contrato se entrega en este acto,  recibiéndola el arrendatario de plena conformidad. </p>
+<p>El arrendatario se obliga a conservar la vivienda en perfecto estado.  Llegada la fecha de vencimiento del presente contrato, se procederá a la  inspección conjunta del estado de conservación de la misma. El arrendatario  se obliga a pagar al arrendador el importe de todos aquellos elementos que, en  el momento de realizarse la citada inspección, faltaren, estuvieran dañados o  estropeados. El arrendatario se obliga a comunicar al arrendador en el más  breve plazo posible cualquier daño o menoscabo sufrido por cualquiera de los  elementos de la vivienda objeto del arrendamiento.</p>
+<p><strong>CUARTA.- </strong><u>Responsabilidad.</u></p>
+<p>El arrendatario responderá por los daños causados a terceros por el  mal uso de la vivienda arrendada.</p>
+<p>El arrendatario se obliga a comunicar al arrendador en el más breve  plazo posible toda anomalía en el funcionamiento de las instalaciones de la  vivienda objeto del presente arrendamiento, así como a advertirle de cualquier  circunstancia que pueda presentar algún peligro para la integridad del edificio  o la salud y bienestar de los inquilinos.</p>
+<p><strong>QUINTA.- </strong><u>De los servicios Comunitarios incluidos.</u></p>
+<p>El edificio en el que se halla la vivienda objeto del arrendamiento  goza de una amplia oferta de servicios comunitarios que constituyen un  complemento específicamente pensado para personas mayores. Estos servicios  propios del edificio, detallados en el Reglamento de Régimen Interior del  Edificio ADOREA BENALMÁDENA, superan notablemente los que se pueden dar en un  edificio de viviendas tradicional; por lo que ambas partes declaran que es  condición esencial del presente contrato el arrendamiento simultáneo de los  citados servicios.</p>
+<p>En virtud de cuanto antecede, el arrendatario contrata con el  arrendador tanto la vivienda en sí misma como la prestación de los servicios a  que se refiere el citado Reglamento de Régimen Interior, en las condiciones en  él detalladas. En consecuencia, se conviene expresamente que el coste de los  citados servicios comunitarios se pagará también en el acto de celebración del  contrato, el cual tendrá un precio total por el total importe del Arrendamiento  de Temporada de la vivienda más los servicios comunes de  <strong> 
+{!Oportunidad_platform__c.Precio_Total__Letras}
+ Euros ({!Oportunidad_platform__c.Precio_Total__c}
+€), </strong>IVA incluido, en el caso que proceda.</p>
+<p>El edificio  ADOREA {!Oportunidad_platform__c.Nombre_Centro__c}
+, dispone de otros  servicios suplementarios opcionales como el de restaurante, lavandería,  limpieza de apartamentos y aquellos que se vayan implementando con el paso del  tiempo, que quedan excluidos de este contrato y   que pueden ser contratados mediante otro contrato de prestación de servicios,  según la lista de precios vigentes en cada momento. Dicha lista detalla así  mismo los servicios, espacios y dependencias de uso comunitario incluidos en la  renta mensual.</p>
+<p><strong>SEXTA.- </strong><u>Del precio.</u></p>
+<p>El precio del presente arrendamiento de temporada consiste en:</p>
+<p>El pago de la renta (alquiler + servicios obligatorios) será de <strong> </strong><strong>{!Oportunidad_platform__c.Precio_Total__Letras}
+ Euros ({!Oportunidad_platform__c.Precio_Total__c}
+
+€),</strong><strong> mensuales, </strong>IVA incluido.<strong> </strong></p>
+<p>La renta de la temporada se abonará de la siguiente manera:</p>
+<p>En el caso de que la vivienda se hubiera reservado con anterioridad a  ocupar la misma por parte del arrendatario:</p>
+<ul type="disc">
+  <li>El <strong>25%</strong> del precio anterior será abonado en el momento de la reserva de la finca       en concepto de <strong>SEÑAL</strong>.</li>
+  <li>El <strong>75%</strong> restante se pagará el día de la firma del presente contrato. </li>
+</ul>
+<p>Si la vivienda no hubiera sido objeto de una reserva el arrendatario  pagará al arrendador el <strong>100% </strong>del  precio del Arrendamiento de Temporada en el momento de la firma del presente  Contrato.</p>
+<p>El precio de la renta se abonará preferentemente mediante  transferencia bancaria, lo que se acreditará mediante recibo que entregará el  arrendatario al arrendador en el momento de firmar el presente Contrato. </p>
+<p>
+<p><strong>SÉPTIMA.- </strong><u>Suministros  de agua, electricidad, gas y teléfono</u></p>
+<p>La vivienda se alquila en el estado actual de las acometidas generales  y ramales o líneas existentes correspondientes al mismo, para los suministros  de que está dotado el inmueble. Los consumos de agua, electricidad y gas son de  cuenta y cargo exclusivo del arrendador. El arrendatario no podrá en ningún  caso, salvo autorización expresa y por escrito del arrendador, contratar con  las respectivas compañías suministradoras algún suministro de que no estuviera  dotado el inmueble, o modificar los existentes.</p>
+<p>En cuanto al consumo telefónico el mismo será a cuenta y cargo del  arrendatario el cual deberá abonar el día que finalice el Arrendamiento de  Temporada el total importe correspondiente al consumo telefónico hecho desde la  vivienda arrendada.</p>
+<p><strong>OCTAVA.- </strong><u>Obligaciones del arrendatario.</u></p>
+<p>El arrendatario se obliga: </p>
+<ol type="a">
+  <li>Al pago del precio  de la renta, correspondiente a arrendamiento más los servicios obligatorios, en  los términos establecidos así como al pago de cualquier gasto o canon que por  el cobro de domiciliación bancaria, o en su caso devolución, se establezca por  Entidad Bancaria o Caja de Ahorros.</li>
+
+  <li>A abonar el coste  de las reparaciones y menoscabos o destrozos provocados por el uso anormal,  negligente o imprudente de la vivienda.</li>
+
+  <li> Al pago de las reparaciones ocasionadas por el  inquilino. </li>
+
+  <li>A no ceder,  traspasar o subarrendar, por cualquier título, total o parcialmente,la vivienda objeto de este contrato, ni  destinarla total o parcialmente a hospedaje, sin el previo consentimiento del  arrendador.</li>
+
+  <li>A no tener o  manipular en la vivienda materias explosivas, inflamables, incómodas o  insalubres, y observar en todo momento las disposiciones vigentes.</li>
+
+  <li>A poner en conocimiento del arrendador, en el plazo más breve posible, la necesidad de llevar a cabo las reparaciones necesarias para conservar la vivienda en condiciones de habitabilidad.</li>
+  <li>A permitir el  acceso a la vivienda, al propietario, al Administrador y a los operarios o  industriales mandados por cualquiera de ambos, para la realización, inspección  y comprobación de cualquier clase de obras o reparaciones que afecten al  inmueble.</li>
+
+  <li>A cumplir en todo  momento las normas Estatutarias y Reglamentarias que se tengan establecidas o  se establezcan, en orden a la utilización de los servicios, elementos comunes y  régimen de buena convivencia, y en particular las del Reglamento de Régimen  Interior del edificio, así como las modificaciones del mismo que se aprueben en  el futuro.</li>
+</Ol>
+<p>
+<p><strong>NOVENA.- </strong><u>Desistimiento del contrato.</u></p>
+<p>Para el caso de desistimiento de este contrato por el arrendatario,  éste deberá indemnizar al arrendador, con la cantidad total cantidad ya abonada  por el mismo bien sea en  concepto de  reserva bien sea en concepto de pago del 100% del importe del Arrendamiento de  Temporada. Por tanto el arrendador no deberá devolver cantidad alguna recibida  con anterioridad del arrendatario en el caso que el mismo decida desistir del  Contrato con anterioridad al vencimiento del mismo.</p>
+<p>A dicho importe se deberá añadir, en su caso, las cantidades que el  arrendatario deberá abonar por el consumo telefónico hecho desde la vivienda.</p>
+<p><strong>DÉCIMA.- </strong><u>Uso  exclusivo de los servicios. Alojamiento de terceras personas.</u></p>
+<p>a)<strong> </strong>Se pacta  expresamente que el uso de los servicios que son propios de la comunidad de  vecinos donde se ubica el apartamento objeto del presente contrato de  arrendamiento, son de uso exclusivo del   titular  del presente contrato en  concepto de arrendatario. </p>
+<p>El arrendatario puede  recibir, en su apartamento o en las dependencias habilitadas dentro del  edificio a tal efecto, a las personas que desee, sean familiares o no, aunque  estos deberán respetar y cumplir las normas internas de convivencia así como a  los otros arrendatarios y objetos propiedad del edificio. En caso de  incumplimiento de estas normas, el visitante podrá ser expulsado del edificio.</p>
+<p>En cualquier caso, la  visita o pernoctación de tercera persona que no sea titular del arrendamiento,  deberá ser comunicada a la Dirección de ADOREA {!Oportunidad_platform__c.Nombre_Centro__c}
+, notificando sus  datos personales de la misma, con la finalidad de llevar un control interno y  de seguridad de las visitas recibidas. El incumplimiento de esta obligación se  considerará una falta leve.</p>
+<p>
+<p><strong>DECIMOPRIMERA.- </strong><u>Domicilio para notificaciones.</u></p>
+<p>A efectos de recibir cualquier notificación vinculada con los derechos  y obligaciones reconocidos en este contrato, se designa como domicilio del  arrendador, el del despacho de Administración sito en el mismo edificio al que  pertenece la vivienda arrendada, y el del arrendatario, el de la vivienda  arrendada.     </p>
+<p>Igualmente, en caso de tener familiares directos (cónyuge,  ascendiente, descendiente, hermanos), se establece como domicilio adicional de  notificaciones el siguiente:</p>
+<p align="left">D/Dª. {!Persona_Referencia.FirstName}
+{!Persona_Referencia.LastName}
+ <br>
+  Calle {!Persona_Referencia.Calle},
+{!Persona_Referencia.Ciudad}
+<br>
+  Teléfono fijo {!Persona_Referencia.Phone}
+ <br>
+  Móvil: {!Persona_Referencia.Movil}
+</p>
+<p>
+<p><strong>DECIMOSEGUNDA.- </strong><u>Resolución del contrato de arrendamiento.</u></p>
+<p>El incumplimiento por parte del arrendatario de cualquiera de las  obligaciones establecidas en el presente contrato podrá dar lugar a la  resolución del arrendamiento. En caso de resolución del contrato, el  arrendatario queda obligado a dejar la vivienda objeto del arrendamiento libre,  vacua y expedita, y a disposición del arrendador.</p>
+<p>En concreto, el contrato se resolverá por:</p>
+<ol type="a">
+  <li>La comisión de una falta muy grave, conforme a lo  establecido en el Reglamento de Régimen Interno y en el presente contrato.</li>
+
+  <li>La alteración en el uso y/o destino del apartamento,  así como de sus características.</li>
+
+
+  <li>El incumplimiento por cualquiera de las partes de  las obligaciones esenciales del contrato.</li>
+
+  <li> La  realización, por parte del arrendatario, de actividades ilícitas o prohibidas,  o que pongan en peligro la salud de los otros arrendatarios, la salubridad,  higiene e integridad del Edificio ADOREA BENALMÁDENA, o que menoscaben la  tranquilidad y sosiego de la convivencia en el edificio.</li>
+
+  <li>La ruina o la pérdida de la propiedad del edificio  ADOREA BENALMÁDENA por parte de la   Propiedad, por causa no imputable a la misma.</li>
+
+  <li>Por defunción del arrendatario.</li>
+
+  <li>En el supuesto en que del estado salud física y/o  mental del arrendatario se derive un peligro para la salud o dignidad de su  propia vida o comporte molestias al resto de inquilinos del edificio, no siendo  capaces de participar en el mantenimiento y el cuidado de su propio apartamento </li>
+
+  <li>Cualquiera otras previstas en la legislación  vigente, el presente contrato o en el Reglamento de Régimen Interior.</li>
+</ol>
+<p>En todo caso, la resolución del contrato no podrá producirse sin  previa comunicación escrita al arrendatario. En caso de resolución del  contrato, el arrendatario quien tiene la posibilidad de corrección queda  obligado a entregar las llaves y a liberar la vivienda alquilada mediante este  contrato, en un plazo no superior a 5 días desde la notificación de la  rescisión del contrato.</p>
+<p>En el supuesto de que <u>el arrendatario no haya abandonado la  vivienda</u> objeto de alquiler en el plazo anteriormente indicado, o no haya  procedido, junto con la Propiedad a la inspección del estado de conservación de  la vivienda, incluido los equipamientos, mobiliario y enseres, y a la firma del  Inventario correspondiente, la Dirección podrá entrar en la habitación,  levantar unilateralmente Acta Descriptiva del estado de conservación de la  vivienda, incluido el mobiliario y enseres, así como de los enseres personales  del arrendatario, con la presencia de 2 testigos ajenos a la Dirección, que  firmaran la citada Acta,  y recuperar así la posesión de la vivienda. Los enseres personales serán  recogidos y depositados en el almacén del edificio, teniendo la obligación el  arrendatario de recogerlos en un período máximo de 24 horas; de no ser así, se  le facturará la cantidad de 15 Euros/día, por almacenamiento. A los 2 meses de  la rescisión del contrato sin haber recogido el arrendatario sus enseres, éstos  podrán ser donados a una entidad sin ánimo de lucro, sin responsabilidad alguna  para la Dirección de ADOREA {!Oportunidad_platform__c.Nombre_Centro__c}
+.</p>
+<p>
+<p><strong>DECIMOTERCERA.- </strong><u>Autorización de acceso al domicilio del arrendatario.</u><strong> </strong></p>
+<p>El usuario se compromete a mantener la vivienda en buen estado, tanto  de mantenimiento y conservación como de limpieza, higiene y salubridad. En todo  caso el usuario deberá permitir la entrada en la vivienda a la Dirección del  Edificio, personal del mismo  y/o  empresas de servicios y limpieza, siempre que sea debido a  motivos de urgencia, higiene o salubridad,  fuerza mayor o la Dirección  lo considere de interés para el propio arrendatario o los otros residentes del  edificio. <br>
+  Los gastos originados por la limpieza del apartamento, debido a los  motivos citados anteriormente, se facturarán en el recibo correspondiente,  según las tarifas oficiales. </p>
+<p>La Dirección solicitará la entrada en la vivienda con una antelación  de 24 horas, mediante comunicación al arrendatario, para que éste autorice la  entrada, en su presencia o en su ausencia. Por éste motivo, el arrendatario  conoce y acepta que la   Dirección del Edificio<strong> </strong>disponga de una copia de la llave de su apartamento.</p>
+<p>Si el arrendatario estuviera ausente, se consignará en un Informe  firmado por la Dirección,  los defectos de mantenimiento o de limpieza observados, instando al  arrendatario para que el plazo de 15 días los subsane. Pasado este plazo sin  haber realizado actuación alguna por parte del arrendatario, se faculta la Dirección del Edificio  para entrar en el apartamento, subsanar por ella misma o por terceros  contratados a tal efecto los defectos de mantenimiento o limpieza observados,  con cargo al arrendatario, sin perjuicio de las consecuencias disciplinarias de  este incumplimiento, que será considerado como falta muy grave.</p>
+<p><strong>DECIMOCUARTA.- </strong><u>Fuero.</u><strong> </strong></p>
+<p>Las partes con renuncia a su propio fuero si lo tuvieran se someterán  a la jurisdicción de los Juzgados y Tribunales de {!Oportunidad_platform__c.Ciudad_Centro__c}.</p>
+<p><strong>DECIMOQUINTA.- </strong><u>Protección de datos de carácter personal.</u></p>
+<p>Los datos personales  recogidos en el presente documento serán incorporados y tratados en un fichero  titularidad de {!Oportunidad_platform__c.Sociedad_Centro__c}
+., con la finalidad de  cumplir el propio contrato de prestación de servicios suscrito y gestionar los  agradecimientos, sugerencias y reclamaciones. Así mismo podrán ser utilizados  para el envío de información sobre productos, servicios y eventos de {!Oportunidad_platform__c.Sociedad_Centro__c}
+, y de las distintas sociedades de  SARquavitae, así como para la realización de encuestas de calidad del servicio.</p>
+<p>Sus datos podrán ser  cedidos, exclusivamente para las finalidades indicadas anteriormente, a otras  entidades socio-sanitarias, siempre que las mismas pertenezcan directa o  indirectamente al Grupo Societario SARquavitae (<a href="http://www.sarquavitae.es">www.sarquavitae.es</a>), todo ello tanto si se  formalizase o no operación alguna como, en su caso, una vez extinguida la  relación contractual existente, respetando en todo caso la legislación española  sobre protección de datos de carácter personal y sin necesidad de que le sea  comunicada cada primera cesión que se efectúe a los referidos cesionarios.</p>
+<p>El interesado podrá  ejercer los derechos de acceso, rectificación, cancelación y oposición mediante  comunicación escrita dirigida a Departamento Jurídico, SARquavitae, C/Aribau  185 Entlo, 08021 – Barcelona o al propio centro en el que se presta el servicio  objeto de contrato.</p>
+<dl>
+<dt>{!F5}     Vd. Puede marcar esta casilla en caso  de oponerse al tratamiento y comunicación de los datos de carácter personal  para fines comerciales.</dt>
+<dt>{!F5}      Vd. Puede marcar esta casilla en caso  de oponerse al tratamiento y comunicación de los datos de carácter personal  para la realización de encuestas de satisfacción.</dt>
+</dl>
+<p>En caso de que los  datos facilitados se refieran a personas físicas distintas del interesado, éste  deberá, con carácter previo a su inclusión en el presente documento,  informarles de los extremos contenidos en los párrafos anteriores.</p>
+<p>&nbsp;</p>
+<p>Así lo otorgan y para que conste firman el presente documento por  duplicado y a un solo efecto, en el lugar y fecha arriba indicados. </p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>EL ARRENDADOR                                                                                                  EL  ARRENDATARIO</strong><strong> </strong><br>
+  <strong>{!Oportunidad_platform__c.Sociedad_Centro__c}
+</strong><strong> </strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Fdo: D. {!Director.FirstName} {!Director.LastName}                                                                                                  Fdo:D/Dª{!Pagador.FirstName} {!Pagador.LastName}<br>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong></p>
+</body>

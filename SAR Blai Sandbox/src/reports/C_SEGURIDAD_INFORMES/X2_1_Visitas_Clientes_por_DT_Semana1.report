@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>Oportunidad_platform__c.Contar_oportunidad__c:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>1 visita</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <columns>
+        <field>Oportunidad_platform__c.Activities$Subject</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$RecordType</column>
+            <operator>equals</operator>
+            <value>Event.Visita_a_Cliente</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c$RecordType</column>
+            <operator>equals</operator>
+            <value>Oportunidad_platform__c.Oportunidad_privada</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c$Servicio__c</column>
+            <operator>notContain</operator>
+            <value>CDIA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$Subject</column>
+            <operator>startsWith</operator>
+            <value>Visita</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Oportunidad_platform__c.Activities$Resultado__c</column>
+            <operator>equals</operator>
+            <value>Acción Cerrada</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Week</dateGranularity>
+        <field>Oportunidad_platform__c.Activities$ActivityDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Oportunidad_platform__c$Zona_Territorial__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>2.1 Visitas Clientes por DT Semana</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Actividades_vs_Oportunidades__c</reportType>
+    <scope>team</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Oportunidad_platform__c.Activities$ActivityDate</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

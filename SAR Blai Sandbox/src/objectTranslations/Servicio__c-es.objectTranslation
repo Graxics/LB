@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Servicio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Servicios</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activo --></label>
+        <name>Activo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Componente tarifa --></label>
+        <name>Componente_tarifa__c</name>
+        <picklistValues>
+            <masterLabel>Suplemento Grado</masterLabel>
+            <translation><!-- Suplemento Grado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suplemento Habitación</masterLabel>
+            <translation><!-- Suplemento Habitación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarifa base</masterLabel>
+            <translation><!-- Tarifa base --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cuota inicial --></label>
+        <name>Cuota_inicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>Descripcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grado Dependencia --></label>
+        <name>Grado_Dependencia__c</name>
+        <picklistValues>
+            <masterLabel>Grado 1</masterLabel>
+            <translation><!-- Grado 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grado 2</masterLabel>
+            <translation><!-- Grado 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grado 3</masterLabel>
+            <translation><!-- Grado 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Servicio --></label>
+        <name>Servicio__c</name>
+        <picklistValues>
+            <masterLabel>Mixto</masterLabel>
+            <translation><!-- Mixto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAD</masterLabel>
+            <translation><!-- TAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAM</masterLabel>
+            <translation><!-- TAM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo Estancia --></label>
+        <name>Tipo_Estancia__c</name>
+        <picklistValues>
+            <masterLabel>Permanente</masterLabel>
+            <translation><!-- Permanente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporal</masterLabel>
+            <translation><!-- Temporal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo Ocupación --></label>
+        <name>Tipo_Ocupacion__c</name>
+        <picklistValues>
+            <masterLabel>1 hora</masterLabel>
+            <translation><!-- 1 hora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 horas</masterLabel>
+            <translation><!-- 2 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 horas</masterLabel>
+            <translation><!-- 3 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 horas</masterLabel>
+            <translation><!-- 5 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 horas</masterLabel>
+            <translation><!-- 6 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 horas</masterLabel>
+            <translation><!-- 7 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Animación Sociocultural</masterLabel>
+            <translation><!-- Animación Sociocultural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fisio</masterLabel>
+            <translation><!-- Fisio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD</masterLabel>
+            <translation><!-- HD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD Uso Individual</masterLabel>
+            <translation><!-- HD Uso Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI Baño Compartido</masterLabel>
+            <translation><!-- HI Baño Compartido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jornada Completa</masterLabel>
+            <translation><!-- Jornada Completa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media Jornada</masterLabel>
+            <translation><!-- Media Jornada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psicología</masterLabel>
+            <translation><!-- Psicología --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suite</masterLabel>
+            <translation><!-- Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terapia Ocupacional</masterLabel>
+            <translation><!-- Terapia Ocupacional --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo Servicio --></label>
+        <name>Tipo_Servicio__c</name>
+        <picklistValues>
+            <masterLabel>Apartamento</masterLabel>
+            <translation><!-- Apartamento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apartamento social</masterLabel>
+            <translation><!-- Apartamento social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arrend</masterLabel>
+            <translation><!-- Arrend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arrend viv y servicio</masterLabel>
+            <translation><!-- Arrend viv y servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centro de Día</masterLabel>
+            <translation><!-- Centro de Día --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centro de Noche</masterLabel>
+            <translation><!-- Centro de Noche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convalecencia</masterLabel>
+            <translation><!-- Convalecencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fijo Discontinuo</masterLabel>
+            <translation><!-- Fijo Discontinuo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital de Día</masterLabel>
+            <translation><!-- Hospital de Día --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paliativo</masterLabel>
+            <translation><!-- Paliativo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehabilitación psicosocial</masterLabel>
+            <translation><!-- Rehabilitación psicosocial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial</masterLabel>
+            <translation><!-- Residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respiro</masterLabel>
+            <translation><!-- Respiro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicios Externos</masterLabel>
+            <translation><!-- Servicios Externos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sociosanitario Privado</masterLabel>
+            <translation><!-- Sociosanitario Privado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UDC</masterLabel>
+            <translation><!-- UDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPG</masterLabel>
+            <translation><!-- UPG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USM</masterLabel>
+            <translation><!-- USM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UTC</masterLabel>
+            <translation><!-- UTC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de dispositivos --></label>
+        <name>Tipo_de_dispositivos__c</name>
+        <picklistValues>
+            <masterLabel>GSM</masterLabel>
+            <translation><!-- GSM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GT300</masterLabel>
+            <translation><!-- GT300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIMOV</masterLabel>
+            <translation><!-- MIMOV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de periférico --></label>
+        <name>Tipo_de_periferico__c</name>
+        <picklistValues>
+            <masterLabel>...</masterLabel>
+            <translation><!-- ... --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 periférico</masterLabel>
+            <translation><!-- 1 periférico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 periféricos</masterLabel>
+            <translation><!-- 2 periféricos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 periféricos</masterLabel>
+            <translation><!-- 3 periféricos --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de servicio TA --></label>
+        <name>Tipo_de_servicio_TA__c</name>
+        <picklistValues>
+            <masterLabel>Agenda</masterLabel>
+            <translation><!-- Agenda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atención de alarmas</masterLabel>
+            <translation><!-- Atención de alarmas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguimiento Especial</masterLabel>
+            <translation><!-- Seguimiento Especial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguimiento Estándar</masterLabel>
+            <translation><!-- Seguimiento Estándar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unidad móvil</masterLabel>
+            <translation><!-- Unidad móvil --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transporte --></label>
+        <name>Transporte__c</name>
+        <picklistValues>
+            <masterLabel>Medio</masterLabel>
+            <translation><!-- Medio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Servicio</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Servicio TA</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Servicios Residenciales --></label>
+        <name>Servicios_Residenciales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Servicios TA --></label>
+        <name>Servicios_TA</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio para estancia permanente --></errorMessage>
+        <name>Informar_grado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio para los servicios Centro y Hospital de día --></errorMessage>
+        <name>Informar_transporte</name>
+    </validationRules>
+</CustomObjectTranslation>

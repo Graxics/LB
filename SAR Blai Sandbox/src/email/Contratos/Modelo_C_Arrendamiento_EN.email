@@ -1,0 +1,227 @@
+<body>
+<p align="center"><strong><u>AGREEMENT FOR LEASE OF  APARTMENT AND SERVICES </u></strong></p>
+<p align="center"><strong>Regarding unit - apartment no{!Numero_De_Vivienda}
+located on the {!Numero_planta}
+ floor of the &quot;ADOREA {!Oportunidad_platform__c.Nombre_Centro__c}
+&quot; building, located in {!Oportunidad_platform__c.Calle_Centro__c}
+ in {!Oportunidad_platform__c.Ciudad_Centro__c}
+</strong></p>
+<p align="center"><a name="result_box5"></a>&nbsp;</p>
+<p align="center">In {!Oportunidad_platform__c.Ciudad_Centro__c}
+, on {!Fecha_Dia},
+{!Fecha_Mes}, 
+{!Fecha_Anyo}
+ </p>
+
+<p align="center"><a name="result_box6"><strong></a>PARTIES</strong></p>
+<p><a name="result_box7"></a>            Party of the first part, <strong>Mr./Ms. {!Residente.FirstName}
+{!Residente.LastName}
+</strong>, of age, currently resident at {!Oportunidad_platform__c.Calle_Residente__c}
+,  holding tax identity no {!Oportunidad_platform__c.DNI_Residente__c}
+,  acting in their own name and representation (hereinafter, and to all intents  and purposes, the <strong>lessee</strong>) </p>
+<p>Party of the second part, Mr./Ms. {!Director.FirstName}
+{!Director.LastName}
+, holding tax  identity no {!Oportunidad_platform__c.DNI_Director__c}
+, in their capacity  as Manager of the building in which the apartment, subject-matter of this  agreement, is located, owned by the company <strong>{!Oportunidad_platform__c.Sociedad_Centro__c}
+</strong><strong>,</strong> domiciled at {!Oportunidad_platform__c.Calle_Sociedad__c}
+ in  {!Oportunidad_platform__c.Ciudad_Sociedad__c}
+ and with tax identity code no {!Oportunidad_platform__c.CIF_Sociedad__c}
+,  which they are representing in this act by virtue of their position as manager  and attorney-in-fact (hereinafter, and to all intents and purposes, the <strong>lessor</strong>).</p>
+<p><a name="result_box8"></a>Both  parties recognise their full capacity to enter into and be bound by the  agreement, by virtue of the capacities in which they act respectively.</p>
+<p>
+<p align="center"><a name="result_box9"></a><strong>THEY AGREE</strong></p>
+<p><a name="result_box10"></a>They agree in this act to  the lease of the apartment that is described and identified above in the  heading of this agreement, as well as to the services that will be identified,  according and subject to the following </p>
+<p>&nbsp;</p>
+<p align="center"><a name="result_box11"></a><strong>CLAUSES</strong></p>
+<p><a name="result_box12"></a><strong>ONE. </strong><u>Subject-matter  of the agreement </u></p>
+<p><a name="result_box13"></a>The purpose of this  agreement is the exclusive rental for housing use to the lessee, an individual over  55, while they are able to participate in the maintenance and care of the  apartment, not being entitled to install in it commercial activity, even manual  industry, nor an office or professional premises, or handle explosive,  flammable, noxious or unhealthy materials within, nor carry out inconvenient,  annoying, dangerous or illegal activities in the apartment nor in the building  of which it forms part. </p>
+<p><a name="result_box14"></a>The lease comprises,  exclusively, the area enclosed by the walls of the apartment, including terrace  and garden where applicable, specifically excluding the facade, the sides of  the entrance hall, the roof and the stairway, and air and ground rights. </p>
+<p><a name="result_box15"></a><strong>TWO.  </strong><u>Duration of the agreement. </u></p>
+<p><a name="result_box16"></a>The term of this agreement is ONE YEAR and it  shall take effect {!Oportunidad_platform__c.Dia_Ingreso}
+{!Oportunidad_platform__c.Mes_Ingreso}
+{!Oportunidad_platform__c.Anyo_Ingreso}
+.  As from the expiry date, it shall be  compulsorily extended on an annual basis until the lease reaches a minimum  duration of FIVE YEARS, unless the lessee notifies the lessor at least thirty  days before the termination date of the agreement or of any extensions of their  desire not to extend it. When the first twelve months have passed, the lessee  may terminate the agreement by providing one month&rsquo;s notice. </p>
+<p><a name="result_box17"></a>When the period of FIVE YEARS mentioned in the  preceding paragraph has passed, the agreement will be automatically extended  for additional ONE YEAR periods, unless one of the parties has notified the  other at least thirty days before the termination date of any extensions of  their desire not to extend it.</p>
+<p><a name="result_box18"></a>In any case, the agreement shall not extended  due to the causes stated in clauses 11 and 18 of this agreement, in which case  the provisions therein shall apply. </p>
+<p><a name="result_box19"></a><strong>THREE. </strong><u>Law. </u></p>
+<p>The housing is subject to the Urban Lease Law  and the regulations applicable to such buildings.</p>
+<p><a name="result_box21"></a><strong>FOUR. </strong><u>Furniture  and fixtures. Repair and maintenance obligations. </u></p>
+<p><a name="result_box22"></a>The apartment that is  rented is fitted with furniture and fixtures, and is also provided with  equipment. For this purpose, an inventory of the equipment in the apartment  according to the specification is incorporated as <strong>Appendix I</strong> to this  agreement, which is accepted and of which two copies are signed to the complete  satisfaction of both parties. </p>
+<p><a name="result_box23"></a>The apartment subject-matter  of this agreement is delivered in this act, and is received by the lessee to  their complete satisfaction.</p>
+<p><a name="result_box24"></a>The lessee agrees to keep  the apartment in perfect condition. At the expiry date of this agreement, a  joint inspection of its condition shall be carried out. The lessee shall pay  the lessor the sum of all those items which, at the time of that inspection,  are missing, damaged or spoiled, or have undergone abnormal wear and tear,  based on the price for each item that is stated in the inventory for the  apartment, provided that such items have not perished or deteriorated due to  the weather or unavoidable causes. The price list mentioned will be updated  according to the provisions of clause ten. In the event that the item can be  repaired without replacing it, the lessee may choose to carry out the repairs  needed to restore the damaged item to its previous state themselves, or to pay  the lessor the amount of the estimate submitted by the lessor. The lessee is  required to notify the lessor as soon as possible of any loss or damage  incurred by any of the items in the apartment being leased. </p>
+<p><a name="result_box25"></a>Moreover, the lessee agrees  to allow the lessor, upon request made at least four hours in advance, to carry  out a technical inspection of the property being leased.</p>
+<p><a name="result_box26"></a>In the event that on the  expiry date of this agreement, the apartment requires total or partial repair  or replacement, the lessee is obliged to pay to the lessor that sum, according  to the prices listed in the above-mentioned Inventory of the Apartment. </p>
+<p><a name="result_box27"></a><strong>FIVE. - </strong><u>Supply of water, electricity, heating and telephone. </u></p>
+<p><a name="result_box28"></a>The apartment is rented in  its current state with regard to the existing main and branch connections or  lines that it has, for the supplies with which the property is provided. The  consumption of water, electricity and telephone are exclusively the lessee&rsquo;s  responsibility. The lessee shall in no case, unless they are authorised in  writing by the lessor, contract any supplies that were not fitted in the  property with the respective utility companies, or modify existing ones. </p>
+<p><a name="result_box29"></a><strong>SIX. </strong><u>Liability. </u></p>
+<p><a name="result_box30"></a>The lessee shall be  responsible for damages caused to third parties by the misuse of the leased  premises. </p>
+<p><a name="result_box31"></a>The lessee is required to  notify the lessor as soon as possible of any malfunction in the working of the  facilities of the apartment under this lease, and to notify them of any  circumstances that could represent a danger to the integrity of the building or  the health and welfare of the lessees. </p>
+<p><a name="result_box32"></a><strong>SEVEN. </strong><u>Prohibition on carrying out works. </u></p>
+<p><a name="result_box33"></a>The lessee cannot carry out  any kind of works in the apartment without obtaining prior written consent from  the lessor or the Administrator, this being considered, if it occurs, as a  cause for termination of the agreement. Notwithstanding such power to terminate  the agreement, the lessor may choose to either demand the housing is restored  to its original condition, or to keep the works for the benefit of the  property, in which case the lessee is not entitled to claim their costs or  compensation of any kind. Any damage that could be caused to third parties  shall also be at their own risk.</p>
+<p><a name="result_box34"></a>In any case the works  thereby approved shall be the responsibility of the lessee, and will be for the  benefit of the property, without entitlement at any time to compensation or a  claim. The municipal permit shall also be the responsibility of the lessee, as  well as the technical or project management, where relevant. </p>
+<p><a name="result_box35"></a><strong>EIGHT. </strong><u>Regarding the community services included. </u></p>
+<p><a name="result_box36"></a>The building in which the  leased apartment is located has a wide range of complementary community  services designed specifically for the elderly. These services which belong to  the building, detailed in the Internal Regulations of the ADOREA Building, are  significantly better than those provided in a traditional residential building.  On this basis, both parties state that the simultaneous lease of these services  is an essential condition of this agreement. </p>
+<p><a name="result_box37"></a>Given this, the lessee  contracts from the lessor both the apartment itself and the provision of  services referred to in the Internal Regulations, under the conditions  specified therein. Accordingly, it is expressly agreed that the cost of such  community services will be payable on a monthly basis, and the price will be <strong>{!Oportunidad_platform__c.Precio_Total__Letras}
+ EUROS (€ {!Oportunidad_platform__c.Precio_Total__c})
+,</strong> including VAT, if applicable. </p>
+
+<p><a name="result_box41"></a>The ADOREA. building offers  optional additional services such as restaurant, laundry, housekeeping of the  apartments and others that may be added over the course of time, which are excluded  from this agreement and can be contracted through another service agreement,  according to the price list in force at any time. This list details the  services themselves, the areas and rooms of communal use included in the  monthly rent. </p>
+<p><strong>NINE.</strong> <u>The price. </u></p>
+<p><a name="result_box43"></a>The fee for this rental of  the apartment and compulsory community services is: </p>
+<p><a name="result_box44"></a>The fee payment (rent +  compulsory services) shall be <strong> {!Oportunidad_platform__c.Precio_Total__Letras}
+ EUROS (€ {!Oportunidad_platform__c.Precio_Total__c})
+, monthly</strong> VAT included, if applicable.<a name="result_box45"></a><a name="result_box46"></a><strong> </strong></p>
+<p><a name="result_box47"></a>The price shall be payable  monthly in advance, between the first and the sixth of the month, preferably by  bank transfer, which shall be accredited by the receipt issued by the lessor  upon receipt of the payment. </p>
+<p><a name="result_box48"></a>In order to facilitate the  payment of this rent and the charges, the payment will be made by direct debit  to the account that the lessor designates for this purpose, which is detailed  below:</p> 
+
+ <p align="left"> Name of account holder:{!Pagador.FirstName}
+{!Pagador.LastName} <br>
+
+ <a name="result_box50"></a>IBAN: {!Oportunidad_platform__c.IBAN__c} <br>
+
+ <a name="result_box51"></a>Name of the bank:  {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c} <br>
+
+<a name="result_box52"></a>Location: {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}
+ </p>
+
+<p><a name="result_box53"></a>The possession of a receipt  does not presume that the previous payments were made. </p>
+<p><a name="result_box54"></a><strong>TEN. </strong><u>Revision  of the fee for the rental and services </u></p>
+<p><a name="result_box55"></a>The parties hereto agree  that the rent for the lease and the various items of which it is comprised, as  well as thecompulsory community services, which at all times satisfy the lessee,  during the term of the agreement or its extensions, shall be adjusted annually according  to the percentage increase experienced by the General National Index of the  Consumer Price Index System established by the National Institute of Statistics  (or the body that replaces it), applying to that rent the percentage difference  between the indices  that correspond to  the review period. The first revision shall take place on 1 January of each  year and subsequent updates will be made yearly as from the last applied  update. </p>
+
+<p><a name="result_box58"></a>The parties expressly agree  that once the mandatory period of five years has been completed, an  extraordinary review of the monthly base rent shall be carried out, adjusting  this to the current rental rates in ADOREA on the date of the review. </p>
+<p><a name="result_box59"></a>The new rent determined in  the manner described above will be updated annually using the formula for  annual revision outlined in the first and second paragraphs of this clause. </p>
+<p><a name="result_box60"></a>Moreover, if new services  are established, their price will be increased in accordance with the actual  cost thereof. If a lessee does not accept the new cost of providing these  services, the lease agreement shall be terminated, and the lessee must leave  the tenancy within a maximum of three months. </p>
+<p><a name="result_box61"></a>The revised lease and  service fee is chargeable to the lessee from the month following that in which  the interested party notifies the other party in writing, stating the  percentage increase applied. Any delay in implementing the revised fee shall  not, in any case, imply its waiver or expiry. </p>
+<p><a name="result_box62"></a>In the event that at the  time that the revision should be carried out, the final index for the revision  period has not yet been published, the lessor is entitled to carry out interim  revisions on account, based on the most recent data, subsequently carrying out  the corresponding adjustment, or otherwise. They are also entitled to issue, at  the time when the revision can be carried out, due to the existence of accurate  data, complementary receipts with effect from the date on which the change  should have been fully implemented. </p>
+<p><a name="result_box63"></a>The previous agreements  relating to the revision of the rent are a crucial and determining condition of  this agreement, without which it would not have been executed. Accordingly, the  parties expressly state that the review will be applicable and will be carried  out both during the term of agreement and, where appropriate, in any extensions  that may be made. </p>
+<p>&nbsp;</p>
+<p><a name="result_box64"></a><strong>ELEVEN. </strong><u>Recipients of the apartments. Termination of the contract. </u></p>
+<p><a name="result_box65"></a>The recipients of this  apartment tenancy agreement with services are elderly people/seniors, while they  are able to participate in the maintenance and care of the apartment, as  provided in the regulation relating to apartments with services. </p>
+<p><a name="result_box66"></a>At the time that the  physical and/or mental health of the lessee represents a danger to the health  or dignity of their own life, causes inconvenience to the other lessees in the  building, or any loss or damage to the building itself or its furnishings  (deterioration of furniture, increased needs for services, etc), this shall be  a cause for termination of the agreement, whereby the tenant must leave the  leased apartment free and vacant. </p>
+<p><a name="result_box67"></a>The assessment of their  state of physical or mental health will be made through a medical report signed  by a doctor, and through a social report signed by a social worker. </p>
+<p><a name="result_box68"></a>When the medical and social  reports advise that it is impossible for the tenant to remain in the leased  apartment, the lessee and/or their family shall be notified in writing of the  need to leave the building within a maximum period of 30 days from the  notification of the impossibility of remaining there, and of the subsequent  termination of the agreement. </p>
+<p><a name="result_box69"></a>The lessor agrees, along with the resident  and/or their family, to arrange with the utmost speed, a residential place to  meet their needs, in a SARquavitae nursing home located in the province of  Seville. The resident's unjustified refusal to leave the apartment and to move  to a nursing home proposed by the Management shall not exempt them from the  termination of the agreement, which will occur just the same and to all  effects. </p>
+<p><a name="result_box70"></a>45 days after the last payment charged to the  customer, the guarantee deposited at the time of rental (legal deposit and  additional guarantees provided) shall be returned, discounting any amounts that  were outstanding at the date of termination, any damage caused to the  apartment, furniture and furnishings, including any services that were  contracted independently of this agreement. </p>
+<p><a name="result_box71"></a><strong>TWELVE. </strong><u>Deposit and additional  guarantee. </u></p>
+<p><a name="result_box74"></a>The Lessee hereby delivers the sum of one month&rsquo;s fee  (rent + obligatory services) as a legally enforceable deposit. This deposit  will be assigned as established in the legislation in force, and the remaining  amount, having paid any expenses, damages or non-payments, including unpaid  supplies, services and charges, if any, will be returned to the lessee, or  person who proves legitimate rights, 45 days after delivery of the keys to the  lessor. It will also be borne by the tenant the costs of cleaning, laundry,  maintenance, painting etc.. necessary to adapt the apartment to the same state  as it was delivered, once solved this Lease and returned possession of the  apartment.</p>
+<p><a name="result_box73"></a>If the total duration of the term of the agreement and  any possible renewals that may be expressly agreed is over five years, the  deposit and the additional guarantee described above will be updated during the  last month of the fifth year, and shall take effect from the first day of the  sixth year of the agreement, and subsequently every last month of each additional  year of the agreement, taking effect the following month, in the same way as  provided for the revision of the rent, the lessee supplementing it or the  lessor partially returning it as appropriate, within fifteen calendar days from  the date of notification thereof, so that the amount paid from the sixth year  is a monthly proportion of the annual charge of the current tenancy at all  times. </p>
+<p><a name="result_box76"></a>Also in this act, a monthly fee is paid (rent + compulsory  services) of <strong>{!Oportunidad_platform__c.Precio_Total__Letras}
+ EUROS (€ {!Oportunidad_platform__c.Precio_Total__c}),</strong> including  VAT, if applicable, as an additional guarantee for the obligations arising from  this agreement and the Internal Regulations of the ADOREA Building. This  guarantee is provided as a guarantee of the commitment to a year's rent. If  this period is not fulfilled, the guarantee would not be returned to the lessee  due to breach of the minimum term established in this agreement. </p>
+<p><strong>THIRTEEN</strong>. <u>Obligations of the  lessee. </u></p>
+<p>The lessee agrees: </p>
+<ol type="a">
+  <li>To pay the rent, relating  to the lease plus obligatory services, under the established terms, as well as  the payment of any charge or fee that is established by a bank or savings bank  for a direct debit payment or return, if applicable. </li>
+
+  <li>To cover the costs of this  agreement, including stamp duty, management, registration, administrator&rsquo;s fees  for its formalisation and processing, as well as all those which for any reason  are incurred due to its extensions. </li>
+
+  <li>To pay for the cost of  repairs and impairments or damage caused by abnormal, negligent or careless use of the apartment, as well as the cost of  cleaning, laundry, maintenance, painting etc. to adapt the apartment to the  same state as it was delivered, once solved the lease and returned possession  of the apartment.</li>
+
+  <li>To cover any increases that  might arise as a result of new taxes and due to increases in the bases or rates  of taxes, levies, fees, rates and other duties, services and supplies charged  to the property. </li>
+
+  <li>To pay for any repairs required  due to the lessee.</li>
+
+  <li>Not to assign, transfer or sublet, by any means, wholly or partially,  the apartment subject-matter of this agreement, or wholly or partly assign it  to accommodation, without the prior consent of the lessor. </li>
+
+  <li>Not to possess or handle on  the property explosive, flammable, inappropriate or unhealthy materials, and  comply fully with the provisions in force.</li>
+
+  <li>To notify the lessor as  soon as possible of the need to carry out the repairs required to keep the  apartment in a habitable condition.</li>
+
+  <li>To give the owner and the Administrator as well as the workmen or  tradesmen sent by either of them, access to the apartment, for the carrying  out, inspection and checking of any kind of works or repairs affecting the  property. </li>
+
+  <li>To comply at all times with the statutory and regulatory standards  currently established or that may be   established in the future, in relation to the use of the services,  communal items and code of conduct for shared housing, and in particular the  Internal Regulations of the building, as well as any changes therein that are  approved in the future.</li>
+</ol>
+<p>
+<p><strong>FOURTEEN. </strong><u>Termination of the lease</u><strong>. </strong></p>
+<p>In the case of termination of this agreement by  the lessee, they must compensate the lessor with the sum of a month's rent and  community charge.</p> 
+ <p> The lessee must inform the lessor of the specific date of handover of the keys  with a minimum 30 days notice in writing. </p>
+<p>
+<p><strong>FIFTEEN. </strong><u>Exclusive use of the services. Lodging of third  parties.</u><strong><br>
+  </strong></p>
+
+<p><strong> </strong>It is expressly agreed  that the use of the services defined in the eighth clause of this agreement,  and which are provided for the residents of the property in which the apartment  under this lease is located, are for the exclusive use of the titleholder of  this agreement as lessee. </p>
+<p>The lessee can be visited, in their apartment or  in the areas of the building set up for this purpose, by whatever individuals  they wish, whether they are family members or otherwise. However, the visitors  must respect and comply with the internal rules for shared housing as well as  the other lessees and property of the building. In the event of failure to  comply with these rules, the visitor may be expelled from the building. </p>
+<p>In any case, the visit or overnight stay of any  individuals other than the holder of the lease must be notified to the  Management of ADOREA, informing them of their personal details, in order to  maintain internal monitoring and security of visits. Failure to comply with  this obligation shall be deemed a minor misconduct. </p>
+<p><strong>SIXTEEN. </strong><u>Address for notifications. </u></p>
+<p>In order to receive any notice related to the  rights and obligations recognised in this agreement, the Administration office  located in the same building as the leased apartment is designated as the  lessor&rsquo;s address, and the leased apartment is designated as the lessee&rsquo;s  address. </p>
+<p>Similarly, if there are any direct family  members (spouse, ascendant, descendent, siblings), the additional address below  is established for notifications: </p>
+<p align="left">Mr./ Ms.  {!Persona_Referencia.FirstName}
+{!Persona_Referencia.LastName}
+ <br>
+  Street {!Persona_Referencia.Calle}, 
+{!Persona_Referencia.Ciudad}
+ <br>
+ Home telephone no. {!Persona_Referencia.Phone}
+<br>
+ Mobile no. {!Persona_Referencia.Movil}
+ </p>
+<p><strong>SEVENTEEN. </strong><u>Termination of lease  agreement. </u></p>
+<p>The breach by the lessee of any of their  obligations established under this agreement may result in the termination of  the lease. In the event of termination of the agreement, the lessee is obliged  to leave the leased apartment free, empty and vacant, and available to the  lessor. </p>
+<p>Specifically, the agreement will be terminated  by: </p>
+<p>a) A delay of over thirty days in the payment of  the rental fee or any other amount that the lessee is required to pay. </p>
+<p>b) Very serious misconduct, as provided for in  the Internal Regulations and in this agreement. </p>
+<p>c) The change in the use and/or purpose of the  apartment, or of its features. </p>
+<p>d) Breach by either party of the core  contractual obligations. </p>
+<p>e) The carrying out, by the lessee, of illegal  or prohibited activities, or those that endanger the health of other lessees,  the healthy conditions, hygiene and integrity of the ADOREA Building, or that  adversely affect the peace and quiet of the shared living in the building. </p>
+<p>f) The destruction or loss of the Owner&rsquo;s ownership  of the ADOREA building, for reasons not attributable to the latter. </p>
+<p>g) On the death of the lessee.</p>
+ <p> h) In the event that physical and/or mental  health of the lessee represents a danger to the health or dignity of their own  life, or causes trouble with the other lessees in the building, not being able  to participate in the maintenance and care of their own apartment.</p>
+<p>  i) Any other reason provided for under  applicable law, this Agreement or the Internal Regulations. </p>
+<p>In any case, the agreement cannot be terminated  without prior written notice to the lessee. In the event of termination of the  agreement, the lessee, who has the opportunity to rectify the situation, is  obliged to hand over the keys and vacate the apartment rented under this  agreement within no more than 30 days from the date of notification of the  termination. </p>
+<p>In the event that the lessee does not vacate the  rented apartment within the term stated above, or has not carried out, together  with the Owner, the inspection of the state of maintenance of the property,  including equipment, furniture and fixtures, and the signing of the relevant Inventory,  the Management may enter the apartment, unilaterally drawing up the Report  describing the condition of the apartment, including furniture and fixtures, as  well as the lessee&rsquo;s personal belongings, in the presence of two witnesses not  forming part of the Management who shall sign the aforementioned Report, and  therefore regain possession of the apartment. The personal belongings will be  collected and deposited in the storage area of the building, the lessee being  obliged to collect them within 24 hours; otherwise, they shall be billed the  amount of 15 Euros/day for storage. If 4 months have passed from the date of  termination of the agreement and the lessee has not collected their belongings,  they can be donated to a non-profit organisation, without incurring in any  liability on the part of the ADOREA Management. </p>
+<p><strong>EIGHTEEN. </strong><u>Granting of access to the  lessee&rsquo;s home. </u></p>
+<p>The user agrees to keep the apartment in good  condition, both in terms of repair and maintenance and cleanliness, hygiene and  healthy conditions. In any case, the user must allow the Property&rsquo;s Management,  their staff and/or service and cleaning companies entry to the apartment,  providing that it is on grounds of an emergency, hygiene or healthy conditions,  force majeure or the Management deems it in the interest of the lessee  themselves or of other residents of the building. </p>
+<p>The costs incurred in cleaning the apartment due  to the reasons mentioned above, will be included in the corresponding bill, at  the official rates. </p>
+<p>The Management will request entry to the  apartment 24 hours in advance, by notice to the lessee, so that the latter  authorises the entry, in their presence or absence. For this reason, the lessee  acknowledges and accepts that the Management of the Building has a copy of the  key to their apartment. </p>
+<p>If the lessee is absent, the maintenance or  cleanliness defects observed shall be recorded in a Report signed by the  Management, calling on the lessee to remedy these within a period of 15 days.  If after that time the lessee has not taken action, the Management of the  Building shall be entitled to enter the apartment and either themselves or  third parties contracted for the purpose, to remedy the maintenance or cleaning  defects observed, at the lessee&rsquo;s expense, notwithstanding the disciplinary  consequences of this breach, which will be considered as very serious  misconduct. </p>
+<p><strong>NINETEEN. </strong><u>Jurisdiction. </u></p>
+<p>The parties waiving the jurisdiction of their  own residence, if applicable, shall submit to the jurisdiction of the Courts of  {!Oportunidad_platform__c.Ciudad_Centro__c}. </p>
+<p><strong>TWENTY. - Protection of  personal data.</strong></p>
+<p>The personal data collected in this document  will be incorporated and treated in a file owned by SAR RESIDENCIAL Y  ASISTENCIAL, SAU, with the aim of fulfilling the contract of services and  managing signed acknowledgments, suggestions and complaints. It also may be  used to send information about products, services and events SAR RESIDENCIAL Y  ASISTENCIAL, SAU , and SARquavitae different companies, as well as surveys of  service quality.</p>
+<p>Your data may be disclosed solely for the  purposes stated above, to other entities sociosanitariassocio-health, provided  that they belong directly or indirectly to SARquavitae Corporate Group  (www.sarquavitae.es), all whether or not any operation formalizase as, if,  after the termination of the contractual relationship, respecting at all times  Spanish legislation on protection of personal data without need to communicate  each first transfer is made to the said assignees.</p>
+<p>The person concerned may exercise their rights  of access, rectification, cancellation and opposition by writing to the Legal  Department, SARquavitae, C / Aribau Entlo 185, 08021 - Barcelona or at the same  center where the service is provided under contract.<br>
+</p>
+
+  <p>{!F5}      You may check this box if you object to the processing and communication  of personal data for commercial purposes.</p>
+  <p>{!F5}      You may check this box if you object to the processing and communication  of personal data for conducting satisfaction surveys.</p>
+
+<p>In the event that the information provided  relating to individuals other than the subject, he shall, prior to their  inclusion in this document, inform them of the contents of the preceding  paragraphs.</p>
+<p>&nbsp;</p>
+<p>They therefore grant and for the record sign two  copies of this document for a sole purpose at the place and on date indicated  above. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>LESSOR          </strong><strong>                                                                                                                                                            LESSEE </strong><br>
+  <strong>{!Oportunidad_platform__c.Sociedad_Centro__c}
+</strong>                              </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Signed:  {!Director.FirstName}                                                                                                                                                Signed: {!Pagador.FirstName}
+{!Pagador.LastName} <br>
+
+<p><strong>&nbsp;</strong></p>
+<p><strong>AGREEMENT FOR LEASE OF APARTMENT AND SERVICES BY  AND BETWEEN SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}
+ and  Mr./Ms. {!Residente.FirstName}
+{!Residente.LastName}
+ </strong></p>
+<p>The parties meet and <strong>AGREE</strong>: </p>
+<p>That the guarantee set out in Clause 12 of the agreement, amounting to <strong>{!Oportunidad_platform__c.Precio_Total__c}
+ EUROS
+,</strong> including VAT, if applicable, in order to be able to meet the obligations under  this agreement and the Internal Regulations of ADOREA {!Oportunidad_platform__c.Nombre_Centro__c}
+ Building, and the  remaining amount having paid any expenses, damages or faults, including unpaid  supplies, services and consumptions, if any, will be returned to the lessee, or  person who proves legitimate rights, within 45 days after delivery of the keys  to the lessor.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>{!Oportunidad_platform__c.Ciudad_Centro__c}
+, on  {!Fecha_Dia},
+{!Fecha_Mes},
+{!Fecha_Anyo}
+
+<p><strong>LESSOR          </strong><strong>                                                                                                                                                            LESSEE </strong><br>
+  <strong>{!Oportunidad_platform__c.Sociedad_Centro__c}
+</strong><strong> </strong><strong> </strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Signed:  {!Director.FirstName}                                                                                                                                                Signed: {!Pagador.FirstName}
+{!Pagador.LastName} <br>
+</body>

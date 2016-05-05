@@ -1,0 +1,28 @@
+<messaging:emailTemplate subject="Agradecer ingreso oportunidad a recomendador" 
+    recipientType="User" 
+    relatedToType="Oportunidad_platform__c">
+
+    <messaging:htmlEmailBody >
+        <html>
+            <body>
+            
+            <p align="center"><apex:image id="Logo" value="https://sarquavitae--test--c.cs20.content.force.com/servlet/servlet.ImageServer?id=015m00000008xCI&oid=00Dm000000014L2&lastMod=1404312995000"></apex:image></p>
+
+           <p>Apreciado,</p>
+
+            <p>Ha ingresado la oportunidad {!relatedTo.Name} con el recomendador {!relatedTo.Empresa_Recomendadora__r.Name} informado.</p>
+            Recuerde llamarlo para agradecer su recomendación.
+
+            <p>Puede acceder a la oportunidad pulsando el siguiente link.</p>
+            
+           <a href = 
+                        "https://sarquavitae.my.salesforce.com/{!relatedTo.id}">{!relatedTo.Name}
+                    </a>
+
+
+            <p>Saludos,</p>            
+            
+            </body>
+        </html>
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Agenda de Ocio Gallego</name>
+    <style>none</style>
+    <subject>Axenda de lecer NOMBRE_MES</subject>
+    <textOnly>Documento sin título
+
+
+Axenda de lecer - Mes Querida familia,
+
+O centro residencial SARquavitae  NOMBRE_CENTRO  convídaos a  participar no seu programa de actividades previsto para o mes de NOMBRE_MES. Consulte o noso  blog para ver o calendario de actividades deste mes.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

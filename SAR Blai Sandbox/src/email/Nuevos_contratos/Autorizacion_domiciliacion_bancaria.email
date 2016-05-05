@@ -1,0 +1,37 @@
+<body>
+<div style="display:inline;">
+<h1 style="color:blue;text-align:left;">
+<u>Orden de domiciliaci&oacute;n de adeudo directo SEPA CORE SARquavitae (MANDATO)</u></h1>
+<div class="recuadro" style="padding-left:5px; padding-right:5px;">
+  <p>REFERENCIA  DE LA ORDEN DE DOMICILIACI&Oacute;N: (a cumplimentar por la empresa)</p>
+ <p>
+<!--  _____________________________________________ <br />-->
+<hr width=70% align="left" size=1>
+    IDENTIFICADOR  DEL ACREEDOR: <strong>Quavitae Servicios  Asistenciales, S.A.U</strong> con CIF <strong>&nbsp;A80106842</strong> del centro <strong>SARquavitae</strong> <strong>TAD MADRID </strong>sito  en&nbsp; <strong>C\  San M&aacute;ximo 3 1&ordm; Planta . C.P 28041 Madrid</strong></p>
+</div>
+<p>&nbsp;</p>
+<div class="recuadro" style="padding-left:5px; padding-right:5px;">
+  <p>Mediante la firma de esta orden de domiciliaci&oacute;n,  el deudor autoriza (A) al acreedor a enviar instrucciones a la entidad del  deudor para adeudar su cuenta y (B) a la entidad para efectuar los adeudos en  su cuenta siguiendo las instrucciones del acreedor. Como parte de sus derechos,  el deudor est&aacute; legitimado al reembolso por su entidad en los t&eacute;rminos y  condiciones del contrato suscrito con la misma. La solicitud de reembolso  deber&aacute; efectuarse dentro de las ocho semanas que siguen a la fecha de adeudo en  cuenta. Puede obtener informaci&oacute;n adicional sobre sus derechos en su entidad  financiera.</p>
+</div>
+<!--
+<p><strong>Don/Do&ntilde;a</strong> {!Oportunidad_platform__c.Pagador} con <strong>{!Pagador.Tipo_Documento} n&uacute;mero</strong> {!Pagador.CIF_NIF} y domicilio  en: {!Pagador.Calle} <strong>nombre propio o en representaci&oacute;n de Don/Do&ntilde;a </strong> {!UsuarioPrincipal.Nombre} con <strong>{!UsuarioPrincipal.Tipo_Documento}  n&uacute;mero: </strong> {!UsuarioPrincipal.CIF_NIF}</p>
+-->
+<p><strong>Don/Do&ntilde;a</strong> {!Oportunidad_platform__c.Pagador} con <strong>{!Pagador.Tipo_Documento} n&uacute;mero</strong> {!Pagador.CIF_NIF} y domicilio  en: {!Pagador.Calle} nombre propio{!Beneficiario.Informacion}.</p>
+
+<p><strong><u>DATOS BANCARIOS:</u></strong> </p>
+<p><strong>N&ordm; Cuenta-IBAN: (24  d&iacute;gitos): {!Oportunidad_platform__c.IBAN}</strong></p>
+ <p style="margin-top:-10px;"><strong>SWIFT BIC: (11 d&iacute;gitos</strong><strong>): (No cumplimentar.)</strong></p>
+<p style="display:inline;">TIPO  DE PAGO: PAGO RECURRENTE:  </p>
+<div class="recuadro" style="display:inline;">X</div>
+<p>Fecha - Localidad: A {!Oportunidad_platform__c.Dia_Fecha_cierre} de {!Oportunidad_platform__c.Mes_Fecha_cierre} de {!Oportunidad_platform__c.Año_Fecha_cierre}, en <strong>{!Oportunidad_platform__c.Central}</strong>.</p>
+<p>Firma del deudor:</p>
+
+<div class="recuadro">
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+
+<p><strong>Todos los campos han de  ser cumplimentados obligatoriamente.</strong></p>
+  <p style="margin-top:-10px;"><strong>Una vez firmada esta  orden de domiciliaci&oacute;n debe ser guardada por el acreedor para su custodia</strong></p>
+</div>
+</body>

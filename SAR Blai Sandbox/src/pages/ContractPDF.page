@@ -1,0 +1,149 @@
+<apex:page standardController="Oportunidad_platform__c" extensions="GenerateContract" action="{!saveNombrePlant}" showHeader="false" sidebar="false" applyBodyTag="false" applyHtmlTag="false" standardStylesheets="false" renderAs="pdf">
+<head>
+    <style type="text/css">
+        body{
+        font-family: "Arial Narrow", Arial, sans-serif;
+        font-size: 11px;
+        text-align: justify;
+        text-justify: inter-word;
+        }
+            
+        @page {
+            size:8.50in 11.00in;
+            margin-top: 9cm;
+            margin-bottom: 2cm;
+            margin-left: 2.2cm;
+            margin-right: 2.2cm;
+            counter-increment:pages;
+            @top-center {
+            content: element(header);
+            }
+            @bottom-left{
+            content: element(footer);
+            }
+        }        
+        div.header {
+        padding:5px;
+        position: running(header);
+        }
+        div.alignleft {
+            float: left;
+        }
+        div.alignright {
+            float: right;
+        }
+        div.footer {
+            display: block;
+            padding: 5px;
+            position: running(footer);
+       }
+       
+       .pagenumber:before {
+            content: counter(page);
+       }
+       .pagecount:before {
+            content: counter(pages);
+       }
+        
+       form.sign{
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            height: 15px;
+       }
+       
+    </style>
+</head>
+
+<div class="header">
+    <table class="MsoNormalTable" align="center" border="1" cellspacing="0" cellpadding="0" width="619" style="width:464.2pt;border-collapse:collapse;border:none;mso-border-alt:solid #002F63 .5pt;
+     mso-padding-alt:0in 3.5pt 0in 3.5pt;mso-border-insideh:.5pt solid #002F63;
+     mso-border-insidev:.5pt solid #002F63">
+     <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:62.1pt">
+      <td width="165" style="width:124.0pt;border:solid #002F63 1.0pt;mso-border-alt:
+      solid #002F63 .5pt;padding:0in 3.5pt 0in 3.5pt;height:62.1pt">
+      <p class="MsoHeader"><b style="mso-bidi-font-weight:normal"><span style="mso-bidi-font-size:20.0pt;font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;
+      mso-bidi-font-family:Arial;color:navy;mso-no-proof:yes">
+      <apex:image value="https://sarquavitae--c.eu2.content.force.com/servlet/servlet.ImageServer?id=015b0000000m3PQ&oid=00Db0000000eNpx&lastMod=1403250390000" width="143" height="65" />
+      <span style="mso-bidi-font-weight:bold"></span></span></b></p>
+      </td>
+      <td width="293" style="width:219.7pt;border:solid #002F63 1.0pt;border-left:
+      none;mso-border-left-alt:solid #002F63 .5pt;mso-border-alt:solid #002F63 .5pt;
+      padding:0in 3.5pt 0in 3.5pt;height:62.1pt">
+      <p class="MsoHeader" align="center" style="text-align:center"><span class="SpellE"><b style="mso-bidi-font-weight:normal"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;
+      mso-bidi-font-family:Arial;color:#002F63;mso-ansi-language:ES-MX">SAR</span></b><b style="mso-bidi-font-weight:normal"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;
+      mso-bidi-font-family:Arial;color:#7AB1DA;mso-ansi-language:ES-MX">quavitae</span></b></span><b style="mso-bidi-font-weight:normal"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;
+      mso-bidi-font-family:Arial;color:#002F63;mso-ansi-language:ES-MX"></span></b></p>
+      <p class="MsoHeader" align="center" style="text-align:center"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">&nbsp;</span></p>
+      <p class="MsoHeader" align="center" style="text-align:center"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!Titulo}<b style="mso-bidi-font-weight:
+      normal"><sub><span style="letter-spacing:-1.0pt"></span></sub></b></span></p>
+      </td>
+      <td width="161" style="width:120.5pt;border:solid #002F63 1.0pt;border-left:
+      none;mso-border-left-alt:solid #002F63 .5pt;mso-border-alt:solid #002F63 .5pt;
+      padding:0in 3.5pt 0in 3.5pt;height:62.1pt">
+      <p class="MsoHeader" style="text-align:justify"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!Codigo}</span></p>
+      <p class="MsoHeader" style="text-align:justify"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!Centro}</span></p>
+      <p class="MsoHeader" style="text-align:justify"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!Revision}</span></p>
+      <p class="MsoHeader" style="text-align:justify"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!Pagina} <span class="pagenumber"/> {!De} <span class="pagecount"/></span></p>  
+      </td>
+     </tr>
+     <tr style="mso-yfti-irow:1;page-break-inside:avoid;height:17.15pt">
+      <td width="165" style="width:124.0pt;border:solid #002F63 1.0pt;border-top:
+      none;mso-border-top-alt:solid #002F63 .5pt;mso-border-alt:solid #002F63 .5pt;
+      padding:0in 3.5pt 0in 3.5pt;height:17.15pt">
+      <p class="MsoHeader" align="right" style="text-align:right"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!Protocolo}</span></p>
+      </td>
+      <td width="454" colspan="2" style="width:340.2pt;border-top:none;border-left:
+      none;border-bottom:solid #002F63 1.0pt;border-right:solid #002F63 1.0pt;
+      mso-border-top-alt:solid #002F63 .5pt;mso-border-left-alt:solid #002F63 .5pt;
+      mso-border-alt:solid #002F63 .5pt;padding:0in 3.5pt 0in 3.5pt;height:17.15pt">
+      <p class="MsoHeader" align="center" style="text-align:center"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!ProtocoloDetail}</span></p>
+      </td>
+     </tr>
+     <tr style="mso-yfti-irow:2;page-break-inside:avoid;height:3.5pt">
+      <td width="165" style="width:124.0pt;border:solid #002F63 1.0pt;border-top:
+      none;mso-border-top-alt:solid #002F63 .5pt;mso-border-alt:solid #002F63 .5pt;
+      padding:0in 3.5pt 0in 3.5pt;height:3.5pt">
+      <p class="MsoHeader" align="right" style="text-align:right"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!Registro}</span></p>
+      </td>
+      <td width="454" colspan="2" style="width:340.2pt;border-top:none;border-left:
+      none;border-bottom:solid #002F63 1.0pt;border-right:solid #002F63 1.0pt;
+      mso-border-top-alt:solid #002F63 .5pt;mso-border-left-alt:solid #002F63 .5pt;
+      mso-border-alt:solid #002F63 .5pt;padding:0in 3.5pt 0in 3.5pt;height:3.5pt">
+      <p class="MsoHeader" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;
+      mso-bidi-font-family:Arial;color:#002F63;mso-ansi-language:ES-MX">{!DetailRegistro}</span></b></p>
+      </td>
+     </tr>
+     <tr style="mso-yfti-irow:3;mso-yfti-lastrow:yes;page-break-inside:avoid;
+      height:14.55pt">
+      <td width="165" style="width:124.0pt;border:solid #002F63 1.0pt;border-top:
+      none;mso-border-top-alt:solid #002F63 .5pt;mso-border-alt:solid #002F63 .5pt;
+      padding:0in 3.5pt 0in 3.5pt;height:14.55pt">
+      <p class="MsoHeader" align="right" style="text-align:right"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!AplicaA}</span></p>
+      </td>
+      <td width="454" colspan="2" style="width:340.2pt;border-top:none;border-left:
+      none;border-bottom:solid #002F63 1.0pt;border-right:solid #002F63 1.0pt;
+      mso-border-top-alt:solid #002F63 .5pt;mso-border-left-alt:solid #002F63 .5pt;
+      mso-border-alt:solid #002F63 .5pt;padding:0in 3.5pt 0in 3.5pt;height:14.55pt">
+      <p class="MsoHeader" align="center" style="text-align:center"><span lang="ES-MX" style="font-family:&quot;Arial Narrow&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:Arial;
+      mso-ansi-language:ES-MX">{!DetailAplica}</span></p>
+      </td>
+     </tr>
+    </tbody>
+    </table>
+</div>
+
+<body>  
+    <apex:outputText value="{!htmlText}" escape="false" />
+</body>
+</apex:page>

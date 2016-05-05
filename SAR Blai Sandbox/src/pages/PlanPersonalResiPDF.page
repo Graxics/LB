@@ -1,0 +1,380 @@
+<apex:page standardController="Oportunidad_platform__c" extensions="PlanPersonalController" applyBodyTag="false" renderAs="PDF"   action="{!load}"> 
+
+<HEAD>
+<STYLE type="text/css">
+        @page {
+			size: a4;
+            margin-top: 0cm;
+            margin-bottom: 0cm;
+            margin-left: 1cm;
+            margin-right: 1cm;
+   }
+body {margin-top: 0px;margin-left: 0px;overflow: visible; font-family: "Arial Narrow", Arial, sans-serif;}
+
+#page_1 {position:absolute; top:0px; overflow: hidden;margin: 0px 0px 0px 0px;padding: 0px;border: none;width: 748px;}
+#page_1 #id_1 {border:none;margin: 145px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_1 #id_2 {border:none;margin: 31px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_1 #id_2 #id_2_1 {float:left;border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 324px;overflow: hidden;}
+#page_1 #id_2 #id_2_2 {float:left;border:none;margin: 35px 0px 0px 0px;padding: 0px;border:none;width: 394px;overflow: hidden;}
+#page_1 #id_3 {border:none;margin: 15px 0px 0px 21px;padding: 0px;border:none;width: 727px;overflow: hidden;}
+
+    //#dimg1 {margin:0;padding:0;position:absolute;top:0px;left:-15px;;width:760px;height:960px;}
+     #img1 {margin:0;padding:0;position:absolute;top:40px;left:-45px;width:800px; z-index:-1;}
+	 #img1Pie {margin:0;padding:0;position:absolute;top:1050px;left:15px;width:760px; z-index:-1;}
+
+#page_2 {position:absolute; top:1100px;  overflow: hidden;margin: 63px 0px 0px 0px;padding: 0px;border: none;width: 800px;}
+
+    //#page_2 {position:relative; overflow: hidden;margin: 63px 0px 0px 0px;padding: 0px;border: none;width: 748px;}
+#page_2 #id_1 {border:none;margin: 145px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_2 #id_1 #id_1_1 {float:left;border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 360px;overflow: hidden;}
+#page_2 #id_1 #id_1_2 {float:left;border:none;margin: 20px 0px 0px 0px;padding: 0px;border:none;width: 358px;overflow: hidden;}
+#page_2 #id_2 {border:none;margin: 40px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_2 #id_3 {border:none;margin: 20px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_2 #id_3 #id_3_1 {float:left;border:none;margin: 47px 0px 0px 0px;padding: 0px;border:none;width: 360px;overflow: hidden;}
+#page_2 #id_3 #id_3_2 {float:left;border:none;margin: 47px 0px 0px 0px;padding: 0px;border:none;width: 358px;overflow: hidden;}
+#page_2 #id_4 {border:none;margin: 68px 0px 0px 20px;padding: 0px;border:none;width: 660px;overflow: hidden;}
+#page_2 #id_5 {border:none;margin: 12px 0px 0px 30px;padding: 0px;border:none;width: 718px;overflow: hidden;}
+#page_2 #id_5 #id_5_1 {float:left;border:none;margin: 30px 0px 0px 0px;padding: 0px;border:none;width: 360px;overflow: hidden;}
+#page_2 #id_5 #id_5_2 {float:left;border:none;margin: 30px 0px 0px 0px;padding: 0px;border:none;width: 358px;overflow: hidden;}
+#page_2 #id_6 {border:none;margin: 63px 0px 0px 20px;padding: 0px;border:none;width: 728px;overflow: hidden;}
+
+#page_2 #dimg1 {position:absolute;top:0px;left:-15px;z-index:-1;width:760px;height:1000px;}
+    #page_2 #dimg1 #img1 {position:absolute;top:0px;left:-15px;height:1080px;}  //width:760px;
+
+
+
+
+.dclr {clear:both;float:none;height:1px;margin:0px;padding:0px;overflow:hidden;}
+
+.ft0{font: bold 19px 'Arial';color: #ffffff;line-height: 22px;}
+.ft1{font: Arial; text-align: Justify; font-size: 14px; }
+.ft2{font: Arial; font-size: 14px; }
+.ft3{font: bold 12px 'Arial';color: #ffffff;line-height: 15px;}
+.ft4{font: 12px 'Verdana';margin-left: 4px;line-height: 14px;}
+.ft5{font: 12px 'Verdana';margin-left: 4px;line-height: 16px;}
+.ft6{font: 12px 'Verdana';line-height: 16px;}
+.ft7{font: 12px 'Verdana';margin-left: 4px;line-height: 16px;}
+.ft8{font: 12px 'Verdana';line-height: 16px;}
+.ft9{font: 12px 'Verdana';margin-left: 4px;line-height: 17px;}
+.ft10{font: 8px 'Verdana';line-height: 11px;}
+.ft11{font: 9px 'Verdana';color: #808080;line-height: 12px;}
+.ft12{font: bold 12px 'Arial';color: #ffffff;line-height: 13px;}
+.ft13{font: 1px 'Verdana';line-height: 1px;}
+.ft14{font: 1px 'Verdana';line-height: 8px;}
+.ft15{font: 12px 'Verdana';line-height: 13px;}
+.ft16{font: bold 16px 'Arial';line-height: 14px;}
+.ft17{font: bold 12px 'Verdana';line-height: 15px;}
+.ft18{font: 12px 'Verdana';line-height: 15px;}
+.ft19{font: 9px 'Verdana';line-height: 12px;}
+.ft20{font: 1px 'Verdana';line-height: 7px;}
+.ft21{font: italic bold 12px 'Verdana';line-height: 14px;}
+
+.p0{text-align: left;padding-left: 30px;margin-top: 0px;margin-bottom: 0px;}
+.p1{text-align: left;margin-top: 460px;margin-bottom: 0px;  width:680px;
+    margin-left: 17px;}
+.p2{text-align: left;margin-top: 3px;margin-bottom: 0px;width:680px;
+    margin-left: 17px; }
+.p3{text-align: justify;margin-top: 20px;margin-bottom: 0px;}
+.p4{text-align: justify;margin-top: 3px;margin-bottom: 0px;}
+.p5{text-align: justify;margin-top: 2px;margin-bottom: 0px;}
+.p6{text-align: left;padding-right: 42px;margin-top: 3px;margin-bottom: 0px;}
+.p7{text-align: left;margin-top: 26px;margin-bottom: 0px;}
+.p8{text-align: justify;padding-right: 30px;margin-top: 80px;margin-bottom: 0px;}
+.p9{text-align: justify;padding-right: 32px;margin-top: 3px;margin-bottom: 0px;}
+.p10{text-align: left;padding-right: 30px;margin-top: 1px;margin-bottom: 0px;}
+.p11{text-align: left;padding-right: 30px;margin-top: 3px;margin-bottom: 0px;}
+.p12{text-align: justify;padding-right: 93px;margin-top: 0px;margin-bottom: 0px;}
+.p13{text-align: left;padding-right: 87px;margin-top: 2px;margin-bottom: 0px;}
+.p14{text-align: justify;margin-top: 0px;margin-bottom: 0px;}
+.p15{text-align: justify;padding-right: 88px;margin-top: 80px;margin-bottom: 0px;}
+.p16{text-align: left;padding-right: 106px;margin-top: 2px;margin-bottom: 0px;}
+.p17{text-align: justify;padding-right: 99px;margin-top: 3px;margin-bottom: 0px;}
+.p18{text-align: justify;margin-top: 1px;margin-bottom: 0px;}
+.p19{text-align: justify;padding-right: 100px;margin-top: 3px;margin-bottom: 0px;}
+.p20{text-align: left;padding-right: 53px;margin-top: 0px;margin-bottom: 0px;}
+.p21{text-align: left;margin-top: 10px;margin-bottom: 0px;}
+.p22{text-align: left;padding-right: 39px;margin-top: 20px;margin-bottom: 0px;}
+.p23{text-align: justify;padding-right: 83px;margin-top: 1px;margin-bottom: 0px;}
+.p24{text-align: justify;padding-right: 47px;margin-top: 1px;margin-bottom: 0px;}
+.p25{text-align: justify;padding-right: 133px;margin-top: 1px;margin-bottom: 0px;}
+.p26{text-align: justify;padding-right: 100px;margin-top: 1px;margin-bottom: 0px;}
+.p27{text-align: justify;padding-right: 33px;margin-top: 0px;margin-bottom: 0px;}
+.p28{text-align: justify;padding-right: 63px;margin-top: 1px;margin-bottom: 0px;}
+.p29{text-align: left;padding-left: 20px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p30{text-align: left;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p31{text-align: left;padding-right: 34px;margin-top: 27px;margin-bottom: 0px;}
+.p32{text-align: justify;padding-right: 88px;margin-top: 0px;margin-bottom: 0px;}
+.p33{text-align: left;margin-top: 27px;margin-bottom: 0px;}
+.p34{text-align: left;padding-right: 105px;margin-top: 0px;margin-bottom: 0px;}
+.p35{text-align: left;padding-left: 27px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
+.p36{text-align: left;padding-left: 27px;margin-top: 27px;margin-bottom: 0px;}
+.p37{text-align: left;padding-left: 1px;padding-right: 53px;margin-top: 41px;margin-bottom: 0px;}
+.p38{text-align: left;padding-left: 1px;margin-top: 12px;margin-bottom: 0px;}
+
+.td0{padding: 0px;margin: 0px;width: 370px;vertical-align: bottom;background: #88a1c0;}
+.td1{padding: 0px;margin: 0px;width: 290px;vertical-align: bottom;background: #88a1c0;}
+.td2{padding: 0px;margin: 0px;width: 370px;vertical-align: bottom;}
+.td3{padding: 0px;margin: 0px;width: 290px;vertical-align: bottom;}
+.td4{padding: 0px;margin: 0px;width: 382px;vertical-align: bottom;background: #88a1c0;}
+.td5{padding: 0px;margin: 0px;width: 278px;vertical-align: bottom;background: #88a1c0;}
+.td6{padding: 0px;margin: 0px;width: 382px;vertical-align: bottom;}
+.td7{padding: 0px;margin: 0px;width: 278px;vertical-align: bottom;}
+
+.tr0{height: 17px;}
+.tr1{height: 8px;}
+.tr2{height: 13px;}
+.tr3{height: 14px;}
+.tr4{height: 18px;}
+.tr5{height: 7px;}
+.tr6{height: 15px;}
+.tr7{height: 25px;}
+
+.t0{width: 660px;font: 12px 'Verdana';}
+.t1{width: 660px;font: 12px 'Verdana';}
+
+    
+.grupo {border:none;padding: 0px;border:none;width:680px;
+    margin-left: 17px;
+    margin-top: 1px; // 10px;
+    margin-bottom: 0px: //20px; 
+    }   
+.parrafos {
+	Display:inline-block;  
+    width:49%;
+    vertical-align: top;
+    } 
+   
+.item {
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font: Arial;   
+    font-size: 14px; 
+    width:99%;
+    //Display:inline-block;
+    vertical-align: text-top;
+    }
+ul {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px; // 10px;
+    margin-bottom: 0px: //20px;     
+    }
+.capitulo {
+     background-color: #87A0BF;
+     height:20px;
+     color: #FFFFFF;
+     font:  Arial;
+     font-size: 14px;
+     color: #ffffff;
+     text-align: center; 
+	 padding-top:5px; 	 
+	 margin-bottom: 10px;    
+    }
+#parrafoFinal {
+    position:absolute; top:900px; left:25px; width:800px; z-index:-1;height:100px;
+    vertical-align: text-middle;
+     padding-top: 10px;
+    }
+</STYLE>
+</HEAD>
+
+<BODY>
+
+<DIV id="page_1">
+<DIV id="dimg1">
+    <IMG src="/servlet/servlet.FileDownload?file={!ID_Img1}" id="img1"/>   <!-- 015b0000002EJza -->
+</DIV>
+<DIV id="dimgPie">
+    <IMG src="/servlet/servlet.FileDownload?file={!ID_Img2}"  id="img1Pie"/>  <!-- 015b0000002EJzZ -->
+</DIV>
+
+    
+    
+    
+    
+<DIV style="position:absolute;top:145px;left:499px;width:160px;height:100px">
+    <p style="font:'Verdana';color:white">{!centro.Ciudad__c}, {!td}</p>
+</DIV>
+
+<p style="font: 20px 'Verdana';position:absolute;top:140px;left:50px; width:500px; color:white">{!res.Name}</p>
+
+<DIV class="dclr"></DIV>
+<DIV >
+
+<apex:outputText value="{!HTML_Saludo}" escape="false" />
+
+
+</DIV>
+  
+<div class="grupo">   
+	<div Class="capitulo">{!LIT_SERVICIOS_ASISTENCIALES}</div>  
+    <div class="parrafos"><ul>
+        <apex:repeat value="{!List_Asistencial}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>
+        </ul>    
+    </div>
+    <div class="parrafos"><ul>
+        <apex:repeat value="{!List_Asistencial_d}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>
+         </ul>    
+    </div>
+</div>
+<div class="grupo">     
+	<div Class="capitulo">{!LIT_SERVICIOS_DE_BIEN_ESTAR}</div>        
+    <div class="parrafos"><ul>
+         <apex:repeat value="{!List_Bienestar}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>
+         </ul>    
+    </div>
+    <div class="parrafos"><ul>
+        <apex:repeat value="{!List_Bienestar_d}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>
+         </ul>    
+    </div>    
+</div>
+    
+<apex:outputText rendered="{!Formato_Plan_Personalizado=='F31' || Formato_Plan_Personalizado=='F40'}">     
+<div class="grupo">      
+	<div Class="capitulo">{!LIT_SERVICIOS_DE_ATENCION}</div> 
+    <div class="parrafos"><ul>
+         <apex:repeat value="{!List_Atencion}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>
+         </ul>    
+    </div>
+    <div class="parrafos"><ul>
+        <apex:repeat value="{!List_Atencion_d}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>
+         </ul>    
+    </div>       
+</div>
+</apex:outputText>
+
+<apex:outputText rendered="{!Formato_Plan_Personalizado=='F40'}">         
+<div class="grupo">      
+	<div Class="capitulo">{!LIT_TARIFAS_ESPECIALES}</div> 
+    <div class="parrafos"><ul>
+         <apex:repeat value="{!List_TarEspeciales}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>
+         </ul>    
+    </div>
+    <div class="parrafos"><ul>
+        <apex:repeat value="{!List_TarEspeciales_d}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>
+         </ul>    
+    </div>       
+</div>    
+</apex:outputText>  
+    
+    
+</DIV>
+
+<DIV id="page_2">
+<DIV id="dimg1">
+    <!--<apex:image value = "https://sarquavitae--test--c.cs18.content.force.com/servlet/servlet.FileDownload?file=01511000000Wt3k"  id="img1"/--->
+	<!--<IMG src="https://sarquavitae--test--c.cs18.content.force.com/servlet/servlet.FileDownload?file=015b0000002EJzb"  id="img1"/>-->      
+    <IMG src="/servlet/servlet.FileDownload?file={!ID_Img3}"  id="img1"/>      <!--015b0000002EJzb-->
+</DIV>
+    
+    <br/><br/> <br/><br/><br/><br/>
+    
+<apex:outputText rendered="{!Formato_Plan_Personalizado=='F22'}">         
+<div class="grupo">      
+	<div Class="capitulo">{!LIT_SERVICIOS_DE_ATENCION}</div> 
+    <div class="parrafos"><ul>
+         <apex:repeat value="{!List_Atencion}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat> </ul>        
+    </div>
+    <div class="parrafos"><ul>
+        <apex:repeat value="{!List_Atencion_d}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>     </ul>    
+    </div>       
+</div>
+</apex:outputText>        
+    
+<apex:outputText rendered="{!Formato_Plan_Personalizado!='F40'}">         
+<div class="grupo">      
+	<div Class="capitulo">{!LIT_TARIFAS_ESPECIALES}</div> 
+    <div class="parrafos"><ul>
+         <apex:repeat value="{!List_TarEspeciales}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>     </ul>    
+    </div>
+    <div class="parrafos"><ul>
+        <apex:repeat value="{!List_TarEspeciales_d}" var="line">
+            <li class="item">{!line}</li>
+        </apex:repeat>     </ul>    
+    </div>       
+</div>    
+</apex:outputText>  
+
+<div class="grupo">      
+	<div Class="capitulo">{!LIT_CONDICIONES_ECONOMICAS}</div> 
+    <div class="parrafos">
+        <ul>
+            <li class="item">{!Lit_TarifaServicio}</li>
+            <apex:outputText rendered="{!Promocion!='VACIO'}"> 
+            	<li class="item">{!Promocion}</li>	
+            </apex:outputText>
+            <apex:outputText rendered="{!EsResi==1}" value="{!Lit_ImporteFinal}" escape="false" /> 
+
+        </ul>
+    </div>
+    
+    <div class="parrafos">
+        <ul>
+           <apex:outputText rendered="{!EsResi==1}" value="{!Lit_GradoDependencia}" escape="false" /> 
+           <apex:outputText rendered="{!EsDia==1}" value="{!Lit_ImporteFinal}" escape="false" /> 
+        <li class="item">{!LIT_FECHA_VALIDEZ}</li>
+        </ul>
+    </div> 
+</div>   
+
+<div class="grupo" style = "{!DISPLAY_GRUPO}">      
+	<div Class="capitulo">{!LIT_CONDICIONES_DE_INGRESO}</div> 
+    <div class="parrafos">
+        <apex:outputText value="{!HTML_FIANZA}" escape="false" />
+    </div>
+    <div class="parrafos">
+		<apex:outputText value="{!HTML_FIANZA_IMPORTE}" escape="false" />
+    </div>    
+</div>
+
+<!--
+<div class="grupo">  
+    {!HTML_APARTADO_FIANZA}
+</div> 
+-->    
+    <br/>   
+
+<div class="grupo">      
+	<div Class="capitulo">{!LIT_SERVICIOS_INCLUIDOS}</div> 
+    <div class="parrafos">
+		 <apex:outputText value="{!HTML_SERVICIOS1}" escape="false" /> 
+    </div>
+    <div class="parrafos">
+		 <apex:outputText value="{!HTML_SERVICIOS2}" escape="false" /> 
+    </div>   
+ </div>
+    
+    
+<div id="parrafoFinal">
+     <P class="p35 ft2">{!ATCName}</P>
+
+   
+<P class="p36 ft16">{!centro.Responsable_PlanPersonal__c}&nbsp;{!centro.Name}</P>
+ </div>
+       </DIV>   
+   
+</BODY>
+</apex:page>

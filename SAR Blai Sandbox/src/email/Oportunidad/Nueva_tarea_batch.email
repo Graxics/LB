@@ -1,0 +1,14 @@
+Nueva tarea<br>
+Para: ATC_CENTRO<br><br>
+
+Se le ha asignado una nueva tarea en salesforce:<br><br>
+
+Asunto: NOMBRE_ASUNTO_TAREA<br>
+Centro: NOMBRE_CENTRO<br>
+Fecha de vencimiento: FECHA_VENCIMIENTO_TAREA<br>
+Prioridad: PRIORIDAD_TAREA<br>
+Comentarios: <strong> URGENTE_COMENTARIOS</strong><br>COMENTARIOS_TAREA<strong>NEGRITA_COMENTARIOS</strong><br><br>
+
+Si desea más información, haga clic en el siguiente vínculo:<br>
+
+<a href = "LINK_TAREA_BATCH">LINK_TAREA_BATCH </a>

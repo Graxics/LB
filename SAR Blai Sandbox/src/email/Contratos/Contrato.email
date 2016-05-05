@@ -1,0 +1,258 @@
+<p align="center"><strong>CONTRATO DE REHABILITACIÓN  PSICOSOCIAL PARA PERSONAS CON ENFERMEDAD MENTAL SOBREVENIDA</strong> <br>
+  <strong><em>C.R.P.S. OSAMEN</em></strong></p>
+<p><strong>&nbsp;</strong></p>
+<p align="right">En Azpeitia,  a {!Fecha_Dia} de {!Fecha_Mes} de {!Fecha_Anyo}
+
+<p>&nbsp;</p>
+<p align="center"><strong>REUNIDOS</strong></p>
+<p>&nbsp;</p>
+<p>Por una parte, D/Dª {!Director.FirstName}
+{!Director.LastName}
+ con  DNI nº {!Oportunidad_platform__c.DNI_Director__c} en su condición de director/a del <strong>Centro de Rehabilitación Psicosocial Osamen </strong>(en lo sucesiv, &ldquo;C.R.P.S. OSAMEN&rdquo;),  sito en la C/ Emparán, nº 6, 2º de Azpeitia, cuya gestión corresponde a  la Empresa <strong>QUAVITAE </strong><strong>BIZI KALITATE, S.L.U,</strong><strong> </strong><strong>S.L.U.,</strong> con C.I.F. nº:  B-01286525, domiciliada en Teodoro González de  Zárate, 14, 01007 Vitoria-Gasteiz a la que representa en este acto. </p>
+<p>Y  de otra parte, D/Dª {!Residente.FirstName}
+{!Residente.LastName}
+ mayor de edad, con DNI nº {!Oportunidad_platform__c.DNI_Residente__c} domiciliado  en calle {!Oportunidad_platform__c.Calle_Residente__c} que actúa </p>
+<p></p>
+<dl>
+  <dd>{!F1} En  nombre propio y con plena capacidad de obrar y obligarse.</dd>
+  <dd>{!F2} Mediante  auto de auto de autorización judicial de internamiento.</dd>
+  <dd>{!F3} A  través de su representante legal D./Dª {!Representante_con.FirstName}
+{!Representante_con.LastName}
+, con DNI nº {!Representante_con.CIF_NIF__c}
+ con  domicilio en{!Representante_con.Calle},
+{!Representante_con.Ciudad}
+, con número de teléfono {!Representante_con.Phone}
+, representación  que acredita mediante testimonio de {!Oportunidad_platform__c.Testimonio_que_acredita_su_calidad__c} y que queda adjunta y  formando parte de este Contrato.</dd>
+  <dd>{!F4} A  través de la persona de referencia D/Dª {!Persona_Referencia.FirstName}
+{!Persona_Referencia.LastName} 
+ con DNI nº {!Persona_Referencia.CIF_NIF__c}
+,  con domicilio en {!Persona_Referencia.Calle}
+{!Persona_Referencia.Ciudad}
+, con número de teléfono{!Persona_Referencia.Phone}</p>
+</dl>
+<p align="left">&nbsp;</p>
+<p>
+<p>Se reconocen la capacidad legal necesaria  para contratar y obligarse, y por todo ello, de mutuo acuerdo.</p>
+<p>&nbsp;</p>
+<p align="center"><strong>MANIFIESTAN</strong></p>
+<p><strong>&nbsp;</strong></p>
+
+  <p>I- Que el C.R.P.S. Osamen es un Centro de Rehabilitación  Psicosocial destinado con carácter general a atender las necesidades sociales  específicas de las personas con enfermedades mentales crónicas y de sus  familias, mediante el desarrollo de los recursos de rehabilitación, y soporte  comunitario que son necesarios para posibilitar la reinserción e integración  social de estas personas y asegurar que puedan mantenerse en su entorno social  y familiar en unas condiciones de vida lo más autónoma y normalizada posibles.</p>
+
+  <p>II- Que el C.R.P.S. Osamen dispone de cuantas autorizaciones,  visados o permisos exige la normativa vigente.</p>
+
+  <p>III- Que el usuario conoce las instalaciones del C.R.P.S. así  como las condiciones de su rehabilitación, atención y el precio de estancia,  considerándolo todo ello satisfactorio.</p>
+
+  <p>IV- Que se hace entrega  en este acto al usuario de una copia del Reglamento de Régimen Interno del Centro  de Rehabilitación Psicosocial Osamen, comprometiéndose por su parte a respetarlo  y cumplirlo diligentemente, expresando ambas partes su deseo de procurar que  sean igualmente respetados y cumplidos por el resto de miembros de la comunidad  residencial.</p>
+
+  <p>V- Que el usuario voluntaria y libremente está interesado en  recibir los servicios de estancia y atención asistencial, manifestando esta  voluntad, por él/ella mismo/a, o su representante legal al final de este  documento.</p>
+</ol>
+<p>&nbsp;</p>
+<p>Por todo lo cual las partes convienen en  otorgar el presente <strong>CONTRATO DE  REHABILITACIÓN PSICOSOCIAL PARA PERSONAS CON ENFERMEDAD MENTAL SOBREVENIDA EN  C.R.P.S. OSAMEN </strong>de conformidad con las siguientes:</p>
+<p>&nbsp;</p>
+<p align="center"><strong>CLÁUSULAS</strong></p>
+<p>&nbsp;</p>
+<p><strong>Primera.-</strong> <strong>Ingreso y Servicios incluidos.</strong></p>
+<p>A D/Dª {!Residente.FirstName}
+{!Residente.LastName}
+ le ha sido  concedida, por el Departamento de Servicios Sociales de la Diputación Foral de Guipúzcoa,  la plaza de unidad de estancia diurna parcialmente subvencionada en el C.R.P.S.  Osamen. Por consiguiente, recibirá en virtud de la asistencia concertada con el  Departamento de Servicios Sociales de la Diputación Foral de Guipúzcoa los servicios que se detallan en el Convenio suscrito con  SARquavitae. </p>
+<p>El Centro se compromete a ofrecer una  atención al usuario, la cual incluye los siguientes servicios:</p>
+<p>
+<ol type="a">
+  <li>Estancia  en el C.R.P.S.Horario de 9:30 a 17:00 horas</li>
+  <li>Servicio  de comidas especificas</li>
+  <li>Programa  de Rehabilitación Individual (P.R.I.)</li>
+  <li>Actividades  de la vida diaria básicas e instrumentales.</li>
+  <li>Rehabilitación  de déficits cognitivos</li>
+  <li>Adherencia  al tratamiento</li>
+  <li>Psicoeducación.  Prevención  de recaídas</li>
+  <li>Entrenamiento  en Habilidades Sociales</li>
+  <li>Psicomotricidad</li>
+  <li>Ocio  y tiempo libre. Integración en recursos</li>
+  <li>Habilidades  de autocontrol y manejo del estrés</li>
+  <li>Rehabilitación  y alternativas laborales</li>
+  <li>Intervención familiar</li>
+  <li>Salidas  terapéuticas programadas</li>
+  <li>Supervisión  de  medicación y control de citas</li>
+  <li>Coordinacion  con redes sociales</li>
+</ol>
+<p>Se acuerda que el inicio de la vigencia de  este contrato se produzca el día del ingreso del usuario.</p>
+<p><strong>Segunda.-  Precio y forma de pago.</strong></p>
+<p>El  usuario participará desde el momento de inicio de este contrato del coste de  los servicios en el C.R.P.S. Osamen. La aportación diaria a realizar por el  usuario será de {!Oportunidad_platform__c.Precio_Total__c}
+  Euros, <strong><u>IVA  incluido</u></strong>, de acuerdo con la Resolución del Departamento de Servicios  Sociales de la Diputación Foral de Guipúzcoa por la que se le adjudica la  plaza. </p>
+<p>El  pago de los servicios se realizará mensualmente a mes vencido mediante  domiciliación bancaria a la siguiente cuenta:</p>
+<p align="left">Nombre  de la entidad bancaria : {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}.<br>
+  Localidad: {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}<br>
+  IBAN: {!Oportunidad_platform__c.IBAN__c} <br>
+  Nombre del titular de la cuenta y obligado al pago en este contrato: {!Oportunidad_platform__c.Cuenta_Pagador__c} </p>
+<p>Los  gastos ocasionados por eventuales devoluciones bancarias de los recibos serán  abonados por el usuario y/o persona responsable, y bajo este concepto serán  incluidos en el mismo recibo devuelto, que se girará de nuevo.</p>
+<p>El  incumplimiento en el pago de las cuotas correspondientes, dará lugar a la  resolución del presente contrato, que será comunicada por el C.R.P.S. Osamen al  usuario y/o familiares responsables y/o representantes legales o de hecho,  según cada caso.</p>
+<p>
+<p><strong>Tercera.-  Liquidación.</strong></p>
+<p>Al finalizar con carácter definitivo la  estancia del usuario, se hará la correspondiente liquidación en función del  tiempo real que haya estado ingresado. A estos efectos, se tendrán en cuenta  las siguientes consideraciones:</p>
+<ol type="a">
+  <li>Baja voluntaria: el usuario y su cónyuge / descendiente  directo mayor de edad / hermano, como familiares responsables o su  representante legal, deberán comunicar la baja a los responsables del C.R.P.S.  Osamen, con un preaviso de 15 días. En caso contrario, en el momento de hacer  la liquidación, se podrá cobrar hasta un máximo de 15 días adicionales del  precio de la estancia, como compensación.</li>
+
+  <li>La liquidación por baja definitiva del usuario, se hará  como máximo en el plazo de 30 días.</li>
+
+  <li>En caso de baja como consecuencia de exitus / finalización  de la estancia del usuario, la liquidación se realizará en atención a los días  reales de estancia del usuario, antes de su defunción / baja.</li>
+</ol>
+<p>
+<p><strong>Cuarta.-  Actualización y/o modificación del precio.</strong> </p>
+<p>La aportación económica a efectuar por el  usuario fijada en la cláusula segunda del presente Contrato, se actualizará por el Departamento de Servicios Sociales de la  Diputación Foral de Guipúzcoa, al comienzo de  cada año natural, de acuerdo con el Índice de Precios al Consumo (IPC) de  ámbito estatal que proceda, conforme a lo establecido en la normativa de  aplicación. <strong></strong></p>
+<p><strong>Quinta.-  Obligación solidaria.</strong></p>
+<p>D/Dª {!Avalista.FirstName}
+{!Avalista.LastName}
+
+, presente en  este acto, con DNI nº {!Avalista.DNI}
+  y con domicilio en {!Avalista.Calle}, 
+{!Avalista.Ciudad}
+
+
+, en su calidad de {!relacionContacto.Relacion_personal__c}  de D/Dª {!Residente.FirstName}
+{!Residente.LastName}
+, garantiza personal y  solidariamente las obligaciones económicas asumidas en este documento, así como  el cumplimiento de las obligaciones sociales que contiene el Reglamento de  Régimen Interno.</p>
+<p><strong>Sexta.-  Reserva de plaza.</strong></p>
+<p>Las ausencias prolongadas del usuario deben ser  comunicadas con una antelación suficiente, y al menos con 24 horas de  antelación, así como los días de ausencia previstos, excepto para el caso de  ausencia forzosa imprevista.</p>
+<p>En  caso de ausencias inferiores a siete días, se cobrará el precio integro de la  estancia. A partir de siete días laborales de ausencia se cobrará el precio en  concepto de reserva suponiendo una deducción porcentual establecida según  normativa de la Diputación Foral de Guipúzcoa.</p>
+<p>En caso de ausencias forzosas  transitorias, se deberá reservar la plaza, pero también se cobrará el precio de  la estancia con deducción  porcentual establecida según normativa de la Diputación Foral de Guipúzcoa. </p>
+<p><strong>Séptima.-  Período de prueba.</strong></p>
+<p>La plena efectividad del presente Contrato  queda sometida a un período previo de prueba de 90 días, que permita se  produzca el correspondiente proceso de adaptación al C.R.P.S. Osamen del usuario  y la verificación por parte de su cónyuge / descendiente directo mayor de edad / hermano, como familiares  responsables o de su representante legal, de las condiciones en que se  desarrolla la vida cotidiana y la atención que se ofrece, durante el cual ambas  partes pueden resolverlo unilateralmente sin necesidad de preaviso siempre que  esté al corriente de pago de todos los servicios prestados por el C.R.P.S.  Osamen</p>
+<p>Superado este periodo de prueba cualquiera de  las partes deberá comunicar su voluntad de rescindir el contrato con un  preaviso de 15 días.</p>
+<p><strong>Octava.-</strong> <strong>Persona de referencia. </strong></p>
+<p>Se designa a D/Dª {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName} 
+ con  DNI nº: {!Persona_Referencia.CIF_NIF__c}, domicilio en calle {!Persona_Referencia.Calle}, {!Persona_Referencia.Ciudad}
+y nº de teléfono {!Persona_Referencia.Phone} en calidad de {!relacionContacto.Relacion_personal__c}  </em>como persona de referencia a la que informar de cualquier  eventualidad que pueda producirse en relación a la persona del usuario, bienes  o cualquier otra circunstancia que le afecte.</p>
+<p>Dicha persona de referencia actuará como  responsable ante decisiones médicas y asistenciales para el bienestar y salud  del usuario al que representa.</p>
+<p><strong>Novena.-  Información sobre el usuario.</strong></p>
+<p>El usuario o en su caso, cónyuge / descendiente  directo mayor de edad / hermano, como familiares responsables o de su  representante legal, se comprometen a facilitar al personal del Centro la  información que le sea solicitada con relación a su salud, alimentación, hábitos  de vida cotidiana etc., a fin de que pueda serle facilitada la atención más  adecuada de conformidad con sus necesidades y costumbres. </p>
+<p>De manera especial deberán informar al  personal asistencial del Centro de su estado de salud, enfermedades y tratamientos  en curso, medicación etc., otorgando en este acto su consentimiento para que  dicho personal desarrolle, en coordinación con el Sistema Sanitario habitual  del usuario, las tareas de atención y seguimiento de su estado de salud.</p>
+<p><strong>Décima.-  Bienes de los usuarios.</strong></p>
+<p>En el momento del ingreso se deberá aportar por  el usuario / cónyuge / descendiente  directo mayor de edad / hermano (familiar responsable), o representante  legal nombrado a tal efecto, bienes de uso cotidiano del usuario. El Centro comprobará  que los bienes que aporta son los necesarios para la correcta estancia en el  Centro.</p>
+<p>El Centro no se responsabiliza de  ningún bien, objeto, joyas o dinero del usuario y en virtud de ello, el Centro  no se responsabiliza de robos, hurtos, rotura, desperfectos, conservación,  mantenimiento o reparación de bienes, joyas o dinero.</p>
+<p><strong>Undécima.- Seguro de responsabilidad  civil. </strong></p>
+<p>El Centro manifiesta tener contratada Póliza  de seguro de responsabilidad civil.</p>
+<p>Serán a cargo del usuario todos los desperfectos  causados en las instalaciones y propiedades del Centro, así como a otros  usuarios o personal del Centro, cuando los mismos no estuvieran cubiertos por  la póliza de responsabilidad civil.</p>
+<p><strong>Duodécima.-  Cumplimiento de los requisitos legales. </strong></p>
+<p>El centro está  sometido al cumplimiento de la legislación vigente, que resulte de aplicación y  que garantice un correcto funcionamiento del Centro de acuerdo con sus  características y su régimen interno.</p>
+<p>Ambas partes se remiten, en todo lo no  previsto en el Reglamento de Régimen Interno y en este Contrato, a dicha  legislación vigente aplicable al respecto.</p>
+<p><strong>Decimotercera.-  Derechos de los usuarios. </strong></p>
+<p>El Centro se obliga a respetar los derechos  del usuario reconocidos en la legislación vigente aplicable al respecto y el  Reglamento de Régimen Interno que acompaña a este contrato y en concreto a:</p>
+<ol type="a">
+  <li>Ser tratados sin discriminación por razón de  sexo, raza, religión, ideología o cualquier otra condición o circunstancia  personal o social y, siempre que sea posible, de acuerdo con sus particulares  convicciones culturales, religiosas o filosóficas.</li>
+
+  <li>La integridad física y moral, y a recibir un  trato digno por parte tanto del personal como de los demás usuarios con  absoluta consideración de su dignidad humana.</li>
+
+  <li>La intimidad y a mantener la privacidad,  mediante el secreto profesional de los datos de su historia sanitaria y social  y de todos aquellos datos que no es preciso que sean conocidos por el personal  o por el resto de usuarios.</li>
+
+  <li>Recibir una atención individualizada acorde  con sus necesidades específicas.</li>
+
+  <li>Información y a la participación de forma  que, en el Centro, funcionen los mecanismos de participación de los usuarios o  de sus representantes legales.</li>
+
+  <li>A la continuidad de la prestación de los  servicios en las condiciones establecidas o acordadas.</li>
+
+  <li>Cesar en la utilización de los servicios o en  la permanencia en el centro por voluntad propia, salvo cuando ello venga  excluido por lo previsto en la normativa que resulte de aplicación.</li>
+
+  <li>A no ser sometidos a inmovilización alguna o  restricción física o farmacológica sin prescripción y supervisión médica,  excepto que exista peligro inminente para la seguridad física del propio  usuario o de terceras personas. En este último caso, las actuaciones efectuadas  deben ser justificadas documentalmente en el expediente asistencial del  usuario.</li>
+
+  <li>Derecho de queja, ejercido mediante hojas de  reclamación que deberán estar a disposición de las personas usuarias. </li>
+
+  <li>Ser protegidos por ley, tanto ellos como sus  bienes, cuando como consecuencia de la pérdida de sus facultades mentales,  pierdan su capacidad de autogobierno, tanto si están en una institución como en  el ámbito familiar.</li>
+</ol>
+<p><strong>Decimocuarta.- Obligaciones de los usuarios.</strong><u> </u></p>
+<p>Son  obligaciones de los  usuarios y sus familiares:</p>
+<ol type="a">
+ <li>Cumplir  las instrucciones emanadas de la   Dirección del Centro.</li>
+
+  <li>Ajustarse  a las prescripciones derivadas de los programas de estancia y asistencia que se  les proporcionen.</li>
+
+  <li>Cumplir  las normas generales de utilización de las instalaciones del Centro establecidas  en el Reglamento de Régimen Interior.</li>
+
+  <li>Observar  una conducta basada en el respeto mutuo, la tolerancia y la colaboración, encaminada a facilitar una mejor convivencia, entre  los usuarios y el personal que presta sus servicios en el Centro.</li>
+
+  <li>Cumplir la  normativa vigente en lo referente al consumo de alcohol y al consumo de tabaco  y consumo de tóxicos.</li>
+
+  <li>Abonar  el importe de las liquidaciones de estancias o los precios de los servicios. </li>
+
+  <li>Los  familiares deben atender, con la mayor diligencia, las llamadas y  requerimientos efectuados por la   Dirección o personal del Centro relacionadas con la atención  y situación de los usuarios, así como asumir las responsabilidades que les  imponen este Reglamento y la legislación vigente. </li>
+
+  <li>Respetar los derechos de los demás usuarios.</li>
+
+  <li>Facilitar correctamente los datos que puedan  dar lugar al derecho a la prestación o servicio.</li>
+
+  <li>Aceptar el presente Reglamento y las normas  de funcionamiento que regulan la vida del Centro.</li>
+
+  <li>Los familiares deben informar al Centro, cambios de  domicilio o cualquier otra circunstancia que afecte a su localización.</li>
+
+  <li>Informar sobre cualquier cambio que se produzca con  respecto a su situación personal, familiar, social y económica, que pudiera dar  a lugar a la modificación suspensión o extinción de la prestación del servicio.</li>
+
+  <li>Adoptar una correcta  y colaboradora actitud en el desarrollo de la prestación y de la convivencia,  así como respectar el buen uso y colaborar con el mantenimiento de las  instalaciones y medios del centro de servicios sociales.</li>
+</ol>
+
+<p>El incumplimiento probado de las obligaciones  anteriormente especificadas podrá comportar la resolución del contrato.</p>
+<p>Cualquier medida que suponga la resolución  del contrato será comunicada con carácter previo a la Administración Pública  competente. </p>
+<p><strong>Decimoquinta.-  Manutención.</strong></p>
+<ol type="1">
+  <li>Los horarios fijados para el servicio de  comedor por la Dirección del Centro deberán ser cumplidos con la mayor  rigurosidad, a fin de evitar trastornos en la prestación del servicio.</li>
+  <li>A las personas usuarias del Centro se les garantizará una  alimentación equilibrada, consistiendo ésta al menos en:   {!Oportunidad_platform__c.Tipo_manutencion__c}</li>
+
+  <li>La carta mensual de los menús de las comidas  será supervisada a fin de garantizar el aporte dietético y calórico adecuado a  las personas usuarios. Copia de dicha carta se expondrá en el tablón de  anuncios del centro y estará a disposición de los familiares.</li>
+  <li>A las personas usuarias que lo precisen, por  prescripción médica, se les ofrecerá menú de régimen adecuado a sus  necesidades.</li>
+</ol>
+<p><strong>Decimosexta.-  Duración del contrato. </strong></p>
+<p>El  presente contrato tiene vigencia desde el día  del ingreso del usuario hasta el  día 31 de diciembre del año de la firma del contrato. Finalizado el período de  vigencia, se entenderá renovado tácitamente por las partes, excepto que alguna  de las partes comunique a la otra, mediante escrito dirigido al Centro y con  una antelación de 15 días, su voluntad de rescindirlo.</p>
+<p>Igualmente, también podrá ser rescindido el  contrato por parte del Centro, siempre que se produzcan motivos de fuerza mayor  o de aplicación de medidas correctoras contenidas en el Reglamento del Régimen  Interno del C.R.P.S. Osamen en cuyo caso se seguirá el procedimiento establecido  en éste.</p>
+<p><strong>Decimoséptima.-  Incumplimiento contractual.</strong></p>
+<p>El incumplimiento de lo estipulado en  cualquiera de las cláusulas del presente contrato o de lo que dispone el  Reglamento de Régimen Interno, implicará la resolución de la relación  contractual entre las partes, que comportará, por parte del usuario/usuaria la  imposibilidad de acudir al Centro transcurridos 15 días desde que se le hubiera  notificado por escrito, al mismo o a su cónyuge/descendiente directo mayor de edad/hermano (familiar responsable),  o representante legal, la rescisión del contrato por las causas determinadas en  este contrato o en el Reglamento de Régimen Interno que se adjunta a este  documento.</p>
+<p>En cualquier caso, se seguirá en todo momento  el procedimiento sancionador establecido en el Reglamento de Régimen Interno,  dando audiencia al presunto infractor.</p>
+<p>En estos casos, el centro podrá remitir al usuario  a su domicilio o al de la persona de referencia o persona responsable que  conste en este contrato. </p>
+<p>Decimoctava.-  Resolución del contrato.</p>
+<p>El incumplimiento por parte del usuario y de su cónyuge/descendiente directo mayor de edad/hermano,  como familiares responsables o de su representante legal, de cualquiera de las obligaciones establecidas en  el presente contrato, podrá dar lugar a la resolución del contrato. </p>
+<p>En concreto, el contrato se resolverá por cualquiera de las siguientes  causas:</p>
+<ol type="a">
+  <li>El retraso en el  pago del precio de la estancia o de cualquier otra cantidad que el usuario se  haya obligado a pagar, superior a treinta días.</li>
+  <li>La comisión de una  falta muy grave, conforme a lo establecido en el Reglamento de Régimen Interno  y en el presente contrato.</li>
+  <li>El incumplimiento  por cualquiera de las partes de las obligaciones esenciales del contrato.</li>
+  <li>La realización, por  parte del usuario, de actividades ilícitas o prohibidas, o que pongan en peligro  la salud de los otros usuarios, la salubridad, higiene e integridad del Centro  de día, o que menoscaben la tranquilidad y sosiego de la convivencia en el  edificio.</li>
+  <li>La ruina o la  pérdida de la propiedad del edificio del Centro por parte de la Propiedad, por causa no  imputable a la misma.</li>
+  <li>Por defunción del usuario,  en cuyo caso corresponderá a las personas responsables del mismo y/o a sus  herederos la obligación de darle un entierro digno de acuerdo con sus  creencias. El Centro no se hace responsable del entierro del usuario en caso de  defunción.</li>
+  <li>Por vulneración e  infracción de las normas de convivencia recogidas en este contrato y en el  Reglamento que se adjunta, respecto otros usuarios del Centro o respecto el  personal del mismo.</li>
+  <li>Cualquiera otras previstas  en la legislación vigente, el presente contrato o en el Reglamento de Régimen  Interior.</li>
+  <li>Por voluntad del usuario  y de su cónyuge / descendiente directo mayor de edad / hermano, como familiares  responsables o de su representante legal, notificándolo por escrito con 15 días  de antelación.</li>
+  <li>Por ingreso del  usuario en un centro residencial o por agravamiento de su situación de  dependencia tal que requiera de cuidados específicos que no puedan ser  dispensados conforme al presente Contrato y la naturaleza del Centro de Día</li>
+</ol>
+<p>
+<p>En todo caso, la resolución del contrato no podrá producirse sin  previa comunicación escrita al usuario. En caso de resolución del contrato, el  usuario queda obligado a no acudir al Centro transcurrido un plazo de 15 días  desde la notificación de la rescisión del contrato.</p>
+<p><strong>Decimonovena.- Protección de datos de carácter  personal.</strong></p>
+<p>Los datos personales recogidos en el presente documento serán  incorporados y tratados en un fichero titularidad de {!Oportunidad_platform__c.Sociedad_Centro__c} </strong> con la finalidad  de cumplir el propio contrato de prestación de servicios suscrito y gestionar  los agradecimientos, sugerencias y reclamaciones. Así mismo podrán ser  utilizados para el envío de información sobre productos, servicios y eventos de{!Oportunidad_platform__c.Sociedad_Centro__c} </strong> y de las distintas  sociedades de SARquavitae, así como para la realización de encuestas de calidad  del servicio.</p>
+<p>Sus datos podrán ser cedidos, exclusivamente para las finalidades  indicadas anteriormente, a otras entidades socio-sanitarias, siempre que las  mismas pertenezcan directa o indirectamente al Grupo Societario SARquavitae (<a href="http://www.sarquavitae.es">www.sarquavitae.es</a>), todo ello tanto si se formalizase o no operación  alguna como, en su caso, una vez extinguida la relación contractual existente,  respetando en todo caso la legislación española sobre protección de datos de  carácter personal y sin necesidad de que le sea comunicada cada primera cesión  que se efectúe a los referidos cesionarios.</p>
+<p>El interesado podrá ejercer los derechos de acceso, rectificación,  cancelación y oposición mediante comunicación escrita dirigida a Departamento  Jurídico, SARquavitae, C/Aribau 185 Entlo, 08021 – Barcelona o al propio centro  en el que se presta el servicio objeto de contrato.</p>
+<p>{!F5}        Vd.  Puede marcar esta casilla en caso de oponerse al tratamiento y comunicación de  los datos de carácter personal para fines comerciales.</p>
+<p>{!F5}        Vd.  Puede marcar esta casilla en caso de oponerse al tratamiento y comunicación de  los datos de carácter personal para la realización de encuestas de  satisfacción.</p>
+<p>En caso de que los datos facilitados se refieran a personas físicas  distintas del interesado, éste deberá, con carácter previo a su inclusión en el  presente documento, informarles de los extremos contenidos en los párrafos  anteriores.</p>
+<p><strong>Vigésima.-  Fuero Interno.</strong></p>
+<p>Para cualquier divergencia o litigio que  pueda surgir sobre la interpretación o aplicación del presente contrato las  partes se someten, con renuncia expresa de cualquier otro fuero, a los  Tribunales y Juzgados del domicilio del Centro.</p>
+<p><strong>Vigésimo  primera.- Disposición derogatoria</strong>.</p>
+<p>La firma del presente contrato implica la  rescisión de cualquier otro anterior otorgado por las partes con el mismo  objeto.</p>
+<p>&nbsp;</p>
+<p>Y en muestra de conformidad con lo que  antecede, ambas partes contratantes firman el presente contrato por duplicado y  a un solo efecto en el lugar y fecha ut supra indicados.</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Por <strong> {!Oportunidad_platform__c.Sociedad_Centro__c}</strong></span><span style="float: right;"><strong>El Usuario/representante legal</strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Fdo.; D/Dª {!Director.FirstName} {!Director.LastName}</span><span style="float: right;">Fdo.: D/Dª {!Nombre_residente_rep_legal} {!Apellidos_residente_rep_legal}
+</span></p>
+<p>&nbsp;</p>
+<p><span style="float: left;"><strong>La persona de referencia</strong></span><span style="float: right;"><strong>El avalista</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Fdo.; D/Dª  {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName}</span><span style="float: right;">Fdo.;D/Dª {!Avalista.FirstName} {!Avalista.LastName}</span></p>
+<p>&nbsp;</p>
+<p><span style="float: left;"><strong>El pagador</strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Fdo.; D/Dª  {!Pagador.FirstName} {!Pagador.LastName}</span></p>

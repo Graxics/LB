@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Agenda de Ocio Euskera</name>
+    <style>none</style>
+    <subject>Aisiako NOMBRE_MES</subject>
+    <textOnly>Documento sin título
+
+
+Aisiako - MES Familia estimatu hori,
+
+SARquavitae NOMBRE_CENTRO egoitza-zentroak NOMBRE_MES hilabetean egitekoa den jarduera-programan parte hatzera  gonbidatzen zaitu. Kontsultatu  gure bloga hil horretako jardueren egutegia ikusteko.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

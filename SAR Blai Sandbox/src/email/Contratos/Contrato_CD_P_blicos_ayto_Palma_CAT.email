@@ -1,0 +1,135 @@
+<body>
+<p align='center'>{!logo_ayuntamiento}</p>
+<p align="center"><u><strong>MODEL DE CONTRACTE  ASISTENCIAL</strong></u></p>
+<table border="1" style="width:100%; border: 1px solid black;">
+<tr>
+  <td align="left" style="padding-bottom:7px;border:0px;padding-left:7px; padding-top:7px;"><strong>Dades del centre:</strong><br>
+    Nom del centre: {!Oportunidad_platform__c.Nombre_Centro__c}<br>
+    Nom de l&rsquo;entitat: {!Oportunidad_platform__c.Sociedad_Centro__c}
+CIF:  {!Oportunidad_platform__c.CIF_Sociedad__c}<br>
+  Carrer i núm:{!Oportunidad_platform__c.Calle_Sociedad__c}
+Localitat:{!Oportunidad_platform__c.Ciudad_Sociedad__c}<br>
+    Director/ responsable del centre: {!Director.FirstName} {!Director.LastName}
+  DNI: {!Oportunidad_platform__c.DNI_Director__c}
+</td>
+</tr>
+</table>
+<br>
+<table border="1" style="width:100%; border: 1px solid black;">
+<tr>
+  <td align="left" style="padding-bottom:7px;border:0px;padding-left:7px; padding-top:7px;"><strong>Dades de la persona usuària:</strong><br>
+    Nom i llinatges: {!Residente.FirstName}
+{!Residente.LastName}<br>
+    Carrer i núm: {!Oportunidad_platform__c.Calle_Residente__c}
+Localitat: {!Oportunidad_platform__c.Ciudad_Residente__c}<br>
+    DNI:{!Oportunidad_platform__c.DNI_Residente__c}
+Núm.  seguretat social: {!Oportunidad_platform__SS_Residente__c}
+</td>
+</tr>
+</table>
+<br>
+<table border="1" style="width:100%; border: 1px solid black;">
+<tr>
+  <td align="left" style="padding-bottom:7px;border:0px;padding-left:7px; padding-top:7px;"><strong>Dades del familiar responsable/ representant legal:</strong><br>
+    Nom i llinatges: {!Representante.FirstName}
+{!Representante.LastName}
+   DNI: {!Representante.CIF_NIF__c}<br>
+    Carrer i núm: {!Representante.Calle}
+Localitat: {!Oportunidad_platform__Localidad_Representante__c}<br>
+Telèfon de contacte: {!Representante.Phone}
+Parentesc: {!relacionContacto.Relacion_personal__c}
+</td>
+</tr>
+</table>
+<p>El centre,  l&rsquo;usuari i /o el familiar es comprometen als següents ACORDS:</p>
+<p><strong>PRIMER:</strong>Que l&rsquo;ingrés s&rsquo;efectua LLIURAMENT.</p>
+<p>
+<p><strong>SEGON: </strong>El centre de dia per persones majors és un centre que  ofereix els serveis d&rsquo;acolliment i suport, amb finalitat terapèutica i  rehabilitadora durant un determinat nombre d&rsquo;hores al dia, com també  d&rsquo;assistència d&rsquo;activitats de la vida diària a persones majors amb  dependències.</p>
+  <br>
+  <strong>TERCER:</strong> La persona usuària, familiar i/o  tutor,  coneixen i accepten  les normes del Reglament de règim interior  del qual s&rsquo;adjunta una còpia i del qual es firma un rebut en prova de la  recepció del mateix i de conformitat amb el seu contingut.<br>
+ </p>
+<p><strong>QUART:</strong> El centre s&rsquo;obliga a respectar els drets dels usuaris  reconeguts en el Reglament de règim interior.</p>
+<p><strong>CINQUÈ:</strong> S&rsquo;estableix un període d&rsquo;adaptació o de prova de 20  dies, amb l&rsquo;objecte de conèixer tant el medi com el grau d&rsquo;adaptació, a partir  de la signatura del present contracte.</p>
+<p><strong>SISÈ: </strong>L&rsquo;usuari, familiar i/o tutor es comprometen a aportar  la documentació següent:</p>
+<ul>
+  <li>DNI</li>
+  <li>Targeta  seguretat social</li>
+  <li>Informe  mèdic actualitzat</li>
+  <li>Informe  social</li>
+  <li>Contactes  de familiars de referència</li>
+  <li>Sentència  d&rsquo;incapacitació legal, curatela o poders per actuar en nom de la persona  usuària, si existeixen.</li>
+</ul>
+<p>                                                                                                                                                                                                 <br>
+  <strong>SETÈ: </strong>Els sotasignats estan obligats a informar sobre qualsevol  canvi que es produeixi quant a la seva situació personal, familiar, mèdica,  social i econòmica que pogués donar lloc a la modificació o suspensió del  servei. </p>
+<p><strong>VUITÈ: </strong>Els familiars i/o tutor coneixen i accepten que pel  fet d&rsquo;estar a un centre, no els eximeix de les seves responsabilitats envers de  la persona usuària.</p>
+<p><strong>NOVÈ: </strong>Els familiars i/o tutor, es comprometen a col·laborar  amb aquelles activitats en les que el centre els sol·licita la seva  col·laboració.</p>
+<p><strong>DESÈ:</strong> El centre d&rsquo;estades diürnes garanteix l&rsquo;atenció  medicosanitària complementada pels serveis de L&rsquo;IB-SALUT.</p>
+<p><strong>ONZÈ: </strong>El preu del servei fixat per dependència és de {!Oportunidad_platform__c.precio_total}
+ €/dia. El preu de l&rsquo;estança es facturarà a més vençut. L&rsquo;usuari, familiar o  tutor abonaran puntualment la quota fixada per l&rsquo;estada al centre que es  realitzarà per domiciliació bancària dins els primers quinze dies del mes  següent. El preu s&rsquo;actualitzarà anualment i es contemplarà la pujada anual del  IPC.</p>
+  <p align="left">Les dades  bancaries a efectes de domiciliació del pagament dels rebuts son les següents:<br>
+  <br>
+  Nom de l&rsquo;entitat  bancaria: {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}<br>
+  Localitat: {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}<br>
+  IBAN: {!Oportunidad_platform__c.IBAN__c}<br>
+  Nom del titular de la compte i obligat al pagament en aquest contracte: {!Oportunidad_platform__c.Cuenta_Pagador__c}
+</p>
+<p>L&rsquo;usuari i/o  titular del compte autoritzen el càrrec dels rebuts en el número de compte  indicat. </p>
+<p>A l&rsquo;entrada al centre, s&rsquo;exigirà a l&rsquo;usuari un dipòsit  equivalent a15 dies del preu del servei, en concepte de garantia de pagament  (aquesta quantitat no serà superior a 15 dies del preu del servei). Aquest  dipòsit es retornarà dins dels 45 dies posteriors al dia de la baixa de  l&rsquo;usuari en el centre.</p>
+<p><strong>DOTZÈ: </strong></p>
+  Les prestacions  compromeses són (exemples):</p>
+<ul>
+  <li>Acollida  i convivència</li>
+  <li>Servei  de manutenció (esmorzar, dinar i berenar)</li>
+  <li>Servei  d&rsquo;infermeria</li>
+  <li>Atenció  social personalitzada a les famílies.</li>
+  <li>Servei  de fisioteràpia.</li>
+  <li>Servei  de teràpia ocupacional</li>
+  <li>Activitats  d&rsquo;oci i temps lliure</li>
+</ul>
+</p>
+<p>Els serveis  complementaris: </p>
+<ul>
+  <li>Servei  de transport.</li>
+</ul>
+<p><strong>TRETZÈ:</strong> L&rsquo;horari del centre és el següent 8,00 a 17,00 h. L&rsquo;horari de  visites és de 10,00 a 16,00 hores </p>
+<p><strong>CATORZÈ:</strong> El present contracte es podrà rescindir per voluntat  expressa de les parts contractants, si es produís qualsevol d&rsquo;aquestes  circumstàncies:</p>
+<ul>
+  <li>Per  renúncia voluntària de l&rsquo;usuari o del representant legal.</li>
+  <li>Per  incompliment dels pactes acordats.</li>
+  <li>Per  tancament degudament autoritzat del centre.</li>
+  <li>Per  totes les causes que s&rsquo;expressin al reglament de règim intern.                                                                         </li>
+</ul>
+<p><strong>QUINZÈ: </strong>El present contracte estarà en vigor mentre es mantingui  la condició d&rsquo; usuari. Aquest contracte té una duració indefinida.</p>
+  Qualsevol de les  parts podrà donar per finalitzada la relació, sempre que es comuniqui per  escrit amb 15 dies d&rsquo;antelació.</p>
+<p><strong>SEXTÈ:</strong> L&rsquo;usuari i la família hauran d&rsquo;informar al centre de  qualsevol canvi que pugui afectar al benestar físic i emocional de l&rsquo;usuari  (situació familiar, canvis de residència, problemes de comportament....).</p>
+<p><strong>DESSETÈ: </strong>L&rsquo;usuari i la família hauran de respectar els horaris  d&rsquo;entrada i de sortida.</p>
+<p><strong>DIVUITÈ: </strong>Les dades personals recollides  en el present document seran incorporades i tractades en un fitxer titularitat  de SAR RESIDENCIAL Y ASISTENCIAL S.A.U., amb la finalitat de complir el  contracte de prestació de serveis subscrit i gestionar els agraïments,  suggeriments i reclamacions. Així mateix podran ser utilitzades per l'enviament  d'informació sobre productes , serveis i esdeveniments de SAR RESIDENCIAL Y  ASISTENCIAL S.A.U  i de les diferents  societats de SARquavitae , així com per a la realització d'enquestes de  qualitat del servei.</p>
+<p>Les seves dades podran ser cedides, exclusivament per a les finalitats  indicades anteriorment , a altres entitats sociosanitàries , sempre que  aquestes pertanyin directament o indirectament al Grup Societari SARquavitae (  www.sarquavitae.es ), tot això tant si es formalitzés o no cap operació com, si  escau, un cop extingida la relació contractual existent, respectant en tot cas  la legislació espanyola sobre protecció de dades de caràcter personal i sense  necessitat que li sigui comunicada cada primera cessió que s'efectuï als  referits cessionaris.</p>
+<p>L'interessat podrà exercir els drets d'accés , rectificació, cancel•lació  i oposició mitjançant comunicació escrita dirigida a Departament Jurídic,  SARquavitae, C/ Aribau 185 Entresòl , 08021 - Barcelona o al propi centre en  què es presta el servei objecte de contracte.</p>
+<p>{!F5}  Vostè pot marcar aquesta  casella en cas d'oposar-se al tractament i comunicació de les dades de caràcter  personal per a finalitats comercials .</p>
+<p>{!F5}  Vostè pot marcar aquesta  casella en cas d'oposar-se al tractament i comunicació de les dades de caràcter  personal per a la realització d'enquestes de satisfacció.</p>
+<p>En cas que les dades facilitades es refereixin a persones físiques  diferents de l'interessat, aquest haurà , amb caràcter previ a la seva inclusió  en el present document , informar-los dels extrems continguts en els paràgrafs  anteriors.</p>
+<p>&nbsp;</p>
+<p align="right">Palma  {!Fecha_Dia}
+ d {!Fecha_Mes}
+ de {!Fecha_Anyo}
+</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left">&nbsp;</p>
+<p align="left"><strong>ACCEPTA I CONFORMA</strong>                                                                          <strong> ACCEPTA I  CONFORMA</strong>                                                                                </p>
+<p align="left">L&rsquo;usuari/el resident                                                                                                 Familiar  i/o Tutor<br>
+  <br>
+  <strong>                                                                                        </strong></p>
+<p>&nbsp;</p>
+<h1>&nbsp;</h1>
+<h1>&nbsp;</h1>
+<h1>&nbsp;</h1>
+<p><strong>ACCEPTA  I CONFORMA</strong></p>
+<p>&nbsp;</p>
+<p>Direcció</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cambio at.cliente</name>
+    <style>none</style>
+    <subject>Carta comunicación cambios Trabajador social o Atención al Cliente.</subject>
+    <textOnly>*|MC:SUBJECT|*
+
+(Ciudad), a (día) de (mes) de (año)
+
+Estimado residente/familiar:
+
+Tenemos el gusto de informarle que se ha producido un cambiode profesional en el equipo de dirección del centro.
+
+Nos dirigimos a usted para comunicarle que se realizara un cambio en el profesional responsable de Atención al cliente, su horario de atención está a disposición de todos los residentes y familiares en los paneles informativos de la recepción del centro.
+
+Quedo a su disposición para cualquier aclaración o especificación que pueda necesitar al respecto.
+
+Reciba un cordial saludo
+
+NOMBRE_DIRECTOR
+
+NOMBRE_CENTRO</textOnly>
+    <type>custom</type>
+</EmailTemplate>

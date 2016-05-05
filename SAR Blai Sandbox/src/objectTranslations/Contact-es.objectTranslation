@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Secretaria</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>assistant_contact</name>
+    </fields>
+    <fields>
+        <label><!-- Aspectos valorados por Recomendores --></label>
+        <name>Aspectos_valorados_por_Recomendores__c</name>
+        <picklistValues>
+            <masterLabel>Actualización Ofertas</masterLabel>
+            <translation><!-- Actualización Ofertas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feedback posteriores derivaciones</masterLabel>
+            <translation><!-- Feedback posteriores derivaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feedback  tras primera derivación</masterLabel>
+            <translation><!-- Feedback  tras primera derivación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info cambios en el servicio</masterLabel>
+            <translation><!-- Info cambios en el servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Información entorno/mercado</masterLabel>
+            <translation><!-- Información entorno/mercado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invitaciones a Jornadas-Seminarios</masterLabel>
+            <translation><!-- Invitaciones a Jornadas-Seminarios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invitación Actividades del centro</masterLabel>
+            <translation><!-- Invitación Actividades del centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invitación a Programas de Voluntariado</masterLabel>
+            <translation><!-- Invitación a Programas de Voluntariado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invitación a Visitas a nuestros centros</masterLabel>
+            <translation><!-- Invitación a Visitas a nuestros centros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participación iniciativas dl prescriptor</masterLabel>
+            <translation><!-- Participación iniciativas dl prescriptor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Baja cont --></label>
+        <name>Baja__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cargo --></label>
+        <name>Cargo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Categoría Profesional --></label>
+        <name>Categoria_Profesional__c</name>
+        <picklistValues>
+            <masterLabel>Directivo</masterLabel>
+            <translation><!-- Directivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enfermero</masterLabel>
+            <translation><!-- Enfermero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefes de Servicio</masterLabel>
+            <translation><!-- Jefes de Servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mandos Intermedios</masterLabel>
+            <translation><!-- Mandos Intermedios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Médico</masterLabel>
+            <translation><!-- Médico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profesionales -por cuenta ajena-</masterLabel>
+            <translation><!-- Profesionales -por cuenta ajena- --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Propietario Negocio</masterLabel>
+            <translation><!-- Propietario Negocio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trabajador Social</masterLabel>
+            <translation><!-- Trabajador Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Técnico</masterLabel>
+            <translation><!-- Técnico --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Correo Electrónico --></label>
+        <name>Correo_Electronico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Especialidad Médica --></label>
+        <name>Especialidad_Medica__c</name>
+        <picklistValues>
+            <masterLabel>Cardiólogo</masterLabel>
+            <translation><!-- Cardiólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cirujano</masterLabel>
+            <translation><!-- Cirujano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dermatólogo</masterLabel>
+            <translation><!-- Dermatólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diagnostico por Imagen</masterLabel>
+            <translation><!-- Diagnostico por Imagen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endocrino</masterLabel>
+            <translation><!-- Endocrino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enfermero (DUE)</masterLabel>
+            <translation><!-- Enfermero (DUE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gastroenterólogo</masterLabel>
+            <translation><!-- Gastroenterólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerontólogo</masterLabel>
+            <translation><!-- Gerontólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ginecólogo</masterLabel>
+            <translation><!-- Ginecólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hematólogo</masterLabel>
+            <translation><!-- Hematólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infectólogo</masterLabel>
+            <translation><!-- Infectólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicina Interna</masterLabel>
+            <translation><!-- Medicina Interna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicina Preventiva</masterLabel>
+            <translation><!-- Medicina Preventiva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicina de Familia</masterLabel>
+            <translation><!-- Medicina de Familia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microbiólogo</masterLabel>
+            <translation><!-- Microbiólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Médico de Família</masterLabel>
+            <translation><!-- Médico de Família --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nefrólogo</masterLabel>
+            <translation><!-- Nefrólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neumólogo</masterLabel>
+            <translation><!-- Neumólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neurólogo</masterLabel>
+            <translation><!-- Neurólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutricionista</masterLabel>
+            <translation><!-- Nutricionista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oftalmólogo</masterLabel>
+            <translation><!-- Oftalmólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oncólogo</masterLabel>
+            <translation><!-- Oncólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paliatólogo</masterLabel>
+            <translation><!-- Paliatólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pediatra</masterLabel>
+            <translation><!-- Pediatra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psicólogo</masterLabel>
+            <translation><!-- Psicólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traumatólogo</masterLabel>
+            <translation><!-- Traumatólogo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UCI</masterLabel>
+            <translation><!-- UCI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgencias</masterLabel>
+            <translation><!-- Urgencias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urólogo</masterLabel>
+            <translation><!-- Urólogo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Idioma de Contacto --></label>
+        <name>Idioma_de_Contacto__c</name>
+        <picklistValues>
+            <masterLabel>Castellano</masterLabel>
+            <translation><!-- Castellano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalán</masterLabel>
+            <translation><!-- Catalán --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Euskera</masterLabel>
+            <translation><!-- Euskera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallego</masterLabel>
+            <translation><!-- Gallego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inglés</masterLabel>
+            <translation><!-- Inglés --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Feria</masterLabel>
+            <translation><!-- Feria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Por comentarios de terceros</masterLabel>
+            <translation><!-- Por comentarios de terceros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publicidad</masterLabel>
+            <translation><!-- Publicidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referencia del empleado</masterLabel>
+            <translation><!-- Referencia del empleado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referencia externa</masterLabel>
+            <translation><!-- Referencia externa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relaciones públicas</masterLabel>
+            <translation><!-- Relaciones públicas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminario - Interno</masterLabel>
+            <translation><!-- Seminario - Interno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminario - Socio</masterLabel>
+            <translation><!-- Seminario - Socio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Socio</masterLabel>
+            <translation><!-- Socio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- No correspondencia --></label>
+        <name>No_correspondencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- No encuestar / participar en estudios --></label>
+        <name>No_encuestar_participar_en_estudios__c</name>
+    </fields>
+    <fields>
+        <label><!-- No enviar Whatsapp --></label>
+        <name>No_enviar_Whatsapp__c</name>
+    </fields>
+    <fields>
+        <label><!-- No visitar --></label>
+        <name>No_visitar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observaciones Personales --></label>
+        <name>Observaciones_Personales__c</name>
+    </fields>
+    <fields>
+        <label><!-- identidadrecomendadora --></label>
+        <name>identidadrecomendadora__c</name>
+    </fields>
+    <layouts>
+        <layout>Formato de contactos</layout>
+        <sections>
+            <label><!-- Datos de contacto --></label>
+            <section>Datos de contacto</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Attach_Email_campaign --></label>
+        <name>emvsf__Attach_Email_campaign</name>
+    </webLinks>
+</CustomObjectTranslation>

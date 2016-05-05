@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Centros/Servicios NOC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Centros NOCs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activo --></label>
+        <name>Activo__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campo control duplicados --></label>
+        <name>Campo_control_duplicados__c</name>
+    </fields>
+    <fields>
+        <label><!-- Central --></label>
+        <name>Central__c</name>
+        <picklistValues>
+            <masterLabel>MADRID</masterLabel>
+            <translation><!-- MADRID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MADRID_Prueba</masterLabel>
+            <translation><!-- MADRID_Prueba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEVILLA</masterLabel>
+            <translation><!-- SEVILLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEVILLA NACIONAL</masterLabel>
+            <translation><!-- SEVILLA NACIONAL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Centro --></label>
+        <name>Centro__c</name>
+        <relationshipLabel><!-- Centros NOCs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cuota inicial --></label>
+        <name>Cuota_inicial__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Descuento Dispositivo --></label>
+        <name>Descuento_Dispositivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 1 --></label>
+        <name>Descuento_Periodo_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 2 --></label>
+        <name>Descuento_Periodo_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 3 --></label>
+        <name>Descuento_Periodo_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 4 --></label>
+        <name>Descuento_Periodo_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 5 --></label>
+        <name>Descuento_Periodo_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 6 --></label>
+        <name>Descuento_Periodo_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento --></label>
+        <name>Descuento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento permanente 1 --></label>
+        <name>Descuento_permanente_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento permanente 2 --></label>
+        <name>Descuento_permanente_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento permanente 3 --></label>
+        <name>Descuento_permanente_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- División --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>Adorea</masterLabel>
+            <translation><!-- Adorea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEX</masterLabel>
+            <translation><!-- CEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domiciliaria</masterLabel>
+            <translation><!-- Domiciliaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formación</masterLabel>
+            <translation><!-- Formación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial</masterLabel>
+            <translation><!-- Residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAR Domus</masterLabel>
+            <translation><!-- SAR Domus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teleasistencia</masterLabel>
+            <translation><!-- Teleasistencia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- En días --></help>
+        <label><!-- Duración Periodo 1 --></label>
+        <name>Duracion_Periodo_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- En días --></help>
+        <label><!-- Duración Periodo 2 --></label>
+        <name>Duracion_Periodo_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- En días --></help>
+        <label><!-- Duración Periodo 3 --></label>
+        <name>Duracion_Periodo_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- En días --></help>
+        <label><!-- Duración Periodo 4 --></label>
+        <name>Duracion_Periodo_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duración Periodo 5 --></label>
+        <name>Duracion_Periodo_5__c</name>
+    </fields>
+    <fields>
+        <help><!-- En días --></help>
+        <label><!-- Duración Periodo 6 --></label>
+        <name>Duracion_Periodo_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grado --></label>
+        <name>Grado__c</name>
+        <picklistValues>
+            <masterLabel>Grado 1</masterLabel>
+            <translation><!-- Grado 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grado 2</masterLabel>
+            <translation><!-- Grado 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grado 3</masterLabel>
+            <translation><!-- Grado 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 1 --></label>
+        <name>Importe_Periodo_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 2 --></label>
+        <name>Importe_Periodo_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 3 --></label>
+        <name>Importe_Periodo_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 4 --></label>
+        <name>Importe_Periodo_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 5 --></label>
+        <name>Importe_Periodo_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 6 --></label>
+        <name>Importe_Periodo_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- NOC --></label>
+        <name>NOC_TAD__c</name>
+        <relationshipLabel><!-- Centros / Servicios NOCs TA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NOC --></label>
+        <name>NOC__c</name>
+        <relationshipLabel><!-- Centros / Servicios NOCs Residencial --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Precio Dispositivo (Base) --></label>
+        <name>Precio_Dispositivo_Base__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Dispositivo --></label>
+        <name>Precio_Dispositivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Servicio (Base) --></label>
+        <name>Precio_Servicio_Base__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio UCR adicional (Base) --></label>
+        <name>Precio_UCR_adicional_Base__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio --></label>
+        <name>Precio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provincia --></label>
+        <name>Provincia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Servicio TA --></label>
+        <name>Servicio_TA__c</name>
+        <relationshipLabel><!-- Centros NOCs (Servicio TA) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Servicio --></label>
+        <name>Servicio__c</name>
+        <relationshipLabel><!-- Centros NOCs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tarifa TA --></label>
+        <name>Tarifa_TA__c</name>
+        <relationshipLabel><!-- Centros NOCs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tipo Estancia --></label>
+        <name>Tipo_Estancia_2__c</name>
+        <picklistValues>
+            <masterLabel>Permanente</masterLabel>
+            <translation><!-- Permanente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporal</masterLabel>
+            <translation><!-- Temporal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo Ocupación --></label>
+        <name>Tipo_Ocupacion_2__c</name>
+        <picklistValues>
+            <masterLabel>1 hora</masterLabel>
+            <translation><!-- 1 hora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 horas</masterLabel>
+            <translation><!-- 2 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 horas</masterLabel>
+            <translation><!-- 3 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 horas</masterLabel>
+            <translation><!-- 5 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 horas</masterLabel>
+            <translation><!-- 6 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 horas</masterLabel>
+            <translation><!-- 7 horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fisio</masterLabel>
+            <translation><!-- Fisio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD</masterLabel>
+            <translation><!-- HD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD Uso Individual</masterLabel>
+            <translation><!-- HD Uso Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI Baño Compartido</masterLabel>
+            <translation><!-- HI Baño Compartido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jornada Completa</masterLabel>
+            <translation><!-- Jornada Completa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media Jornada</masterLabel>
+            <translation><!-- Media Jornada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suite</masterLabel>
+            <translation><!-- Suite --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo Servicio --></label>
+        <name>Tipo_Servicio_2__c</name>
+        <picklistValues>
+            <masterLabel>Centro de Día</masterLabel>
+            <translation><!-- Centro de Día --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centro de Noche</masterLabel>
+            <translation><!-- Centro de Noche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convalecencia</masterLabel>
+            <translation><!-- Convalecencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fijo Discontinuo</masterLabel>
+            <translation><!-- Fijo Discontinuo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital de Día</masterLabel>
+            <translation><!-- Hospital de Día --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paleativo</masterLabel>
+            <translation><!-- Paleativo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial</masterLabel>
+            <translation><!-- Residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respiro</masterLabel>
+            <translation><!-- Respiro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UDC</masterLabel>
+            <translation><!-- UDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPG</masterLabel>
+            <translation><!-- UPG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USM</masterLabel>
+            <translation><!-- USM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UTC</masterLabel>
+            <translation><!-- UTC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de periférico --></label>
+        <name>Tipo_de_periferico__c</name>
+        <picklistValues>
+            <masterLabel>Per. Gas (butano, propano y natural)</masterLabel>
+            <translation><!-- Per. Gas (butano, propano y natural) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per. Humo</masterLabel>
+            <translation><!-- Per. Humo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per. Movilidad (detector de pasillo)</masterLabel>
+            <translation><!-- Per. Movilidad (detector de pasillo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per. Presencia (electroimán)</masterLabel>
+            <translation><!-- Per. Presencia (electroimán) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periférico Movil</masterLabel>
+            <translation><!-- Periférico Movil --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de servicio TA --></label>
+        <name>Tipo_de_servicio_TA__c</name>
+        <picklistValues>
+            <masterLabel>+Seguro</masterLabel>
+            <translation><!-- +Seguro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adapta 24</masterLabel>
+            <translation><!-- Adapta 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colgante</masterLabel>
+            <translation><!-- Colgante --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contigo</masterLabel>
+            <translation><!-- Contigo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispositivo tipo A</masterLabel>
+            <translation><!-- Dispositivo tipo A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Esencial 10</masterLabel>
+            <translation><!-- Esencial 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hogar</masterLabel>
+            <translation><!-- Hogar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguimiento Especial</masterLabel>
+            <translation><!-- Seguimiento Especial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Te acompaña</masterLabel>
+            <translation><!-- Te acompaña --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo estancia --></label>
+        <name>Tipo_estancia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo ocupación --></label>
+        <name>Tipo_ocupacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo servicio --></label>
+        <name>Tipo_servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transporte --></label>
+        <name>Transporte__c</name>
+        <picklistValues>
+            <masterLabel>Medio</masterLabel>
+            <translation><!-- Medio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Zona Comercial --></label>
+        <name>Zona_Comercial_2__c</name>
+        <picklistValues>
+            <masterLabel>Barcelona</masterLabel>
+            <translation><!-- Barcelona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centro</masterLabel>
+            <translation><!-- Centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Este</masterLabel>
+            <translation><!-- Este --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mallorca</masterLabel>
+            <translation><!-- Mallorca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navarra</masterLabel>
+            <translation><!-- Navarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norte</masterLabel>
+            <translation><!-- Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oeste</masterLabel>
+            <translation><!-- Oeste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sur Occidental</masterLabel>
+            <translation><!-- Sur Occidental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sur Oriental</masterLabel>
+            <translation><!-- Sur Oriental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valencia</masterLabel>
+            <translation><!-- Valencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zaragoza</masterLabel>
+            <translation><!-- Zaragoza --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Zona Comercial --></label>
+        <name>Zona_Comercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zona Territorial --></label>
+        <name>Zona_Territorial__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Centros NOC</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Centros/Servicios NOC</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Centros/Servicios NOC (mejorada)</layout>
+        <sections>
+            <label><!-- Descuento --></label>
+            <section>Descuento</section>
+        </sections>
+        <sections>
+            <label><!-- Servicio --></label>
+            <section>Servicio</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Centros/Servicios NOC TA</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento Dispositivo --></label>
+            <section>Descuento Dispositivo</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento UCR adicional --></label>
+            <section>Descuento UCR adicional</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento servicio --></label>
+            <section>Descuento servicio</section>
+        </sections>
+        <sections>
+            <label><!-- Precio Servicio Base --></label>
+            <section>Precio Servicio Base</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Servicios NOC</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Centros NOC --></label>
+        <name>Centros_NOC</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Centros/Servicios NOC --></label>
+        <name>Centros_Servicios_NOC</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Centros/Servicios NOC TA --></label>
+        <name>Centros_Servicios_NOC_TA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Centros/Servicios NOC (mejorada) --></label>
+        <name>Centros_Servicios_NOC_mejorada</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Servicios NOC --></label>
+        <name>Servicios_NOC</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- No se puede modificar una NOC Aprobada --></errorMessage>
+        <name>Bloquear_NOC_Aprobada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Descuento no válido --></errorMessage>
+        <name>Descuento_no_valido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo se permite informar importes o descuentos --></errorMessage>
+        <name>Importe_o_descuento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe estar informado sólo uno de los 3 campos: División, Zona Comercial o Centro --></errorMessage>
+        <name>Informar_Division_Zona_Comercial_o_Cent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se tiene que seleccionar una Duración del descuento. --></errorMessage>
+        <name>Informar_Duracion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es obligatorio informar un descuento o precio final --></errorMessage>
+        <name>Informar_descuento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_grado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe escojer solamente un servicio --></errorMessage>
+        <name>Informar_servicio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo se puede informar un periodo permaente --></errorMessage>
+        <name>Informar_solo_un_periodo_como_permanente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede informar duración de un periodo con descuento permanente --></errorMessage>
+        <name>No_informar_duracion_periodo_permanente</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Nuevo --></label>
+        <name>Nuevo</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nuevo_Centro_Servicio --></label>
+        <name>Nuevo_Centro_Servicio</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nuevo_Servicio_s --></label>
+        <name>Nuevo_Servicio_s</name>
+    </webLinks>
+</CustomObjectTranslation>

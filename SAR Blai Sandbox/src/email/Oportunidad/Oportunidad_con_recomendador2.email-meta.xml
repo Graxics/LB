@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>31.0</apiVersion>
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Oportunidad con recomendador2</name>
+    <style>none</style>
+    <subject>Agradecer ingreso oportunidad a recomendador</subject>
+    <type>visualforce</type>
+</EmailTemplate>

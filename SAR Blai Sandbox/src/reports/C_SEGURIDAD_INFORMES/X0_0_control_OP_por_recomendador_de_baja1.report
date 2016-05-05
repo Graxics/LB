@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.Baja__c</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Centro2__c</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Etapa__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Account.Baja__c</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>0.0 control OP por recomendador de baja</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Oportunidad_platform__c@Oportunidad_platform__c.Empresa_Recomendadora__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Oportunidad_platform__c.Centro2__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Oportunidad_platform__c.Fecha_cierre__c</dateColumn>
+        <endDate>2015-03-11</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2014-09-01</startDate>
+    </timeFrameFilter>
+</Report>

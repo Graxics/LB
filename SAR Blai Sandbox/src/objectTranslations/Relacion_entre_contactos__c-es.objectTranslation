@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Relación entre contactos</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Relaciones entre contactos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Usuario/Beneficiario activo --></label>
+        <name>Activo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apellidos del propietario --></label>
+        <name>Apellidos_del_propietario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beneficiario --></label>
+        <name>Beneficiario__c</name>
+        <relationshipLabel><!-- Relaciones de beneficiarios --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Beneficiario con colgante --></label>
+        <name>Beneficiario_con_colgante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beneficiario sin colgante --></label>
+        <name>Beneficiario_sin_colgante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacto Recomendador --></label>
+        <name>Contacto_Recomendador__c</name>
+        <relationshipLabel><!-- Relación Empresarial --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contacto --></label>
+        <name>Contacto__c</name>
+        <relationshipLabel><!-- Relación Familiar (Contacto) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relación contactos duplicada --></label>
+        <name>Control_duplicados_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Familiar de referencia ya informado --></label>
+        <name>Control_duplicados_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dataloader --></label>
+        <name>Dataloader__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>Descripcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email propietario emrpesa --></label>
+        <name>Email_propietario_emrpesa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empleo actual --></label>
+        <name>Empleo_actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entidad recomendadora --></label>
+        <name>Empresa_recomendadora__c</name>
+        <relationshipLabel><!-- Relaciones entre contactos (Entidad recomendadora) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Familiar de referencia --></label>
+        <name>Familiar_de_referencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Baja / Rechazo --></label>
+        <name>Fecha_Baja__c</name>
+    </fields>
+    <fields>
+        <label><!-- Histórico --></label>
+        <name>Historico__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID T24 Pagador --></label>
+        <name>ID_T24_Pagador__c</name>
+    </fields>
+    <fields>
+        <label><!-- IdGCR --></label>
+        <name>IdGCR__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsApi --></label>
+        <name>IsApi__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo Baja / Rechazo --></label>
+        <name>Motivo_Baja__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre del propietario --></label>
+        <name>Nombre_del_propietario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oportunidad --></label>
+        <name>Oportunidad__c</name>
+        <relationshipLabel><!-- Relaciones de beneficiarios --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pagador --></label>
+        <name>Pagador__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relación personal --></label>
+        <name>Relacion_personal__c</name>
+        <picklistValues>
+            <masterLabel>Amigo/a</masterLabel>
+            <translation><!-- Amigo/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuidador/a</masterLabel>
+            <translation><!-- Cuidador/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuñado/a</masterLabel>
+            <translation><!-- Cuñado/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cónyuge</masterLabel>
+            <translation><!-- Cónyuge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hermano/a</masterLabel>
+            <translation><!-- Hermano/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hijo/a</masterLabel>
+            <translation><!-- Hijo/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Médico/a</masterLabel>
+            <translation><!-- Médico/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nieto/a</masterLabel>
+            <translation><!-- Nieto/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Padre/Madre</masterLabel>
+            <translation><!-- Padre/Madre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pareja</masterLabel>
+            <translation><!-- Pareja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pariente</masterLabel>
+            <translation><!-- Pariente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primo/a</masterLabel>
+            <translation><!-- Primo/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profesional</masterLabel>
+            <translation><!-- Profesional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sobrino/a</masterLabel>
+            <translation><!-- Sobrino/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tio/a</masterLabel>
+            <translation><!-- Tio/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tutor/a</masterLabel>
+            <translation><!-- Tutor/a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yerno/Nuera</masterLabel>
+            <translation><!-- Yerno/Nuera --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Residente --></label>
+        <name>Residente__c</name>
+        <relationshipLabel><!-- Relación Familiar (Residente) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Última Modificación --></label>
+        <name>Ultima_Mod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usuario principal --></label>
+        <name>Usuario_principal__c</name>
+    </fields>
+    <fields>
+        <label><!-- idEntidadrecomendadora --></label>
+        <name>idEntidadrecomendadora__c</name>
+    </fields>
+    <fields>
+        <label><!-- id T24 --></label>
+        <name>id_T24__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Relacion de beneficiarios</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Relación Familiar</layout>
+        <sections>
+            <label><!-- Descripción --></label>
+            <section>Descripción</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Relación Recomendadores</layout>
+        <sections>
+            <label><!-- Descripción --></label>
+            <section>Descripción</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Relación Familiar --></label>
+        <name>Relacion_Familiar</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Relación Recomendadores --></label>
+        <name>Relacion_Recomendadores</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Relacion de beneficiarios --></label>
+        <name>Relacion_de_beneficiarios</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Sólo se permite informar un tipo de beneficiario --></errorMessage>
+        <name>Informar_tipo_de_beneficiario</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se pueden modificar relaciones de beneficiarios existentes --></errorMessage>
+        <name>No_modificar_relaciones_exitentes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El residente y el contacto no pueden ser la misma persona --></errorMessage>
+        <name>Residente_no_puede_ser_Contacto</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Nueva_Relaci_n_Familiar --></label>
+        <name>Nueva_Relaci_n_Familiar</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nueva_Relacion_Empresarial --></label>
+        <name>Nueva_Relacion_Empresarial</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nueva_Relacion_Empresarial_recom --></label>
+        <name>Nueva_Relacion_Empresarial_recom</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nueva_Relacion_Familiar_Contacto --></label>
+        <name>Nueva_Relacion_Familiar_Contacto</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Nueva_Relacion_de_beneficiarios --></label>
+        <name>Nueva_Relacion_de_beneficiarios</name>
+    </webLinks>
+</CustomObjectTranslation>

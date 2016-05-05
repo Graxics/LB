@@ -1,0 +1,301 @@
+<body>
+<p class="title" align="center" style="font-size:15px;"><strong><u>CONTRATO DE PRESTACION DE  SERVICIOS &ldquo;Te Acompa&ntilde;a&rdquo; para empleados, jubilados y prejubilados de BBVA</u></strong></p>
+
+<p class="section" align="center"> <strong>REUNIDOS</strong><p />
+<!-- <a name="Texto2" id="Texto2"> </a> -->
+<p class="intro"> En {!Oportunidad_platform__c.Central}, a {!Oportunidad_platform__c.Dia_Fecha_Cierre} de {!Oportunidad_platform__c.Mes_Fecha_Cierre} de {!Oportunidad_platform__c.Año_Fecha_Cierre}. <p />
+<p class="reunidos"> De una parte: D./D&ntilde;a <font style="text-transform:uppercase;">{!Oportunidad_platform__c.Pagador}</font> mayor de edad, con {!Pagador.Tipo_Documento} {!Pagador.CIF_NIF}  (en adelante <strong>CONTRATANTE</strong>) y con domicilio en <font style="text-transform:uppercase;">{!Pagador.Calle} {!Pagador.Ciudad} ({!Pagador.Provincia})</font> CP {!Pagador.CP} &nbsp;que comparece en su propio nombre y  derecho &nbsp;/ en nombre y representaci&oacute;n de/los beneficiarios que se detallan  en el apartado IV.<p />
+<p> Y de otra parte: <strong>Quavitae Servicios Asistenciales S.A.U.,</strong> con domicilio social en Madrid, en el Paseo de la Castellana, 52 5&ordf; planta,  28046 Madrid, C.I.F. n&uacute;mero A-80106842, representada por D&ntilde;a. Auxiliadora Gal&aacute;n, en calidad de Apoderada y con domicilio a estos efectos, en el Paseo de  la Castellana, 52 5&ordf; planta, 28046 Madrid.<p />
+<p class="reunidos"> Ambas partes se reconocen capacidad suficiente para celebrar el presente  contrato de prestaci&oacute;n de servicios y, en su virtud:<p />
+
+<p class="section" align="center"><strong>EXPONEN</strong></p>
+
+<div class="exponen">
+<p><strong>I.</strong>&nbsp;&nbsp;&nbsp;  Que <strong>Quavitae Servicios Asistenciales S.A.U.</strong> (en adelante, <strong>&ldquo;SARquavitae&rdquo;</strong>) es una  sociedad mercantil v&aacute;lidamente constituida de acuerdo con la legislaci&oacute;n  espa&ntilde;ola, y perteneciente al Grupo SARquavitae, entre cuyas actividades se  encuentra la prestaci&oacute;n de servicios asistenciales dirigidos a todo tipo de  personas, con especial atenci&oacute;n a las personas mayores, discapacitados y, en general,  a todos los colectivos de atenci&oacute;n social.</p>
+<p><strong>II.</strong>&nbsp;&nbsp; Que  SARquavitae en el desarrollo de su actividad presta los servicios de  teleasistencia m&oacute;vil de &ldquo;Te Acompa&ntilde;a&rdquo;. </p>
+<p><strong>III.</strong>&nbsp; Que  tales servicios son prestados directamente por SARquavitae y con la contrataci&oacute;n  de terceros proveedores con los que SARquavitae pueda firmar acuerdos de  colaboraci&oacute;n.</p>
+<p><strong>IV.</strong>&nbsp; Que el  <strong>CONTRATANTE</strong> est&aacute; interesado en contratar los servicios de teleasistencia m&oacute;vil  de &ldquo;Te Acompa&ntilde;a&rdquo; ofertados por <strong>SARquavitae</strong>, con la promoción <strong>&ldquo;EmpleaBBVA&rdquo;</strong> para el siguiente beneficiario (en  adelante, &ldquo;el usuario&rdquo;):<p>
+
+<table><tr>
+<td style="padding-left:20px;">D. / D&ntilde;a.: <font style="text-transform:uppercase;">{!UsuarioPrincipal.Nombre}</font> con {!UsuarioPrincipal.Tipo_Documento} N&ordm; {!UsuarioPrincipal.CIF_NIF}</td>
+</tr>
+<tr>
+<td style="padding-left:20px;">{!BeneficiarioColgante1}</td>
+</tr>
+<tr>
+<td style="padding-left:20px;">{!BeneficiarioColgante2}</td>
+</tr></table>
+</div>
+
+<p> En base a las anteriores manifestaciones, las partes han convenido en  realizar un contrato de prestaci&oacute;n de servicios cuyo objeto es la prestaci&oacute;n de  los servicios de teleasistencia m&oacute;vil con arreglo a las siguientes:</p>
+
+<p class="section" align="center"> <strong>CL&Aacute;USULAS</strong></p>
+
+<div>
+<div class="box1">
+<p><strong><u>PRIMERA: OBJETO.</u></strong></p>
+El objeto del presente contrato es la prestaci&oacute;n por parte de SARquavitae de  los servicios de teleasistencia m&oacute;vil de <strong>&ldquo;Te Acompa&ntilde;a&rdquo;,</strong> consistentes en la atenci&oacute;n social inmediata
+ y permanente a todo tipo de  personas en los t&eacute;rminos establecidos en este contrato,  con especial atenci&oacute;n 
+a  personas mayores y a personas con
+alguna discapacidad f&iacute;sica o ps&iacute;quica.
+<p>El servicio de teleasistencia m&oacute;vil &ldquo;Te Acompa&ntilde;a&rdquo; se ofrece 
+a trav&eacute;s de  diferentes terminales m&oacute;viles dise&ntilde;ados espec&iacute;fica y &uacute;nicamente para el  servicio en s&iacute; (en adelante, &ldquo;el terminal&rdquo;), que el usuario puede elegir, en  base a sus preferencias y necesidades, y que el contratante tiene que adquirir en propiedad.</p>
+Mediante este acuerdo, la persona firmante informa que compra el siguiente  terminal:
+
+<table align="center"><tr>
+<td> <div class="recuadro" style="width:12px; height:12px;text-align:center;">{!MIMOV}</div> </td>
+<td> SAI Wireless MIMOV  V2  </td>
+<td style="padding-left:40px;"> <div class="recuadro" style="width:12px; height:12px;text-align:center;">{!GT300}</div> </td>
+<td > Oysta GT300 </td>
+</tr></table>
+
+<p><strong><u>SEGUNDA: OBLIGACIONES DE LAS PARTES.</u></strong></p>
+<strong>SARquavitae</strong> prestar&aacute; al usuario, tanto en el domicilio que  &eacute;ste designe como fuera del mismo, el servicio de &ldquo;Te Acompa&ntilde;a&rdquo; que comprende:
+<ul>
+	<li> Atenci&oacute;n telef&oacute;nica permanente, a trav&eacute;s de un terminal m&oacute;vil espec&iacute;fico para el servicio, las 24 horas del d&iacute;a, los 365 d&iacute;as del 
+         a&ntilde;o.</li>
+
+    <li> Gesti&oacute;n de los recursos oportunos, desde la Central de Teleasistencia, en caso de que la situaci&oacute;n lo requiera y hasta que &eacute;sta quede controlada por personas          afines al usuario o profesionales competentes en la  materia que produjo la situaci&oacute;n          de emergencia.</li>
+<li> Gesti&oacute;n de las reparaciones del terminal durante el plazo de garant&iacute;a, siempre          que &eacute;stas no sean causadas por un mal uso o negligencia del usuario.</li>
+</ul>
+En todo caso, el personal de <strong>SARquavitae</strong>:
+<ul style="margin-top:0px;">
+	<li> Tratar&aacute; a los usuarios, familiares y personas a las que  deba dirigirse por 
+    	 raz&oacute;n del servicio, con la correcci&oacute;n y diligencia debidas.</li>
+
+ <li> Guardar&aacute; el m&aacute;ximo respeto a la intimidad personal y  familiar del usuario y    	         respetar&aacute; la confidencialidad respecto a cuantos datos  llegue a conocer en 
+         raz&oacute;n de la proximidad personal que se derive del servicio.</li>
+    <li> Siempre estar&aacute; identificado y el usuario podr&aacute; solicitar esta 
+         identificaci&oacute;n.</li>
+</ul>
+</div>
+<div class="box2">
+
+
+
+
+Por su parte, el <strong>CONTRATANTE</strong> se compromete a:
+<ul style="margin-top:0px;">
+    <li> Adquirir uno de los terminales del servicio &ldquo;Te Acompa&ntilde;a&rdquo;, que ser&aacute;         enviado sin coste adicional a la direcci&oacute;n que &eacute;ste desee una vez haya                  efectuado el pago del mismo.</li>
+    <li> En caso de que sea necesaria la entrega de un dispositivo de sustituci&oacute;n en 
+         dep&oacute;sito, el contratante se compromete a devolverlo en las mismas condiciones en         que le fue entregado, sin coste; en caso contrario, SARquavitae se reserva el derecho de         facturarlo.</li>
+    <li> Pagar el precio de la cuota mensual del servicio en la  cuant&iacute;a y forma establecidas en         la cl&aacute;usula cuarta de este contrato.</li>
+ <li> Facilitar a <strong>SARquavitae</strong> los datos  personales del usuario que se recogen en         la ficha de datos del usuario que se  adjunta al presente contrato (Anexo I), que forma parte         integrante del mismo y  cuyo conocimiento es necesario para la correcta prestaci&oacute;n del         servicio por  parte de SARquavitae.</li>
+    <li> Comunicar de manera inmediata a <strong>SARquavitae </strong>&nbsp;la  modificaci&oacute;n de         alguno de los datos personales recogidos en la Ficha  Socio-Sanitaria o de cualquier otra         circunstancia que pueda afectar a la  correcta prestaci&oacute;n de los servicios objeto del         presente contrato.</li>
+    <li> Hacer un buen uso, y responsable, del terminal, de sus  componentes y de su embalaje,         propiedad del &nbsp;<strong>CONTRATANTE</strong>,  as&iacute; como a devolverlo en perfectas         condiciones si el contrato se tuviera que  resolver antes de 15 D&Iacute;AS desde su firma. El         incumplimiento de esta obligaci&oacute;n  no supondr&aacute; penalizaci&oacute;n para el         <strong>CONTRATANTE</strong> pero no se le  sustituir&iacute;a el terminal ni se le 
+         reembolsar&iacute;a el importe del mismo. </li>
+
+    <li> Transcurridos 15 D&Iacute;AS desde la activaci&oacute;n del servicio,  &eacute;ste se         considerar&aacute; probado y aceptado y por tanto el <strong>CONTRATANTE</strong> se         compromete a no reclamar la devoluci&oacute;n del importe de adquisici&oacute;n del  terminal         bajo ninguna circunstancia.</li>
+<p><strong>SARquavitae</strong> no ser&aacute; responsable de los posibles  incumplimientos o demoras en sus deberes cuando &eacute;stos sean resultado de la  inobservancia de las obligaciones contenidas en esta cl&aacute;usula.</p>
+</ul>
+<p><strong><u>TERCERA: DURACI&Oacute;N. </u></strong></p>
+<p>El presente contrato entrar&aacute; en vigor el d&iacute;a de comienzo de la prestaci&oacute;n  del servicio de &ldquo;Te Acompa&ntilde;a&rdquo; y permanecer&aacute; vigente hasta el &uacute;ltimo d&iacute;a del a&ntilde;o  en curso, renov&aacute;ndose de forma t&aacute;cita anualmente salvo que cualquiera de las  partes notifique a la otra, en cualquier momento, su intenci&oacute;n de no renovar o  su voluntad de rescindirlo mediante notificaci&oacute;n fehaciente y por escrito con  una antelaci&oacute;n m&iacute;nima de siete (7) d&iacute;as respecto a la fecha en la que se pondr&aacute;  fin a la relaci&oacute;n contractual entre ambas partes.</p>
+</div>
+</div>
+
+<div>
+<div class="box3">
+
+
+<p>En ambos casos, <strong>SARquavitae</strong> se pondr&aacute; en contacto con el <strong>CONTRATANTE</strong> para establecer la fecha de fin de contrato y firma de la resoluci&oacute;n del mismo.</p>
+<p style="margin-top:-10px;">
+En el momento de desactivarse el servicio por solicitud del <strong>CONTRATANTE</strong> quedar&aacute;inoperativa la tarjeta de comunicaciones insertada en el terminal. No  obstante, el dispositivo quedar&aacute; en propiedad del <strong>CONTRATANTE</strong>.</p>
+
+<p><strong><u>CUARTA: PRECIO.</u></strong></p>
+<p>Los precios de los servicios objeto de este contrato son los siguientes: </p>
+<!--<img src="../../AppData/Roaming/Adobe/Dreamweaver CS6/es_ES/OfficeImageTemp/image001_0000_0000.gif" alt="" width="311" height="158" id="_x0000_i1027" />&nbsp;<br />-->
+
+<div class="recuadro" style="padding:2px;">
+<strong><u>CUOTA MENSUAL:</u></strong> <br />
+<table class="table1"><tr>
+<td class="col1"><div class="recuadro" style="width:12px; height:12px;text-align:center;">X</div></td>
+<td class="col2"> Servicio "{!Servicio.Nombre}" con promoci&oacute;n EmpleaBBVA</td>
+ <td class="col3">{!Servicio.Cuota_Mensual} &euro;/mes</td>
+</tr></table>
+
+<strong><u>COMPRA DE TERMINAL M&Oacute;VIL ESPEC&Iacute;FICO:</u></strong>
+<table>
+<tr>
+	<td class="col1"><div class="recuadro" style="width:12px; height:12px;text-align:center;">{!Is_Pago_Contado}</div></td>    
+	<td class="col2" > Pago al contado:&nbsp; con promoci&oacute;n EmpleaBBVA</td>
+	<td class="col3"> {!Precio_Dispositivo} &euro;</td>
+</tr>
+<tr>
+	<td class="col1"><div class="recuadro" style="width:12px; height:12px;text-align:center;">{!Fraccionado}</div></td>    
+	<td class="col2"> Pago financiado 11  meses:</td>
+	<td class="col3"> {!Pago_Mes}&euro;/mes x 11 cuotas (total {!Pago_Total}&euro;)*</td>
+</tr>
+<!--
+<tr>
+<td class="col1"></td>
+<td class="col2"></td>
+<td class="col3"> (total 198,00&euro;)*</td>
+</tr>
+-->
+</table>
+
+<!--
+<strong><u> {!Compra_Terminal} </u></strong>
+<table class="table1"><tr>
+<td class="col1"> {!Is_Pago_Contado}</td>    
+<td class="col2"> {!Pago_Al_Contado}</td>
+<td class="col3"> {!Precio_Dispositivo} </td>
+</tr>
+<tr>
+<td class="col1"> {!Fraccionado}</td>    
+<td class="col2"> {!Pago_Financiado}</td>
+<td class="col3"> {!Cuotas}</td>
+<tr>
+<td class="col1"></td>
+<td class="col2"></td>
+<td class="col3"> {!Total}</td>
+</tr>
+</table>
+-->
+<p>Dichos precios incluyen el Impuesto sobre el Valor A&ntilde;adido (IVA) o  impuesto equivalente aplicable en cada momento.</p>
+<p>*TAE: 21,30%&nbsp; TIN: 19,47%</p>
+<p style="margin-top:-10px">Para poder financiar la compra del terminal, el <strong>CONTRATANTE</strong> firma un contrato adicional con una entidad de financiación al consumo, independiente a SARquavitae, por lo que las cuotas de financiación aquí mostradas son orientativas y podrán variar en función del tipo de interés aplicado por la entidad al <strong>CONTRATANTE</strong>.
+</p>
+</div>
+
+<p>El <strong>CONTRATANTE</strong> realizar&aacute; el pago del servicio por  adelantado mediante domiciliaci&oacute;n bancaria, durante la primera semana de cada  mes, por lo que autoriza a que los pagos mensuales derivados del presente  acuerdo sean cargados en la siguiente cuenta del Banco/Caja {!Oportunidad_platform__c.Nombre_Entidad}</p>
+
+<p class="recuadro" style="font-size:5pt;border:1px solid;padding-left:3.5px;padding-right:3.5px;display:inline;"</p>
+<p style="display:inline;"> &nbsp;IBAN: {!Oportunidad_platform__c.IBAN} </p>
+<p>La falta de pago de TRES (3) recibos mensuales, transcurridos TREINTA (30)  d&iacute;as a partir de la fecha de la emisi&oacute;n de la factura, facultar&aacute; a <strong>SARquavitae</strong> para resolver el contrato con suspensi&oacute;n inmediata de los servicios, sin  perjuicio de su derecho a exigir al <strong>CONTRATANTE</strong> tanto las  facturas impagadas, como los da&ntilde;os y perjuicios derivados de dicho  incumplimiento.</p>
+
+<p>Cada a&ntilde;o, durante el primer trimestre del mismo, el precio del servicio  establecido en esta cl&aacute;usula experimentar&aacute; un aumento que no podr&aacute; ser superior  al IPC general interanual m&aacute;s un punto, salvo que se produzca una modificaci&oacute;n  sustancial en las circunstancias personales del usuario y/o en aquellas en que <strong>SARquavitae</strong> deba prestar sus servicios, de forma tal que se considere excesivamente gravosa  la continuaci&oacute;n de este contrato, en cuyo caso, ambas partes deber&aacute;n alcanzar  un acuerdo para modificar el precio anual del servicio en el plazo de los 30  (treinta) d&iacute;as siguientes a la comunicaci&oacute;n de dicha modificaci&oacute;n sustancial.  La subida de precio anual tendr&aacute; efectos retroactivos con fecha 1 de enero del  a&ntilde;o en curso, de modo que en la primera factura que emita <strong>SARquavitae</strong>,  una vez que se haya producido el aumento de precio, se realizar&aacute; la  regularizaci&oacute;n correspondiente.</p>
+<p>El precio indicado en esta cl&aacute;usula incluye el coste de las llamadas  telef&oacute;nicas efectuadas por el terminal m&oacute;vil a la Centralita de Teleasistencia,  pero no aquellos servicios que deban ser prestados en el domicilio o fuera de  &eacute;l, por profesionales o proveedores ajenos a <strong>SARquavitae</strong>,  aunque fueran requeridos por esta empresa para actuar por mandato del usuario o  en beneficio de &eacute;ste por raz&oacute;n de urgencia. El pago de otras llamadas y  servicios corresponden al <strong>CONTRATANTE</strong>.</p>
+<p><strong><u>QUINTA.- CAMBIO DE DOMICILIO</u></strong><br /></p>
+<p>En caso de que el usuario cambie de domicilio, &eacute;l mismo o, en su caso, el <strong>CONTRATANTE</strong>,  deber&aacute; comunicarlo a <strong>SARquavitae </strong>en cuanto se haga efectivo.</p>
+<p><strong><u>SEXTA.- SUSPENSI&Oacute;N TEMPORAL</u></strong></p>
+<p> No se contemplan suspensiones del servicio por ausencias temporales, dado  que el servicio tiene un car&aacute;cter de movilidad. El contratante, si as&iacute; lo  desea, podr&aacute; optar por finalizar el servicio, lo que supone resolver el  contrato y en caso de volver a contratarlo reiniciar la prestaci&oacute;n del servicio  y, con &eacute;l, las obligaciones derivadas del mismo.</p>
+<p><strong><u>S&Eacute;PTIMA.- RESOLUCI&Oacute;N DEL CONTRATO</u></strong></p>
+<p> Adem&aacute;s de las causas generales de resoluci&oacute;n de los contratos, establecidos  por Ley son causa de resoluci&oacute;n:</p>
+<ul>
+    <li> Que se produzca un incumplimiento por parte del usuario, del contratante,                           y/o de la persona responsable de las obligaciones recogidas en la 
+                           cl&aacute;usula segunda de este acuerdo.</li>
+    <li> Que ambas partes no alcancen el acuerdo de revisi&oacute;n de precios                           previsto en la cl&aacute;usula cuarta de este contrato.</li>
+    <li> Por defunci&oacute;n del usuario.</li>
+</ul>
+
+<p><strong><u>OCTAVA: RESPONSABILIDAD.</u></strong></p>
+    <strong>SARquavitae</strong> manifiesta que tiene suscrita una p&oacute;liza de Responsabilidad  Civil que cubre su responsabilidad en el ejercicio de la prestaci&oacute;n de los  servicios objeto de este contrato.
+   <p> <strong>SARquavitae </strong>estar&aacute; exenta de cualquier tipo de  responsabilidad si, por motivos de fuerza mayor, estado de necesidad o  circunstancias ajenas a <strong>SARquavitae</strong>, no puede prestar el  servicio al que se compromete con el <strong>CONTRATANTE</strong> en virtud del  presente acuerdo. A t&iacute;tulo meramente enunciativo, no limitativo, <strong>SARquavitae </strong>no se responsabiliza de la imposibilidad de prestar el servicio  contratado o de su incorrecta prestaci&oacute;n cuando sea debido a fallos en el  suministro de la luz, fallos en la l&iacute;nea telef&oacute;nica, ausencia de cobertura  m&oacute;vil en el lugar d&oacute;nde se encuentre el usuario, la ficha socio-sanitaria no  recoja fielmente
+las circunstancias del usuario de &ldquo;Te Acompa&ntilde;a&rdquo;, bien porque  el <strong>CONTRATANTE</strong> no cumplimentara correctamente la ficha  socio-sanitaria a la que se refiere la cl&aacute;usula segunda 
+de este 
+contrato, bien  porque no ha comunicado las variaciones que el usuario haya podido sufrir  durante la vigencia del mismo.  
+</div>
+
+<div class="box2">
+
+<p>  <strong><u>NOVENA: PROTECCI&Oacute;N DE DATOS.</u></strong></p>
+    <p>El <strong>CONTRATANTE</strong> autoriza el tratamiento de los datos  personales y sanitarios suministrados voluntariamente a trav&eacute;s del presente  documento y de aquellos que se ir&aacute;n recopilando durante el servicio, incluidos  los de la posici&oacute;n geogr&aacute;fica del usuario en cada momento para su localizaci&oacute;n  y determinaci&oacute;n de per&iacute;metros de seguridad, &nbsp;y la actualizaci&oacute;n de los  mismos para:</p>
+  <ul type="disc">
+    <li>El cumplimiento del propio contrato de prestaci&oacute;n de       servicios suscrito.</li>
+    <li>La realizaci&oacute;n de estudios estad&iacute;sticos.</li>
+    <li>Remitirle informaci&oacute;n sobre productos y servicios de       las distintas entidades que colaboran en el servicio &ldquo;Te Acompa&ntilde;a&rdquo; (<a href="http://www.movistar.teacompana.es">www.movistar.teacompana.es</a>),       incluso por v&iacute;a electr&oacute;nica.</li>
+  </ul>
+  <p>Con la firma del presente documento, el <strong>CONTRATANTE</strong> o su representante legal  acepta que los datos de car&aacute;cter personal, incluidos los de salud, ser&aacute;n  tratados para la prestaci&oacute;n del servicio &ldquo;Te Acompa&ntilde;a&rdquo; seg&uacute;n ha sido informado  de las funcionalidades del mismo. Adem&aacute;s, autoriza el tratamiento de sus datos  de car&aacute;cter personal al (a los) familiar (es) autorizado (s) para la prestaci&oacute;n  del servicio.</p>
+    <p>El <strong>CONTRATANTE,</strong> o su representante, consiente que una  entidad subcontratada por SARquavitae facilite a <strong>SARquavitae</strong> el dato de localizaci&oacute;n del usuario para la prestaci&oacute;n del servicio durante la  duraci&oacute;n del mismo, y autoriza el tratamiento de su localizaci&oacute;n por GPS, en su  caso, para la prestaci&oacute;n del servicio.</p>
+<p>Asimismo, acepta que sus datos puedan ser cedidos, exclusivamente para las  finalidades indicadas anteriormente, a otras entidades del grupo<strong> SARquavitae</strong> (<a href="http://www.sarquavitae.es">www.sarquavitae.es</a>)  filiales y participadas, as&iacute; como a otras personas f&iacute;sicas o jur&iacute;dicas que,  asimismo, desarrollen cualesquiera de las referidas actividades y con las que  las distintas entidades de <strong>SARquavitae</strong> concluyan acuerdos de  colaboraci&oacute;n, todo ello tanto si se formalizase o no operaci&oacute;n alguna como, en  su caso, una vez extinguida la relaci&oacute;n contractual existente, respetando en  todo caso la legislaci&oacute;n espa&ntilde;ola sobre protecci&oacute;n de datos de car&aacute;cter  personal y sin necesidad de que le sea comunicada cada primera cesi&oacute;n que se  efect&uacute;e a los referidos cesionarios. </p>
+<p>Todos los datos son tratados con absoluta confidencialidad, no siendo  accesibles a terceros para finalidades distintas para las que han sido  autorizados.</p>
+ <p>El fichero creado est&aacute; ubicado en las instalaciones de <strong>Quavitae  Servicios Asistenciales S.A.U.</strong>, bajo su exclusiva supervisi&oacute;n y  control, quien asume la adopci&oacute;n de las medidas de seguridad de &iacute;ndole t&eacute;cnica  y organizativa para proteger la confidencialidad e integridad de la  informaci&oacute;n, de acuerdo con lo establecido en la Ley Org&aacute;nica 15/1999, de 13 de  diciembre, de Protecci&oacute;n de Datos de Car&aacute;cter Personal y dem&aacute;s legislaci&oacute;n  aplicable y ante quien el titular de los datos puede ejercitar sus derechos de  acceso, rectificaci&oacute;n, oposici&oacute;n y cancelaci&oacute;n mediante comunicaci&oacute;n escrita  dirigida a <strong>Quavitae Servicios Asistenciales S.A.U.</strong>, calle  Aribau 185 Entresuelo, 08021- (Barcelona),&nbsp; adjuntando fotocopia de su  Documento Nacional de Identidad o cualquier otro documento oficial  identificativo.</p>
+<!--
+<p class="recuadro" style=display:inline;">&nbsp; &nbsp; </p>
+   <p style="display:inline">Vd. Puede marcar esta casilla en caso de oponerse al tratamiento  y comunicaci&oacute;n de los datos de car&aacute;cter personal para finalidades indicadas  anteriormente distintas del cumplimiento de la relaci&oacute;n contractual.</p>
+-->
+<p class="recuadro" style="font-size:5pt;border:1px solid;padding-left:3.5px;padding-right:3.5px;display:inline;"</p>
+<p style="display:inline"> &nbsp;Vd. Puede marcar esta casilla en caso de oponerse al tratamiento  y comunicaci&oacute;n de los datos de car&aacute;cter personal para finalidades indicadas  anteriormente distintas del cumplimiento de la relaci&oacute;n contractual.</p>
+<p>En caso de que los datos facilitados se refieran a personas f&iacute;sicas  distintas del <strong>CONTRATANTE</strong>, &eacute;ste deber&aacute;, con car&aacute;cter previo a  su inclusi&oacute;n en el presente documento, informarles de los extremos contenidos  en los p&aacute;rrafos anteriores.</p>
+El <strong>CONTRATANTE</strong>, garantiza a <strong>SARquavitae</strong> que tiene facultad y/o autorizaci&oacute;n para ceder sus datos o, en su caso, los del  usuario y los de posibles terceros, para que <strong>SARquavitae </strong>pueda  disponer
+de ellos de conformidad con lo establecido en el presente contrato.
+<p><strong><u>D&Eacute;CIMA: FUERO.</u></strong></p>
+<p>Para las cuestiones o controversias que puedan derivarse de la  interpretaci&oacute;n o aplicaci&oacute;n de este contrato, ambas partes convienen en  someterse a la jurisdicci&oacute;n de los Juzgados y Tribunales de Madrid, con expresa  renuncia de cualquier otro fuero que pudiera corresponderles.</p>
+<p>Y, en prueba de conformidad con cuanto antecede, firman ambas partes el  presente contrato, por duplicado ejemplar y a un solo efecto, en el lugar y  fecha al principio indicados.</p>
+
+<table>
+<tr>
+<td>
+    <img src="https://sarquavitae--c.eu2.content.force.com/servlet/servlet.ImageServer?id=015b0000002LZTq&oid=00Db0000000eNpx&lastMod=1438697186000" alt="" width="119" height="66" id="_x0000_i1026" border="0" />
+</td>
+<td style="padding-left:20px;"><p> </p></td>
+</tr>
+
+<tr>
+<td>
+  <p>.........................</p>
+</td>
+<td style="padding-left:20px;">
+ <p>.........................</p>
+</td>
+<tr>
+<td align="left"><strong>Quavitae  Servicios Asistenciales S.A.U.</td>
+<td style="padding-left:20px;"> CONTRATANTE:</strong></tr>
+</tr>
+<tr>
+    <td>Fdo.: Auxiliadora Gal&aacute;n</td>
+     <td style="padding-left:20px;"> Fdo.:{!Oportunidad_platform__c.Pagador}
+ </td>
+</tr></table>
+
+  <!--
+<p><img src="../../AppData/Roaming/Adobe/Dreamweaver CS6/es_ES/OfficeImageTemp/image004_0000.gif" alt="" width="264" height="63" id="_x0000_i1025" border="0" />&nbsp;<br />
+    <br clear="all" />
+    <br />
+-->
+<div class="recuadro">
+<table border="0" width="95%" height="auto"><tr>
+<td style="padding-top:0px;">    
+Por favor, una vez haya firmado el   presente contrato env&iacute;elo por correo pre- franqueado o por correo electr&oacute;nico:  </td>
+
+<td style="padding-left:10px;">
+ <strong>SARquavitae</strong> <br/>
+  C / San  M&aacute;ximo, 3, planta 1 <br />
+   28041 &ndash;  Madrid (Madrid)<br />
+   Tel&eacute;fono: 900 101 900<br />
+    <a href="mailto:cat@sarquavitae.es">atc.tadmadrid@sarquavitae.es</a>
+</td>
+
+</tr></table>
+</div>
+</div>
+
+<!--
+<div>
+<div class="box3">
+
+</div>
+</div>
+-->
+<!--<div class="box2">
+
+</div>-->
+</div>
+
+<!--
+<br/>
+<br/>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+-->
+</body>

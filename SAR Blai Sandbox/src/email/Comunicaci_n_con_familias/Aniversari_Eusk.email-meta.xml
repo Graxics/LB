@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Celebración cumpleaños Euskera</name>
+    <style>none</style>
+    <subject>Urtebetetze</subject>
+    <textOnly>Documento sin título
+
+
+Familia estimatu hori,
+
+Zure familiarrak urteak beteko ditu hil honetan, eta elkarrekin ospatu nahi  dugu. Horretarako, hil honetan sortutako  egoiliar guztien urtebetetzea ospatuko dugu. Parte  hartzera gonbidatzen zaituztegu, zure familiarraren ondoan egon zaitezten hain  berezia den ospakizun horretan.
+
+Urtebetetze-festaren data eta xehetasun gehiago jakiteko, gure bloga  kontsulta dezakezu. Nahi baduzu, zorion-gutun  pertsonal bat bidal diezaiokezu zure familiarrari, eta guk atsegin handiz  helaraziko diogu.
+
+Eskerrik  asko guregan utzitako konfiantzagatik.
+
+Agur  bero bat eta ongi izan,
+
+Zuzendaritza.
+
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

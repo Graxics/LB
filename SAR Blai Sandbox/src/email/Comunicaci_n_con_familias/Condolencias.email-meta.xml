@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Membrete_SarQ</letterhead>
+    <name>Condolencias</name>
+    <style>formalLetter</style>
+    <subject>Queremos transmitirle nuestras condolencias</subject>
+    <textOnly>Ciudad, NUM_DIA de NOMBRE_MES de 2014.
+
+Apreciado Sr/a NOMBRE_FAMILIAR
+
+
+
+Desde el Centro Residencial SARquavitae NOMBRE_CENTRO queremos transmitirle en nombre todo el equipo de profesionales, una vez más, nuestro más sentido pésame por la reciente pérdida de su familiar.
+
+
+
+Deseamos agradecerle su confianza en nosotros.
+
+
+
+Esperamos que su estancia de su familiar entre nosotros haya resultado confortable y ponemos de manifiesto nuestra disponibilidad para todas aquellas cuestiones presentes o futuras que sean de su interés.
+
+
+
+Saludos afectuosos,
+
+
+
+NOMBRE_DIRECTOR
+
+Director/a SARquavitae NOMBRE_CENTRO</textOnly>
+    <type>html</type>
+</EmailTemplate>

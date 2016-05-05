@@ -1,0 +1,164 @@
+<apex:page standardController="Oportunidad_platform__c" extensions="pruebaContratos" renderAs="pdf" standardStylesheets="false" showHeader="false" sidebar="false" applyBodyTag="false" applyHtmlTag="false">
+  <head>
+      <style type="text/css">
+            body{
+                font-family: "Arial Narrow", Arial, sans-serif;
+                font-size: 11px;
+                text-align: justify;
+                text-justify: inter-word;
+            }
+            @page {
+                size:A4 portrait;
+                margin-top: 2.5cm;
+                margin-bottom: 1.5cm;
+                margin-left: 1.2cm;
+                margin-right: 1.2cm;
+                counter-increment:pages;
+                
+                @top-center {
+                    content: element(header);
+                }
+            }
+            div.header {
+                position: absolute;
+                left: 400px;
+                top:10px;
+                position: running(header);
+                margin-top:20px;
+             }
+             /*div.headerTAM1{
+                position: absolute;
+                //left: 400px;
+                top:0px;
+             }
+             div.headerTAM2{
+                position: absolute;
+                //left: 400px;
+                top:900px;
+             }*/
+             .contingut{
+                font-family: "Arial Narrow", Arial, sans-serif;
+                font-size: 10pt;
+                text-align: left;
+                
+            }
+            .section{
+                font-size:13px;
+            }
+            .exponen{
+                margin-left:20px;
+            }
+            
+            .dos_columnas{
+                -webkit-column-count:2;
+                -moz-column-count: 2;
+                column-count:2;
+            }
+            .recuadro{
+                border:1px solid;
+                border-color:#000;
+            }
+            .recuadro2{
+                display:inline;
+                border:1px solid;
+                border-color:#000;
+            }
+            .box1{
+                font-size:8px;
+                display: inline-block;
+                width: 330px;
+            }
+            .box2{
+                font-size:8px;
+                vertical-align:top;
+                display: inline-block;
+                width: 330px;
+                margin-left:2em;
+            }
+            .box3{
+                font-size:8px;
+                display: inline-block;
+                width: 330px;
+            }
+            li{
+                margin-left:-20px;
+            }
+           .col1{
+                width:5%;
+            }
+            .col2{
+                width:35%;
+            }
+            .col3{
+                width:35%;
+            }
+            
+                
+      </style>
+  </head>
+  
+  
+  <body> 
+      <div class="header">
+           <apex:outputLabel rendered="{!op.RecordType.Name=='Oportunidad TAM' || op.RecordType.Name=='Oportunidad TA Dúo'}">
+                <table border="0" width="95%" height="auto"><tr>
+                    <td style="text-align:left"><apex:image value="https://sarquavitae--test--c.cs18.content.force.com/servlet/servlet.ImageServer?id=01511000000aYUN&oid=00D1100000C0aak&lastMod=1437123007000" width="250" height="55" /></td>
+                    <td style="text-align:right"><apex:image value="https://sarquavitae--test--c.cs18.content.force.com/servlet/servlet.ImageServer?id=01511000000aYYK&oid=00D1100000C0aak&lastMod=1437123876000" width="125" height="65" /></td>
+                </tr></table>
+            </apex:outputLabel>
+        
+            <apex:outputLabel rendered="{!op.RecordType.Name=='Oportunidad TAD'}">
+                <apex:outputLabel rendered="{!logo != null}">
+                    <table border="0" width="95%" height="auto"><tr>
+                        <td style="text-align:left"><apex:image value="{!logo}" width="200" height="65" /></td> <!-- width="200" height="65" -->
+                        <!--<td></td>-->
+                        <td style="text-align:right"><apex:image value="https://sarquavitae--test--c.cs18.content.force.com/servlet/servlet.ImageServer?id=01511000000aYYK&oid=00D1100000C0aak&lastMod=1437123876000" width="125" height="65" /></td>
+                    </tr></table>
+               </apex:outputLabel>
+                <apex:outputLabel rendered="{!logo == null}">
+                    <table border="0" width="95%" height="auto"><tr>
+                        <!--<td style="text-align:left"><apex:image value="{!op.logo}" width="200" height="65" /></td>-->
+                        <td></td>
+                        <td style="text-align:right"><apex:image value="https://sarquavitae--test--c.cs18.content.force.com/servlet/servlet.ImageServer?id=01511000000aYYK&oid=00D1100000C0aak&lastMod=1437123876000" width="125" height="65" /></td>
+                    </tr></table>
+                </apex:outputLabel>
+            </apex:outputLabel>
+    </div>
+     <apex:outputText value="{!htmlText}" escape="false" />
+     
+     <apex:outputLabel rendered="{!anexo==true && op.RecordType.Name=='Oportunidad TAD'}">
+           <!-- <br/>
+            <br/>-->
+            <br/>
+         <div class="header">
+                <table border="0" width="95%" height="auto"><tr>
+                      <!--  <td style="text-align:left"><apex:image value="https://sarquavitae--test--c.cs18.content.force.com/servlet/servlet.ImageServer?id=01511000000aYUN&oid=00D1100000C0aak&lastMod=1437123007000" width="200" height="65" /></td>-->
+                        <td></td>
+                        <td style="text-align:right"><apex:image value="https://sarquavitae--test--c.cs18.content.force.com/servlet/servlet.ImageServer?id=01511000000aYYK&oid=00D1100000C0aak&lastMod=1437123876000" width="125" height="65" /></td>
+                    </tr></table>
+        </div>
+        <apex:outputText value="{!htmlText2}" escape="false" />
+        <div class="header">
+                <table border="0" width="95%" height="auto"><tr>
+                        <td></td>
+                        <td></td>
+                </tr></table>
+        </div>
+        <apex:outputText value="{!htmlText3}" escape="false" />
+     </apex:outputLabel>
+     
+     <br/>
+     <apex:outputLabel rendered="{!anexo==false || op.RecordType.Name=='Oportunidad TAM' || op.RecordType.Name=='Oportunidad TA Dúo'}">
+     
+     <div class="header">
+                <table border="0" width="95%" height="auto"><tr>
+                        <td></td>
+                        <td></td>
+                </tr></table>
+        </div>
+        <apex:outputText value="{!htmlText3}" escape="false" />
+     </apex:outputLabel>
+   
+  </body>
+  
+</apex:page>

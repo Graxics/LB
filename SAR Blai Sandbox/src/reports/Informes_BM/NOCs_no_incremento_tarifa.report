@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$NOC__c.Descuento_aplicado__c</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Precio_Total__c</field>
+    </columns>
+    <columns>
+        <field>FK_$NOC__c.Precio_propuesto__c</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Residente__c</field>
+    </columns>
+    <columns>
+        <field>Oportunidad_platform__c.Pagador__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FK_CUST_RECORDTYPE</column>
+            <operator>equals</operator>
+            <value>NOC__c.NOC_11_Descuento_Personal,NOC__c.NOC_11_Descuento_Personal_Renegociado</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>NOCs no incremento tarifa</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Oportunidad_platform__c@Oportunidad_platform__c.NOC_11_Persona__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

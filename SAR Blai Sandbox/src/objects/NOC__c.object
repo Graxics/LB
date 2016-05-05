@@ -1,0 +1,4482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Acciones_de_la_campana__c</fullName>
+        <externalId>false</externalId>
+        <label>Acciones de la campaña</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Alcance__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Campo informativo</inlineHelpText>
+        <label>Alcance</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Zona Comercial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Zona Territorial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Centros</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Anexo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Anexo</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Ano_Tarifa__c</fullName>
+        <externalId>false</externalId>
+        <label>Año Tarifa</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approval_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Area_de_validacion_tecnica__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Campo obligatorio si se requiere de validación técnica</inlineHelpText>
+        <label>Área de validación técnica</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Aspectos_economicos__c</fullName>
+        <externalId>false</externalId>
+        <label>Aspectos económicos</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Aspectos_no_economicos__c</fullName>
+        <externalId>false</externalId>
+        <label>Aspectos no económicos</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Bloqueado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Bloqueado</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cambio_de_grado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cambio de grado</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cambio_de_tarifa_dia_a_mes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cambio de tarifa día a mes</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Centro__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>En caso que aplique a un centro en concreto</inlineHelpText>
+        <label>Centro</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QAeAAAW</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>NOCs</relationshipLabel>
+        <relationshipName>NOCs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Centro_de_ingreso__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( RecordType.Name , &quot;NOC 11 Descuento Personal Puntual&quot;,   Oportunidad__r.Centro2__r.Name , &quot;NOC 11 Descuento Personal Renegociado&quot;,  Oportunidad_renegociada__r.Centro2__r.Name ,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Centro de ingreso</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cliente__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Cliente</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QAe0AAG</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>NOCs 11 Renegociada</relationshipLabel>
+        <relationshipName>NOCs2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Codigo_RES__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal&apos;,  Oportunidad__r.Residente__r.IdNAV_RES__c  , Oportunidad_renegociada__r.IdNav_RES__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Código RES</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comentarios__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Campo obligatorio si tipo solicitud=presentación</inlineHelpText>
+        <label>Comentarios</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Comentarios_de_aprobacion__c</fullName>
+        <externalId>false</externalId>
+        <label>Comentarios de aprobacion</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Condiciones_Especiales__c</fullName>
+        <externalId>false</externalId>
+        <label>Condiciones Especiales</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contador_NOC__c</fullName>
+        <displayFormat>NOC{0000000000}</displayFormat>
+        <externalId>true</externalId>
+        <label>Contador NOC</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Coste__c</fullName>
+        <externalId>false</externalId>
+        <label>Coste</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Dataloader__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Control de si es registro de carga inicial</description>
+        <externalId>false</externalId>
+        <label>Dataloader</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Descenso_de_Ocupacion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Descenso de Ocupación</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Descripcion__c</fullName>
+        <externalId>false</externalId>
+        <label>Descripción</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Descuento_Fundacion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Descuento Fundación</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Mes_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Mes_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Mes_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Mes_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Mes_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_Mes_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento Periodo 6</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento__c</fullName>
+        <externalId>false</externalId>
+        <formula>1-(Precio_propuesto__c  /   Precio_actual__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Descuento</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_aplicado__c</fullName>
+        <externalId>false</externalId>
+        <label>Descuento aplicado</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_de_Empleado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Descuento de Empleado</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_de_Matrimonio__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Descuento de Matrimonio</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Descuento_permanente__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Descuento permanente</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Detalle_Medios_Coumunicacion__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Campo obligatorio si Medios de comunicación= Prensa o Radio</inlineHelpText>
+        <label>Detalle Medios Coumunicación</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Prensa Nacional</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prensa Local</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Revistas Especializadas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Folletos y Flyers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Microespacio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cuñas Publicitas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Diferencial_de_tarifas__c</fullName>
+        <externalId>false</externalId>
+        <label>Diferencial de tarifas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Division2__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( RecordType.Name , &quot;NOC 11 Descuento Personal Puntual&quot;, TEXT(Oportunidad__r.Centro2__r.Division__c) , &quot;NOC 11 Descuento Personal Renegociado&quot;, TEXT(Oportunidad_renegociada__r.Centro2__r.Division__c),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>División (NOC 11 Persona)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Division_NOC_11_centro__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Centro__r.Division__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>División (NOC 11 centro)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Division__c</fullName>
+        <externalId>false</externalId>
+        <label>División</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Domiciliaria__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Domiciliaria</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Duracion_del_descuento__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Sólo para la división Residencial</inlineHelpText>
+        <label>Duración del descuento en días</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duracion_del_descuento_meses__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Sólo para la división Residencial</inlineHelpText>
+        <label>Duración del descuento en meses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Duracion_en_dias__c</fullName>
+        <externalId>false</externalId>
+        <formula>Fecha_fin__c - Fecha_inicio__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Duración en días</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estado_Campana__c</fullName>
+        <externalId>false</externalId>
+        <label>Estado Campaña</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Creada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inactiva</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Estado_Flujo__c</fullName>
+        <externalId>false</externalId>
+        <label>Estado Flujo</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Pendiente</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Fin_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Fin 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Fin_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Fin 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Fin_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Fin 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Fin_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Fin 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Fin_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Fin 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Fin_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Fin 6</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Firma__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Firma</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Inicio_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Inicio 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Inicio_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Inicio 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Inicio_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Inicio 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Inicio_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Inicio 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Inicio_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Inicio 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_Inicio_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha Inicio 6</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_fin__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Periodo en el que puede utilizarse la NOC</inlineHelpText>
+        <label>Fecha fin</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_fin_flujo__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha fin flujo</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_inicio__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Periodo en el que puede utilizarse la NOC</inlineHelpText>
+        <label>Fecha inicio</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fecha_intervencion__c</fullName>
+        <externalId>false</externalId>
+        <label>Fecha intervención</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fianza_a_cobrar__c</fullName>
+        <externalId>false</externalId>
+        <label>% Fianza a cobrar</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Grado_NT__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Nueva_Tarifa__r.Servicio__r.Grado_Dependencia__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Grado</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grado__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal_Renegociado&apos;,TEXT( Oportunidad_renegociada__r.Servicio__r.Grado_Dependencia__c) ,  TEXT( Oportunidad__r.Servicio__r.Grado_Dependencia__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Grado</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Id_Recomendador_T24__c</fullName>
+        <externalId>false</externalId>
+        <formula>Recomendador__r.Id_T24__c</formula>
+        <label>Id Recomendador T24</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Id_contrato__c</fullName>
+        <externalId>false</externalId>
+        <label>Id contrato</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Importe_Fianza_a_cobrar__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Fianza a cobrar</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Mes_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Mes_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Mes_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Mes_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Mes_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Importe_Mes_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Importe Periodo 6</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Incremento_medio_para_clientes_actuales__c</fullName>
+        <externalId>false</externalId>
+        <label>Incremento medio para clientes actuales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Incremento_medio_para_nuevos_clientes__c</fullName>
+        <externalId>false</externalId>
+        <label>Incremento medio para nuevos clientes</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Jornadas__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Campo obligatorio si tipo= Jornadas y otros eventos</inlineHelpText>
+        <label>Jornadas</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Corporativas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jornadas de centro dirigidas a profesionales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jornadas de centro dirigidas a familiares y vecindad</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>La_presentacion_incluye_contenido__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>La presentación incluye contenido</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Limite_de_plazas__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Límite de plazas</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Limite_de_plazas_en_rotacion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Límite de plazas en rotación</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Medios_de_Comunicacion__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Campo obligatorio si tipo=Medios de comunicación</inlineHelpText>
+        <label>Medios de Comunicación</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Buzoneo/Mailing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Guias</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mailing Salesforce</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mailing Smartfocus</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mupis</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pancarta</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Publcidad Autobus y Metro</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Valla Publicitaria</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Mensaje_lineas_a_transmiti__c</fullName>
+        <externalId>false</externalId>
+        <label>Mensaje/ líneas a transmiti</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Motivos_aprobacion__c</fullName>
+        <externalId>false</externalId>
+        <label>Motivos aprobación</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Necesaria_validacion_Direccion_General__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Necesaria validación Dirección General</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>No_se_solicita_fianza__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>No se solicita fianza</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Nombre_Residente__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal&apos;,   Oportunidad__r.Residente__r.FirstName  &amp; &apos; &apos; &amp; Oportunidad__r.Residente__r.LastName  ,   Oportunidad_renegociada__r.Residente__r.FirstName  &amp; &apos; &apos; &amp; Oportunidad_renegociada__r.Residente__r.LastName  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nombre Residente</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nueva_Tarifa__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Nueva Tarifa</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Tarifa__c.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QBcHAAW</value>
+            </filterItems>
+            <filterItems>
+                <field>Tarifa__c.Tarifa_Vigente__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Tarifa__c</referenceTo>
+        <relationshipLabel>NOCs</relationshipLabel>
+        <relationshipName>NOCs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Nueva_tarifa_oficial__c</fullName>
+        <externalId>false</externalId>
+        <formula>Nueva_Tarifa__r.Precio__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Nueva tarifa oficial</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Numero_de_plazas__c</fullName>
+        <externalId>false</externalId>
+        <label>Número de plazas</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Numero_de_plazas_en_rotacion__c</fullName>
+        <externalId>false</externalId>
+        <label>Número de plazas en rotación</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Numero_de_plazas_en_rotacion_libres__c</fullName>
+        <externalId>false</externalId>
+        <label>Número de plazas en rotación libres</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Numero_de_plazas_libres__c</fullName>
+        <externalId>false</externalId>
+        <label>Número de plazas libres</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Objeto_de_la_comunicacion_tematica__c</fullName>
+        <externalId>false</externalId>
+        <label>Objeto de la comunicación/temática</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Oportunidad__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Oportunidad</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Oportunidad_platform__c.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QBG6AAO</value>
+            </filterItems>
+            <filterItems>
+                <field>Oportunidad_platform__c.Etapa__c</field>
+                <operation>equals</operation>
+                <value>Pendiente visita, Presentado Plan Personal, Visita Planificada / Espontánea</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Oportunidad_platform__c</referenceTo>
+        <relationshipLabel>NOCs</relationshipLabel>
+        <relationshipName>NOCs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Oportunidad_renegociada__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Oportunidad renegociada</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>No se puede asignar una NOC Personal a una oportunidad cerrada. Debéis usar la NOC Renegociada</errorMessage>
+            <filterItems>
+                <field>Oportunidad_platform__c.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QBG6AAO</value>
+            </filterItems>
+            <filterItems>
+                <field>Oportunidad_platform__c.Etapa__c</field>
+                <operation>equals</operation>
+                <value>Ingreso</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Oportunidad_platform__c</referenceTo>
+        <relationshipLabel>NOCs (Oportunidad renegociada)</relationshipLabel>
+        <relationshipName>NOCs1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Otros_motivos__c</fullName>
+        <externalId>false</externalId>
+        <label>Otros motivos</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Persona_que_interviene__c</fullName>
+        <externalId>false</externalId>
+        <label>Persona que interviene</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Precio_actual__c</fullName>
+        <externalId>false</externalId>
+        <formula>Oportunidad_renegociada__r.Precio_Total__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Precio actual</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Precio_propuesto__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>IVA incluido</inlineHelpText>
+        <label>Precio propuesto</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Precio_propuesto_op__c</fullName>
+        <externalId>false</externalId>
+        <formula>Oportunidad_renegociada__r.Precio_Total__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Precio propuesto op</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Ratio_de_ocupacion_actual__c</fullName>
+        <externalId>false</externalId>
+        <label>Ratio de ocupación actual</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Recomendador__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Recomendador</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordType.Id</field>
+                <operation>equals</operation>
+                <value>012b0000000QAd7AAG</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>NOCs (Recomendador)</relationshipLabel>
+        <relationshipName>NOCs1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Renegociado__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Renegociado</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Residencial__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Residencial</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Retorno_de_inversion__c</fullName>
+        <externalId>false</externalId>
+        <label>Retorno de inversión</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ServicioDiferente__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( NOT(ISBLANK(TEXT(Oportunidad__r.Servicio__r.Tipo_Servicio__c))),
+   IF( AND(
+   	NOT(ISBLANK(TEXT(Oportunidad_renegociada__r.Servicio__r.Tipo_Servicio__c ))),
+	TEXT(Oportunidad__r.Servicio__r.Tipo_Servicio__c) &lt;&gt; TEXT(Oportunidad__r.Servicio__r.Tipo_Servicio__c)
+	),TRUE,FALSE)
+, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ServicioDiferente</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Servicio__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Informar si el convenio aplica para un sólo tipo de servicio</inlineHelpText>
+        <label>Servicio</label>
+        <referenceTo>Servicio__c</referenceTo>
+        <relationshipLabel>NOCs</relationshipLabel>
+        <relationshipName>NOCs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subclasificacion_Jornadas__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Campo obligatorio si tipo= Jornadas y otros eventos</inlineHelpText>
+        <label>Subclasificación Jornadas</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Charlas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Coloquios</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Desayunos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Encuentros técnicos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jornadas de centro</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Seminarios</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subida_anual_tarifas__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Subida anual tarifas</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tarifa_oficial__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal_Renegociado&apos;, Oportunidad_renegociada__r.Tarifa__r.Precio__c+ Oportunidad_renegociada__r.Precio_Plus__c , Oportunidad__r.Tarifa__r.Precio__c + Oportunidad__r.Precio_Plus__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>IVA incluido</inlineHelpText>
+        <label>Tarifa oficial + plus</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Tarifas_Competencia__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Tarifas Competencia</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_Habitacion__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Habitación</label>
+        <picklist>
+            <picklistValues>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Acuerdo Comercial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Acuerdo Comisionamiento</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Convenio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fidelización</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jornada y otros eventos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medio de comunicación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Renegociación precio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Convenio no comercial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Estrategia comercial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>General</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_estancia_NT__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Nueva_Tarifa__r.Servicio__r.Tipo_Estancia__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo de estancia</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_intervencion__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de intervención</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_ocupacion_NT__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Nueva_Tarifa__r.Servicio__r.Tipo_Ocupacion__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo de ocupación</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_presetnacion__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Campo obligatorio si tipo solicitud=presentación</inlineHelpText>
+        <label>Tipo de presetnación</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Técnica</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Corporativa</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_servicio_NT__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Nueva_Tarifa__r.Servicio__r.Tipo_Servicio__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo de servicio</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_servicio__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal_Renegociado&apos;,TEXT(Oportunidad_renegociada__r.Servicio__r.Tipo_Servicio__c ),TEXT(Oportunidad__r.Servicio__r.Tipo_Servicio__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo de servicio</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_solicitud__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de solicitud</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Presentaciones</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Campañas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_tarifa_autorizada__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de tarifa autorizada</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Tarifas anuales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_estancia2__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal_Renegociado&apos;,TEXT(Oportunidad_renegociada__r.Servicio__r.Tipo_Estancia__c),TEXT(Oportunidad__r.Servicio__r.Tipo_Estancia__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo estancia</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tipo_ocupacion__c</fullName>
+        <externalId>false</externalId>
+        <formula>if( RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal_Renegociado&apos;,TEXT(Oportunidad_renegociada__r.Servicio__r.Tipo_Ocupacion__c ),TEXT(Oportunidad__r.Servicio__r.Tipo_Ocupacion__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Tipo ocupación</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Validacion_tecnica__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Requiere de validación técnica</description>
+        <externalId>false</externalId>
+        <label>Validación técnica</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Visibilidad_Centros_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Visibilidad Centros 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Visibilidad_Centros_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Visibilidad Centros 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Visibilidad_Centros_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Visibilidad Centros 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Visibilidad_Centros_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Visibilidad Centros 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Visibilidad_Centros_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Visibilidad Centros 5</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zona_Comercial__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Selección de centros afectados por la NOC en función de la Zona Comercial</inlineHelpText>
+        <label>Zona Comercial</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>idContratoOp__c</fullName>
+        <externalId>false</externalId>
+        <formula>Oportunidad_renegociada__r.Id_contrato__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>idContratoOp</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <gender>Feminine</gender>
+    <label>NOC</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Estado_Flujo__c</columns>
+        <columns>Centro__c</columns>
+        <columns>Oportunidad_renegociada__c</columns>
+        <columns>Fecha_fin__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+    </listViews>
+    <listViews>
+        <fullName>Direccion_Division_Domiciliaria_NOC</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Dirección División Domiciliaria</label>
+        <queue>Direccion_Division_Domiciliaria</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>NOC11_Personales</fullName>
+        <columns>NAME</columns>
+        <columns>Estado_Flujo__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Fecha_inicio__c</columns>
+        <columns>Fecha_fin__c</columns>
+        <columns>Fecha_fin_flujo__c</columns>
+        <columns>Centro__c</columns>
+        <columns>Descuento_aplicado__c</columns>
+        <columns>Descuento_Fundacion__c</columns>
+        <columns>Precio_actual__c</columns>
+        <columns>Precio_propuesto__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_11_Descuento_General_Centro</value>
+        </filters>
+        <label>NOC11 Descuento General Centro</label>
+    </listViews>
+    <listViews>
+        <fullName>NOC_10_Tarifas</fullName>
+        <columns>NAME</columns>
+        <columns>Estado_Flujo__c</columns>
+        <columns>Fecha_fin_flujo__c</columns>
+        <columns>Fecha_inicio__c</columns>
+        <columns>Fecha_fin__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_10_Tarifas</value>
+        </filters>
+        <label>NOC 10 Tarifas</label>
+    </listViews>
+    <listViews>
+        <fullName>NOC_11_Descuento_Personal_Renegociado</fullName>
+        <columns>NAME</columns>
+        <columns>Estado_Flujo__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Fecha_inicio__c</columns>
+        <columns>Fecha_fin__c</columns>
+        <columns>Centro__c</columns>
+        <columns>Descuento_aplicado__c</columns>
+        <columns>Descuento_Fundacion__c</columns>
+        <columns>Precio_actual__c</columns>
+        <columns>Precio_propuesto__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_11_Descuento_Personal_Renegociado</value>
+        </filters>
+        <label>NOC 11 Descuento Personal Renegociado</label>
+    </listViews>
+    <listViews>
+        <fullName>NOC_11_Descuentos_Personales</fullName>
+        <columns>NAME</columns>
+        <columns>Estado_Flujo__c</columns>
+        <columns>Oportunidad__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Fecha_inicio__c</columns>
+        <columns>Fecha_fin__c</columns>
+        <columns>Descuento_aplicado__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_11_Descuento_Personal</value>
+        </filters>
+        <label>NOC 11 Descuentos Personales</label>
+    </listViews>
+    <listViews>
+        <fullName>NOC_12_Acuerdos_no_comerciales1</fullName>
+        <columns>Tipo__c</columns>
+        <columns>NAME</columns>
+        <columns>Estado_Flujo__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Fecha_inicio__c</columns>
+        <columns>Fecha_fin__c</columns>
+        <columns>Descuento_aplicado__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Tipo__c</field>
+            <operation>equals</operation>
+            <value>Convenio no comercial</value>
+        </filters>
+        <label>NOC 12 Acuerdos no comerciales</label>
+    </listViews>
+    <listViews>
+        <fullName>NOC_12_Convenios4</fullName>
+        <columns>Tipo__c</columns>
+        <columns>NAME</columns>
+        <columns>Alcance__c</columns>
+        <columns>Recomendador__c</columns>
+        <columns>Estado_Flujo__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Fecha_fin_flujo__c</columns>
+        <columns>Fecha_inicio__c</columns>
+        <columns>Fecha_fin__c</columns>
+        <columns>Descuento_aplicado__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Visibilidad_Centros_1__c</columns>
+        <columns>Visibilidad_Centros_2__c</columns>
+        <columns>Visibilidad_Centros_3__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Tipo__c</field>
+            <operation>equals</operation>
+            <value>Acuerdo Comercial,Convenio,Acuerdo Comisionamiento</value>
+        </filters>
+        <label>NOC 12 Convenios y Acuerdos Comerciales</label>
+    </listViews>
+    <listViews>
+        <fullName>NOC_9_Campa_as</fullName>
+        <columns>NAME</columns>
+        <columns>Estado_Campana__c</columns>
+        <columns>Estado_Flujo__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Fecha_inicio__c</columns>
+        <columns>Fecha_fin__c</columns>
+        <columns>Descuento_aplicado__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_9_Campana</value>
+        </filters>
+        <label>NOC 9 Campañas</label>
+    </listViews>
+    <listViews>
+        <fullName>NOCs_Pendientes</fullName>
+        <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 6) AND 7</booleanFilter>
+        <columns>CREATED_DATE</columns>
+        <columns>NAME</columns>
+        <columns>Centro__c</columns>
+        <columns>Estado_Flujo__c</columns>
+        <columns>Fecha_inicio__c</columns>
+        <columns>Fecha_fin__c</columns>
+        <columns>Oportunidad__c</columns>
+        <columns>Oportunidad_renegociada__c</columns>
+        <columns>Centro_de_ingreso__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_9_Campana</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_11_Descuento_Personal_Renegociado</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_10_Tarifas</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_11_Descuento_General_Centro</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_11_Descuento_Personal</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>NOC__c.NOC_12_Convenios</value>
+        </filters>
+        <filters>
+            <field>Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Pending</value>
+        </filters>
+        <label>NOCs Pendientes</label>
+    </listViews>
+    <nameField>
+        <label>Nombre</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>NOCs</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>NOC_10_Tarifas</fullName>
+        <active>true</active>
+        <description>Tarifas de clientes privados</description>
+        <label>NOC 10 Tarifas de clientes privados</label>
+        <picklistValues>
+            <picklist>Alcance__c</picklist>
+            <values>
+                <fullName>Centros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Territorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Detalle_Medios_Coumunicacion__c</picklist>
+            <values>
+                <fullName>Cuñas Publicitas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Folletos y Flyers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microespacio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revistas Especializadas</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Campana__c</picklist>
+            <values>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Creada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Flujo__c</picklist>
+            <values>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Jornadas__c</picklist>
+            <values>
+                <fullName>Corporativas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a familiares y vecindad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a profesionales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medios_de_Comunicacion__c</picklist>
+            <values>
+                <fullName>Buzoneo%2FMailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Smartfocus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mupis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pancarta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publcidad Autobus y Metro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valla Publicitaria</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subclasificacion_Jornadas__c</picklist>
+            <values>
+                <fullName>Charlas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coloquios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desayunos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encuentros técnicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminarios</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Habitacion__c</picklist>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Acuerdo Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Acuerdo Comisionamiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convenio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fidelización</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornada y otros eventos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medio de comunicación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_presetnacion__c</picklist>
+            <values>
+                <fullName>Corporativa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Técnica</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_solicitud__c</picklist>
+            <values>
+                <fullName>Presentaciones</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_tarifa_autorizada__c</picklist>
+            <values>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarifas anuales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>NOC_11_Descuento_General_Centro</fullName>
+        <active>true</active>
+        <label>NOC 11 Descuento General Centro</label>
+        <picklistValues>
+            <picklist>Alcance__c</picklist>
+            <values>
+                <fullName>Centros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Territorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Detalle_Medios_Coumunicacion__c</picklist>
+            <values>
+                <fullName>Cuñas Publicitas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Folletos y Flyers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microespacio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revistas Especializadas</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Campana__c</picklist>
+            <values>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Creada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Flujo__c</picklist>
+            <values>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Jornadas__c</picklist>
+            <values>
+                <fullName>Corporativas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a familiares y vecindad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a profesionales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medios_de_Comunicacion__c</picklist>
+            <values>
+                <fullName>Buzoneo%2FMailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Smartfocus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mupis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pancarta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publcidad Autobus y Metro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valla Publicitaria</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subclasificacion_Jornadas__c</picklist>
+            <values>
+                <fullName>Charlas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coloquios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desayunos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encuentros técnicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminarios</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Habitacion__c</picklist>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Estrategia comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_presetnacion__c</picklist>
+            <values>
+                <fullName>Corporativa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Técnica</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_solicitud__c</picklist>
+            <values>
+                <fullName>Presentaciones</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_tarifa_autorizada__c</picklist>
+            <values>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarifas anuales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>NOC_11_Descuento_Personal</fullName>
+        <active>true</active>
+        <label>NOC 11 Descuento Personal Puntual</label>
+        <picklistValues>
+            <picklist>Alcance__c</picklist>
+            <values>
+                <fullName>Centros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Territorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Detalle_Medios_Coumunicacion__c</picklist>
+            <values>
+                <fullName>Cuñas Publicitas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Folletos y Flyers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microespacio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revistas Especializadas</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Campana__c</picklist>
+            <values>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Creada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Flujo__c</picklist>
+            <values>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Jornadas__c</picklist>
+            <values>
+                <fullName>Corporativas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a familiares y vecindad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a profesionales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medios_de_Comunicacion__c</picklist>
+            <values>
+                <fullName>Buzoneo%2FMailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Smartfocus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mupis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pancarta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publcidad Autobus y Metro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valla Publicitaria</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subclasificacion_Jornadas__c</picklist>
+            <values>
+                <fullName>Charlas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coloquios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desayunos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encuentros técnicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminarios</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Habitacion__c</picklist>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Renegociación precio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_presetnacion__c</picklist>
+            <values>
+                <fullName>Corporativa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Técnica</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_solicitud__c</picklist>
+            <values>
+                <fullName>Presentaciones</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_tarifa_autorizada__c</picklist>
+            <values>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarifas anuales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>NOC_11_Descuento_Personal_Renegociado</fullName>
+        <active>true</active>
+        <description>Renegociación de un descuento personal a un cliente</description>
+        <label>NOC 11 Descuento Personal Renegociado</label>
+        <picklistValues>
+            <picklist>Alcance__c</picklist>
+            <values>
+                <fullName>Centros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Territorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Detalle_Medios_Coumunicacion__c</picklist>
+            <values>
+                <fullName>Cuñas Publicitas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Folletos y Flyers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microespacio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revistas Especializadas</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Campana__c</picklist>
+            <values>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Creada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Flujo__c</picklist>
+            <values>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Jornadas__c</picklist>
+            <values>
+                <fullName>Corporativas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a familiares y vecindad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a profesionales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medios_de_Comunicacion__c</picklist>
+            <values>
+                <fullName>Buzoneo%2FMailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Smartfocus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mupis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pancarta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publcidad Autobus y Metro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valla Publicitaria</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subclasificacion_Jornadas__c</picklist>
+            <values>
+                <fullName>Charlas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coloquios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desayunos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encuentros técnicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminarios</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Habitacion__c</picklist>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Renegociación precio</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_presetnacion__c</picklist>
+            <values>
+                <fullName>Corporativa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Técnica</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_solicitud__c</picklist>
+            <values>
+                <fullName>Presentaciones</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_tarifa_autorizada__c</picklist>
+            <values>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarifas anuales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>NOC_12_Convenios</fullName>
+        <active>true</active>
+        <label>NOC 12 Convenios</label>
+        <picklistValues>
+            <picklist>Alcance__c</picklist>
+            <values>
+                <fullName>Centros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Territorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Detalle_Medios_Coumunicacion__c</picklist>
+            <values>
+                <fullName>Cuñas Publicitas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Folletos y Flyers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microespacio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revistas Especializadas</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Campana__c</picklist>
+            <values>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Creada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Flujo__c</picklist>
+            <values>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Jornadas__c</picklist>
+            <values>
+                <fullName>Corporativas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a familiares y vecindad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a profesionales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medios_de_Comunicacion__c</picklist>
+            <values>
+                <fullName>Buzoneo%2FMailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Smartfocus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mupis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pancarta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publcidad Autobus y Metro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valla Publicitaria</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subclasificacion_Jornadas__c</picklist>
+            <values>
+                <fullName>Charlas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coloquios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desayunos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encuentros técnicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminarios</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Habitacion__c</picklist>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Acuerdo Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Acuerdo Comisionamiento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convenio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convenio no comercial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_presetnacion__c</picklist>
+            <values>
+                <fullName>Corporativa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Técnica</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_solicitud__c</picklist>
+            <values>
+                <fullName>Presentaciones</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_tarifa_autorizada__c</picklist>
+            <values>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarifas anuales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>NOC_9_Campana</fullName>
+        <active>true</active>
+        <description>Comunicaciones, presentaciones y campañas</description>
+        <label>NOC 9 Comunicaciones, presentaciones y campañas</label>
+        <picklistValues>
+            <picklist>Alcance__c</picklist>
+            <values>
+                <fullName>Centros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Comercial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zona Territorial</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Detalle_Medios_Coumunicacion__c</picklist>
+            <values>
+                <fullName>Cuñas Publicitas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Folletos y Flyers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microespacio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Local</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa Nacional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revistas Especializadas</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Division__c</picklist>
+            <values>
+                <fullName>Adorea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Domiciliaria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Formación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAR Domus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teleasistencia</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Campana__c</picklist>
+            <values>
+                <fullName>Abierta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Creada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_Flujo__c</picklist>
+            <values>
+                <fullName>Aprobado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pendiente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Jornadas__c</picklist>
+            <values>
+                <fullName>Corporativas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a familiares y vecindad</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro dirigidas a profesionales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Medios_de_Comunicacion__c</picklist>
+            <values>
+                <fullName>Buzoneo%2FMailing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Guias</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Salesforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mailing Smartfocus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mupis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pancarta</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prensa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Publcidad Autobus y Metro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Radio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valla Publicitaria</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subclasificacion_Jornadas__c</picklist>
+            <values>
+                <fullName>Charlas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coloquios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desayunos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Encuentros técnicos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornadas de centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminarios</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Habitacion__c</picklist>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo__c</picklist>
+            <values>
+                <fullName>Fidelización</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornada y otros eventos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medio de comunicación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Otros</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_presetnacion__c</picklist>
+            <values>
+                <fullName>Corporativa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Técnica</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_solicitud__c</picklist>
+            <values>
+                <fullName>Campañas</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_tarifa_autorizada__c</picklist>
+            <values>
+                <fullName>Nuevos servicios</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarifas anuales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Zona_Comercial__c</picklist>
+            <values>
+                <fullName>Barcelona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Este</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mallorca</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Navarra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oeste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Occidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sur Oriental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zaragoza</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>RECORDTYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Estado_Flujo__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Fecha_fin__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Fecha_inicio__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>RECORDTYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Descuento__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Descuento_aplicado__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Fecha_inicio__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Fecha_fin__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Centro__c</searchFilterFields>
+        <searchFilterFields>Descuento__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Bloquear_NOC_aprobada</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Estado_Flujo__c , &quot;Aprobado&quot;)  &amp;&amp;  $Profile.Id  &lt;&gt; &apos;00eb0000000zplj&apos; &amp;&amp;  (ISCHANGED( Name ) ||  ISCHANGED( Descripcion__c ) ||  ISCHANGED(  Descuento_Fundacion__c  ) ||  ISCHANGED( Tipo__c ) ||  ISCHANGED( Alcance__c ) ||   ISCHANGED( Aspectos_economicos__c ) ||  ISCHANGED( Aspectos_no_economicos__c ) ||  ISCHANGED( Fecha_inicio__c ) ||  ISCHANGED( Fecha_fin__c ) ||  ISCHANGED( Descuento_permanente__c ) ||  ISCHANGED( Oportunidad_renegociada__c ) ||  ISCHANGED( Condiciones_Especiales__c ) ||  ISCHANGED( Oportunidad__c ) ||  ISCHANGED( Cliente__c ) ||  ISCHANGED( Descenso_de_Ocupacion__c ) ||  ISCHANGED( Ratio_de_ocupacion_actual__c ) ||  ISCHANGED( Diferencial_de_tarifas__c ) ||  ISCHANGED( Tarifas_Competencia__c ) ||  ISCHANGED( Otros_motivos__c ) ||  ISCHANGED( Descuento_aplicado__c ) ||  ISCHANGED( Precio_propuesto__c )  ||   ISCHANGED( No_se_solicita_fianza__c ))</errorConditionFormula>
+        <errorMessage>No está permitido modificar una NOC aprobada</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Caducitat_Nocs_Renegociades</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.DeveloperName =&apos;NOC_11_Descuento_Personal_Renegociado&apos; &amp;&amp;  NOT(ISPICKVAL( Estado_Flujo__c , &apos;Aprobado&apos;))  &amp;&amp;
+ ( (NOT(ISNULL(Fecha_inicio__c   )) &amp;&amp; NOT(ISNULL(CreatedDate)) &amp;&amp; Fecha_inicio__c   &lt;  DATE( YEAR( DATEVALUE(CreatedDate) ) ,1,1) &amp;&amp; DATEVALUE(CreatedDate) &gt; DATE (YEAR( DATEVALUE(CreatedDate) ),1,31)) || 
+ (NOT(ISNULL(Fecha_inicio__c   )) &amp;&amp; NOT(ISNULL(CreatedDate)) &amp;&amp; DATEVALUE(CreatedDate) &lt; DATE (YEAR( DATEVALUE(CreatedDate) ),2,1) &amp;&amp; DATEVALUE(CreatedDate) &gt; DATE (YEAR( DATEVALUE(CreatedDate) ),1,1) &amp;&amp; Fecha_inicio__c   &lt;  DATE( YEAR(DATEVALUE(CreatedDate))-1 ,12,1)) ||
+  (NOT(ISNULL(Fecha_Inicio_1__c   )) &amp;&amp; NOT(ISNULL(CreatedDate)) &amp;&amp; Fecha_Inicio_1__c   &lt;  DATE( YEAR( DATEVALUE(CreatedDate) ) ,1,1) &amp;&amp; DATEVALUE(CreatedDate) &gt; DATE (YEAR( DATEVALUE(CreatedDate) ),1,31)) || 
+ (NOT(ISNULL(Fecha_Inicio_1__c   )) &amp;&amp; NOT(ISNULL(CreatedDate)) &amp;&amp; DATEVALUE(CreatedDate) &lt; DATE (YEAR( DATEVALUE(CreatedDate) ),2,1) &amp;&amp; DATEVALUE(CreatedDate) &gt; DATE (YEAR( DATEVALUE(CreatedDate) ),1,1) &amp;&amp; Fecha_Inicio_1__c   &lt;  DATE( YEAR( DATEVALUE(CreatedDate) )-1 ,12,1))) ||
+ ( (NOT(ISNULL(Fecha_inicio__c   )) &amp;&amp; ISNULL(CreatedDate) &amp;&amp; Fecha_inicio__c   &lt;  DATE( YEAR( TODAY() ) ,1,1) &amp;&amp; TODAY()  &gt; DATE (YEAR( TODAY()  ),1,31)) || 
+ (NOT(ISNULL(Fecha_inicio__c   )) &amp;&amp; ISNULL(CreatedDate) &amp;&amp; TODAY()  &lt; DATE (YEAR( TODAY()  ),2,1) &amp;&amp; TODAY()  &gt; DATE (YEAR( TODAY()  ),1,1) &amp;&amp; Fecha_inicio__c   &lt;  DATE( YEAR(TODAY() )-1 ,12,1)) ||
+  (NOT(ISNULL(Fecha_Inicio_1__c   )) &amp;&amp; ISNULL(CreatedDate) &amp;&amp; Fecha_Inicio_1__c   &lt;  DATE( YEAR( TODAY()  ) ,1,1) &amp;&amp; TODAY()  &gt; DATE (YEAR( TODAY() ),1,31)) || 
+ (NOT(ISNULL(Fecha_Inicio_1__c   )) &amp;&amp; ISNULL(CreatedDate) &amp;&amp; TODAY()  &lt; DATE (YEAR( TODAY()  ),2,1) &amp;&amp; TODAY()  &gt; DATE (YEAR( TODAY()  ),1,1) &amp;&amp; Fecha_Inicio_1__c   &lt;  DATE( YEAR( TODAY()  )-1 ,12,1)))</errorConditionFormula>
+        <errorMessage>No puede haber una NOC renegociada con una fecha de inicio de un año anterior a la fecha de creación de la NOC</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Descuento_Fianza_no_valida</fullName>
+        <active>true</active>
+        <errorConditionFormula>Fianza_a_cobrar__c &gt;1 || Fianza_a_cobrar__c &lt; 0 ||  Importe_Fianza_a_cobrar__c &gt; Tarifa_oficial__c || Importe_Fianza_a_cobrar__c &lt;0</errorConditionFormula>
+        <errorMessage>La fianza no es válida</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Descuento_fijo_o_por_meses</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NOT(ISBLANK( Precio_propuesto__c )) ||  NOT(ISBLANK( Descuento_aplicado__c ))) &amp;&amp;  (NOT( ISBLANK( Importe_Mes_1__c ) )  ||  NOT(ISBLANK( Descuento_Mes_1__c )))</errorConditionFormula>
+        <errorMessage>No se permite informar descuento fijo y por meses en la misma NOC</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Estancia_no_puede_cambiar_en_NOC11</fullName>
+        <active>true</active>
+        <description>NOC 11 Descuento Personal Renegociado no pueden cambiar de tipo de estancia. Se debe abrir una nueva oportunidad</description>
+        <errorConditionFormula>AND(
+	RecordType.Name = &apos;NOC 11 Descuento Personal Renegociado&apos;,
+	AND (NOT(ISBLANK( Tipo_estancia2__c )),
+      	NOT(ISBLANK( Tipo_de_estancia_NT__c )),
+      	ISCHANGED( Tipo_estancia2__c ),
+      	Tipo_estancia2__c  &lt;&gt; Tipo_de_estancia_NT__c
+    )
+)</errorConditionFormula>
+        <errorMessage>Para cambios de tipo de estancia se debe abrir una nueva oportunidad</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Fechas_Importes</fullName>
+        <active>true</active>
+        <errorConditionFormula>Fecha_Fin_1__c &gt;=  Fecha_Inicio_2__c  || Fecha_Fin_2__c &gt;=  Fecha_Inicio_3__c || Fecha_Fin_3__c &gt;=  Fecha_Inicio_4__c || Fecha_Fin_4__c &gt;=  Fecha_Inicio_5__c || Fecha_Fin_5__c &gt;=  Fecha_Inicio_6__c</errorConditionFormula>
+        <errorMessage>La fecha de fin de un periodo no puede ser más grande que la fecha de inicio del siguiente periodo.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Fechas_Importes_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>Fecha_Inicio_1__c &gt;  Fecha_Fin_1__c || Fecha_Inicio_2__c &gt;  Fecha_Fin_2__c || Fecha_Inicio_3__c &gt;  Fecha_Fin_3__c || Fecha_Inicio_4__c &gt;  Fecha_Fin_4__c || Fecha_Inicio_5__c &gt;  Fecha_Fin_5__c || Fecha_Inicio_6__c &gt;  Fecha_Fin_6__c</errorConditionFormula>
+        <errorMessage>La fecha de inicio de un periodo no puede ser posterior que la fecha de fin de ese mismo periodo</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>IdContrato_no_valido</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(REGEX(Id_contrato__c  , &quot;[C]{1}[T]{1}[R]{1}[0-9]{5}&quot;) ) &amp;&amp;  NOT(  ISBLANK(Id_contrato__c ) )</errorConditionFormula>
+        <errorDisplayField>Id_contrato__c</errorDisplayField>
+        <errorMessage>Formato no válido</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Importes_no_validos</fullName>
+        <active>true</active>
+        <errorConditionFormula>Descuento_Mes_1__c &gt; 1 || Descuento_Mes_2__c &gt; 1 || Descuento_Mes_3__c &gt; 1 || Descuento_Mes_4__c &gt; 1 || Descuento_Mes_5__c &gt; 1 || Descuento_Mes_6__c &gt; 1 ||  Descuento_aplicado__c  &gt;1 || Descuento_Mes_1__c &lt; 0 || Descuento_Mes_2__c &lt; 0 || Descuento_Mes_3__c &lt; 0 || Descuento_Mes_4__c &lt; 0 || Descuento_Mes_5__c &lt; 0 || Descuento_Mes_6__c &lt; 0 ||  Descuento_aplicado__c  &lt; 0 ||  Importe_Mes_1__c &gt;  Tarifa_oficial__c || Importe_Mes_2__c &gt;  Tarifa_oficial__c || Importe_Mes_3__c &gt;  Tarifa_oficial__c || Importe_Mes_4__c &gt;  Tarifa_oficial__c || Importe_Mes_5__c &gt;  Tarifa_oficial__c || Importe_Mes_6__c &gt;  Tarifa_oficial__c ||  Precio_propuesto__c &gt;  Tarifa_oficial__c || Importe_Mes_1__c &lt;  0 || Importe_Mes_2__c &lt;  0 || Importe_Mes_3__c &lt;  0 || Importe_Mes_4__c &lt;  0 || Importe_Mes_5__c &lt;  0 || Importe_Mes_6__c &lt;  0 ||  Precio_propuesto__c &lt;  0</errorConditionFormula>
+        <errorMessage>Importes o descuentos no válidos.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Comentarios_campana</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.Name =&apos;NOC 9 Comunicaciones, presentaciones y campañas&apos; &amp;&amp;  ISPICKVAL( Tipo_de_solicitud__c , &apos;Presentaciones&apos;)  &amp;&amp;    ISBLANK( Comentarios__c )</errorConditionFormula>
+        <errorDisplayField>Comentarios__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Detalle_Medios_de_comunicacion</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.Name =&apos;NOC 9 Comunicaciones, presentaciones y campañas&apos; &amp;&amp;   ISPICKVAL( Tipo__c , &apos;Medio de comunicación&apos;)   &amp;&amp;  ISPICKVAL(    Detalle_Medios_Coumunicacion__c   , &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Detalle_Medios_Coumunicacion__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Division</fullName>
+        <active>true</active>
+        <errorConditionFormula>(RecordType.DeveloperName =&apos;NOC_12_Convenios&apos;  ||RecordType.DeveloperName =&apos;NOC_9_Campana&apos;)   &amp;&amp;  Residencial__c=false  &amp;&amp;  Domiciliaria__c=false</errorConditionFormula>
+        <errorMessage>Es obligatorio informar como mínimo una división</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Fecha_inicio</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NOT( ISNULL(Precio_propuesto__c )) ||  NOT( ISNULL( Descuento_aplicado__c )))
+ &amp;&amp; (RecordType.Id = &apos;012b0000000QBcv&apos; ||  RecordType.Id  = &apos;012b0000000QDCD&apos;) 
+ &amp;&amp; (ISNULL( Fecha_inicio__c ))</errorConditionFormula>
+        <errorDisplayField>Fecha_inicio__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Id_Contrato</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( Oportunidad_renegociada__r.Id_contrato__c ) &amp;&amp;  ISBLANK( Id_contrato__c ) &amp;&amp; RecordType.DeveloperName =&apos;NOC_11_Descuento_Personal_Renegociado&apos;</errorConditionFormula>
+        <errorDisplayField>Id_contrato__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Jornada</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.Name  =&apos;NOC 9 Comunicaciones, presentaciones y campañas&apos; &amp;&amp;   ISPICKVAL( Tipo__c , &apos;Jornadas y otros eventos&apos;)   &amp;&amp;  ISPICKVAL( Jornadas__c , &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Jornadas__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Medios_de_comunicacion</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.Name =&apos;NOC 9 Comunicaciones, presentaciones y campañas&apos; &amp;&amp;   ISPICKVAL( Tipo__c , &apos;Medio de comunicación&apos;)   &amp;&amp;  ISPICKVAL(   Medios_de_Comunicacion__c   , &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Medios_de_Comunicacion__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Minimo_Una_Duracion</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL( Duracion_del_descuento__c ) &amp;&amp; ISNULL(  Duracion_del_descuento_meses__c ) &amp;&amp;  (RecordType.Id = &apos;012b0000000QBcq&apos;  || RecordType.Id = &apos;012b0000000QBd0&apos;  ||RecordType.Id = &apos;012b0000000QBcg&apos;) &amp;&amp;  Descuento_permanente__c =false  &amp;&amp;  Residencial__c=true</errorConditionFormula>
+        <errorMessage>Se tiene que seleccionar una Duración del descuento.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Subjornada</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.Name =&apos;NOC 9 Comunicaciones, presentaciones y campañas&apos; &amp;&amp;   ISPICKVAL( Tipo__c , &apos;Jornadas y otros eventos&apos;)   &amp;&amp;  ISPICKVAL(  Subclasificacion_Jornadas__c  , &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Subclasificacion_Jornadas__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_Tipo_de_presentacion</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.Name =&apos;NOC 9 Comunicaciones, presentaciones y campañas&apos; &amp;&amp;  ISPICKVAL( Tipo_de_solicitud__c , &apos;Presentaciones&apos;)  &amp;&amp;    ISPICKVAL( Tipo_de_presetnacion__c , &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Tipo_de_presetnacion__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_descuento_o_importe</fullName>
+        <active>true</active>
+        <description>Informar descuento o importe para los descuentos por meses</description>
+        <errorConditionFormula>((NOT(ISBLANK( Importe_Mes_1__c ))) &amp;&amp; (NOT(ISBLANK( Descuento_Mes_1__c)))) || 
+((NOT(ISBLANK( Importe_Mes_2__c ))) &amp;&amp; (NOT(ISBLANK(Descuento_Mes_2__c)))) || 
+((NOT(ISBLANK( Importe_Mes_3__c ))) &amp;&amp; (NOT(ISBLANK(Descuento_Mes_3__c)))) || 
+((NOT(ISBLANK( Importe_Mes_4__c ))) &amp;&amp; (NOT(ISBLANK(Descuento_Mes_4__c)))) || 
+((NOT(ISBLANK( Importe_Mes_5__c ))) &amp;&amp; (NOT(ISBLANK(Descuento_Mes_5__c))))|| 
+((NOT(ISBLANK( Importe_Mes_6__c ))) &amp;&amp; (NOT(ISBLANK(Descuento_Mes_6__c))))</errorConditionFormula>
+        <errorMessage>Sólo se permite informar importe o descuento</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_fecha_fin</fullName>
+        <active>true</active>
+        <errorConditionFormula>(RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal&apos; ||  RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal_Renegociado&apos;) &amp;&amp; Descuento_permanente__c=false  &amp;&amp;  ISBLANK(Fecha_fin__c ) &amp;&amp; (NOT( ISBLANK(Descuento_aplicado__c)) || NOT( ISBLANK(Precio_propuesto__c) ))</errorConditionFormula>
+        <errorDisplayField>Fecha_fin__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_fecha_fin_valida</fullName>
+        <active>true</active>
+        <errorConditionFormula>Descuento_permanente__c=false  &amp;&amp;   Fecha_fin__c  &lt;=  Fecha_inicio__c</errorConditionFormula>
+        <errorDisplayField>Fecha_fin__c</errorDisplayField>
+        <errorMessage>La fecha fin debe ser mayor a la fecha inicio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_fianza</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISBLANK(Fianza_a_cobrar__c  ) ) &amp;&amp;  NOT(ISBLANK( Importe_Fianza_a_cobrar__c ) )</errorConditionFormula>
+        <errorMessage>No se puede introducir la fianza en % y en importe a la vez.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_idContrato</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( Id_contrato__c ) &amp;&amp;  ISPICKVAL(Estado_Flujo__c  , &apos;Pendiente&apos;) &amp;&amp;  RecordTypeId = &apos;012b0000000QDCD&apos;</errorConditionFormula>
+        <errorDisplayField>Id_contrato__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_precio_o_fianza</fullName>
+        <active>true</active>
+        <errorConditionFormula>(RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal&apos; || RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal_Renegociado&apos;) &amp;&amp; ISBLANK( Descuento_aplicado__c ) &amp;&amp; ISBLANK( Precio_propuesto__c ) &amp;&amp; ISBLANK( Descuento_Mes_1__c ) &amp;&amp; ISBLANK( Importe_Mes_1__c ) &amp;&amp; ISBLANK( Importe_Fianza_a_cobrar__c ) &amp;&amp; ISBLANK( Fianza_a_cobrar__c )</errorConditionFormula>
+        <errorMessage>Es obligatorio informar el precio, el descuento o la fianza.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_solo_una_duracion</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT( ISNULL( Duracion_del_descuento__c ) ) &amp;&amp;  NOT( ISNULL(  Duracion_del_descuento_meses__c ) )</errorConditionFormula>
+        <errorMessage>Sólo se puede informar una Duración del descuento (en días o en meses).</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_tipo_de_descuento</fullName>
+        <active>true</active>
+        <errorConditionFormula>(RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal&apos; || RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal_Renegociado&apos;) &amp;&amp; ( OR( ISBLANK(Precio_propuesto__c)   &amp;&amp;   ISBLANK( Descuento_aplicado__c ) ,
+NOT(ISBLANK(Precio_propuesto__c))   &amp;&amp;   NOT(ISBLANK(Descuento_aplicado__c ))))</errorConditionFormula>
+        <errorMessage>Es obligatorio informar un descuento o importe</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_validacion_tecnica</fullName>
+        <active>true</active>
+        <errorConditionFormula>Validacion_tecnica__c =true  &amp;&amp;    ISBLANK(Area_de_validacion_tecnica__c)</errorConditionFormula>
+        <errorDisplayField>Area_de_validacion_tecnica__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Marcar_Descenso_de_ocupacion</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(Ratio_de_ocupacion_actual__c) &amp;&amp;  Descenso_de_Ocupacion__c=true</errorConditionFormula>
+        <errorDisplayField>Ratio_de_ocupacion_actual__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Marcar_Tarifas_competencia</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( Diferencial_de_tarifas__c ) &amp;&amp;   Tarifas_Competencia__c=true</errorConditionFormula>
+        <errorDisplayField>Diferencial_de_tarifas__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_informar_duracion_si_permanente</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NOT( ISNULL( Duracion_del_descuento__c ) ) ||  NOT( ISNULL(  Duracion_del_descuento_meses__c ) )) &amp;&amp; ( Descuento_permanente__c =true)</errorConditionFormula>
+        <errorMessage>No se puede seleccionar una duración si el descuento es permanente</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_informar_fecha_fin</fullName>
+        <active>true</active>
+        <errorConditionFormula>(RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal&apos; ||  RecordType.DeveloperName=&apos;NOC_11_Descuento_Personal_Renegociado&apos;) &amp;&amp; Descuento_permanente__c =true  &amp;&amp;  NOT(ISBLANK(Fecha_fin__c ))</errorConditionFormula>
+        <errorDisplayField>Fecha_fin__c</errorDisplayField>
+        <errorMessage>Para un descuento permanente no se puede informar una fecha fin</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>No_informar_importes_si_permanente</fullName>
+        <active>true</active>
+        <errorConditionFormula>(Descuento_permanente__c =true) &amp;&amp; (NOT (ISBLANK( Importe_Mes_1__c )) || NOT (ISBLANK( Importe_Mes_2__c )) || NOT (ISBLANK( Importe_Mes_3__c )) || NOT (ISBLANK( Importe_Mes_4__c )) || NOT (ISBLANK( Importe_Mes_5__c )) || NOT (ISBLANK( Importe_Mes_6__c )) || NOT (ISBLANK(  Descuento_Mes_1__c )) || NOT (ISBLANK(  Descuento_Mes_2__c )) || NOT (ISBLANK(  Descuento_Mes_3__c )) || NOT (ISBLANK(  Descuento_Mes_4__c )) || NOT (ISBLANK(  Descuento_Mes_5__c )) || NOT (ISBLANK(  Descuento_Mes_6__c )) || NOT (ISBLANK(   Fecha_Inicio_1__c )) || NOT (ISBLANK(   Fecha_Inicio_2__c )) || NOT (ISBLANK(   Fecha_Inicio_3__c )) || NOT (ISBLANK(   Fecha_Inicio_4__c )) || NOT (ISBLANK(   Fecha_Inicio_5__c )) || NOT (ISBLANK(   Fecha_Inicio_6__c )) || NOT (ISBLANK(   Fecha_Fin_1__c )) || NOT (ISBLANK(   Fecha_Fin_2__c )) || NOT (ISBLANK(   Fecha_Fin_3__c )) || NOT (ISBLANK(   Fecha_Fin_4__c )) || NOT (ISBLANK(   Fecha_Fin_5__c ))|| NOT (ISBLANK(   Fecha_Fin_6__c )))</errorConditionFormula>
+        <errorMessage>No puedes seleccionar importes por periodos si el descuento es permanente</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Ratio_de_ocupacion_superior_a_100</fullName>
+        <active>true</active>
+        <errorConditionFormula>Ratio_de_ocupacion_actual__c&gt;1</errorConditionFormula>
+        <errorDisplayField>Ratio_de_ocupacion_actual__c</errorDisplayField>
+        <errorMessage>No puede sobrepasar el 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Seleccionar_Num_Plazas</fullName>
+        <active>true</active>
+        <errorConditionFormula>Limite_de_plazas__c  = true &amp;&amp;  ISNULL(Numero_de_plazas__c)</errorConditionFormula>
+        <errorDisplayField>Numero_de_plazas__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Seleccionar_Num_Plazas_rotacion</fullName>
+        <active>true</active>
+        <errorConditionFormula>Limite_de_plazas_en_rotacion__c = true &amp;&amp;  ISNULL( Numero_de_plazas_en_rotacion__c )</errorConditionFormula>
+        <errorDisplayField>Numero_de_plazas_en_rotacion__c</errorDisplayField>
+        <errorMessage>Campo obligatorio</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Seleccionar_solo_un_limite</fullName>
+        <active>true</active>
+        <errorConditionFormula>(  Limite_de_plazas__c =true &amp;&amp;  Limite_de_plazas_en_rotacion__c =true )   ||  ( NOT(ISNULL( Numero_de_plazas_en_rotacion__c )) &amp;&amp;  NOT(ISNULL( Numero_de_plazas__c))  )</errorConditionFormula>
+        <errorMessage>No se puede seleccionar más de un límite de plazas</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Servicio_no_puede_cambiar_NOC11</fullName>
+        <active>true</active>
+        <description>NOC 11 Descuento Personal Renegociado no pueden cambiar de tipo de servicio. Se debe abrir una nueva oportunidad</description>
+        <errorConditionFormula>AND(
+   RecordType.Name = &apos;NOC 11 Descuento Personal Renegociado&apos;,
+   AND(NOT(ISBLANK(Tipo_de_servicio__c )),
+    	NOT(ISBLANK(Tipo_de_servicio_NT__c)),
+    	ISCHANGED( Tipo_de_servicio__c ),
+    	Tipo_de_servicio__c &lt;&gt;Tipo_de_servicio_NT__c
+    )
+)</errorConditionFormula>
+        <errorMessage>Para cambios de servicio se debe abrir una nueva oportunidad</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tipo_Comunicacion</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.Name =&apos;NOC 9 Comunicaciones, presentaciones y campañas&apos; &amp;&amp;  ISPICKVAL( Tipo__c , &apos;Medio de comunicación&apos;)  &amp;&amp;  (NOT(ISPICKVAL(   Jornadas__c   , &apos;&apos;)) || NOT(ISPICKVAL( Subclasificacion_Jornadas__c    , &apos;&apos;) ))</errorConditionFormula>
+        <errorDisplayField>Tipo__c</errorDisplayField>
+        <errorMessage>Las jornadas no deben ser informadas en una campaña de tipo Medio de Comunicación</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tipo_Jornadas</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.Name =&apos;NOC 9 Comunicaciones, presentaciones y campañas&apos; &amp;&amp;  ISPICKVAL( Tipo__c , &apos;Jornada y otros eventos&apos;)  &amp;&amp;  (NOT(ISPICKVAL(  Medios_de_Comunicacion__c  , &apos;&apos;)) || NOT(ISPICKVAL(Detalle_Medios_Coumunicacion__c   , &apos;&apos;) ))</errorConditionFormula>
+        <errorDisplayField>Tipo__c</errorDisplayField>
+        <errorMessage>Los medios de comunicación no deben ser informados en una campaña de tipo Jornada y otros Eventos</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tipo_estancia_NOC_renegociada</fullName>
+        <active>true</active>
+        <errorConditionFormula>(Tipo_de_estancia_NT__c &lt;&gt;  Tipo_estancia2__c) &amp;&amp;  (RecordType.DeveloperName =&apos;NOC_11_Descuento_Personal_Renegociado&apos;) &amp;&amp; NOT(ISBLANK(Tipo_de_estancia_NT__c )) &amp;&amp; NOT(ISBLANK(Tipo_estancia2__c))</errorConditionFormula>
+        <errorMessage>El tipo de estancia de la oportunidad actual y de la nueva tarifa tiene que ser la misma</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tipo_servicio_NOC_renegociada</fullName>
+        <active>true</active>
+        <errorConditionFormula>( Tipo_de_servicio__c &lt;&gt;   Tipo_de_servicio_NT__c ) &amp;&amp;  (RecordType.DeveloperName =&apos;NOC_11_Descuento_Personal_Renegociado&apos;) &amp;&amp; NOT(ISBLANK(Tipo_de_servicio__c )) &amp;&amp; NOT(ISBLANK(Tipo_de_servicio_NT__c ))</errorConditionFormula>
+        <errorMessage>El tipo de servicio de la oportunidad actual y de la nueva tarifa tiene que ser el mismo</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Unica_fecha_fin</fullName>
+        <active>true</active>
+        <errorConditionFormula>(NOT(ISBLANK(Fecha_fin__c ))) &amp;&amp;  (NOT(ISBLANK( Fecha_Fin_1__c )) || NOT(ISBLANK( Fecha_Fin_2__c )) ||NOT(ISBLANK( Fecha_Fin_3__c )) || NOT(ISBLANK( Fecha_Fin_4__c )) || NOT(ISBLANK( Fecha_Fin_5__c )) || NOT(ISBLANK( Fecha_Fin_6__c ))) || 
+(NOT(ISBLANK( Fecha_inicio__c ))) &amp;&amp;  (NOT(ISBLANK(  Fecha_Inicio_1__c )) || NOT(ISBLANK( Fecha_Inicio_2__c )) ||NOT(ISBLANK( Fecha_Inicio_3__c )) || NOT(ISBLANK( Fecha_Inicio_4__c )) || NOT(ISBLANK( Fecha_Inicio_5__c )) || NOT(ISBLANK( Fecha_Inicio_6__c )))</errorConditionFormula>
+        <errorMessage>No puede haber la fecha fija y las fechas por periodos informadas a la vez</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Reenvio_NOC_a_NAV</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Reenvío NOC a NAV</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/apex.js&quot;)}
+if(&quot;{! NOC__c.Estado_Flujo__c }&quot; == &quot;Aprobado&quot;) { 
+sforce.apex.execute(&quot;CalloutNavisionWS&quot;,&quot;enviar_noc_renegociadaWS&quot;,{Nocid:&quot;{! NOC__c.Id}&quot;});
+}
+else {
+alert(&quot;La NOC tiene que estar aprobada!&quot;); 
+}</url>
+    </webLinks>
+</CustomObject>

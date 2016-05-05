@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tarifa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tarifas</value>
+    </caseValues>
+    <fields>
+        <label><!-- Año análisis --></label>
+        <name>Ano_analisis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Central --></label>
+        <name>Central__c</name>
+        <relationshipLabel><!-- Tarifas TA --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Centro --></label>
+        <name>Centro__c</name>
+        <relationshipLabel><!-- Tarifas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Competidor --></label>
+        <name>Competidor__c</name>
+        <relationshipLabel><!-- Tarifas del Competidor --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Descuento --></label>
+        <name>Descuento_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Captación --></label>
+        <name>Fecha_Captaci_n__c</name>
+    </fields>
+    <fields>
+        <label><!-- NOC --></label>
+        <name>NOC__c</name>
+        <relationshipLabel><!-- Tarifas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Nombre Centro --></label>
+        <name>Nombre_Centro__c</name>
+        <picklistValues>
+            <masterLabel>ALBUFERA</masterLabel>
+            <translation><!-- ALBUFERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALCUDIA</masterLabel>
+            <translation><!-- ALCUDIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASORIA</masterLabel>
+            <translation><!-- ASORIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZALEA</masterLabel>
+            <translation><!-- AZALEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BERRA</masterLabel>
+            <translation><!-- BERRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BONANOVA</masterLabel>
+            <translation><!-- BONANOVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CADIZ</masterLabel>
+            <translation><!-- CADIZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN BUXERES</masterLabel>
+            <translation><!-- CAN BUXERES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAPDEPERA</masterLabel>
+            <translation><!-- CAPDEPERA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CBADAJOZ</masterLabel>
+            <translation><!-- CBADAJOZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCARBONELL</masterLabel>
+            <translation><!-- CCARBONELL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIUDAD DE LAS ARTES</masterLabel>
+            <translation><!-- CIUDAD DE LAS ARTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLARET</masterLabel>
+            <translation><!-- CLARET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMOSTOLES</masterLabel>
+            <translation><!-- CMOSTOLES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONCEPCION</masterLabel>
+            <translation><!-- CONCEPCION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORNELLA</masterLabel>
+            <translation><!-- CORNELLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COSTA DEN BLANES</masterLabel>
+            <translation><!-- COSTA DEN BLANES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EL SERRALLO</masterLabel>
+            <translation><!-- EL SERRALLO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FONTIBRE</masterLabel>
+            <translation><!-- FONTIBRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUENTESOL</masterLabel>
+            <translation><!-- FUENTESOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISDABE</masterLabel>
+            <translation><!-- ISDABE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAEN</masterLabel>
+            <translation><!-- JAEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JNADAL</masterLabel>
+            <translation><!-- JNADAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA SALUT</masterLabel>
+            <translation><!-- LA SALUT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAFLORIDA</masterLabel>
+            <translation><!-- LAFLORIDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIRAFLORES</masterLabel>
+            <translation><!-- MIRAFLORES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MONTEALTO</masterLabel>
+            <translation><!-- MONTEALTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MONTEARSE</masterLabel>
+            <translation><!-- MONTEARSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MONTEJARA</masterLabel>
+            <translation><!-- MONTEJARA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MONTEVAL</masterLabel>
+            <translation><!-- MONTEVAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PALMAMAL</masterLabel>
+            <translation><!-- PALMAMAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARQUE COSLADA</masterLabel>
+            <translation><!-- PARQUE COSLADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PARQUE GAVILANES</masterLabel>
+            <translation><!-- PARQUE GAVILANES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNUEVA</masterLabel>
+            <translation><!-- PNUEVA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REGINA</masterLabel>
+            <translation><!-- REGINA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REMEDIOS</masterLabel>
+            <translation><!-- REMEDIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SALITA</masterLabel>
+            <translation><!-- SALITA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANLAZARO</masterLabel>
+            <translation><!-- SANLAZARO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIERRA DE LAS  NIEVES</masterLabel>
+            <translation><!-- SIERRA DE LAS  NIEVES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMARIS</masterLabel>
+            <translation><!-- SMARIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STAJUSTA</masterLabel>
+            <translation><!-- STAJUSTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TERRAFERMA</masterLabel>
+            <translation><!-- TERRAFERMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TQUEBRADA</masterLabel>
+            <translation><!-- TQUEBRADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRESCANTOS</masterLabel>
+            <translation><!-- TRESCANTOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILLASACRAMENTO</masterLabel>
+            <translation><!-- VILLASACRAMENTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZALFONADA</masterLabel>
+            <translation><!-- ZALFONADA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Observaciones --></label>
+        <name>Observaciones__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Plus --></label>
+        <name>Precio_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio --></label>
+        <name>Precio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio beneficiario sin ucr --></label>
+        <name>Precio_beneficiario_sin_ucr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio cuota inicial --></label>
+        <name>Precio_cuota_inicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio dispositivo --></label>
+        <name>Precio_dispositivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio servicio --></label>
+        <name>Precio_servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio ucr adicional --></label>
+        <name>Precio_ucr_adicional__c</name>
+    </fields>
+    <fields>
+        <label><!-- Servicio --></label>
+        <name>Servicio_TA__c</name>
+        <relationshipLabel><!-- Tarifas (Servicio) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Servicio --></label>
+        <name>Servicio__c</name>
+        <relationshipLabel><!-- Tarifas --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tarifa Vigente --></label>
+        <name>Tarifa_Vigente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo Contrato --></label>
+        <name>Tipo_Contrato__c</name>
+        <picklistValues>
+            <masterLabel>Privado</masterLabel>
+            <translation><!-- Privado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Público</masterLabel>
+            <translation><!-- Público --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo Tarifa --></label>
+        <name>Tipo_Tarifa__c</name>
+        <picklistValues>
+            <masterLabel>Diaria</masterLabel>
+            <translation><!-- Diaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Febrero</masterLabel>
+            <translation><!-- Febrero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Octubre</masterLabel>
+            <translation><!-- Octubre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de servicio --></label>
+        <name>Tipo_de_servicio__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Tarifa TA</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Precios --></label>
+            <section>Precios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Tarifas Centro</layout>
+        <sections>
+            <label><!-- Descripción --></label>
+            <section>Descripción</section>
+        </sections>
+        <sections>
+            <label><!-- Precios --></label>
+            <section>Precios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Tarifas Competidor</layout>
+        <sections>
+            <label><!-- Descripción --></label>
+            <section>Descripción</section>
+        </sections>
+        <sections>
+            <label><!-- Descuentos --></label>
+            <section>Descuentos</section>
+        </sections>
+        <sections>
+            <label><!-- Precios --></label>
+            <section>Precios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Tarifas Centro --></label>
+        <name>Tarifas_Centro</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Tarifas Competidores --></label>
+        <name>Tarifas_Competidores</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Tarifas TAD --></label>
+        <name>Tarifas_TAD</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Tarifas TAM --></label>
+        <name>Tarifas_TAM</name>
+    </recordTypes>
+</CustomObjectTranslation>

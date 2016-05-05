@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SmartFocus Connector For Salesforce</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <description>SFv3 Kernel - v3.0 to v3.6</description>
+    <namespacePrefix>emvsf</namespacePrefix>
+    <types>
+        <members>EmvApp</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>EmailResults__c.CCMD_Camp_Id__c</members>
+        <members>EmailResults__c.CCMD_CampaignID__c</members>
+        <members>EmailResults__c.Campaign_Member_Status__c</members>
+        <members>EmailResults__c.Click_Through_Rate__c</members>
+        <members>EmailResults__c.Date_Sent__c</members>
+        <members>EmailResults__c.Deliverability_Rate__c</members>
+        <members>EmailResults__c.Delivered__c</members>
+        <members>EmailResults__c.From_Email__c</members>
+        <members>EmailResults__c.Open_Rate__c</members>
+        <members>EmailResults__c.Reply_To_Address__c</members>
+        <members>EmailResults__c.SF_Campaign__c</members>
+        <members>EmailResults__c.Subject__c</members>
+        <members>EmailResults__c.messageId__c</members>
+        <members>EmailResults__c.nbError__c</members>
+        <members>EmailResults__c.nbMessage__c</members>
+        <members>EmailResults__c.nbOpened__c</members>
+        <members>EmailResults__c.nbResponse__c</members>
+        <members>EmailResults__c.nbSelected__c</members>
+        <members>EmailResults__c.nbSoftError__c</members>
+        <members>EmailResults__c.nbUnjoined__c</members>
+        <members>Individual_Email_Results__c.CCMD_Campaign__c</members>
+        <members>Individual_Email_Results__c.Campaign__c</members>
+        <members>Individual_Email_Results__c.Clicked__c</members>
+        <members>Individual_Email_Results__c.Contact__c</members>
+        <members>Individual_Email_Results__c.DateClicked__c</members>
+        <members>Individual_Email_Results__c.DateOpened__c</members>
+        <members>Individual_Email_Results__c.Date_Sent__c</members>
+        <members>Individual_Email_Results__c.From__c</members>
+        <members>Individual_Email_Results__c.Hard_Bounced__c</members>
+        <members>Individual_Email_Results__c.Lead__c</members>
+        <members>Individual_Email_Results__c.Message_name__c</members>
+        <members>Individual_Email_Results__c.Opened__c</members>
+        <members>Individual_Email_Results__c.Opted_Out__c</members>
+        <members>Individual_Email_Results__c.Primary_Key__c</members>
+        <members>Individual_Email_Results__c.Reply_To__c</members>
+        <members>Individual_Email_Results__c.Soft_Bounced__c</members>
+        <members>Individual_Email_Results__c.Subject__c</members>
+        <members>Link_Details__c.Email_Results__c</members>
+        <members>Link_Details__c.Individual_Email_Results__c</members>
+        <members>Link_Details__c.Last_Clicked__c</members>
+        <members>Link_Details__c.Number_Of_Total_Clicks__c</members>
+        <members>Link_Details__c.Primary_Key__c</members>
+        <members>Link_Details__c.URL__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>EmailResults__c</members>
+        <members>Individual_Email_Results__c</members>
+        <members>Link_Details__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Campaign_Commander</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Public_data</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>Account-Account Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>EmailResults__c-Email Result Layout</members>
+        <members>Individual_Email_Results__c-Individual Email Result Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Link_Details__c-Link Detail Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>LogACall</members>
+        <members>NewCase</members>
+        <members>NewContact</members>
+        <members>NewEvent</members>
+        <members>NewNote</members>
+        <members>NewOpportunity</members>
+        <members>NewTask</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <members>Campaign.Attach_Email_campaign</members>
+        <members>Contact.Attach_Email_campaign</members>
+        <members>Lead.Attach_Email_campaign</members>
+        <name>WebLink</name>
+    </types>
+    <version>36.0</version>
+</Package>

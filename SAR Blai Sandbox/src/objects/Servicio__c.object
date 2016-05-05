@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Activo__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Activo</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Componente_tarifa__c</fullName>
+        <externalId>false</externalId>
+        <label>Componente tarifa</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Tarifa base</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Suplemento Grado</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Suplemento Habitación</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Cuota_inicial__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cuota inicial</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Descripcion__c</fullName>
+        <externalId>false</externalId>
+        <label>Descripción</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Grado_Dependencia__c</fullName>
+        <externalId>false</externalId>
+        <label>Grado Dependencia</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Grado 1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Grado 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Grado 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Servicio__c</fullName>
+        <externalId>false</externalId>
+        <label>Servicio</label>
+        <picklist>
+            <picklistValues>
+                <fullName>TAM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TAD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mixto</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_Estancia__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Estancia</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Permanente</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Temporal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_Ocupacion__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Ocupación</label>
+        <picklist>
+            <picklistValues>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jornada Completa</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Media Jornada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1 hora</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>6 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>7 horas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fisio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Psicología</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Terapia Ocupacional</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Animación Sociocultural</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_Servicio__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo Servicio</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Centro de Día</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Centro de Noche</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Convalecencia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fijo Discontinuo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hospital de Día</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Paliativo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Respiro</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UDC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UPG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>USM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UTC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Apartamento</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sociosanitario Privado</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Arrend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Arrend viv y servicio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Apartamento social</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rehabilitación psicosocial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Servicios Externos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_dispositivos__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de dispositivos</label>
+        <picklist>
+            <picklistValues>
+                <fullName>MIMOV</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GT300</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GSM</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_periferico__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de periférico</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1 periférico</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 periféricos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 periféricos</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>...</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Tipo_de_servicio_TA__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo de servicio TA</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Agenda</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Atención de alarmas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Seguimiento Especial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Seguimiento Estándar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unidad móvil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Transporte__c</fullName>
+        <externalId>false</externalId>
+        <label>Transporte</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medio</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <gender>Masculine</gender>
+    <label>Servicio</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Tipo_Servicio__c</columns>
+        <columns>Tipo_Estancia__c</columns>
+        <columns>Grado_Dependencia__c</columns>
+        <columns>Tipo_Ocupacion__c</columns>
+        <columns>Transporte__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+    </listViews>
+    <listViews>
+        <fullName>Servicios_TA</fullName>
+        <columns>NAME</columns>
+        <columns>Tipo_de_servicio_TA__c</columns>
+        <columns>Tipo_de_periferico__c</columns>
+        <columns>Tipo_de_dispositivos__c</columns>
+        <columns>Cuota_inicial__c</columns>
+        <columns>Activo__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Servicio__c.Servicios_TA</value>
+        </filters>
+        <label>Servicios TA</label>
+    </listViews>
+    <nameField>
+        <label>Nombre de Servicio</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Servicios</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Servicios_Residenciales</fullName>
+        <active>true</active>
+        <label>Servicios Residenciales</label>
+        <picklistValues>
+            <picklist>Componente_tarifa__c</picklist>
+            <values>
+                <fullName>Suplemento Grado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suplemento Habitación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarifa base</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grado_Dependencia__c</picklist>
+            <values>
+                <fullName>Grado 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grado 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grado 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Servicio__c</picklist>
+            <values>
+                <fullName>Mixto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAM</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Estancia__c</picklist>
+            <values>
+                <fullName>Permanente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Ocupacion__c</picklist>
+            <values>
+                <fullName>1 hora</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Animación Sociocultural</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fisio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornada Completa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media Jornada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psicología</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terapia Ocupacional</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Servicio__c</picklist>
+            <values>
+                <fullName>Apartamento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apartamento social</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arrend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arrend viv y servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro de Día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro de Noche</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convalecencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fijo Discontinuo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospital de Día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paliativo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rehabilitación psicosocial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respiro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios Externos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sociosanitario Privado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UPG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>USM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UTC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_dispositivos__c</picklist>
+            <values>
+                <fullName>GT300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MIMOV</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_periferico__c</picklist>
+            <values>
+                <fullName>%2E%2E%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio_TA__c</picklist>
+            <values>
+                <fullName>Agenda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atención de alarmas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento Especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento Estándar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unidad móvil</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Transporte__c</picklist>
+            <values>
+                <fullName>Medio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Servicios_TA</fullName>
+        <active>true</active>
+        <label>Servicios TA</label>
+        <picklistValues>
+            <picklist>Componente_tarifa__c</picklist>
+            <values>
+                <fullName>Suplemento Grado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suplemento Habitación</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tarifa base</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grado_Dependencia__c</picklist>
+            <values>
+                <fullName>Grado 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grado 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grado 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Servicio__c</picklist>
+            <values>
+                <fullName>Mixto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAM</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Estancia__c</picklist>
+            <values>
+                <fullName>Permanente</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Ocupacion__c</picklist>
+            <values>
+                <fullName>1 hora</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 horas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Animación Sociocultural</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fisio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HD Uso Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI Baño Compartido</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jornada Completa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media Jornada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psicología</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terapia Ocupacional</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_Servicio__c</picklist>
+            <values>
+                <fullName>Apartamento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apartamento social</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arrend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arrend viv y servicio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro de Día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Centro de Noche</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Convalecencia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fijo Discontinuo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospital de Día</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paliativo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rehabilitación psicosocial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residencial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respiro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Servicios Externos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sociosanitario Privado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UDC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UPG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>USM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UTC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_dispositivos__c</picklist>
+            <values>
+                <fullName>GSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GT300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MIMOV</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_periferico__c</picklist>
+            <values>
+                <fullName>1 periférico</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 periféricos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 periféricos</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tipo_de_servicio_TA__c</picklist>
+            <values>
+                <fullName>Agenda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atención de alarmas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento Especial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seguimiento Estándar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unidad móvil</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Transporte__c</picklist>
+            <values>
+                <fullName>Medio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Si</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Tipo_Servicio__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Tipo_Estancia__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Grado_Dependencia__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Tipo_Ocupacion__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Transporte__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Grado_Dependencia__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Tipo_Estancia__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Tipo_Ocupacion__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Tipo_Servicio__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Transporte__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>Informar_grado</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISPICKVAL( Tipo_Estancia__c , &apos;Permanente&apos;)  &amp;&amp;  ISPICKVAL(  Grado_Dependencia__c  , &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Grado_Dependencia__c</errorDisplayField>
+        <errorMessage>Campo obligatorio para estancia permanente</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Informar_transporte</fullName>
+        <active>true</active>
+        <errorConditionFormula>( ISPICKVAL( Tipo_Servicio__c, &apos;Centro de Día&apos;)  ||  ISPICKVAL(Tipo_Servicio__c, &apos;Hospital de Día&apos;) )  &amp;&amp;  ISPICKVAL( Transporte__c , &apos;&apos;)</errorConditionFormula>
+        <errorDisplayField>Transporte__c</errorDisplayField>
+        <errorMessage>Campo obligatorio para los servicios Centro y Hospital de día</errorMessage>
+    </validationRules>
+</CustomObject>

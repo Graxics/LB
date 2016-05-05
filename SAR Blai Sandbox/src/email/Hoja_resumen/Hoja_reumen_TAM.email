@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style>
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td{
+	padding:5px;
+}
+.c1{
+	text-align:center;
+	background-color:#FFC000;
+}
+.c2{
+	background-color:#FFCC99;
+}
+.c3{
+	background-color:#CCFFCC;
+}
+.c4{
+	background-color:#CCFFFF;
+}
+.c5{
+	background-color:#CC99FF;
+}
+.c6{
+	background-color:#FFFF99;
+}
+
+
+</style>
+</head>
+
+<body>
+<table style="margin:0 auto;">
+  <tr>
+    <td class="c1"> <strong>HOJA RESUMEN DEL SERVICIO <br/> TEACMOPA&Ntilde;A</strong> </td>
+    <td class="c2">   </td>
+  </tr>
+  <tr class="c2">
+    <td> ENTIDAD RECOMENDADORA  </td>
+    <td> {!Empresa_Recomendadora.Name} </td>
+  </tr>
+  <tr class="c2">
+    <td> PROVINCIA  </td>
+    <td> {!Usuario_principal.provincia} </td>
+  </tr>
+  <tr class="c2">
+    <td> FECHA SOLICITUD CONTRATO  </td>
+    <td> {!Oportunidad_platform__c.Fecha_solicitud__c} </td>
+  </tr>
+  <tr class="c2">
+    <td> SERVICIO  </td>
+    <td> {!Oportunidad_platform__c.Servicio.Name}  </td>
+  </tr>
+  <tr class="c2">
+      <td> TIPO TERMINAL</td>
+      <td>{!Oportunidad_platform__c.Servicio.Tipo_de_dispositivos__c}</td>
+  </tr>
+  <tr class="c2">
+    <td> TARIFA  </td>
+    <td> {!Oportunidad_platform__c.Precio_Servicio__c}   </td>
+  </tr>
+ 
+  <tr class="c3">
+    <td> Contratante NOMBRE  </td>
+    <td> {!Pagador.nombre}  </td>
+  </tr>
+  <tr class="c3">
+    <td> Contratante APELLIDOS  </td>
+    <td> {!Pagador.Apellidos}   </td>
+  </tr>
+  <tr class="c3">
+    <td> Contratante DNI  </td>
+    <td> {!Pagador.DNI}   </td>
+  </tr>
+  <tr class="c3">
+    <td> Contratante DOMICILIO (CP y Provincia)  </td>
+    <td> {!Pagador.Domicilio}  </td>
+  </tr>
+  <tr class="c3">
+    <td> Contratante TELEFONO  </td>
+    <td> {!Pagador.Telefono}  </td>
+  </tr>
+  <tr class="c3">
+    <td> C/C  </td>
+    <td> {!Oportunidad_platform__c.IBAN__c}  </td>
+  </tr>
+  <tr class="c4">
+    <td> Beneficiario NOMBRE  </td>
+    <td> {!Beneficiario.Nombre}  </td>
+  </tr>
+  <tr class="c4">
+    <td> Beneficiario APELLIDOS  </td>
+    <td> {!Beneficiario.Apellidos}   </td>
+  </tr>
+  <tr class="c4">
+    <td> Beneficiario DNI  </td>
+    <td> {!Beneficiario.DNI}  </td>
+  </tr>
+  <tr class="c4">
+    <td> Beneficiario DOMICILIO (CP y Provincia)  </td>
+    <td> {!Beneficiario.Domicilio}  </td>
+  </tr>
+  <tr class="c4">
+    <td> Beneficiario TELEFONO </td>
+    <td> {!Beneficiario.Telefono}  </td>
+  </tr>
+  <tr class="c4">
+    <td> Beneficiario FECHA NACIMIENTO  </td>
+    <td> {!Beneficiario.Nacimineto}   </td>
+  </tr>
+  <tr class="c4">
+    <td> Recursos Personal1</td>
+    <td> </td>
+  </tr>
+   <tr class="c4">
+     <td> Recursos Personal2</td>
+     <td></td>
+  </tr>
+  <tr class="c6">
+    <td> OBSERVACIONES  </td>
+    <td>{!Oportunidad_platform__c.Descripcion__c}</td>
+  </tr>
+  <tr class="c6">
+    <td> GESTOR QUE HACE CONTRATO  </td>
+    <td> {!Oportunidad_platform__c.Propietario}   </td>
+  </tr>
+</table>
+</body>
+</html>

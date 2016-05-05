@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+<p align="center"><strong>CONTRATO DE ALOXAMENTO</strong></p>
+<p align="right">&nbsp;</p>
+<p align="right">En A Coruña, a {!Fecha_Dia} de {!Fecha_Mes} de {!Fecha_Anyo}</p>
+<p>&nbsp;</p>
+<p align="center"><strong>REUNIDOS</strong></strong><p>
+<p>&nbsp;</p>
+<p>Dunha parte D/Dª {!Director.FirstName} {!Director.LastName}  con D.N.I. nº. {!Oportunidad_platform__c.DNI_Director__c}  en calidade de Director do Centro Residencial de Persoas Maiores SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}, que é xestionado  pola empresa <strong>QUAVITAE</strong><strong> {!Oportunidad_platform__c.Sociedad_Centro__c}</strong> con C.I.F nº.  {!Oportunidad_platform__c.CIF_Sociedad__c}, con  domicilio na {!Oportunidad_platform__c.Calle_Sociedad__c} , {!Oportunidad_platform__c.Ciudad_Sociedad__c}</p>
+<p>E  doutra parte, <strong>D/Dª {!Residente.FirstName} {!Residente.LastName},</strong> maior de idade, con DNI nº  {!Oportunidad_platform__c.DNI_Residente__c}, domiciliado na calle {!Oportunidad_platform__c.Calle_Residente__c} que  actúa </p>
+
+<dl>
+  <dd>{!F1}  En nome propio e con plena capacidade de obrar e obrigarse. </dd>
+  <dd>{!F2}  Mediante auto de autorización xudicial de internamento. </dd>
+    <dd>{!F3}  A través do seu  representante legal D./Dª {!Representante_con.FirstName} {!Representante_con.LastName} con DNI nº {!Representante_con.CIF_NIF__c}, con domicilio en C/ {!Representante_con.Calle} {!Representante_con.Ciudad},  con número de teléfono {!Representante_con.Phone} representación que acredita mediante  testimonio de {!Oportunidad_platform__c.Testimonio_que_acredita_su_calidad__c} e que queda adxunta e formando parte deste Contrato. </li>
+ 
+    <dd>{!F4}  A través do persoa de referencia, D./Dª {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName} con  DNI nº {!Persona_Referencia.CIF_NIF__c} , con domicilio en {!Persona_Referencia.Calle} , {!Persona_Referencia.Ciudad}, con número de teléfono {!Persona_Referencia.Phone}</dd>
+  
+<p>Ambas partes  recoñécense plena capacidade legal para obrigarse e subscribir o presente <strong>CONTRATO DE ALOXAMENTO</strong>, e</p>
+<p align="center"><strong>MANIFESTAN</strong>:</p>
+<dl>
+  <dd>I.- A residencia é un centro  dependente da Consellería de Traballo e do Benestar, Dirección Xeral da  Dependencia e Autonomía Persoal, que ten como finalidade acoller en réxime de  aloxamento, prestando atención integral a persoas maiores.</dd>
+
+  <dd><br>II.- Que o residente coñece  as instalacións da Residencia, así como as condicións de aloxamento, sociais,  sanitarias e económicas, segundo establece a normativa vixente para este tipo  de prazas, considerándoas da súa completa satisfacción.</dd>
+
+  <dd><br>III.- Que ó mencionado residente  foille concedida pola Dirección Xeral de Dependencia e Autonomía Persoal, praza <u>temporal</u> no indicado centro por resolución de data {!Oportunidad_platform__c.Dia_Ingreso} de {!Oportunidad_platform__c.Mes_Ingreso} de {!Oportunidad_platform__c.Anyo_Ingreso}</dd>
+
+  <dd><br>IV.- Que o ingreso do  residente efectúase libre e voluntariamente.</dd>
+
+  <dd><br>V.- Que o residente coñece e  acepta o Regulamento de Réxime Interior aprobado pola Dirección Xeral de Acción  Social para o Centro Residencial de Persoas Maiores SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c},  copia do que se entrega ao usuario neste acto, comprometéndose ó seu estricto  cumprimento.</dd>
+
+  <dd><br>VI.- Que o residente ingresou na Residencia  de Maiores SARquavitae .{!Oportunidad_platform__c.Nombre_Centro__c} , o {!Oportunidad_platform__c.Dia_Ingreso} de {!Oportunidad_platform__c.Mes_Ingreso} de {!Oportunidad_platform__c.Anyo_Ingreso}
+</dl>
+
+<p>&nbsp;</p>
+<p>Por todo isto,</p>
+<p align="center"><h4 align="center"><strong>ACORDAN</strong></h4><p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>PRIMEIRO</strong>.- O residente ou o seu representante, no seu caso participan desde o momento do seu ingreso na financiación do costo da súa estancia na Residencia Asistida, cuia aportación está prevista no documento emitido pola Xunta de Galicia que se atopa no Anexo I.</p>
+<p>Esta liquidación da aportación realizarase nos termos que fixa a Dirección Xeral de Servicios Sociais da Xunta de Galicia.</p>
+<p>&nbsp;</p>
+<p><strong>SEGUNDO.- </strong>A aportación anual  resultante calculada segundo se indica no punto anterior, fraccionarase en doce  mensualidades, para o seu pago.</p>
+<p>Dito pago  realizarase a empresa <strong>QUAVITAE SERVICIOS ASISTENCIALES S.A.U</strong> prestataria do servicio, mediante domiciliación bancaria na conta que a  continuación se indica e a mes vencido. 
+</p>
+<p align="left"> Banco ou Caixa: {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}<br>Sucursal: {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}  <br>IBAN: {!Oportunidad_platform__c.IBAN__c}, {!Oportunidad_platform__c.Cuenta_Pagador__c}<p>
+
+<p><strong>&nbsp;</strong></p>
+<p><strong>TERCEIRO.- </strong>Cada período de  ausencia deberá ser previamente comunicado ó Director do Centro con 3 días de  antelación ó da saída.</p>
+<p>No caso de  ausencias superiores a 10 días a aportación do residente, corresponderá ó 40%  dos seus ingresos líquidos durante o período.</p>
+<p><strong>CUARTO.-</strong> A Residencia  comprométese a cumprir e facer cumprir ó persoal ó seu servicio, as  estipulacións contidas no Regulamento de Réxime Interior aprobado pola  Dirección Xeral de Acción Social, prestando especial atención a todos aqueles  que poidan facer mais confortable e agradable a estancia na Residencia Asistida  ós seus clientes.</p>
+<p>&nbsp;</p>
+<p><strong>QUINTO.- </strong>A Residencia de Maiores SARquavitae  {!Oportunidad_platform__c.Nombre_Centro__c},  prestará ó menos os seguintes servicios: </p>
+<dl>
+<dd>O aloxamento, que  comprenderá: o uso dunha habitación e zonas de convivencia; a manutención; o  lavado, repasado e planchado de roupa persoal; a roupa de cama, mesa, aseo.</dd>
+<dd><br>O coidado persoal,  control e protección do usuario, que comprenderá a prestación da asistencia  necesaria para a realización das actividades elementais da vida diaria (aseo,  vestido, alimentación) así como daquelas actividades encamiñadas á salvagarda  da integridade persoal dos usuarios.</dd>
+ <dd><br>Atención xerontolóxica  integral (xeriátrica, psicolóxica e rehabilitadora), que deberá comprende-las  actuacións propias do seu campo, así como o desenrolo de programas de  rehabilitación (fisioterapia, terapia ocupacional entre outros), sen prexuízo  da utilización ou coordinación, no seu caso, cos servicios sanitarios do  Sistema Xeral.</dd>
+<dd>Atención social, que  incluirá entre as súas actividades a valoración das circunstancias sociais dos  usuarios, a promoción da súa integración e participación na vida do centro e no  medio no que este se ubica, a animación sociocultural e as relacións coas  familias dos usuarios.</dd>
+</dl>
+<p>&nbsp;</p>
+<p><strong>SEXTO.- </strong>No caso de  defunción, e en ausencia dos seus familiares, a Residencia obrigase a procurar  un enterro digno e acorde coas crenzas do residente. Os gastos que ocasione o  sepelio, en caso de non ser cubertos por unha póliza de deceso serán cargados  por domiciliación contra a conta na que se cargaban os pagos mensuais da  aportación.</p>
+<p>&nbsp;</p>
+<p><strong>SETIMO.- </strong>Para calquera  diverxencia ou litixio que poida surxir sobre a interpretación ou aplicación do  estipulado neste documento, as partes, con renuncia ó seu propio foro,  sométense expresamente á xurisdicción competente no territorio da residencia.</p>
+<p>&nbsp;</p>
+<p><strong>OCTAVO.- </strong>Os datos persoais  recollidos no presente documento serán incorporados e tratados nun ficheiro titularidade de <strong>QUAVITAE</strong><strong> SERVICIOS ASISTENCIALES  S.A.U.</strong> coa finalidade de cumprir o propio contrato de  prestación de servizos subscrito e   xestionar os agradecementos, e reclamacións. Así mesmo poderán ser  utilizados para o envío de información sobre produtos, servizos e eventos de <strong>QUAVITAE</strong><strong> SERVICIOS ASISTENCIALES S.A.U.</strong> e das distintas sociedades SARquavitae, así como  para a realización de enquisas  de  calidade do servizo. </p>
+ <p> Os seus datos  poderán ser cedidos, exclusivamente para as finalidades indicadas  anteriormente, e outras entidades sociosanitarias, sempre que estas pertenzan,  directa ou indirectamente ao Grupo Societario SARquavitae (www.sarquavitae.es),  todo isto tanto se se formalizase ou non operación algunha ,como ,no seu caso,  unha vez extinguida relación contractual existente,  respetando en todo caso a lexislación  española sobre protección de datos de carácter persoal e sen necesidade de que  lle sexa comunicada  cada primeira cesión  que se efectúe aos  referidos  cesionarios.</p>
+<p>O interesado  poderá exercer os dereitos de acceso, rectificación, cancelación e oposición  mediante comunicación escrita dirixida ó   Departamento Xurídico, SARquavitae, C / Aribau 185 Entlo. 08021 -  Barcelona ou ao propio centro no que se presta o servizo obxeto de contrato.</p>
+<p>{!F5}  Vostede pode marcar este recadro  en caso de opoñerse  ao tratamento e  comunicación dos datos de carácter persoal para fins comerciais.</p>
+ <p>{!F5}  Vostede pode marcar este recadro  no caso de opoñerse ao tratamento e comunicación dos datos de carácter persoal  para a realización de enquisas de satisfacción.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="left">Asdo. D/Dª {!Residente.FirstName} {!Residente.LastName} <br>
+  En calidade de residente e como conformidade ó seu  ingreso.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="left">Asdo. D/Dª {!Director.FirstName} {!Director.LastName}<br>
+  <strong>QUAVITAE</strong><strong> SERVICIOS  ASISTENCIALES S.A.U.</strong> <br>
+  En calidade de director/a  da Residencia.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="left">Asdo. D/Dª {!Nombre_residente_rep_legal} {!Apellidos_residente_rep_legal}<br>
+  En calidade de  legal representante do residente.</p>
+</body>
+</html>

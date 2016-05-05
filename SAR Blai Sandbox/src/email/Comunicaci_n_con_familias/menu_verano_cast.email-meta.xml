@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>menu verano castellano</name>
+    <style>none</style>
+    <subject>Menú verano</subject>
+    <textOnly>Documento sin título
+
+
+Menú - SARquavitae Apreciada familia,
+
+¡Ya puede consultar el menú mensual de la residencia en el blog de nuestro centro!
+
+Como sabe, el equipo  de nutricionistas de SARquavitae, NutriSARquavitae, en colaboración con el  centro, ha creado los nuevos menús, teniendo en cuenta una dieta equilibrada, los gustos de los residentes y los productos próximos y de temporada.
+
+Asimismo,  le recordamos que el centro pone a su disposición la posibilidad de  contratación de menús si les apetece acompañar a su  familiar residente y probar nuestras opciones gastronómicas. Para realizar la  contratación contacte con nuestra recepción.
+
+No  duden en contactar con el equipo de dirección del centro para cualquier  información relacionada con la nutrición o con cualquier otro aspecto de nuestro servicio.
+
+Estamos a  su disposición.
+
+Reciban un  cordial saludo.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

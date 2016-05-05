@@ -1,0 +1,240 @@
+<body>
+<p align="center" style="font-size:15px;"><strong><u>CONTRATO  DE PRESTACION DE TELEASISTENCIA DOMICILIARIA</u></strong></p>
+<p class="section" align="center"><strong>REUNIDOS</strong></p>
+<p>En {!Oportunidad_platform__c.Central}, a {!Oportunidad_platform__c.Dia_Fecha_Cierre} de {!Oportunidad_platform__c.Mes_Fecha_Cierre} de {!Oportunidad_platform__c.Año_Fecha_Cierre}. </p>
+<p>De una parte: D./D&ntilde;a. <font style="text-transform:uppercase;">{!Oportunidad_platform__c.Pagador}</font> mayor  de edad, con {!Pagador.Tipo_Documento} {!Pagador.CIF_NIF} &nbsp;(en adelante <strong>CONTRATANTE</strong>) y con domicilio en <font style="text-transform:uppercase;">{!Pagador.Calle}</font> CP. {!Pagador.CP} <font style="text-transform:uppercase;">{!Pagador.Ciudad} ({!Pagador.Provincia})</font> que comparece en su  propio nombre y derecho&nbsp; / en nombre y representaci&oacute;n  de/los beneficiarios que se detallan en el expositivo IV. </p>
+<p>Y de otra parte: <strong>Quavitae Servicios Asistenciales S.A.U.</strong>, con domicilio social en  Madrid, en el Paseo de la Castellana, 52 5&ordf; planta,  28046 Madrid, C.I.F. n&uacute;mero A-80106842, representada por D&ntilde;a.  Auxiliadora Gal&aacute;n, en calidad de Apoderada y con domicilio a estos efectos, en  el Paseo de la Castellana, 52 5&ordf; planta, 28046  Madrid.</p>
+<p>Ambas partes se reconocen capacidad suficiente  para celebrar el presente contrato de prestaci&oacute;n de servicios y, en su virtud:</p>
+
+<p class="section" align="center">  <strong>EXPONEN</strong></p>
+<div class="exponen">
+<p>I.&nbsp;&nbsp;&nbsp; <strong> Que Quavitae Servicios  Asistenciales S.A.U. </strong>&nbsp;es una sociedad mercantil v&aacute;lidamente  constituida de acuerdo con la legislaci&oacute;n espa&ntilde;ola, entre cuyas actividades se  encuentra la prestaci&oacute;n de servicios asistenciales dirigidos a todo tipo de  personas, con especial atenci&oacute;n a las personas mayores, discapacitados y, en  general, a todos los colectivos de atenci&oacute;n social.</p>
+<p>II.&nbsp;&nbsp; Que <strong>Quavitae Servicios  Asistenciales S.A.U.</strong> &nbsp;en el desarrollo de su actividad social presta  el servicio de Teleasistencia Domiciliaria.</p>
+<p>III.&nbsp; Que tales servicios son  prestados por <strong> Quavitae  Servicios Asistenciales S.A.U. </strong>&nbsp;o bien a trav&eacute;s de la contrataci&oacute;n de terceros  proveedores con los que <strong>Quavitae Servicios Asistenciales S.A.U. </strong>&nbsp;pueda firmar acuerdos de colaboraci&oacute;n.</p>
+<p>IV.&nbsp; Que el <strong>CONTRATANTE</strong>  est&aacute; interesado en contratar los servicios de Teleasistencia Domiciliaria  ofertados por <strong>Quavitae  Servicios Asistenciales S.A.U. </strong>  &nbsp;para los siguientes beneficiarios:</p>
+
+<table><tr>
+<td style="padding-left:20px;"><font style="text-transform:uppercase;"> D./D&Ntilde;A: {!UsuarioPrincipal.Nombre} </font>, con {!UsuarioPrincipal.Tipo_Documento} N&ordm; {!UsuarioPrincipal.CIF_NIF} </td></tr>
+<tr>
+<!--
+ <td style="margin-left:10px;">  D./D&Ntilde;A: {!UsuarioColgante.Nombre}, con {!UsuarioColgante.Tipo_Documento} N&ordm; {!UsuarioColgante.CIF_NIF} </td>
+-->
+ <td style="padding-left:20px;">  {!BeneficiarioColgante1} </td>
+</tr>
+<tr>
+ <td style="padding-left:20px;"> {!BeneficiarioColgante2} </td>
+</tr></table>
+</div>
+
+<p>En base a las anteriores manifestaciones, las  partes han convenido en realizar un contrato de prestaci&oacute;n de servicios cuyo  objeto es la prestaci&oacute;n de los servicios de Teleasistencia Domiciliaria con  arreglo a las siguientes:</p>
+
+<p class="section" align="center"><strong>CL&Aacute;USULAS</strong></p>
+
+<div class="hoja1">
+<div class="box1">
+  <p><strong><u>PRIMERA:  OBJETO.</u></strong></p>
+  <p>El objeto del presente contrato es la  prestaci&oacute;n por parte de <strong>Quavitae  Servicios Asistenciales S.A.U. </strong>&nbsp;de  los servicios de Teleasistencia Domiciliaria consistentes en la atenci&oacute;n  inmediata y permanente de las personas mayores y/o discapacitadas, en los  t&eacute;rminos establecidos en este contrato.</p>
+ <p>
+ Mediante este acuerdo, la persona firmante  contrata la siguiente modalidad: 
+Servicio "{!Servicio.Nombre}"</p>
+<!--
+<table align="center"><tr>
+<td> <div class="recuadro" style="width:12px; height:12px;text-align:center;">X</div> </td>
+<td> B&aacute;sica  </td>
+<td style="padding-left:40px;"> <div class="recuadro" style="width:12px; height:12px;text-align:center;">{!Movil}</div> </td>
+<td > Con Unidad Móvil </td>
+</tr></table>
+<table style="width:100%;text-align:center;"><tr><td> {!Servicio.Nombre} </td></tr></table>
+-->
+  <p><strong><u>SEGUNDA:  OBLIGACIONES DE LAS PARTES.</u></strong></p>
+  <p>Quavitae Servicios Asistenciales S.A.U<strong> </strong>&nbsp;prestar&aacute; al usuario, en el domicilio que &eacute;ste  designe, el servicio de Teleasistencia Domiciliaria que comprende:</p>
+<ul>
+  <li>Atenci&oacute;n telef&oacute;nica permanente, a trav&eacute;s del  terminal instalado en su domicilio las 24 horas del d&iacute;a, los 365 d&iacute;as del a&ntilde;o.</li>
+<li> Gesti&oacute;n de los recursos oportunos, desde la  Central de Teleasistencia, en caso de que la situaci&oacute;n lo requiera y hasta que  &eacute;sta quede controlada por personas afines al usuario o profesionales  competentes en la materia que produjo la situaci&oacute;n de emergencia. </li>
+</ul>
+    <p>En todo  caso, el personal de <strong>Quavitae Servicios  Asistenciales S.A.U. </strong>:</p>
+<ul>
+  <li> Tratar&aacute; a los usuarios, familiares y  personas a las que deba dirigirse por raz&oacute;n del servicio, con la correcci&oacute;n y  diligencia debidas.</li>
+   <li> Guardar&aacute; el m&aacute;ximo respeto a la intimidad  personal y familiar del usuario y respetar&aacute; la confidencialidad respecto a cuantos  datos llegue a conocer en raz&oacute;n de la proximidad personal que se derive del  servicio.</li>
+    <li> Ir&aacute; siempre identificado y el cliente podr&aacute;  solicitar esta identificaci&oacute;n.</li>
+</ul>
+<!--
+  <p>Adicionalmente, en el caso de que el <strong>CONTRATANTE</strong> haya optado por la  modalidad de Unidad M&oacute;vil, <strong>Quavitae  Servicios Asistenciales S.A.U. </strong>&nbsp;se  obliga a: </p>
+  <ul>
+    <li>Prestar  una atenci&oacute;n directa, mediante unidades m&oacute;viles de <strong>Quavitae Servicios Asistenciales S.A.U. </strong>, en caso de que la  situaci&oacute;n lo requiera. </li>
+    <li>Gestionar  los recursos oportunos, teniendo en cuenta la distancia y la situaci&oacute;n de la  emergencia.</li>
+</ul>
+-->
+</div>
+
+<div class="box2">
+<!--
+<ul>
+
+    <li>Custodiar  las llaves del domicilio del usuario en la central de Teleasistencia. No  obstante lo anterior, el personal de <strong>Quavitae  Servicios Asistenciales S.A.U.</strong>&nbsp;  llamar&aacute; siempre a la puerta del domicilio del usuario para tener acceso  al mismo y solamente utilizar&aacute; la llave de dicho domicilio en casos de  urgencia. </li>
+  </ul>
+ -->
+<p>Por su parte, el <strong>CONTRATANTE</strong> se compromete a:</p>
+
+<ul>
+  <li>Contar con los medios t&eacute;cnicos necesarios  para el funcionamiento de los equipos de Teleasistencia Domiciliaria requeridos  para la prestaci&oacute;n del servicio.</li>
+ <li> Pagar el precio del servicio en la cuant&iacute;a y  forma establecidas en la cl&aacute;usula cuarta de este contrato.</ul>
+  <li> Facilitar a <strong>Quavitae Servicios Asistenciales S.A.U.</strong> los datos personales del  usuario que se recogen en la ficha socio-sanitaria que se adjunta al presente  contrato (Anexo I), que forma parte integrante del mismo y cuyo conocimiento es  necesario para la correcta prestaci&oacute;n del servicio por parte de aquella.</li>
+   <li>Comunicar de manera inmediata a <strong>Quavitae Servicios Asistenciales S.A.U. </strong>&nbsp;la modificaci&oacute;n de alguno de los datos  personales recogidos en la Ficha Socio-sanitaria o de cualquier otra  circunstancia que pueda afectar a la correcta prestaci&oacute;n de los servicios  objeto del presente contrato.</li>
+<li> Comunicar de forma fehaciente y por escrito  a <strong>Quavitae Servicios Asistenciales  S.A.U. </strong>&nbsp;la ausencia del domicilio y  duraci&oacute;n de la misma.</li>
+ 
+<li>Hacer un buen uso del terminal y de las  unidades de control remoto, propiedad de <strong>Quavitae  Servicios Asistenciales S.A.U.</strong>, as&iacute; como a devolverlos en perfectas  condiciones cuando se resuelva el contrato. El incumplimiento de esta  obligaci&oacute;n supondr&aacute; para el contratante una penalizaci&oacute;n de TRESCIENTOS EUROS  (300 &euro;).</li>
+  
+</ul>
+
+    <p><strong>Quavitae  Servicios Asistenciales S.A.U. </strong>&nbsp;no ser&aacute;  responsable de los posibles incumplimientos o demoras en sus deberes cuando  estos sean resultado de la inobservancia de las obligaciones contenidas en esta  cl&aacute;usula.</p>
+</div>
+</div>
+
+<div class="hoja2">
+<div class="box3">
+
+
+  <p><strong><u>TERCERA:  DURACI&Oacute;N. </u></strong></p>
+  <p>El presente contrato entrar&aacute; en vigor el d&iacute;a de  comienzo de la prestaci&oacute;n del servicio de Teleasistencia y permanecer&aacute; vigente  hasta el &uacute;ltimo d&iacute;a del a&ntilde;o en curso. No obstante lo anterior, el mismo se  renovar&aacute; t&aacute;citamente por anualidades salvo que cualquiera de las partes  notifique a la otra su intenci&oacute;n de no renovar con una antelaci&oacute;n m&iacute;nima de  siete (7) d&iacute;as respecto a la fecha de finalizaci&oacute;n, bien sea la inicial, o bien  sea la de cualquiera de sus pr&oacute;rrogas.</p>
+  <p>No obstante lo anterior, en cualquier momento,  cualquiera de las partes podr&aacute; manifestar su voluntad de rescindirlo mediante  notificaci&oacute;n fehaciente y por escrito con una antelaci&oacute;n m&iacute;nima de dos (2)  meses respecto a la fecha en la que se pondr&aacute; fin a la relaci&oacute;n contractual  entre ambas partes.</p>
+  <p>En ambos casos, <strong>Quavitae Servicios Asistenciales S.A.U. </strong>&nbsp;se pondr&aacute; en contacto con el <strong>CONTRATANTE</strong> para establecer la fecha de  recogida del terminal y de las unidades de control remoto que est&eacute;n a  disposici&oacute;n del usuario o usuarios beneficiarios de este contrato y, en el  segundo caso, tambi&eacute;n de la firma de la resoluci&oacute;n del mismo.</p>
+  <p><strong><u>CUARTA:  PRECIO.</u></strong></p>
+  <p>Los precios de los servicios objeto de este  contrato son los siguientes: </p>
+
+<div class="recuadro">
+  <strong><u>Servicio {!Servicio.Nombre}:</u></strong>
+    <p style="margin-left:20px;"> {!Oportunidad_platform__c.Precio_Servicio}</p>
+	<p style="margin-left:20px;"> {!Beneficiario_Adicional}</p>
+	<p style="margin-left:20px;"> {!Tabla_Ofertas}</p>
+
+</div>
+
+<p>Dichos precios incluyen el Impuesto sobre el  Valor A&ntilde;adido (IVA) o impuesto equivalente aplicable.</p>
+  <!--<p>*A estas tarifas se les aplica un descuento por {!NOC.Nombre}</p>-->
+<p>{!Aplica_Descuento}</p>
+  <p>El <strong>CONTRATANTE</strong> realizar&aacute; el pago del precio por adelantado mediante domiciliaci&oacute;n bancaria,  por lo que autoriza a que los pagos mensuales derivados del presente acuerdo  sean cargados en la siguiente cuenta del Banco/Caja {!Oportunidad_platform__c.IBAN}. </p>
+  <p>La falta de pago de un recibo mensual,  transcurridos TREINTA (30) d&iacute;as a partir de la fecha de la emisi&oacute;n de la  factura, facultar&aacute; a <strong>Quavitae Servicios  Asistenciales S.A.U. </strong>&nbsp;para resolver  el contrato con suspensi&oacute;n inmediata de los servicios, sin perjuicio de su  derecho a exigir al <strong>CONTRATANTE</strong> tanto las facturas impagadas, como los da&ntilde;os y perjuicios derivados de dicho  incumplimiento.</p>
+  <p>Cada a&ntilde;o, durante el primer trimestre del  mismo, el precio establecido en esta cl&aacute;usula experimentar&aacute; un aumento que no  podr&aacute; ser superior al IPC general interanual m&aacute;s un punto, salvo que se  produzca una modificaci&oacute;n sustancial en las circunstancias personales del  usuario y/o en aquellas en que <strong>Quavitae  Servicios Asistenciales S.A.U. </strong>&nbsp;deba  prestar sus servicios, de forma tal que se considere excesivamente gravosa la  continuaci&oacute;n de este contrato, en cuyo caso, ambas partes deber&aacute;n alcanzar un  acuerdo para modificar el precio anual del servicio en el plazo de los 30  (treinta) d&iacute;as siguientes a la comunicaci&oacute;n de dicha modificaci&oacute;n sustancial.  La subida de precio anual tendr&aacute; efectos retroactivos con fecha 1 de enero del  a&ntilde;o en curso, de modo que en la primera factura que emita <strong>Quavitae Servicios Asistenciales S.A.U. </strong>, una vez que se haya  producido el aumento de precio, se realizar&aacute; la regularizaci&oacute;n correspondiente.</p>
+  <p>El precio indicado en esta cl&aacute;usula no incluye  el coste de las llamadas telef&oacute;nicas efectuadas por el Terminal TAD a la  Centralita de Teleasistencia, ni aquellos servicios que deban ser prestados en  el domicilio o fuera de &eacute;l, por profesionales o proveedores ajenos a <strong>Quavitae Servicios Asistenciales S.A.U. </strong>,  aunque fueran requeridos por esta empresa para actuar por mandato del usuario o  en beneficio de &eacute;ste por raz&oacute;n de urgencia. El pago de las citadas llamadas y  servicios corresponden al <strong>CONTRATANTE</strong>.</p>
+<!--
+  <p>Sobre el precio establecido en esta cl&aacute;usula,  descontados los impuestos aplicables, el usuario se beneficiar&aacute;, con car&aacute;cter  temporal del descuento vigente en su condici&oacute;n de:</p>
+<p class="recuadro" style="font-size:5pt;border:1px solid;padding-left:3.5px;padding-right:3.5px;display:inline;"</p>
+ <p style="display:inline;"> &nbsp;Usuario de _____________en car&aacute;cter de  __________ con un descuento del _____% 
+-->
+<p><strong><u>QUINTA.-  CAMBIO DE DOMICILIO</u></strong></p>
+  <p>En caso de que el usuario cambie de domicilio,  &eacute;l mismo o, en su caso, el <strong>CONTRATANTE</strong>,  deber&aacute; comunicarlo a <strong>Quavitae Servicios  Asistenciales S.A.U., </strong>con una antelaci&oacute;n de dos (2) d&iacute;as, ya que se ha de  modificar la informaci&oacute;n y programaci&oacute;n de los dispositivos instalados en el  domicilio, asumiendo cualquier coste que pudiera derivarse. <strong>Quavitae Servicios Asistenciales S.A.U., </strong>se  exime de cualquier responsabilidad si dicha informaci&oacute;n no es realizada por  parte del <strong>CONTRATANTE.</strong></p>
+<p><strong><u>SEXTA.-  SUSPENSI&Oacute;N TEMPORAL</u></strong></p>
+  <p>En el caso de ausencias temporales del  domicilio el <strong>CONTRATANTE</strong> debe notificarlo a <strong>Quavitae Servicios Asistenciales S.A.U. </strong>con dos d&iacute;as de antelaci&oacute;n<strong>, </strong>para garantizar la adecuada  prestaci&oacute;n del servicio.</p>
+<p style="margin-top:-10px;">
+En el caso de ausencias superiores a TREINTA  (30) d&iacute;as e inferiores a SESENTA (60) d&iacute;as, el usuario podr&aacute; solicitar una  suspensi&oacute;n temporal del servicio de objeto de este contrato, lo que implica no  abonar el precio del servicio durante el tiempo que dure la ausencia.</p>
+En caso de que la ausencia dure m&aacute;s de los  SESENTA (60) d&iacute;as, <strong>Quavitae Servicios  Asistenciales S.A.U. </strong>&nbsp;podr&aacute; optar  entre finalizar la suspensi&oacute;n temporal del servicio, lo que supone reiniciar la  prestaci&oacute;n del servicio y, con &eacute;l, las obligaciones derivadas del mismo, o  resolver el contrato.
+ <p><strong><u>S&Eacute;PTIMA.-  RESOLUCI&Oacute;N DEL CONTRATO</u></strong></p>
+  <p>Adem&aacute;s de las causas generales de resoluci&oacute;n de  los contratos, establecidos por Ley son causa de resoluci&oacute;n:</p>
+  <ul>
+    <li>Que  se produzca un incumplimiento por parte del usuario y/o de la persona  responsable de las obligaciones recogidas en la cl&aacute;usula segunda de este  acuerdo.</li>
+    <li>Que  ambas partes no alcancen el acuerdo de revisi&oacute;n de precios previsto en la  cl&aacute;usula cuarta de este contrato.</li>
+    <li>Por  ingreso en residencia, o defunci&oacute;n del usuario.</li>
+  </ul>
+</div>
+<!--
+<div class="recuadro">
+<strong><u> SERVICIO BÁSICO </u></strong>
+<p style="margin-left:20px;">1 USUARIO:&nbsp;&nbsp;&nbsp; CUOTA:&nbsp;  {!Oportunidad_platform__c.Precio_Servicio} &euro;/MES</p>
+<p style="margin-left:20px;">{!Beneficiario_Adicional}</p>
+<strong><u>{!Servicio_Unidad_Movil}</u></strong>
+<p style="margin-left:20px;">{!Usuario_Unico}</p>
+<p style="margin-left:20px;">{!Beneficiario_Adicional_Unidad_Movil}</p>
+</div>
+-->
+
+<div class="box2">
+   
+  <p><strong><u>OCTAVA:  RESPONSABILIDAD.</u></strong></p>
+  <p><strong>Quavitae  Servicios Asistenciales S.A.U. </strong>&nbsp;manifiesta que tiene suscrita una p&oacute;liza de  Responsabilidad Civil por importe de <strong>UN  MILL&Oacute;N DOSCIENTOS MIL EUROS (1.200.000 &euro;)</strong> que cubre su responsabilidad en  el ejercicio de la prestaci&oacute;n de los servicios objeto de este contrato.</p>
+  <p><strong>Quavitae  Servicios Asistenciales S.A.U. </strong>&nbsp;estar&aacute;  exenta de cualquier tipo de responsabilidad si, por motivos de fuerza mayor,  estado de necesidad o circunstancias ajenas a <strong>Quavitae Servicios Asistenciales S.A.U. </strong>&nbsp;no puede prestar el servicio al que se  compromete con el <strong>CONTRATANTE</strong> en  virtud del presente acuerdo. A t&iacute;tulo meramente enunciativo, no limitativo, <strong>Quavitae Servicios Asistenciales S.A.U.</strong> no se responsabiliza de la imposibilidad de prestar el servicio contratado o de  su incorrecta prestaci&oacute;n cuando sea debido a fallos en el suministro de la luz,  fallos en la l&iacute;nea telef&oacute;nica, la ficha socio-sanitaria no recoja fielmente las  circunstancias del usuario de la Teleasistencia, bien porque el <strong>CONTRATANTE</strong> no cumplimentara  correctamente la ficha socio-sanitaria a la que se refiere la cl&aacute;usula segunda  de este contrato, bien porque no ha comunicado las variaciones que el usuario  haya podido sufrir durante le vigencia del mismo. </p>
+  <p><strong>Quavitae  Servicios Asistenciales S.A.U.</strong> estar&aacute; exenta de cualquier tipo de  responsabilidad si el operador telef&oacute;nico contratado en el domicilio por el  &nbsp;<strong>CONTRATANTE</strong>, no tiene  capacidad para soportar el servicio objeto de dicho contrato.</p>
+ <p><strong><u>NOVENA:  CESI&Oacute;N DEL CONTRATO</u></strong></p>
+  <p><strong>Quavitae  Servicios Asistenciales S.A.U.</strong> podr&aacute; ceder el contrato a cualquier sociedad  integrante del grupo de empresas SARquavitae sin necesidad de recabar la  autorizaci&oacute;n previa del contratista, siendo suficiente la comunicaci&oacute;n de la  cesi&oacute;n de forma fehaciente.</p>
+  <p><strong><u>D&Eacute;CIMA:  PROTECCI&Oacute;N DE DATOS.</u></strong></p>
+  <p>El <strong>CONTRATANTE</strong> autoriza el tratamiento de los  datos personales suministrados voluntariamente a trav&eacute;s del presente documento  y la actualizaci&oacute;n de los mismos para:</p>
+  <ul>
+    <li>El cumplimiento del  propio contrato de prestaci&oacute;n de servicios suscrito.</li>
+    <li>La realizaci&oacute;n de  estudios estad&iacute;sticos.</li>
+    <li>&nbsp;Remitirle informaci&oacute;n sobre productos y  servicios de <strong>Quavitae Servicios  Asistenciales S.A.U.</strong> y de las distintas entidades de Quavitae Servicios  Asistenciales S.A.U. (www.sarquavitae.es), incluso por v&iacute;a electr&oacute;nica.</li>
+    <li>Gesti&oacute;n de otras  solicitudes de cualquiera de las distintas entidades de <strong>Quavitae Servicios Asistenciales S.A.U.</strong> (www.sarquavitae.es). </li>
+  </ul>
+
+  
+  
+ 
+
+ Asimismo, acepta que sus datos puedan ser  cedidos, exclusivamente para las finalidades indicadas anteriormente, a otras  entidades de<strong> SARquavitae</strong> (www.sarquavitae.es) filiales y participadas, as&iacute; como a otras personas f&iacute;sicas  o jur&iacute;dicas que, asimismo, desarrollen cualesquiera de las referidas  actividades y con las que las distintas entidades de <strong>Quavitae Servicios Asistenciales S.A.U.</strong> concluyan acuerdos de  colaboraci&oacute;n, todo ello tanto si se formalizase o no operaci&oacute;n alguna como, en  su caso, una vez extinguida la relaci&oacute;n contractual existente, respetando en  todo caso la legislaci&oacute;n espa&ntilde;ola sobre protecci&oacute;n de datos de car&aacute;cter  personal y sin necesidad de que le sea comunicada cada primera cesi&oacute;n que se  efect&uacute;e a los referidos
+ cesionarios. 
+<p>Todos los datos son tratados con absoluta  confidencialidad, no siendo accesibles a terceros para finalidades distintas  para las que han sido autorizados.</p>
+<p>El fichero creado est&aacute; ubicado en las  instalaciones de <strong>Quavitae Servicios  Asistenciales S.A.U.</strong>, bajo su exclusiva supervisi&oacute;n y control, quien asume  la adopci&oacute;n de las medidas de seguridad de &iacute;ndole t&eacute;cnica y organizativa para  proteger la confidencialidad e integridad de la informaci&oacute;n, de acuerdo con lo  establecido en la Ley Org&aacute;nica 15/1999, de 13 de diciembre, de Protecci&oacute;n de  Datos de Car&aacute;cter Personal y dem&aacute;s legislaci&oacute;n aplicable y ante quien el  titular de los datos puede ejercitar sus derechos de acceso, rectificaci&oacute;n,  oposici&oacute;n y cancelaci&oacute;n mediante comunicaci&oacute;n escrita dirigida a <strong>Quavitae Servicios Asistenciales S.A.U.</strong>,  calle Aribau 185 Entresuelo, 08021- (Barcelona), &nbsp;adjuntando fotocopia de su Documento Nacional  de Identidad o cualquier otro documento oficial identificativo.</p>
+  <p class="recuadro" style="font-size:5pt;border:1px solid;padding-left:3.5px;padding-right:3.5px;display:inline;"</p>
+<p style="display:inline"> &nbsp;Vd. Puede marcar esta  casilla en caso de oponerse al tratamiento y comunicaci&oacute;n de los datos de  car&aacute;cter personal para finalidades indicadas anteriormente distintas del  cumplimiento de la relaci&oacute;n contractual.</p>
+  <p>En caso de que los datos facilitados se  refieran a personas f&iacute;sicas distintas del <strong>CONTRATANTE</strong>, &eacute;ste deber&aacute;, con  car&aacute;cter previo a su inclusi&oacute;n en el presente documento, informarles de los  extremos contenidos en los p&aacute;rrafos anteriores.</p>
+  <p>El <strong>CONTRATANTE</strong>, garantiza a <strong>Quavitae Servicios Asistenciales S.A.U.</strong>&nbsp; que tiene facultad y/o autorizaci&oacute;n para  ceder sus datos o, en su caso, los del usuario y los de posibles terceros, para  que <strong>Quavitae Servicios Asistenciales  S.A.U.</strong>&nbsp; pueda disponer de ellos de  conformidad con lo establecido en el presente contrato.</p>
+  <p><strong><u>UND&Eacute;CIMA:  FUERO.</u></strong></p>
+  <p>Para las cuestiones o controversias que puedan  derivarse de la interpretaci&oacute;n o aplicaci&oacute;n de este contrato, ambas partes  convienen en someterse a la jurisdicci&oacute;n de los Juzgados y Tribunales de Barcelona,  con expresa renuncia de cualquier otro fuero que pudiera corresponderles.</p>
+  <p>Y, en prueba de conformidad con cuanto  antecede, firman ambas partes el presente contrato, por duplicado ejemplar y a  un solo efecto, en el lugar y fecha al principio indicados.</p>
+
+<table>
+<tr>
+  <td> <img src="https://sarquavitae--c.eu2.content.force.com/servlet/servlet.ImageServer?id=015b0000002LZTq&oid=00Db0000000eNpx&lastMod=1438697186000" alt="" width="95" height="52" /></p>
+  <td style="padding-left:30px;"></td>
+</tr>
+<tr style="padding-top:0px;">
+  <td>.......................</td>
+  <td style="padding-left:10px;">.......................</td>
+</tr>
+<tr>
+   <td align="left"> <strong>Quavitae  Servicios Asistenciales S.A.U.</strong></td>
+   <td style="padding-left:10px;"> <strong>CONTRATANTE:</strong></td>
+</tr>
+<tr>
+    <td>Fdo.:  Auxiliadora Gal&aacute;n</td>
+    <td style="padding-left:10px;"> Fdo.: {!Oportunidad_platform__c.Pagador}</td>
+</tr>
+</table>
+</div>
+</div>
+<!--
+<div class="hoja3">
+
+<div class="box3">
+</div>
+
+<div class="box2">
+</div>
+
+</div>
+-->
+<p>&nbsp;</p>
+
+
+<!--
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+-->
+
+
+</body>

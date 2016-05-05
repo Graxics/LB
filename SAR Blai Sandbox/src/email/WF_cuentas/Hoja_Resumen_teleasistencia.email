@@ -1,0 +1,80 @@
+<html>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <td>COLECTIVO</td>
+    <td>{!Oportunidad_platform__c.COLECTIVO}</td>      
+  </tr>
+  <tr>
+    <td>PROVINCIA</td>
+    <td>{!Oportunidad_platform__c.PROVINCIA}</td>      
+  </tr>
+  <tr>
+    <td>FECHA SOLICITUD CONTRATO</td>
+    <td>{!Oportunidad_platform__c.FECHA_SOLICITUD_CONTRATO}</td>      
+  </tr>
+  <tr>
+    <td>TIPO DE TARIFA</td>
+    <td>{!Oportunidad_platform__c.TIPO_DE_TARIFA}</td>      
+  </tr>
+  <tr>
+    <td>SERVICIO</td>
+    <td>{!Oportunidad_platform__c.SERVICIO}</td>      
+  </tr>
+  <tr>
+    <td>Contratante NOMBRE</td>
+    <td>{!Oportunidad_platform__c.Contratante_NOMBRE}</td>      
+  </tr>
+  <tr>
+    <td>Contratante APELLIDOS</td>
+    <td>{!Oportunidad_platform__c.Contratante_APELLIDOS}</td>      
+  </tr>
+  <tr>
+    <td>Contratante DNI</td>
+    <td>{!Oportunidad_platform__c.Contratante_DNI}</td>      
+  </tr>
+  <tr>
+    <td>Contratante DOMICILIO (CP y Provincia)</td>
+    <td>{!Oportunidad_platform__c.Contratante_DOMICILIO}</td>      
+  </tr>
+  <tr>
+    <td>Contratante TELEFONO</td>
+    <td>{!Oportunidad_platform__c.Contratante_TELEFONO}</td>      
+  </tr>
+  <tr>
+    <td>C/C</td>
+    <td>{!Oportunidad_platform__c.C/C}</td>      
+  </tr>
+  <tr>
+    <td>Beneficiario NOMBRE</td>
+    <td>{!Oportunidad_platform__c.Beneficiario_NOMBRE}</td>      
+  </tr>
+  <tr>
+    <td>Beneficiario APELLIDOS</td>
+    <td>{!Oportunidad_platform__c.Beneficiario_APELLIDOS}</td>      
+  </tr>
+<tr>
+    <td>Beneficiario APELLIDOS</td>
+    <td>{!Oportunidad_platform__c.Beneficiario_APELLIDOS}</td>      
+  </tr>
+<tr>
+    <td>Beneficiario APELLIDOS</td>
+    <td>{!Oportunidad_platform__c.Beneficiario_APELLIDOS}</td>      
+  </tr>
+<tr>
+    <td>Beneficiario APELLIDOS</td>
+    <td>{!Oportunidad_platform__c.Beneficiario_APELLIDOS}</td>      
+  </tr>
+<tr>
+    <td>Beneficiario APELLIDOS</td>
+    <td>{!Oportunidad_platform__c.Beneficiario_APELLIDOS}</td>      
+  </tr>
+<tr>
+    <td>Beneficiario APELLIDOS</td>
+    <td>{!Oportunidad_platform__c.Beneficiario_APELLIDOS}</td>      
+  </tr>
+</table>
+
+</body>
+</html>

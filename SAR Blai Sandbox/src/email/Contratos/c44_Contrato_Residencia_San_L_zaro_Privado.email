@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+<p align="center"><strong>CONTRATO  DE ALOXAMENTO</strong></p>
+<p align="right">&nbsp;</p>
+<p align="right">En Santiago de Compostela, {!Fecha_Dia} de {!Fecha_Mes} de {!Fecha_Anyo}</p>
+<p><strong>&nbsp;</strong></p>
+<p align="center"><strong>REUNIDOS</strong></p>
+<p>&nbsp;</p>
+<p>Dunha parteD/Dª {!Director.FirstName} {!Director.LastName} con D.N.I. nº. {!Oportunidad_platform__c.DNI_Director__c} na súa condición de Directora do  Centro <strong>SARquavitae San Lázaro</strong>, sito  na rúa Fernando de Casas Novoa, nº 33, de Santiago de Compostela, cuxa xestión  corresponde á Empresa <strong>QUAVITAE SERVICIOS ASISTENCIALES, S.A.U</strong> con C.I.F.  nº: A-80.106.842, domiciliada na rúa C/ Paseo Castellana nº 52 5ª planta,  Madrid, á que representa neste acto.</p>
+<p>&nbsp;</p>
+<p>E doutra parte <strong>D/Dª {!Residente.FirstName} {!Residente.LastName} con DNI nº  {!Oportunidad_platform__c.DNI_Residente__c}</strong> con domicilio en {!Oportunidad_platform__c.Calle_Residente__c}, (en adiante o residente) e <strong>{!Representante.FirstName} {!Representante.LastName} con CIF {!Representante_con.CIF_NIF__c}</strong>, actuando en  calidade de titor/curador/defensor xudicial/administrador de bens do residente (en  adiante o &ldquo;representante legal&rdquo;) </p>
+<p>&nbsp;</p>
+  Ambas partes  recoñécense plena capacidade legal para obrigarse e subscribir o presente  CONTRATO DE ALOXAMENTO, e</p>
+<p align="center"><strong>MANIFESTAN:</strong></p>
+<p>I.- A Residencia  é un centro privado no que existen prazas concertadas coa Consellería de  Traballo e Benestar da Xunta de Galicia- Dirección Xeral de Dependencia e  Autonomía Persoal, que ten como finalidade acoller en réxime de aloxamento  temporal o permanente, prestando atención integral a Persoas Maiores.</p>
+<p>II.- Que o  residente coñece as instalacións da Residencia, así como as condicións de  aloxamento, sociais, sanitarias e económicas, segundo establece a normativa  vixente para este tipo de prazas, considerándoas da súa completa satisfacción.</p>
+<p>III.-Que ó mencionado residente foille concedida  pola Dirección Xeral de Dependencia e Autonomía Persoal, praza asistida no  indicado centro por resolución  de data {!Oportunidad_platform__c.Dia_Ingreso} de {!Oportunidad_platform__c.Mes_Ingreso} de {!Oportunidad_platform__c.Anyo_Ingreso}.</p>
+<p>IV.-Que o ingreso  do residente efectúase libre e voluntariamente. No caso de que o residente non este en condicións de decidir o ingreso  por si mesmo, deberá haberse dictado previamente una orden judicial de  internamiento involuntario. En caso de no disponer de la misma, o responsable do  centro poñerá en coñecemento do xuíz competente o ingreso no centro ós efectos  de que se proceda á preceptiva ratificación de dita medida. </p>
+  V.-Que o  residente coñece e acepta o Regulamento de Réxime Interior aprobado pola  Dirección Xeral de Acción Social para o Centro Residencial de Persoas Maiores SARquavitae  San Lázaro, comprometéndose  ó seu  estrito cumprimento.</p>
+<p>VI.-Que o residente ingresou na Residencia de  Maiores SARquavitae San Lázaro, o {!Oportunidad_platform__c.Dia_Ingreso} de {!Oportunidad_platform__c.Mes_Ingreso} de {!Oportunidad_platform__c.Anyo_Ingreso}.</p>
+<p>VII.-Que o residente superou positivamente o  período de proba, sendo  o seu ingreso no  centro, definitivo, e con efectos do día indicado no punto anterior.</p>
+<p>Por todo isto</p>
+<br>
+<p align="center"><strong>ACORDAN</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>PRIMEIRO</strong>.-O residente deberá,  dende o momento do seu ingreso, financiar o custo da súa estancia na Residencia  Asistida, cuxa aportación corresponde ó 75% da totalidade dos seus ingresos  líquidos anuais percibidos, exceptuándose destes o importe en concepto de pagas  extraordinarias, co límite do custo real da praza segundo tipoloxía para o  exercicio correspondente. Será obriga do representante legal realizar as  xestións precisas para que, sempre con cargo ao patrimonio do residente, se  satisfagan tales custos. </p>
+<p>Esta liquidación  da aportación realizarase nos termos que fixa a CIRCULAR  n°4  de  data 10/05/2013 da Dirección Xeral de Servicios   Sociais da Xunta de Galicia.</p>
+<p><strong>SEGUNDO.-</strong>A aportación anual  resultante calculada segundo se indica no punto anterior, fraccionarase en doce  mensualidades, para o seu pago.</p>
+<p>Dito pago  realizarase a empresa QUAVITAE SERVICIOS ASISTENCIALES SAU, prestataria do servizo,  mediante domiciliación bancaria na conta que a continuación se indica e a mes  vencido. <br>
+</p><p align="left"> Banco ou Caixa: {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}<br>Sucursal: {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}  <br>IBAN: {!Oportunidad_platform__c.IBAN__c}, {!Oportunidad_platform__c.Cuenta_Pagador__c}</p>
+<p><strong>TERCEIRO.- </strong>O residente  poderá disfrutar de vacacións ou ausencias voluntarias, as cales non poderán  ter unha duración superior conxunta a 42 días ó ano.</p>
+<p>Cada período de  ausencia deberá ser  previamente  comunicado ó Director do Centro con 3 días de antelación ó da saída.</p>
+<p>No caso de  ausencias superiores a 10 días a aportación do residente, corresponderá ó 40%  dos seus ingresos líquidos durante o período.</p>
+<p><strong>CUARTO</strong>.- A Residencia  comprométese a cumprir e facer cumprir ó persoal ó seu servizo,  as estipulacións  contidas no Regulamento de Réxime Interior  aprobado pola Dirección Xeral de Acción Social, prestando especial atención a  todos aqueles que poidan facer  mais  confortable e agradable a estancia na Residencia Asistida  ós seus clientes.</p>
+<p><strong>QUINTO.-</strong>A Residencia de Maiores SARquavitae  San Lázaro, prestará ó menos os seguintes servicios: </p>
+<p>                        -O aloxamento, que  comprenderá: o uso dunha habitación e zonas de convivencia;  a manutención;  o lavado, repasado e planchado de roupa  persoal;  a roupa de cama, mesa, aseo.</p>
+<p>                        -O coidado persoal,  control e protección do usuario, que comprenderá a prestación da asistencia  necesaria para a realización das actividades elementais da vida diaria (aseo,  vestido, alimentación) así como daquelas actividades encamiñadas á salvagarda  da integridade persoal dos  usuarios.</p>
+  -Atención xerontolóxica  integral (xeriátrica, psicolóxica e rehabilitadora), que deberá comprende-las  actuacións propias do seu campo, así como o desenrolo de programas de  rehabilitación (fisioterapia, terapia ocupacional entre outros), sen prexuízo  da utilización ou  coordinación, no seu  caso, cos servizos sanitarios do Sistema Xeral.</p>
+<p>                        -Atención social, que  incluirá entre as súas actividades a valoración das circunstancias sociais dos  usuarios, a promoción da súa integración e participación na vida do centro e no  medio no que este se ubica, a animación sociocultural e as relacións coas familias  dos usuarios.</p>
+<p>Los servicios  adicionales que se presten por parte del centro serán voluntarios para el  usuario y se facturarán a parte de conformidad con las tarifas oficiales  aprobadas por la administración pública competente. </p>
+<p>SEXTO.-No caso de  defunción, e en ausencia dos seus familiares, a   Residencia obrigase a procurar un enterro digno e acorde  coas crenzas   do residente. Os gastos que ocasione o sepelio, en caso de non ser  cubertos por unha póliza de deceso serán cargados por domiciliación contra a  conta  na que se cargaban os pagos  mensuais da aportación.</p>
+<p><strong>SETIMO.-</strong>Para calquera  diverxencia ou litixio que poida xurdir sobre a interpretación ou  aplicación  do estipulado neste  documento, as partes, con renuncia ó seu propio foro, sométense expresamente á  xurisdición competente no territorio  da  residencia.</p>
+<p><strong>OCTAVO.-</strong> En cumprimento do  estipulado na Lei Orgánica de Protección de Datos de Carácter  Persoal, comunicámoslle que a información que ofreceu no momento do contrato e  durante a prestación do servizo, pasará a formar parte dos nosos ficheiros  automatizados e/ou manuais coa finalidade de dispoñer  de información interrelacionada para os  distintos departamentos da empresa, salvo  que nos indique o contrario.</p>
+  </p>
+  O  titular; dos datos ou a persoa responsable que lle representa,  consenten expresamente que os seus datos de saúde sexan recabados, tratados ou  cedidos polo responsable do ficheiro nos termos nos que foron  previamente informado, do carácter obrigatorio  ou facultativo da súa resposta ás preguntas que lles sexan planteadas e das consecuencias da súa negativa a subministra-los.</p>
+<p>A tal fin  informámoslle que ten dereito a acceder a esta información e  cancela-la o rectifica-la no caso de que fora errónea, a través do procedemento&nbsp; legalmente establecido. Neste caso, deberá  dirixirse a  QUAVITAE SERVICIOS ASISTENCIALES S.A.U, como propietario do arquivo a atención do Departamento Xuridico, c/  Aribau, N º 185-187, Entlo, Barcelona. </p>
+<p>Garantimos que SARquavitae adoptará coa información subministrada as medidas de seguridade legalmente establecidas acorde co seu  nivel de protección.</p>
+</p>
+</p>
+<p>
+</p>
+<p>Asdo.:  <strong>D/Dª {!Residente.FirstName} {!Residente.LastName} </strong></p>
+  En calidade de residente e como conformidade ó seu  ingreso.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Asdo.: <strong>D/Dª {!Director.FirstName} {!Director.LastName}</strong></p>
+  En calidade de  Director da  Residencia.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Asdo.; <strong>{!Representante.FirstName} {!Representante.LastName}</strong> </p>
+  En calidade de representante legal.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Asdo.; <strong>{!Pagador.FirstName} {!Pagador.LastName}</strong> </p>
+  En calidade de pagador.</p>
+</body>
+</html>

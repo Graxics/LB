@@ -1,0 +1,122 @@
+<body>
+<p align="center"><strong>CONTRATO  DO CENTRO DE DÍA</strong></p>
+<p align="right">En {!Oportunidad_platform__c.Ciudad_Centro__c}
+ , a {!Fecha_Dia}
+ del {!Fecha_Mes}
+   do {!Fecha_Anyo}
+</p>
+<p>&nbsp;</p>
+<p align="center"><strong>REUNIDOS</strong></p>
+<p>Dunha banda D/Dª {!Director.FirstName}
+{!Director.LastName}
+  con D.N.I. {!Oportunidad_platform__c.DNI_Director__c}
+ en calidade  de Director   do Centro de Día  de {!Oportunidad_platform__c.Nombre_Centro__c}
+ ,que  é xestionado  pola empresa {!Oportunidad_platform__c.Sociedad_Centro__c}
+. CIF No:  {!Oportunidad_platform__c.CIF_Sociedad__c}
+, con domicilio na {!Oportunidad_platform__c.Calle_Sociedad__c} ,
+{!Oportunidad_platform__c.Ciudad_Sociedad__c}
+, o que representa neste evento.</p>
+<p>E  doutra parte, <strong>Don/Dña {!Residente.FirstName}
+{!Residente.LastName}
+,</strong> maior de idade, con DNI nº {!Oportunidad_platform__c.DNI_Residente__c}
+ domiciliado na calle {!Oportunidad_platform__c.Calle_Residente__c}
+ que actúa </p>
+<p>&nbsp;</p>
+
+<dl>
+  <dd>{!F1}  En nome propio&nbsp; e con plena capacidade de obrar e  obrigarse.</dd>
+
+  <dd>{!F2}  Mediante auto de autorización xudicial de internamento. </dd>
+
+  <dd>{!F3}  A través do seu representante legal D./Dª {!Representante_con.FirstName}
+{!Representante_con.LastName}
+, con DNI nº {!Representante_con.CIF_NIF__c}
+, con domicilio en {!Representante_con.Calle}
+{!Representante_con.Ciudad}
+, con número de teléfono {!Representante_con.Phone}
+, representación que acredita mediante  testimonio&nbsp; de {!Oportunidad_platform__c.Testimonio_que_acredita_su_calidad__c}
+ e que queda adxunta e formando parte deste  Contrato. </dd>
+  <dd>{!F4}  A través do persoa de referencia, D./Dª{!Persona_Referencia.FirstName}
+{!Persona_Referencia.LastName}
+ con DNI nº {!Persona_Referencia.CIF_NIF__c}
+, con domicilio en {!Persona_Referencia.Calle}, 
+{!Persona_Referencia.Ciudad}
+, con número de teléfono {!Persona_Referencia.Phone}
+, </dd>
+</dl>
+<p>&nbsp;</p>
+<p>Ambas partes recoñécense plena capacidade legal  para contratar e obligarse, e na sua virtude:</p>
+  
+  <br>
+ <p align="center"> <strong>MANIFESTAN:</strong></p>
+
+<p>I.- O Centro de  Día é un centro dependente da  Consellería  de Traballo e Benestar – Dirección Xeral da Dependencia e Autonomía Persoal,  que ten como finalidade acoller en réxime de media xornada ou xornada completa,  prestando atención integral a Persoas Maiores con Alzheimer e outras patoloxía  dexenerativas.</p>
+<p>II.- Que o usuario  coñece as instalacións do Centro de Día, así como as condicións de estancia,  sociais, sanitarias e económicas, segundo establece  a normativa vixente para este tipo de centros,  considerándoas da súa completa satisfacción.</p>
+<p>III.-Que ó mencionado usuario foille concedida pola  Dirección Xeral da Dependencia e Autonomía Persoal praza  no indicado centro.                        .</p>
+<p>IV.-Que o ingreso  do usuario efectúase libre e voluntariamente.</p>
+<p>V.-Que o usuario  coñece e acepta o Regulamento de Réxime Interior aprobado pola Dirección Xeral  da Dependencia e Autonomía Persoal,{!Oportunidad_platform__c.Nombre_Centro__c}
+, copia do que se  entrega ao usuario neste acto, comprometéndose  ó seu  estricto cumprimento.</p>
+<p>VI.-Que o usuario ingresou no {!Oportunidad_platform__c.Nombre_Centro__c}
+, o pasado día {!Oportunidad_platform__c.Dia_Ingreso} de
+{!Oportunidad_platform__c.Mes_Ingreso} de
+{!Oportunidad_platform__c.Anyo_Ingreso}
+               .</p>
+<p>VII.-Que o usuario superou positivamente o período de proba de trinta días  naturais seguintes ao do ingreso, sendo o seu ingreso no centro definitivo e  con efectos do día indicado no punto anterior.</p>
+
+<p>Por todo isto</p>
+<h4 align="center"><strong>ACORDAN</strong></h4>
+<p><strong>&nbsp;</strong></p>
+<p><strong>PRIMEIRO</strong>.-O usuario ou o seu  representante, no seu caso, participan dende o momento do seu ingreso na  financiación do coste da súa  estancia no  Centro de Día. Dita cantidade corresponde ao que establezca a resolución de  concesión de praza pola Consellería de Traballo e Benestar. O resto ata  completar o 100% do prezo praza/día será abonado pola Xunta de Galicia.</p>
+<p>Esta liquidación  da aportación realizarase  nos termos que  fixa o Prego de cláusulas administrativas particulares para a contratación do Centro  de Día de Alzheimer de Bembrive.</p>
+<p><strong>SEGUNDO.-</strong>Dito pago  realizarase  a empresa QUAVITAE SERVICIOS ASISTENCIALES S.A.U., prestataria do servizo,  mediante domiciliación bancaria na conta que  a continuación se indica e a mes vencido. </p>
+<p align="left">BANCO OU CAIXA:  {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}
+ <br>
+  SUCURSAL:  {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}
+<br>
+  Conta Corrente: { !Oportunidad_platform__c.IBAN__c} 
+{!Oportunidad_platform__c.Cuenta_Pagador__c}
+
+                  </p>
+<p><strong>TERCEIRO.- </strong>O usuario poderá disfrutar de vacacións ou ausencias voluntarias, as cales non poderán ter unha duración superior conxunta a 2 meses ó ano, que deberá comunicarse previamente á dirección do centro.</p>
+<p>Cada período de ausencia deberá ser  previamente comunicado ó Director do Centro con 3 días de antelación ó da saída.</p>
+<p>No caso de  ausencias superiores a 10 días naturais en virtude de períodos de permisos,  vacacións ou internamento en establecementos hospitalarios, o adxudicatario  percibirá do usuario a cantidade que establezca a resolución de concesión da  praza, aportando a Consellería de Traballo e Dependencia o resto ata completar  o 62,25% do prezo praza/día.</p>
+<p><strong>CUARTO</strong>.- O Centro de Día  comprométese a cumprir e facer cumprir ó persoal ó seu servicio,  as estipulacións  contidas no Regulamento de Réxime Interior  aprobado pola Dirección Xeral da Dependencia e Autonomía, prestando especial  atención a todos aqueles que poidan facer   mais confortable e agradable a estancia no Centro de Día  ós seus clientes.</p>
+<p><strong>QUINTO.-</strong>O  {!Oportunidad_platform__c.Nombre_Centro__c}
+, prestará ó  menos os seguintes servizos:</p>
+<p>                      -O aloxamento, que comprenderá: o uso  de zonas de convivencia;  a manutención e  adecuada limpeza das instalacións, así como o seu mantemento.</p>
+<p>                      -O coidado persoal,  control e protección do usuario, que comprenderá a prestacCada período de ausencia deberá ser  previamente comunicado ó Director do Centro con 3 días de antelación ó da saída.ión da asistencia necesaria  para a realización das actividades elementais da vida diaria (aseo, vestido,  alimentación) así como daquelas actividades encamiñadas á salvagarda da  integridade persoal dos  usuarios.<br>
+<p>                        -Atención xerontolóxica  integral (xeriátrica, psicolóxica e rehabilitadora), que deberá comprende-las  actuacións propias do seu campo, así como o desenvolvemento de programas de  rehabilitación (fisioterapia, terapia ocupacional entre outros), atención  médica, de enfermería e psicolóxica, sen prexuízo da utilización ou  coordinación, no seu caso, cos servizos  sanitarios do Sistema Xeral.</p>
+<p>                      -Atención social, que  incluirá entre as súas actividades a valoración das circunstancias sociais dos  usuarios, a promoción da súa integración e participación na vida do centro e no  medio no que este se ubica, a animación sociocultural e as relacións coas  familias dos usuarios.</p>
+<p>                      -Outros servizos (transporte,  perruquería, podoloxía, etc.).</p>
+<p>
+<p><strong>SEXTO.-</strong>Para calquer diverxencia  ou litixio que poida xurdir sobre a interpretación ou aplicación  do estipulado neste documento, as partes, con  renuncia ó seu propio foro, sométense expresamente á xurisdicción competente no  territorio  da residencia.</p>
+<p><strong>SETIMO:-</strong>O Centro manifesta que  ten contrada unha póliza de Responsabilidade Civil para os accidentes que poideran  producirse pola intervención do persoal do Centro no desenvolvemento das súas  funcións.</p>
+<p><strong>OCTAVO.-</strong>&nbsp; Os datos persoais  recollidos no presente documento serán incorporados e tratados nun ficheiro  titularidade de {!Oportunidad_platform__c.Sociedad_Centro__c}
+, coa finalidades de  cumprir o propio contrato de prestación de servizos subscrito e xestionar os  agradecementos, suxestións e reclamacións.   Así mesmo poderán ser utilizados para o envío de información sobre  produtos, servizos e eventos de {!Oportunidad_platform__c.Sociedad_Centro__c}
+. e das  distintas sociedades de SARquavitae, así como para a realización de enquisas de  calidade do servizo.</p>
+<p>Os seus datos  poderán ser cedidos, exclusivamente para as finalidades indicadas  anteriormente, a outras entidades sociosanitarias, sempre que estas pertenzan  directa ou indirectamente ao Grupo Societario SARquavitae (www.sarquavitae.es),  todo iso tanto se se formalizase ou non operación ningunha como, se é o caso,  unha vez extinguida a relación contractual existente, respectando en todo caso  a lexislación española sobre protección de datos de carácter persoal e sen  necesidade de que lle sexa comunicada cada primeira cesión que se efectúe aos  referidos cesionarios.</p>
+<p>O interesado  poderá exercer os dereitos de acceso, rectificación, cancelación e oposición  mediante comunicación escrita dirixida a Departamento Xurídico, SARquavitae,  C/Aribau 185 Entlo, 08021 - Barcelona ou ao propio centro no que se presta o  servizo obxecto de contrato.</p>
+<p>{!F5}  Vostede Pode  marcar esta casa en caso de opoñerse ao tratamento e comunicación dos datos de  carácter persoal para fins comerciais.</p>
+ <p>{!F5}  Vostede Pode  marcar esta casa en caso de opoñerse ao tratamento e comunicación dos datos de  carácter persoal para a realización de enquisas de satisfacción.</p>
+<p>En caso de que os  datos facilitados se refiran a persoas físicas distintas do interesado, este  deberá, con carácter previo á súa inclusión no presente documento, informalos  dos extremos contidos nos parágrafos anteriores.</p>
+<p><br>
+  <br>
+</p>
+<p>&nbsp;</p>
+<p align="left">Asdo.: {!Director.FirstName}
+{!Director.LastName}
+ .<br>
+  En calidade de  Director da  Residencia.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="left">Asdo.: {!Nombre_residente_rep_legal} {!Apellidos_residente_rep_legal}
+{!Residente.LastName}
+ <br>
+  En calidade do residente ou legal representante do  residente. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="left">Asdo.: ...........................................................
+<br>
+  En calidade de {!relacionContacto.Relacion_personal__c}
+ </p>
+</body>

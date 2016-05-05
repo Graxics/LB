@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Agenda de ocio CAT</name>
+    <style>none</style>
+    <subject>Agenda d&apos;oci NOMBRE_MES</subject>
+    <textOnly>Documento sin título
+
+
+Agenda d&apos;oci - NOMBRE_MES Apreciada família,
+
+El centre residencial SARquavitae NOMBRE_CENTRO el convida a participar en el seu programa d&apos;activitats previst per al mes de NOMBRE_MES. Consulteu el nostre blog per veure el calendari d&apos;activitats d&apos;aquest mes.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

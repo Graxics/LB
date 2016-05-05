@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Mail Bienvenida Euskera</name>
+    <style>none</style>
+    <subject>Ongi etorri Sarquavitae</subject>
+    <textOnly>Documento sin título
+
+
+Ongi etorri SARquavitae Familia estimatu hori,
+
+Ongi etorri gure zentrora,  zuen esanetara gaude edozer behar izanez gero.
+
+Atsegin handiz hartzen  zaituztegu, eta gaur abiatzen den etapa berri honetan, zuen ondoan izanen gara  eta lagundu ere egingo dizuegu zuen familiarra modu atseginean eta  bizkorgarrian egokitu eta integra dadin zentroaren bizimoduan.
+
+Gure helburu nagusia da  arreta pertsonalizatua ematea zure familiar maiteari, bere nahi eta gustuen  arabera, bide batez konfiantza eta segurtasuna emanda zuei ere. Horretarako, profesional talde bat dugu, begirunez  eta afektuz zainduko zaituztena, betiere kontuan hartuz zuentzat eta zuen  familiarrarentzat garrantzitsua den guztia.
+
+Jarri gurekin harremanetan nahi duzuen guztietan;  gainera, eskuragarri duzue gure zentroaren bloga, egoitzako jardueren eta  albisteen berri izateko aukera emango dizuena uneoro.  Kontsultatzera eta zuen iruzkinak adieraztera animatzen zaituztegu
+
+Guregan jarritako konfiantza  eskertzen dizuegu, eta gure esku dagoen guztia eginen dugu zuen familiarraren  ongizatea eta zeuen lasaitasuna ziurtatzeko.
+
+Agur bero bat eta ongi izan,
+
+Zuzendaritza.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

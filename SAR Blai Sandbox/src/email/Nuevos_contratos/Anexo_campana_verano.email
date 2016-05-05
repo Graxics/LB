@@ -1,0 +1,60 @@
+<body>
+<div style="display:inline;">
+
+<div class="contingut">
+<p align="center"><strong>ANEXO  AL CONTRATO DE PRESTACI&Oacute;N DE SERVICIO DE TELEASISTENCIA<br/> DOMICILIARIA. {!NOC.Nombre}</strong></p>
+<p>El presente Anexo describe las clausulas especiales ofertadas  durante la {!NOC.Nombre}.<br />
+	<br/>
+    
+  <strong>CLAUSULAS</strong><br />
+  <br/>
+  
+  <strong>PRIMERA:  DURACI&Oacute;N</strong><br />
+  <br/>
+  El presente Anexo entrar&aacute; en vigor el d&iacute;a de comienzo de la  prestaci&oacute;n del servicio de Teleasistencia y permanecer&aacute; vigente durante un a&ntilde;o.  A partir de esa fecha las condiciones de duraci&oacute;n ser&aacute;n las descritas en el <strong>CONTRATO DE PRESTACI&Oacute;N DE TELEASISTENCIA  DOMICILIARIA.</strong><br />
+  
+  <br/>
+  <strong>SEGUNDA:  PRECIO&nbsp; </strong><br />
+  <br/>
+  Los precios de los servicios  durante la vigencia de este anexo son los siguientes: <br />
+  <br/>
+  <strong><u>{!Oportunidad_platform__c.Servicio.Name}:</u></strong><br />
+  <br/>
+  &nbsp;&nbsp;&nbsp;{!Oportunidad_platform__c.N_Beneficiarios}:&nbsp;&nbsp;&nbsp;  CUOTA: {!Oportunidad_platform__c.Cuota_mensual} &euro;/MES IVA INCLUIDO<br />
+  <br/>
+
+<p style="margin-top:50;">Una vez finalizada la vigencia de este Anexo se aplicará la tarifa oficial {!Oportunidad_platform__c.Cuota_mensual_sin_descuento} €/Mes para el servicio {!Oportunidad_platform__c.Servicio.Name} con un 10% de descuento de forma permanente.</p>
+
+<div class="pie" style="margin-top:320px;">
+
+<table> <tr>
+<td align="left">
+<p><img width="95" height="52" src="https://sarquavitae--test--c.cs18.content.force.com/servlet/servlet.ImageServer?id=01511000000avCq&oid=00D1100000C0aak&lastMod=1437556976000" /></p>
+</td>
+<td style="padding-left:200px"><p></p></td>
+</tr>
+
+<tr>
+<td align="left"> ...............................</td>
+<td style="padding-left:200px"> ...............................</td>
+</tr>
+
+<tr>
+ <td><p> <strong>Quavitae  Servicios Asistenciales S.A.U.</strong></p></td>
+ <td style="padding-left:200px"><p><strong>CONTRATANTE:</strong></td></p></td>
+</tr>
+
+<tr>
+<td>Fdo.: {!Director_Division_Domiciliaria} </td>
+<td style="padding-left:200px"> Fdo. {!Oportunidad_platform__c.Pagador}</td>
+</tr>
+</table>
+</div>
+
+</div>
+<!--
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+-->
+
+</body>

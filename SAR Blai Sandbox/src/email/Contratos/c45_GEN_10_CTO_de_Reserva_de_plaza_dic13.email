@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body>
+<p align="center"><strong>DOCUMENTO  DE RESERVA DE ESTANCIA Y ATENCIÓN GERONTOLÓGICO ASISTIDA DEL CENTRO SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}</strong></p>
+<p align="center">&nbsp;</p>
+<p align="right">En {!Oportunidad_platform__c.Ciudad_Centro__c}, a {!Fecha_Dia} de {!Fecha_Mes} de  {!Fecha_Anyo} </p>
+<p align="center">&nbsp;</p>
+<p align="center"><strong>REUNIDOS</strong></p>
+<p>&nbsp;</p>
+<p>De una parte el Sr./ Sra {!Director.FirstName}
+{!Director.LastName} en  calidad de director del Centro SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c} en {!Oportunidad_platform__c.Ciudad_Centro__c} del cual es titular la Empresa SAR Residencial y Asistencial, S.A.U. con CIF nº A-790.590.85, domiciliada  en {!Oportunidad_platform__c.Calle_Sociedad__c} de {!Oportunidad_platform__c.Ciudad_Sociedad__c}, a la  que representa en este acto.</p>
+<p>Y  de otra parte, <strong>Don/Dña  {!Residente.FirstName}
+{!Residente.LastName}
+,</strong> mayor  de edad, con DNI nº {!Oportunidad_platform__c.DNI_Residente__c}
+ domiciliado en calle {!Oportunidad_platform__c.Calle_Residente__c}
+ que actúa </p>
+<dl>
+  <dd>{!F1}  En  nombre propio  y con plena capacidad de  obrar y obligarse.</dd>
+  <dd>{!F2}  Mediante  auto de autorización judicial.</dd>
+  <dd>{!F3}  A  través de su representante legal D./Dª{!Representante_con.FirstName} {!Representante_con.LastName}
+
+, con DNI nº {!Representante_con.CIF_NIF__c}
+, con  domicilio en {!Representante_con.Calle},
+{!Representante_con.Ciudad}
+, con número de teléfono {!Representante_con.Phone}
+, representación  que acredita mediante testimonio de {!Oportunidad_platform__c.Testimonio_que_acredita_su_calidad__c}
+ y que queda adjunta y formando parte de este Contrato.</p>
+  <dd>{!F4}  A  través de la persona de referencia, D./Dª {!Persona_Referencia.FirstName}
+{!Persona_Referencia.LastName}
+ con DNI nº {!Persona_Referencia.CIF_NIF__c}
+,  con domicilio en{!Persona_Referencia.Calle}, {!Persona_Referencia.Ciudad}
+, con número de teléfono {!Persona_Referencia.Phone}
+,</dd>
+</dl>
+<p>&nbsp;</p>
+<p align="center"><strong>MANIFIESTAN</strong></p>
+
+  <p>I. Que el  Centro / Residencia SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c},  sito en {!Oportunidad_platform__c.Ciudad_Centro__c} es un Centro de servicio social  sustitutorio del hogar, preparado para prestar el servicio de residencia  asistida / hogar residencia.</p>
+
+<p>La  finalidad del Centro es la acogida residencial de personas mayores para su atención  especializada, y particularmente de aquellas en situación de ligera  dependencia, dependencia moderada o alto grado de fragilidad personal.</p>
+
+  <p>II. Que el  usuario/a, Don./  Doña {!Residente.FirstName} {!Residente.LastName} conoce las instalaciones del Centro, así como los servicios que presta y las  condiciones de alojamiento, atención y el precio de estancia, considerándolo  todo de su satisfacción.</p>
+  <p>III. Que el  usuario/a, Don./  Doña {!Residente.FirstName} {!Residente.LastName} desea ingresar como residente  en el Centro SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}</p>
+
+<p>&nbsp;</p>
+<p>Por todo esto, las partes  acuerdan establecer el presente DOCUMENTO DE RESERVA DE ESTANCIA Y HOGAR  RESIDENCIA / ATENCIÓN GERONTOLÓGICO ASISTIDA, EN EL CENTRO RESIDENCIAL SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c} de  conformidad con las siguientes: </p>
+<p align="center"><strong>CLAUSULAS</strong></p>
+<p><strong>Primera.-  Ingreso y servicios incluidos.</strong></p>
+<p>En Centro se compromete a ofrecer  una atención asistencial continuada e integral al residente, que incluye los  siguientes servicios:</p>
+<ol>
+  <li>Alojamiento</li>
+  <li>Manutención</li>
+  <li>Cuidados personales y atención especializada</li>
+  <li>Acogida y convivencia </li>
+  <li>Atención personal en las actividades de la vida  diaria </li>
+  <li>Dinamización sociocultural</li>
+  <li>Higiene personal</li>
+  <li>Atención familiar dirigida a favorecer las relaciones  de la familia del usuario y su entorno</li>
+  <li>Lavandería, planchado y limpieza diaria</li>
+  <li>Atención sanitaria (control y vigilancia)</li>
+</ol>
+<p>Se acuerda que el ingreso del usuario tendrá lugar  durante los 10 primeros días de la puesta en  funcionamiento del Centro con carácter de estancia {!Oportunidad_platform__c.Tipo_Estancia__c} el día {!Oportunidad_platform__c.Dia_Ingreso}
+de {!Oportunidad_platform__c.Mes_Ingreso}
+de {!Oportunidad_platform__c.Anyo_Ingreso}. </p>
+<p>La estancia del residente se  realizará en habitación {!Oportunidad_platform__c.Tipo_Habitacion__c}. </p>
+<p>En el momento de realizar la  reserva de plaza, y de manera provisional (con la información aportada por la  familia/usuario) hasta revisión posterior por parte del equipo  interdisciplinario, se establece que el usuario tiene un nivel de dependencia {!Oportunidad_platform__c.Grado_Dependencia__c}.</p>
+<p>El Centro garantiza al  usuario la disponibilidad de la plaza si el usuario ingresa en el Centro en la  fecha fijada en la presente Cláusula. En caso contrario el presente Contrato quedará sin efecto pudiendo el Centro  asignar dicha plaza a otro usuario.</p>
+<p>&nbsp;</p>
+<p><strong>Segunda.-  Precio de la reserva </strong></p>
+<p>El residente abonará al  Centro la cantidad de {!Precio_reserva} € en concepto de reserva de plaza. Esta cantidad servirá como parte de  la primera mensualidad del residente.</p>
+<p>&nbsp;</p>
+<p><strong>Tercera.-  Disposición derogatoria.</strong></p>
+<p>La firma del presente  contrato implica la rescisión de cualquier otro anterior otorgado por las  partes con el mismo objeto.</p>
+<p>Y, como prueba de  conformidad, ambas partes contratantes firman el presente contrato de reserva  por duplicado y con un solo efecto en el lugar y fecha indicados en el  encabezamiento.</p>
+<p>&nbsp;</p>
+<p align="right">En {!Oportunidad_platform__c.Ciudad_Centro__c}, a {!Fecha_Dia} de {!Fecha_Mes} de  {!Fecha_Anyo} </p>
+<p>&nbsp;</p>
+<!--
+<p><span style="float: left;">Firmado: El Usuario o representante legal </span><span style="float: right;">     Firmado:  la Dirección  del Centro.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">D/Dª{!Nombre_residente_rep_legal} {!Apellidos_residente_rep_legal}
+ </span><span style="float: right;">                            D/Dª {!Director.FirstName} {!Director.LastName} </span></p>
+</body>
+</html>
+-->
+
+<div>
+	<div style="float: left;">
+		<p>Por <strong> {!Oportunidad_platform__c.Sociedad_Centro__c}</strong></p>
+		<form type="text" name="firmaDirector" class="sign">ANCHOR_DIR</form>
+	</div>
+	<div style="float: right;">
+		<p><strong>El Usuario/representante legal</strong></p><form type="text" name="firmaResidente" class="sign">ANCHOR_USUARIO</form>
+	</div>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float: left;">Fdo.; D/Dª {!Director.FirstName} {!Director.LastName}</span><span style="float: right;">Fdo.: D/Dª {!Nombre_residente_rep_legal} {!Apellidos_residente_rep_legal}</span></p>
+<p>&nbsp;</p>

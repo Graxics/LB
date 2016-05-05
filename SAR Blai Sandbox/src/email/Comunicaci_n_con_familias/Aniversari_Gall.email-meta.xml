@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Celebración cumpleaños Gallego</name>
+    <style>none</style>
+    <subject>Aniversario</subject>
+    <textOnly>Documento sin título
+
+
+Querida familia,
+
+Este mes o seu familiar fai anos e queremos celebralo  xuntos. Por iso, temos previsto celebrar o aniversario de todos os residentes  nados este mes. Convidámolos a participar e acompañar ao seu familiar durante  esta celebración tan especial.
+
+Para coñecer a data e outros detalles da Festa de  Aniversario pode consultar o noso blog. Se o desexa, tamén pode enviar una  felicitación persoal ao seu familiar, que lle faremos chegar con moito gusto.
+
+Grazas pola confianza que  depositan en nós.
+
+Reciban un cordial saúdo,
+
+A dirección.
+
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

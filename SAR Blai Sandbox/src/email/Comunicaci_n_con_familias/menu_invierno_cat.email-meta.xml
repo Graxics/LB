@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>menu invierno cat</name>
+    <style>none</style>
+    <subject>Menú NOMBRE_MES</subject>
+    <textOnly>Documento sin título
+
+
+Menú - SARquavitae Benvolguda família,
+
+Ja poden consultar el menú de la residència del proper  mes en el blog del nostre centre!
+
+Com saben, l&apos;equip de nutricionistes de SARquavitae, NutriSARquavitae, en  col·laboració amb el centre, ha creat els  menús nous tenint en compte una dieta  equilibrada, els gustos dels residents i els productes propers i de temporada.
+
+Així mateix, els recordem que el centre posa a  la seva disposició la possibilitat de contractar  menús si els ve de gust acompanyar el seu  familiar resident i tastar  les nostres  opcions gastronòmiques. Per fer-ho,  posin-se  en contacte amb la  recepció.
+
+No dubtin a contactar amb l&apos;equip de direcció  del centre per a qualsevol informació relacionada amb la nutrició o amb  qualsevol altre aspecte del nostre servei.
+
+Estem a la seva disposició.
+
+Rebin una salutació cordial.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

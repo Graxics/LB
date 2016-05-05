@@ -1,0 +1,229 @@
+<html>
+<body>
+<p align="center"><strong>CONTRACTE D&rsquo;ESTADA I ATENCIÓ GERONTOLÓGICA EN<br>
+ RESIDÈNCIA PER A LES PERSONES GRANS<br>
+<em>SARquavitae {!Oportunidad_platform__c.Nombre_Centro__c}</em></strong></p>
+<p>&nbsp;</p>
+<p align="right">Escaldes-Engordany, {!Fecha_Dia} de {!Fecha_Mes} de {!Fecha_Anyo} </p>
+<p>D&rsquo;una part En {!Director.FirstName} {!Director.LastName}, en qualitat de director del Centre SARquavitae Salita del que és titular l&rsquo;empresa CENTRE DE SERVEIS ASSISTENCIALS SALITA, S.L. domiciliada a C/ de Les Canals nº 7, 1º, 2ª, de Andorra la Vella, a la que representa en aquest acte (en endavant &ldquo;el Centre&rdquo;).</p>
+<p>D&rsquo;una altra  N/Na {!Residente.FirstName} {!Residente.LastName}  major d&rsquo;edat, amb NIF Nº {!Oportunidad_platform__c.DNI_Residente__c} domiciliat/-da  a {!Oportunidad_platform__c.Calle_Residente__c}  que actua:</p>
+<dl>
+	<dd>{!F1} En nom propi i amb plena capacitat d&rsquo;obrar i obligar-se.</dd>
+	<dd>{!F2} Per mitjà d&rsquo;interlocutòria d&rsquo;autorització judicial d&rsquo;internament.</dd>
+	<dd>{!F3} A través del seu representant legal D./Dª {!Representante_con.FirstName} {!Representante_con.LastName}, amb DNI nº {!Representante_con.CIF_NIF__c}, amb domicili a {!Representante_con.Calle}, {!Representante_con.Ciudad}, amb telèfon de contacte {!Representante_con.Phone}, representació que acredita per mitja de testimoni de {!Oportunidad_platform__c.Testimonio_que_acredita_su_calidad__c}  i que es deixa unida i formant part d&rsquo;aquest Contracte.</dd>
+	<dd>{!F4} A través de la persona de referència, D./Dª {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName} amb DNI nº {!Persona_Referencia.CIF_NIF__c}, amb domicili a {!Persona_Referencia.Calle}, {!Persona_Referencia.Ciudad}, amb número de telèfon {!Persona_Referencia.Phone}.</dd>
+</dl>
+<p>Es reconeixen la capacitat legal necessària per a contractar i obligar-se i de mutu acord.</p>
+<p align="center"><strong>MANIFIESTEN</strong></p>
+<ol type = "I">
+<li> Que el Centre / Residència SARquavitae Salita és un Centre de serveis d&rsquo;atenció gerontològica de iniciativa mercantil. </li>
+ <li> Que el Centre SARquavitae Salita disposa de totes les autoritzacions, visats i permisos que exigeix la normativa vigent.</li>
+<li> Que l&rsquo;usuari/-a coneix les instal·lacions del Centre, així com els serveis que presta i les condicions d&rsquo;allotjament, atenció i el preu d&rsquo;estada, considerant-ho tot satisfactori.</li>
+ <li> Que al resident se li fa lliurament en aquest acte d&rsquo;una còpia del Reglament de Règim Intern del Centre Residencial SARquavitae Salita, que accepta, comprometent-se per la seva part a respectar-lo i complir-lo diligentment, expressant ambdues parts el seu desig de procurar que siguin igualment respectades i complides per la resta de membres de la comunitat residencial.</li>
+<li> Que l&rsquo;usuari efectua l&rsquo;ingrés en el centre voluntària i lliurement, manifestant aquesta voluntat, per ell mateix, al final d&rsquo;aquest document. </li>
+</ol>
+<p>Per tot això, les parts acorden establir el present <strong>CONTRACTE D&rsquo;ESTADA I LLAR RESIDÈNCIA / ATENCIÓ GERONTOLÓGICA ASSISTIDA</strong>, al centre SARquavitae Salita, de conformitat amb les següents:</p>
+<p align="center"><strong>CLÁUSULES</strong></p>
+<p><strong>Primera.- Ingrés i serveis inclosos.</strong></p>
+<p>El Centre es compromet a oferir una atenció assistencial continuada e integral al resident, que inclou els següents serveis:</p>
+<ol type = "a">
+<li> Allotjament</li>
+<li> Manutenció.</li>
+<li> Cures personals i atenció especialitzada.</li>
+<li> Acollida i convivència.</li>
+<li> Atenció personal en les activitats de la vida diària.</li>
+<li> Dinamització sociocultural.</li>
+<li> Higiene Personal.</li>
+<li> Atenció personalitzada dirigida a afavorir les relacions de la família de l&rsquo;usuari i del seu entorn.</li>
+<li> Atenció sanitària (control i vigilància).</li>
+</ol>
+<p>S&rsquo;acorda que l&rsquo;ingrés es realitzi el proper dia {!Oportunidad_platform__c.Dia_Ingreso}  de {!Oportunidad_platform__c.Mes_Ingreso} de {!Oportunidad_platform__c.Anyo_Ingreso} amb caràcter d&rsquo; estada residencial temporal/permanent / Respir familiar / Convalescència / estades periòdiques discontínues cada una de les quals constarà en un registre annex a aquest contracte.</p>
+<p>L&rsquo;estada del resident es realitzarà en habitació {!Oportunidad_platform__c.Tipo_Habitacion__c} </p>
+<p>En el moment de l&rsquo;ingrés s&rsquo;estima, a partir de la informació i documentació facilitada per l&rsquo;usuari i/o els seus familiars, que el nivell de dependència estimat del resident és {!Oportunidad_platform__c.Grado_Dependencia__c}.</p>
+<p>L&rsquo;usuari serà sotmès a la valoració de l&rsquo;equip  interdisciplinari del Centre, en el termini de 15 dies a comptar des de l&rsquo;ingrés, a partir de la qual es determinarà el seu nivell real i actual de dependència. </p>
+<p><strong>Segona.- Preu i forma de pagament.</strong></p>
+<p>El resident es compromet a abonar al Centre, com a quota de la seva estada i atenció , la quantitat de<strong> {!Oportunidad_platform__c.Precio_Total__c}</strong> (IGI inclòs) al mes, preu que resulta de l&rsquo;aplicació de les tarifes corresponents al grau de dependència estimat a l&rsquo; ingrés.<strong>        </strong></p>
+<p>En funció de la valoració mèdic-assistencial referida a la clàusula anterior, podria modificar-se el nivell de dependència assignat a l&rsquo; usuari, fet que comportaria la modificació de la tarifa (veure la clàusula quarta del present contracte). </p>
+<p>En el cas de tractar-se d&rsquo;una estada igual o superior a un mes, el pagament de la mensualitat es realitzarà <u>mitjançant domiciliació bancària a mes anticipat</u>.</p>
+<p>En el cas de tractar-se d&rsquo;una estada inferior a un mes, el pagament de la totalitat de l&rsquo;estada es realitzà <u>en el moment de l&rsquo;ingrés</u>, per el import de {!Oportunidad_platform__c.Precio_Diario__c} euros al dia IGI inclòs.</p>
+<p>En tot cas, una vegada efectuat el pagament, es lliurarà al resident el seu corresponent rebut, a on constarà el cost total del servei contractat.</p><br>
+ Les despeses ocasionades per eventuals devolucions bancàries dels rebuts seran abonats por l&rsquo;usuari i/o persona responsable i en aquest concepte s&rsquo;inclourà en el mateix rebut retornat, que es girarà de nou.</p>
+<p>El incompliment del pagament de les quotes corresponents, podrà donar lloc a la resolució del present contracte, que serà comunicat pel Centre a l&rsquo;usuari,  o al seu representant legal o a la persona responsable.</p>
+<p>Les dades bancàries de l&rsquo;usuari o de la persona que pagarà l&rsquo;estada son les següents:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nom de l&rsquo; entitat bancària: {!Oportunidad_platform__c.Nombre_Entidad_Bancaria__c}.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localitat: {!Oportunidad_platform__c.Localidad_Entidad_Bancaria__c}.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IBAN: {!Oportunidad_platform__c.IBAN__c}.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nom del titular del compte: {!Oportunidad_platform__c.Cuenta_Pagador__c}.</p>
+<p><strong>Tercera.- Baixa de l&rsquo;usuari. Liquidació.</strong></p>
+<p>Al finalitzar, amb caràcter definitiu, l&rsquo;estada de l&rsquo;usuari, es realitzarà la corresponent liquidació en funció del temps real que aquest ha estat ingressat. A aquest efectes es tindran en compte les següents consideracions:</p>
+<ol type = "a">
+<li> Baixa voluntària: l&rsquo;usuari i el seu cònjuge/descendent directe major d&rsquo;edat/germà, com a familiars responsables o el seu representant legal, ha de comunicar la baixa als responsables del centre, amb un preavís de 15 dies. En cas contrari, en el moment de realitzar la liquidació es podran cobrar fins a un màxim de 15 dies addicionals del preu de l&rsquo;estada com a compensació, descomptant-se la manutenció.</li>
+ <li> La liquidació per baixa definitiva del resident es realitzarà com a màxim en el termini  de 30 dies.</li>
+<li> En cas de baixa com a conseqüència d&rsquo;èxitus / finalització de l&rsquo;estada del resident, la liquidació se realitzarà en atenció als dies reals d&rsquo;estada de l&rsquo;usuari al centre abans de la seva defunció / baixa. </li>
+</ol>
+<p><strong>Quart.- Actualització i/o modificació del preu.</strong></p>
+<p>El preu acordat per a l&rsquo;estada, serà anualment modificat, en el mes de gener de cada any, amb caràcter general, en un percentatge equivalent al de l&rsquo;Índex de Preus de Consum d&rsquo;Andorra.  </p>
+<p>Aquesta actualització del preu per IPC també es farà extensiva als preus establerts per als serveis complementaris / addicionals no inclosos en la tarifa bàsica d&rsquo;assistència.</p>
+<p>D&rsquo;acord amb el que disposa el Reglament de Règim Intern, quan el resident pateixi un empitjorament del seu estat físic i/o psíquic (per agreujament de la seva malaltia o per qualsevol altra raó), de tal entitat que comporti la dependència del mateix per un tercer, o atencions especials que abans no necessitava, el preu acordat en el moment de l&rsquo;ingrés podrà ésser modificat e incrementat, amb independència de les actualitzacions per IPC, tenint en compte les variacions per grau de dependència establertes. </p>
+<p>La modificació del preu tindrà en compte l&rsquo;evolució del resident segons les malalties que pateixi i el seu grau de dependència, en funció dels resultats obtinguts en la valoració de l&rsquo;equip interdisciplinari del Centre.</p>
+<p>Així mateix, el Centre podrà repercutir en els preus acordats per les parts, el percentatge d&rsquo;increment del cost que, en el seu cas, pot suposar l&rsquo;aplicació de noves normatives legals  de obligada observació sobre el conveni i el ràtio de personal o de serveis de prestació obligada.</p><br>
+ En tot allò no regulat en aquest contracte, s&rsquo;aplicarà el que disposa el Reglament de Règim Intern.</p>
+<p><strong>Cinquena.- Dipòsit de Garantia.</strong></p>
+<p>En el cas d&rsquo;una estada superior a un mes, el resident deurà dipositar de forma obligada, en el mateix moment de l&rsquo;ingrés, una fiançà equivalent a 1 mes del preu d&rsquo;estada com a garantia de pagament. El pagament d&rsquo;aquesta fiança es realitzarà en el termini de 72 hores a comptar des de l&rsquo;ingrés al centre, lliurant-se posteriorment el rebut corresponent.</p>
+<p>En el moment en que, por qualsevol motiu, es resolgui el present contracte i es doni per finalitzada l&rsquo;estada en el Centre, l&rsquo;usuari tindrà dret a que li sigui retornada la quantitat de dipòsit, sempre i quan estigui al corrent del pagament de tots els serveis prestats pel Centre i que hagi anunciat la baixa voluntària amb un preavís de 15 dies.</p>
+<p>Passats 30 dies del pagament de la darrera  mensualitat, es farà efectiva la liquidació d&rsquo;aquesta fiança al resident o persona que acrediti drets legítims.</p>
+<p><strong>Sisena.-  Obligació solidària.</strong></p>
+<p>Per a fer constar que, presents en aquest acte, N/Na. {!Avalista.FirstName} {!Avalista.LastName} amb DNI {!Avalista.DNI}, domiciliat a {!Avalista.Calle}, {!Avalista.Ciudad}, &nbsp;en qualitat de {!relacionContacto.Relacion_personal__c}&nbsp; de N/Na,{!Residente.FirstName} {!Residente.LastName}, garanteixen personalment i solidàriament les obligacions econòmiques assumides en aquest document pel resident o legal representant, així com el compliment de les obligacions socials que es descriuen en el Reglament de Règim Intern. </p>
+<p><strong>Setena.- Serveis complementaris.</strong></p>
+<p>Es consideren serveis complementaris, i queden, per tant, exclosos del preu fixat en concepte de serveis generales referits a la clàusula primera, aquells que no vinguin expressament recollits a la clàusula primera d&rsquo;aquest Contracte així com en el Reglament de Règim Intern pels Centres Residencials de SARquavitae, adjunt a aquest contracte i del qual forma part.</p>
+<p>Tots els serveis complementaris que el resident sol·liciti i que siguin prestats pel Centre, seran facturats al final del mes següent a la seva utilització inclosos en el concepte de serveis complementaris, diferenciats de la quota general, en el rebut mensual mitjançant domiciliació bancària.</p>
+<p>L&rsquo;abast i el cost d&rsquo;aquests serveis constarà en el tauler d&rsquo;anuncis, i poden ésser modificats, ampliats o suprimits, mitjançant comunicació a l&rsquo;altra part en un termini de 15 dies i avís en el tauler d&rsquo;anuncis del centre.</p>
+<p><strong>Vuitena.- Reserva de plaça.</strong></p>
+<p>Les absències prolongades de l&rsquo;usuari, han de ésser comunicades amb antelació suficient, així com tots els dies previstos d&rsquo;absències, excepte casos d&rsquo;absència forçosa imprevista.</p>
+<p>En cas d&rsquo;absències voluntàries no superiors a trenta dies anuals, el Centre es compromet a reservar la plaça, però cobrarà el preu de l&rsquo;estada i deduirà el cost de la manutenció.</p>
+<p>En cas d&rsquo;absències forçoses transitòries, el Centre es compromet a reservar la plaça, però també cobrarà el preu de l&rsquo;estada i deduirà el cost de la manutenció.</p>
+<p><strong>Novena.- Persona de referència.</strong></p>
+<p>El resident designa a N/Na {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName}, amb Passaport/DNI nº {!Persona_Referencia.CIF_NIF__c},<strong> </strong>domiciliat a {!Persona_Referencia.Calle}, {!Persona_Referencia.Ciudad}<strong>  </strong>i número de telèfon {!Persona_Referencia.Phone} en qualitat de {!relacionContacto.Relacion_personal__c} <strong> </strong>com a persona de referència a la qual informar de qualsevol eventualitat que es produeixi amb relació a la seva persona, bens o qualsevol altra circumstancia que li afecti.</p>
+<p>La persona de referència actuarà com a responsable davant decisions mèdiques i assistencials per al benestar i salut del resident al que representa, quan aquest no es trobi capacitat per a la presa de decisions o en les seves plenes facultats mentals.</p>
+<p><strong>Desena.-   Informació sobre l&rsquo;usuari.</strong></p>
+<p>El resident o en seu el cònjuge/descendent directe major d&rsquo;edat/germà, com a familiars responsables o el seu representant legal, es comprometen a facilitar al personal del Centre la informació que els hi sigui sol·licitada amb relació a la seva salut , alimentació, hàbits de vida quotidiana, etc., amb la finalitat de que li sigui facilitada l&rsquo;atenció més adequada de conformitat amb les seves necessitats i costums.</p>
+<p>De forma especial es deurà  informar al personal assistencial del Centre del seu estat de salut, malalties i tractaments en curs, medicació, etc., atorgant en aquest acte el seu  consentiment per a que el personal desenvolupi, en coordinació amb el Sistema Sanitari habitual del resident, les tasques d&rsquo;atenció i seguiment del seu estat de salut.</p>
+<p><strong>Onzena.- Ubicació en el Centre.</strong></p>
+<p>Al resident se li assigna una habitació en funció de la valoració de l&rsquo;equip interdisciplinari del Centre i amb la conformitat del mateix o de la del seu representant.</p>
+<p>El canvi d&rsquo;habitació es portarà a terme sota criteris assistencials o de necessitat, dictaminats per l&rsquo;equip interdisciplinari del Centre. Aquest canvi es comunicarà per escrit al resident i/o als seus familiars amb antelació.</p>
+<p>En el cas d’habitacions destinades a ocupar més d’un usuari, tindrà dret a romandre aquell que tingui una major antiguitat continuada en el Centre.<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></p>
+<p><strong>Dotzena.- Bens dels usuaris.</strong></p>
+<p>En el moment de l&rsquo;ingrés s&rsquo;haurà d&rsquo;aportar pel cònjuge/descendent directe major d&rsquo;edat/germà (familiar responsable), o representant legal nomenat a tal efecte, béns d&rsquo;ús quotidià de l&rsquo;usuari. El Centre comprovarà que els béns que aporta són els necessaris per a la correcta estada al Centre.</p>
+<p>Els usuaris tindran dret a dipositar a la Direcció del Centre objectes de valor de la seva propietat per a la seva custòdia, responsabilitzant-se aquesta de retornar-los en el moment en que així sigui requerit per l&rsquo;interessat.</p>
+<p>El Centre no es responsabilitza de cap bé,objecte, joies o diners de l&rsquo;usuari si aquest o els seus familiars no ho han entregat de manera expressa en custòdia de la Direcció del Centre. En la seva virtut, el Centre no es responsabilitza de robatoris, furts, ruptura, desperfectes, conservació, manteniment o reparació de béns, joies o diners que no li hagin estat entregats de manera expressa en custòdia. </p>
+<p>L&rsquo;usuari eximeix al Centre de qualsevol incidència que pogués resultar en relació a béns o diners que no s&rsquo;hagin entregat directament en depòsit a la Direcció del Centre.<br>
+</p>
+<p><strong>Tretzena.- Assegurança de responsabilitat civil.</strong></p>
+<p>El Centre manifesta que disposa contractada una Pòlissa d&rsquo;Assegurances de responsabilitat civil.</p>
+<p>Seran a càrrec de l&rsquo;usuari tots els desperfectes causats a les instal·lacions i propietats del Centre, així com a d&rsquo;altres usuaris o personal del Centre, quan els mateixos no estiguin coberts  per la pòlissa de responsabilitat civil.</p>
+<p><strong>Catorzena.- Servei d&rsquo;acompanyament de personal extern al Centre.</strong></p>
+<p>L&rsquo;usuari, familiar  o tutor pot optar per la intervenció de un acompanyant del resident a les instal·lacions del Centre o persona contractada per ells mateixos. L&rsquo;activitat d&rsquo;aquestes persones no podrà interferir en les activitats diàries dels professionals de la residència, i en qualsevol cas, la residència estarà exonerada per les actuacions que aquest puguin portar a terme.</p>
+<p>Aquestes persones només podran realitzar tasques d&rsquo;acompanyament i mai tasques assistencials.</p>
+<p><strong>Quinzena. – Compliment dels requisits legals.</strong></p>
+<p>El Centre està sotmet al compliment de la legislació vigent així com als requisits previstos a la normativa vigent que resulti d&rsquo;aplicació, garantint un correcte funcionament del Centre d&rsquo;acord amb les seves característiques i el seu règim intern.</p>
+<p>Ambdues parts es sotmeten, en tot el no previst en el Reglament de Règim Intern i en aquest contracte, a aquesta legislació vigent aplicable al respecte.</p>
+<p><strong>Setzena.-  Drets dels usuaris.</strong></p>
+<p>El Centre s&rsquo;obliga a respectar els drets de l&rsquo;usuari reconeguts en la legislació vigent aplicable al respecte i al Reglament de Règim Intern que acompanya a aquest contracte, i en concret:</p>
+<ol type="a">
+<li> Dret a ser tractats sense discriminació per raó de sexe, raça, religió, ideologia o qualsevol altra condició o circumstancia personal o social i, sempre que sigui possible, d&rsquo;acord amb les seves particulars conviccions culturals, religioses o filosòfiques.</li>
+<li> La integritat física i moral, i a rebre un tracte digne per part tant del personal com de la resta d&rsquo;usuaris amb absoluta consideració de la seva dignitat humana.</li>
+<li> La intimitat i a mantenir la privacitat, mitjançant secret professional de les dades de la seva història sanitària i social i de tots aquelles dades que no sigui precís que siguin conegudes pel personal o per la resta de residents.</li>
+<li> A considerar com a domicili el propi Centre on resideix, sempre respectant la normativa interna del Centre, i a mantenir la seva relació amb el seu entorn familiar i social.</li>
+<li> Mantenir relacions interpersonals, inclòs el dret a rebre visites, essent obligació de la Direcció del Centres promoure les relacions periòdiques amb els seus familiars, tutors o cuidadors. </li>
+<li> Rebre i realitzar trucades telefòniques mitjançant telèfon públic instal·lat, a tal efecte, en el Centre i ubicat en un espai que permeti preservar la intimitat de l&rsquo;usuari. Les trucades seran a càrrec de l&rsquo;usuari</li>
+<li> Rebre una atenció individualitzada d&rsquo;acord amb les seves necessitats específiques.</li>
+<li> Que li siguin facilitades les seves prestacions sanitàries i farmacèutiques adequades, així com als tractaments tècnic-científiques i assistencials que correspongui al servei o Centre segons la seva finalitat i conforme a les necessitats de l&rsquo;usuari.</li>
+<li> Informació i a la participació de forma que, en el Centre, funcionin els mecanismes de participació dels usuaris o dels seus representants legals. </li>
+<li> A la continuïtat de la prestació dels serveis en les condicions establertes o acordades. </li>
+<li> Cessar en l' utilització dels serveis o en la permanència en el Centre per voluntat pròpia, excepte quan vingui exclòs per allò previst a la normativa que resulti d' aplicació.</li>
+<li> Dret a no ésser sotmesos a immobilització o restricció física o farmacològica sense prescripció mèdica i supervisió, excepte que existeixi perill imminent per a la seguretat física de l&rsquo;usuari o terceres persones. En aquest últim cas, les actuacions efectuades hauran de ser justificades documentalment a l&rsquo;expedient assistencial de l&rsquo;usuari. </li>
+<li> Dret a queixa, exercit mitjançant fulls de reclamació que hauran d&rsquo;estar a disposició de les persones usuàries. </li>
+<li> Ser protegits davant la Llei, tant ells com els seus béns, quan, com a conseqüència de la pèrdua de facultats mentals perdin la seva capacitat d&rsquo;autogovernament, tant si estan en una institució com a l&rsquo;àmbit familiar.</li>
+</ol>
+<p><strong>Dissetena.- Obligacions dels  usuaris.</strong></p>
+<p>L&rsquo;usuari/-a s&rsquo;obliga a facilitar la percepció dels serveis i, en especial, a:</p>
+<ol type="a">
+<li> Complir les instruccions donades per la Direcció del Centre.</li>
+<li> Ajustar-se a les prescripcions derivades dels programes d&rsquo;assistència que li siguin proporcionades.</li>
+<li> Complir les normes que regeixen el funcionament del Centre, determinades en el Reglament de Règim Intern</li>
+<li> Observar una conducta inspirada en el respecte mutu, tolerància i col·laboració, encaminada a facilitar una millor convivència, entre els usuaris i el personal que presta el servei en el Centre.</li>
+<li> Respectar els drets de la resta d&rsquo;usuaris.</li>
+<li> Complir la normativa vigent en allò referent al consum d&rsquo;alcohol i al consum de tabac en els centres residencials assistits.</li>
+<li> Abonar l&rsquo;import de les liquidacions de les estades o dels preus dels serveis que s&rsquo;estableixin  en el contracte i/o als seus annexes.</li>
+<li> Facilitar correctament les dades que poden donar lloc al dret a la prestació o servei.</li>
+<li> Els familiars han d&rsquo;atendre, amb la major diligència, les trucades i requeriments efectuats per la Direcció o personal del Centre relacionades amb la atenció i situació dels usuaris, així com les responsabilitats que els imposa el Reglament i la legislació vigent.</li>
+<li> Acceptar el Reglament i les normes de funcionament que regulen la vida del Centre.</li>
+<li> Els familiars han d&rsquo;informar al Centre dels canvis de domicili o qualsevol altra circumstància que afecti a la seva localització.</li>
+<li> Informar sobre qualsevol canvi que es produeixi amb relació a la seva situació personal, familiar, social i econòmica, que pogués donar lloc a la modificació, suspensió o extinció de la prestació del servei.</li>
+<li> Adoptar una correcta i col·laboradora actitud en el desenvolupament de la prestació i de la convivència, així com respectar el bon ús i col·laborar en el manteniment de las instal·lacions i mitjans del Centre.</li>
+</ol>
+<p>L&rsquo;incompliment provat de les obligacions indicades en el pacte anterior podrà comportar la resolució del contracte.</p>
+<p><strong>Divuitena.- Manutenció.</strong></p>
+<ol>
+<li>Els horaris fixats per al servei de menjador per la Direcció del Centre hauran de complir-se amb el major rigor, a fi i efecte d&rsquo;evitar trastorns en la prestació del servei.</li>
+<li>Es garantirà a les persones usuàries del Centre una alimentació equilibrada, consistent al menys en: Esmorzar, dinar, berenar i sopar.</li>
+<li>La carta mensual dels menús dels menjars serà supervisada a efectes de garantir l&rsquo;aportació dietètica i calòrica adequat a les persones residents. Copia de dita carta s&rsquo;exposarà al taulell d&rsquo;anuncis del Centre i estarà a disposició dels familiars.</li>
+<li>A les persones usuàries que ho precisin, per prescripció mèdica, se&rsquo;ls oferirà menú de règim adequat a les seves necessitats.</li>
+</ol>
+<p><strong>Dinovena. Sortides, absències i visites.</strong></p>
+ <ol>
+ <li>L'usuari podrà sortir i entrar del Centre, entre les 08.00 i les 22.00 hores, respectant l'horari establert per als àpats. Els usuaris que surtin del Centre han de notificar a la recepció, en la qual quedarà constància per escrit. Fora d&rsquo;aquest horari, l&rsquo;usuari podrà sortir , comunicant-ho al personal amb antelació.  </li>
+<li>Les sortides dels usuaris sotmesos a control continuat hauran de ser conegudes i autoritzades prèviament pel personal sanitari del Centre. </li>
+<li>Independentment de la seva durada, les absències no interrompen l'obligació de satisfer l'import de l'estada al centre. (Vegeu criteris de reserva de plaça a la clàusula vuitena d'aquest Contracte) </li>
+ <li>Els familiars i amics de l'usuari podran visitar-lo durant un horari establert que, com a mínim, serà de 12 hores diàries. </li>
+ <li>Les visites als usuaris es podran realitzar en les sales específiques, en les habitacions o en qualsevol altre espai adequat, jardins, patis, salons etc. Els visitants hauran de comunicar la seva entrada i sortida a la Recepció del Centre. </li>
+<li>Es procurarà que les visites als usuaris no interrompin les activitats del Centre ni es causin molèsties a altres usuaris. En tot cas, les visites s'han d'ajustar a les prescripcions facultatives quan aquestes siguin necessàries. </li>
+ <li>Si els familiars o amics desitgen quedar-se a dinar amb el resident, hauran de comunicar amb 24 hores d'antelació, i hauran de pagar el menú. </li>
+<li>Sempre que sigui possible, les famílies comunicaran a la Direcció del Centre amb una antelació mínima de 24 hores la seva intenció que l'usuari abandoni el Centre per un temps determinat.</li>
+</ol>
+ <p><strong>Vintena .- Durada del contracte</strong></p>
+ <p> El present contracte té vigència des del dia d'ingrés d'usuari fins al dia 31 de desembre de l'any de la signatura del contracte. Finalitzat el període de vigència, s'entendrà renovat tàcitament per les parts, excepte que alguna de les parts comuniqui a l'altra, mitjançant escrit dirigit al Centre i amb una antelació de 15 dies, la voluntat de rescindir-lo.</p>
+ <p> Igualment, també podrà ser rescindit el contracte per part del Centre, sempre que es produeixin motius de força major o d'aplicació de mesures correctores contingudes en el Reglament del Règim Intern del Centre SARquavitae Salita, en aquest cas se seguirà el procediment establert en aquest.</p>
+<p><strong>Vint-i-unena .- Incompliment contractual.</strong></p>
+ <p>
+ L&rsquo; incompliment del que estipula qualsevol de les clàusules d'aquest contracte o del que disposa el Reglament de Règim Intern, implicarà la resolució de la relació contractual entre les parts, que comportarà, per part de l'usuari / usuària l'abandonament del Centre en el termini de 15 dies des que se li hagués notificat per escrit, al mateix o al seu cònjuge / descendent directe major d'edat / germà (familiar responsable), o representant legal, la rescissió del contracte per les causes determinades en aquest contracte o en el Reglament de Règim Intern que s'adjunta a aquest document.</p>
+ <p>
+ En qualsevol cas, s'ha de seguir en tot moment el procediment sancionador establert en el Reglament de Règim Intern, donant audiència al presumpte infractor. </p>
+ <p>
+ En aquests casos, el centre podrà remetre al resident al seu domicili o al de la persona de referència o persona responsable que consti en aquest contracte.</p>
+<p><strong>Vint-i-dosena.- Resolució del contracte.</strong></p>
+<p>L&rsquo; incompliment per part del resident de qualsevol de les obligacions establertes en el present contracte o en el RRI adjunt, podrà donar lloc a la resolució del contracte. En cas de resolució, el resident quedarà obligat a abandonar la residència i en concret, a deixar l&rsquo;habitació que ocupa lliure, buida i expedita i a disposició del Centre. En concret, el contracte es resoldrà per:</p>
+<ol type="a">
+<li>El retard en el pagament del preu de la estada o de qualsevol altre quantitat que el resident estigués obligat a pagar, per un termini superior a 30 dies.</li>
+<li>La comissió d&rsquo;una falta molt greu, conforme al que s&rsquo;estableix en el Reglament de Règim Intern i en el present contracte.</li>
+<li>L&rsquo;alteració en l&rsquo;ús i/o destí de les habitacions, així com de les seves característiques.</li>
+<li>L&rsquo;incompliment per qualsevol de les parts de les obligacions essencials del present contracte. </li>
+<li>La realització, per part del resident, d&rsquo;activitats il·lícites o prohibides, o que posi en perill la salut de la resta de residents, la salubritat, higiene i integritat de la Residència, o que alterin la tranquil·litat i el descanso de la convivència en el Centre.</li>
+<li>La ruïna o la pèrdua de la propietat de l&rsquo;edifici de la residència per part de la Propietat, per causa no imputable a la mateixa.</li>
+<li>Per defunció del resident. En aquest cas correspondrà a les persones responsables del mateix i/o als seus hereus l&rsquo;obligació de donar-li un enterrament digne d&rsquo;acord amb les seves creences. El Centre no es fa responsable d l&rsquo;enterrament de l&rsquo;usuari en cas de defunció. </li>
+<li>Per vulneració e infracció de las normes de convivència recollides en aquest contracte i en el Reglament que s&rsquo;adjunta, respecte altres residents del Centre o respecte el personal del mateix.</li>
+<li>Qualsevol altra prevista en la legislació vigent, el present contracte o en el Reglament de Règim Interior.</li>
+<li>Per voluntat del resident, cònjuge/descendent directe major d&rsquo;edat/germà, com a familiars responsables o el seu representant legal, notificant-ho per escrit amb 15 dies d&rsquo;antelació.</li>
+</ol>
+<p>En tot cas, la resolució del contracte no podrà produir-se sense la prèvia comunicació escrita al resident. En cas de resolució del contracte, l&rsquo;usuari/-a queda obligat a deixar l&rsquo;habitació en un termini de 15 dies des de la notificació de la rescissió del contracte.</p>
+<p><strong>Vint-i-tresena .- Protecció de dades de caràcter personal</strong></p>
+<p>De conformitat amb la Llei 15/2003, del 18 de desembre, qualificada de protecció de dades personals i el reglament que la desenvolupa, s&rsquo;informa a la persona interessada que les seves dades personals passaran a formar part d&rsquo;un fitxer titularitat de CENTRE DE SERVEIS ASSISTENCIALS SALITA, S.L. degudament inscrit a l&rsquo;Agència de Protecció de Dades, la finalitat del qual és complir el propi contracte de prestació de serveis subscrit i gestionar els agraïments, suggeriments i reclamacions. Així mateix podran ser utilitzades per l&rsquo;enviament d&rsquo;informació sobre productes, serveis i esdeveniments de CENTRE DE SERVEIS ASSISTENCIALS SALITA, S.L., així com per la realització d&rsquo;enquestes de qualitat del servei, i, si fos necessari, i exclusivament per tal de dur a terme les finalitats abans esmentades, ser cedides a altres entitats sociosanitàries, sempre que les mateixes pertanyin directa o indirectament al Grupo Societari SARquavitae (www.sarquavitae.es), podent ésser una cessió de caràcter internacional. </p>
+<p>Així mateix, s&rsquo;informa a la persona interessada que pot exercir els drets d&rsquo;accés, rectificació, supressió i oposició mitjançant comunicació escrita, juntament amb el seu document d&rsquo;identificació, al Departament Jurídic de SARquavitae, C/Aribau 185 entresòl, 08021 – Barcelona o al propi centre on es presta el servei objecte de contracte. És obligació de l&rsquo;usuari mantenir actualitzades les dades de forma que corresponguin a la realitat en cada moment.</p>
+<p><strong>Vint-i-quatrena.- Fur Intern.</strong></p>
+<p>Per a qualsevol divergència o litigi que pogués sorgir sobre la interpretació o aplicació del present contracte, las parts es sotmeten, amb denuncia expressa de qualsevol altre fur, als Tribunals i Jutjats del domicili del Centre.</p>
+
+<p><strong>Vint-i-cinquena.-  Disposició derogatòria.</strong></p>
+<p>La signatura del present contracte implica la rescissió de qualsevol altre anterior atorgat per les parts amb el mateix objecte.</p>
+<p><strong>Vint-i-sisena.- Autoritzacions.</strong></p>
+<p>Per la present l&rsquo;usuari i/o el seu representant legal i/o els seus familiars i/o la persona de referència d&rsquo;aquest, autoritzen al Centre:</p>
+<ol type = "I">
+<p>
+<li> A captar i utilitzar imatges de l&rsquo;usuari, les quals seran titularitat del Centre i podran ser utilitzades per a finalitats objecte del Centre o del Grup Societari al que pertany, podent ser comercialitzades entre els propis usuaris del Centre o els seus familiars, fent-se extensiva aquesta autorització als descendents de l&rsquo;usuari. En qualsevol cas, l&rsquo;usuari o els seus representants legal tindran els drets d&rsquo;accés, rectificació, cancel·lació i oposició mitjançant una comunicació escrita dirigida al Departament Jurídic de SARquavitae, C/Aribau 185 entresòl, 08021 – Barcelona. </li><br>
+</p>
+	<form action="">
+	<input type="checkbox" name="captar_imatges" > {!F5} Vostè pot marcar aquesta casella en cas d&rsquo;oposició a la captació i utilització de les esmentades imatges.
+	</form>
+<p>	
+<li> A recollir i entregar al resident, o als seus familiars si ell mateix fos incapaç, la correspondència de caràcter personal rebuda al Centre i a gestionar aquella correspondència vinculada a la gestió del Centre.</li><br>
+</p>
+	<form action="">
+	<input type="checkbox" name="correspondencia" > {!F5} Vostè pot marcar aquesta casella en cas d&rsquo;oposició a la recepció, entrega i gestió, segons el cas, per part del Centre de la correspondència dirigida a la seva atenció. 
+	</form>
+
+</ol>
+
+<p>I, com a prova de conformitat, ambdues parts contractants signen el present contracte per duplicat i amb un únic efecte en el lloc i data  indicades en l&rsquo;encapçalament .</p>
+<p><span style="float:left">Per <strong>CENTRE DE SERVEIS ASSISTENCIALS SALITA, S.L.</strong></span> <span style="float:right"><strong>L&rsquo;Usuari o representant legal</strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float:left">Signat: D/Dª {!Director.FirstName} {!Director.LastName} </span><span style="float:right">Signat: D/Dª {!Nombre_residente_rep_legal} {!Apellidos_residente_rep_legal} </span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong><span style="float:left">La persona de referència</span> <span style="float:right">L&rsquo;avalista</span></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="float:left">Signat: D/Dª {!Persona_Referencia.FirstName} {!Persona_Referencia.LastName} </span><span style="float:right">Signat: D/Dª {!Avalista.FirstName} {!Avalista.LastName}</span></p>
+</body>
+</html>

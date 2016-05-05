@@ -1,0 +1,7 @@
+Apreciado/a,
+
+Le informamos que se ha rechazado la NOC {!NOC__c.Name} de {!NOC__c.CreatedBy} por el siguiente motivo: 
+
+{!ApprovalRequest.Comments}
+
+Gracias por su colaboración.

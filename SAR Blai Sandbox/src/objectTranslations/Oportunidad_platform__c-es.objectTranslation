@@ -1,0 +1,2570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Oportunidad</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Oportunidades</value>
+    </caseValues>
+    <fields>
+        <label><!-- Apellido Avalista --></label>
+        <name>Apellido_Avalista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apellido representante legal Cond --></label>
+        <name>Apellido_representante_legal_Cond__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apellido representante legal --></label>
+        <name>Apellido_representante_legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Atención sanitaria --></label>
+        <name>Atencion_sanitaria__c</name>
+    </fields>
+    <fields>
+        <help><!-- Mediante auto de autorización judical de internamiento --></help>
+        <label><!-- Autorización judicial de internamiento --></label>
+        <name>Autorizacion_judicial_de_internamiento__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIF Sociedad --></label>
+        <name>CIF_Sociedad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calcular Descuento --></label>
+        <name>Calcular_Descuento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle Avalista --></label>
+        <name>Calle_Avalista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle Centro --></label>
+        <name>Calle_Centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle Contacto --></label>
+        <name>Calle_Contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle Pagador --></label>
+        <name>Calle_Pagador__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle Residente --></label>
+        <name>Calle_Residente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle Sociedad --></label>
+        <name>Calle_Sociedad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle representate legal Cond --></label>
+        <name>Calle_representate_legal_Cond__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calle representate legal --></label>
+        <name>Calle_representate_legal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si Procedencia=Medios de comunicación o Jornadas --></help>
+        <label><!-- Campaña --></label>
+        <name>Campana__c</name>
+        <relationshipLabel><!-- Oportunidades (Campaña) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campo prueba --></label>
+        <name>Campo_prueba__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canal --></label>
+        <name>Canal__c</name>
+        <picklistValues>
+            <masterLabel>Chat</masterLabel>
+            <translation><!-- Chat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Institución</masterLabel>
+            <translation><!-- Institución --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada al centro</masterLabel>
+            <translation><!-- Llamada al centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada desde el centro</masterLabel>
+            <translation><!-- Llamada desde el centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada emitida del CAT</masterLabel>
+            <translation><!-- Llamada emitida del CAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llamada recibida al CAT</masterLabel>
+            <translation><!-- Llamada recibida al CAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registro vía Web</masterLabel>
+            <translation><!-- Registro vía Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visita espontánea</masterLabel>
+            <translation><!-- Visita espontánea --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Central --></label>
+        <name>Central__c</name>
+        <relationshipLabel><!-- Oportunidades (Central) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Centro --></label>
+        <name>Centro2__c</name>
+        <relationshipLabel><!-- Oportunidades (Centro) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si Procedencia=Centro Sarquavitae --></help>
+        <label><!-- Centro de procedencia --></label>
+        <name>Centro__c</name>
+        <relationshipLabel><!-- Oportunidades (Centro de procedencia) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Centro devuelto --></label>
+        <name>Centro_devuelto__c</name>
+        <picklistValues>
+            <masterLabel>-</masterLabel>
+            <translation><!-- - --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ciudad Avalista --></label>
+        <name>Ciudad_Avalista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ciudad Centro --></label>
+        <name>Ciudad_Centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ciudad Contacto --></label>
+        <name>Ciudad_Contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ciudad Pagador --></label>
+        <name>Ciudad_Pagador__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ciudad Sociedad --></label>
+        <name>Ciudad_Sociedad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ciudad representante legal Cond --></label>
+        <name>Ciudad_representante_legal_Cond__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ciudad representante legal --></label>
+        <name>Ciudad_representante_legal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo opcional si Procedencia = Cliente --></help>
+        <label><!-- Cliente Recomendador --></label>
+        <name>Cliente_Recomendador__c</name>
+        <relationshipLabel><!-- Oportunidades (Cliente Recomendador) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cliente Residente --></label>
+        <name>Cliente_Residente__c</name>
+        <relationshipLabel><!-- Oportunidades (Cliente Residente) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Código Postal Avalista --></label>
+        <name>Codigo_Postal_Avalista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Codigo Postal Centro --></label>
+        <name>Codigo_Postal_Centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Codigo Postal Cond --></label>
+        <name>Codigo_Postal_Cond__c</name>
+    </fields>
+    <fields>
+        <label><!-- Codigo Postal Sociedad --></label>
+        <name>Codigo_Postal_Sociedad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Código postal representante legal --></label>
+        <name>Codigo_postal_representante_legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compañia telefónica --></label>
+        <name>Compania_telef__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concierto --></label>
+        <name>Concierto__c</name>
+        <relationshipLabel><!-- Oportunidades (Concierto) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contacto Recomendador --></label>
+        <name>Contacto_Recomendador__c</name>
+        <relationshipLabel><!-- Oportunidades (Contacto Recomendador) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contar oportunidad --></label>
+        <name>Contar_oportunidad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contrato Firmado --></label>
+        <name>Contrato_Firmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cuenta Pagador --></label>
+        <name>Cuenta_Pagador__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNI Avalista --></label>
+        <name>DNI_Avalista__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNI Contacto --></label>
+        <name>DNI_Contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNI Director --></label>
+        <name>DNI_Director__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNI Pagador --></label>
+        <name>DNI_Pagador__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNI Residente --></label>
+        <name>DNI_Residente__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNI representante legal Cond --></label>
+        <name>DNI_representante_legal_Cond__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNI representante legal --></label>
+        <name>DNI_representante_legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dataloader --></label>
+        <name>Dataloader__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>Descripcion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si se selecciona Plus --></help>
+        <label><!-- Descripción plus --></label>
+        <name>Descripcion_plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción procedencia --></label>
+        <name>Descripcion_procedencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Campaña --></label>
+        <name>Descuento_Campa_a__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Convenio --></label>
+        <name>Descuento_Convenio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Ofertado --></label>
+        <name>Descuento_Ofertado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento NOC --></label>
+        <name>Descuento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento colgante --></label>
+        <name>Descuento_colgante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento ofertado --></label>
+        <name>Descuento_ofertado_adorea__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destino --></label>
+        <name>Destino__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detalle medios de comunicación --></label>
+        <name>Detalle_medios_de_comunicacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Director Centro First --></label>
+        <name>Director_Centro_First__c</name>
+    </fields>
+    <fields>
+        <label><!-- Director Centro Last --></label>
+        <name>Director_Centro_Last__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Gui --></label>
+        <name>Doc_Gui__c</name>
+    </fields>
+    <fields>
+        <label><!-- Documento de identidad --></label>
+        <name>Documento_de_identidad__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si Procedencia= Personal Sarquavitae --></help>
+        <label><!-- Empleado Recomendador --></label>
+        <name>Empleado_Recomendador__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si Procedencia=Prescriptor o Colectivo --></help>
+        <label><!-- Entidad Recomendadora --></label>
+        <name>Empresa_Recomendadora__c</name>
+        <relationshipLabel><!-- Oportunidades (Entidad Recomendadora) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Enviado a signar --></label>
+        <name>Enviado_a_signar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado Civil --></label>
+        <name>Estado_Civil__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado --></label>
+        <name>Estado__c</name>
+        <picklistValues>
+            <masterLabel>Activa</masterLabel>
+            <translation><!-- Activa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja</masterLabel>
+            <translation><!-- Baja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechazada</masterLabel>
+            <translation><!-- Rechazada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin iniciar actividad</masterLabel>
+            <translation><!-- Sin iniciar actividad --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estado cognitivo --></label>
+        <name>Estado_cognitivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado físico --></label>
+        <name>Estado_fisico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estancia --></label>
+        <name>Estancia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Etapa --></label>
+        <name>Etapa__c</name>
+        <picklistValues>
+            <masterLabel>Abierta</masterLabel>
+            <translation><!-- Abierta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerrada ganada</masterLabel>
+            <translation><!-- Cerrada ganada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerrada perdida</masterLabel>
+            <translation><!-- Cerrada perdida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerrada por el sistema</masterLabel>
+            <translation><!-- Cerrada por el sistema --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Información / Visita</masterLabel>
+            <translation><!-- Información / Visita --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingreso</masterLabel>
+            <translation><!-- Ingreso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negociación</masterLabel>
+            <translation><!-- Negociación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No ingreso</masterLabel>
+            <translation><!-- No ingreso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendiente visita</masterLabel>
+            <translation><!-- Pendiente visita --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preingreso</masterLabel>
+            <translation><!-- Preingreso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presentado Plan Personal</masterLabel>
+            <translation><!-- Presentado Plan Personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reserva</masterLabel>
+            <translation><!-- Reserva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stand-by</masterLabel>
+            <translation><!-- Stand-by --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visita Planificada / Espontánea</masterLabel>
+            <translation><!-- Visita Planificada / Espontánea --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- F1 --></label>
+        <name>F1__c</name>
+    </fields>
+    <fields>
+        <label><!-- F2 --></label>
+        <name>F2__c</name>
+    </fields>
+    <fields>
+        <label><!-- F3 --></label>
+        <name>F3__c</name>
+    </fields>
+    <fields>
+        <label><!-- F4 --></label>
+        <name>F4__c</name>
+    </fields>
+    <fields>
+        <label><!-- F5 --></label>
+        <name>F5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Activa/Rechazada --></label>
+        <name>Fecha_Activa_Rechazada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Baja --></label>
+        <name>Fecha_Baja__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Plan Personal --></label>
+        <name>Fecha_Plan_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Respuesta Navision --></label>
+        <name>Fecha_Respuesta_Navision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha cierre Ingreso --></label>
+        <name>Fecha_cierre_Ingreso__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en Etapa= &apos;No ingreso&apos; --></help>
+        <label><!-- Fecha cierre No Ingreso --></label>
+        <name>Fecha_cierre_No_Ingreso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha cierre --></label>
+        <name>Fecha_cierre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de Alta --></label>
+        <name>Fecha_de_Alta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha de cierre No entrada --></label>
+        <name>Fecha_de_cierre_No_entrada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha envío contrato --></label>
+        <name>Fecha_envio_contrato__c</name>
+    </fields>
+    <fields>
+        <help><!-- Residencial: Campo obligatorio si el tipo de estancia es &apos;Temporal&apos; --></help>
+        <label><!-- Fecha finalización --></label>
+        <name>Fecha_finalizacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha prevista de entrada --></label>
+        <name>Fecha_prevista_de_entrada__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en Etapa= &apos;Preingreso&apos; --></help>
+        <label><!-- Fecha prevista de ingreso --></label>
+        <name>Fecha_prevista_de_ingreso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha primer contacto --></label>
+        <name>Fecha_primer_contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha real de entrada --></label>
+        <name>Fecha_real_de_entrada__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha real de ingreso --></label>
+        <name>Fecha_real_de_ingreso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha solicitud --></label>
+        <name>Fecha_solicitud__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forma de pago Dispositivo --></label>
+        <name>Forma_de_pago_Dispositivo__c</name>
+        <picklistValues>
+            <masterLabel>Efectivo / transferencia bancaria</masterLabel>
+            <translation><!-- Efectivo / transferencia bancaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fraccionado</masterLabel>
+            <translation><!-- Fraccionado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recibo domiciliado</masterLabel>
+            <translation><!-- Recibo domiciliado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Forma de pago Servicio --></label>
+        <name>Forma_de_pago_Servicio__c</name>
+        <picklistValues>
+            <masterLabel>Recibo domiciliado</masterLabel>
+            <translation><!-- Recibo domiciliado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Forma de pago --></label>
+        <name>Forma_de_pago__c</name>
+        <picklistValues>
+            <masterLabel>Efectivo / Transferencia</masterLabel>
+            <translation><!-- Efectivo / Transferencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recibo domiciliado</masterLabel>
+            <translation><!-- Recibo domiciliado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Frecuencia CD --></label>
+        <name>Frecuencia_CD__c</name>
+        <picklistValues>
+            <masterLabel>Domingo</masterLabel>
+            <translation><!-- Domingo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jueves</masterLabel>
+            <translation><!-- Jueves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunes</masterLabel>
+            <translation><!-- Lunes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martes</masterLabel>
+            <translation><!-- Martes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miércoles</masterLabel>
+            <translation><!-- Miércoles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sabado</masterLabel>
+            <translation><!-- Sabado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viernes</masterLabel>
+            <translation><!-- Viernes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Frecuencia SN --></label>
+        <name>Frecuencia_SN__c</name>
+        <picklistValues>
+            <masterLabel>Domingo</masterLabel>
+            <translation><!-- Domingo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jueves</masterLabel>
+            <translation><!-- Jueves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunes</masterLabel>
+            <translation><!-- Lunes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martes</masterLabel>
+            <translation><!-- Martes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miércoles</masterLabel>
+            <translation><!-- Miércoles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sábado</masterLabel>
+            <translation><!-- Sábado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viernes</masterLabel>
+            <translation><!-- Viernes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Garantia Complementaria --></label>
+        <name>Garantia_Complementaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grado Dependencia --></label>
+        <name>Grado_Dependencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grado --></label>
+        <name>Grado__c</name>
+        <picklistValues>
+            <masterLabel>Grado 1</masterLabel>
+            <translation><!-- Grado 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grado 2</masterLabel>
+            <translation><!-- Grado 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grado 3</masterLabel>
+            <translation><!-- Grado 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Histórico --></label>
+        <name>Historico__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hora fin SN --></label>
+        <name>Hora_fin_SN__c</name>
+        <picklistValues>
+            <masterLabel>10h</masterLabel>
+            <translation><!-- 10h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11h</masterLabel>
+            <translation><!-- 11h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12h</masterLabel>
+            <translation><!-- 12h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13h</masterLabel>
+            <translation><!-- 13h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14h</masterLabel>
+            <translation><!-- 14h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15h</masterLabel>
+            <translation><!-- 15h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16h</masterLabel>
+            <translation><!-- 16h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17h</masterLabel>
+            <translation><!-- 17h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18h</masterLabel>
+            <translation><!-- 18h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19h</masterLabel>
+            <translation><!-- 19h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1h</masterLabel>
+            <translation><!-- 1h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20h</masterLabel>
+            <translation><!-- 20h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21h</masterLabel>
+            <translation><!-- 21h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22h</masterLabel>
+            <translation><!-- 22h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23h</masterLabel>
+            <translation><!-- 23h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24h</masterLabel>
+            <translation><!-- 24h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2h</masterLabel>
+            <translation><!-- 2h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3h</masterLabel>
+            <translation><!-- 3h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4h</masterLabel>
+            <translation><!-- 4h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5h</masterLabel>
+            <translation><!-- 5h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6h</masterLabel>
+            <translation><!-- 6h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7h</masterLabel>
+            <translation><!-- 7h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8h</masterLabel>
+            <translation><!-- 8h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9h</masterLabel>
+            <translation><!-- 9h --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hora inicio SN --></label>
+        <name>Hora_inicio_SN__c</name>
+        <picklistValues>
+            <masterLabel>10h</masterLabel>
+            <translation><!-- 10h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11h</masterLabel>
+            <translation><!-- 11h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12h</masterLabel>
+            <translation><!-- 12h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13h</masterLabel>
+            <translation><!-- 13h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14h</masterLabel>
+            <translation><!-- 14h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15h</masterLabel>
+            <translation><!-- 15h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16h</masterLabel>
+            <translation><!-- 16h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17h</masterLabel>
+            <translation><!-- 17h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18h</masterLabel>
+            <translation><!-- 18h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19h</masterLabel>
+            <translation><!-- 19h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1h</masterLabel>
+            <translation><!-- 1h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20h</masterLabel>
+            <translation><!-- 20h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21h</masterLabel>
+            <translation><!-- 21h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22h</masterLabel>
+            <translation><!-- 22h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23h</masterLabel>
+            <translation><!-- 23h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24h</masterLabel>
+            <translation><!-- 24h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2h</masterLabel>
+            <translation><!-- 2h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3h</masterLabel>
+            <translation><!-- 3h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4h</masterLabel>
+            <translation><!-- 4h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5h</masterLabel>
+            <translation><!-- 5h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6h</masterLabel>
+            <translation><!-- 6h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7h</masterLabel>
+            <translation><!-- 7h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8h</masterLabel>
+            <translation><!-- 8h --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9h</masterLabel>
+            <translation><!-- 9h --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hoy --></label>
+        <name>Hoy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Residencial: Campo obligatorio en Etapa= &apos;Ingreso&apos; / &apos;Cerrada ganada&apos; --></help>
+        <label><!-- IBAN --></label>
+        <name>IBAN__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Doc Firmado --></label>
+        <name>ID_Doc_Firmado__c</name>
+    </fields>
+    <fields>
+        <label><!-- IVA Servicio --></label>
+        <name>IVA__c</name>
+    </fields>
+    <fields>
+        <label><!-- IVA Dispositivo --></label>
+        <name>IVA_del_dispositivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- IdGCR_EPS --></label>
+        <name>IdGCR_EPS__c</name>
+    </fields>
+    <fields>
+        <label><!-- IdNav Residente --></label>
+        <name>IdNav_RES__c</name>
+    </fields>
+    <fields>
+        <label><!-- IdOp_Nav --></label>
+        <name>IdOp_Nav__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id VIV T24 --></label>
+        <name>Id_VIV_T24__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id contrato --></label>
+        <name>Id_contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Idioma --></label>
+        <name>Idioma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Informe: Tipo de servicio --></label>
+        <name>Informe_Tipo_de_servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ingreso --></label>
+        <name>Ingreso__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en etapa=&apos;Ingreso&apos; --></help>
+        <label><!-- Institución --></label>
+        <name>Institucion__c</name>
+        <relationshipLabel><!-- Oportunidades (Institución) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Integracion Desactivada --></label>
+        <name>Integracion_Desactivada__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsFromT24 --></label>
+        <name>IsFromT24__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsFromTask --></label>
+        <name>IsFromTask__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lavandería y limpieza --></label>
+        <name>Lavanderia_y_limpieza__c</name>
+    </fields>
+    <fields>
+        <help><!-- Residencial: Campo obligatorio en etapa=&apos;Ingreso&apos;/ &apos;Cerrada ganada&apos; --></help>
+        <label><!-- Localidad Entidad Bancaria --></label>
+        <name>Localidad_Entidad_Bancaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manutención --></label>
+        <name>Manutencion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medios de comunicación --></label>
+        <name>Medios_de_comunicacion__c</name>
+        <picklistValues>
+            <masterLabel>Buzoneo</masterLabel>
+            <translation><!-- Buzoneo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-Mailing</masterLabel>
+            <translation><!-- E-Mailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exterior</masterLabel>
+            <translation><!-- Exterior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Folletos y flyers</masterLabel>
+            <translation><!-- Folletos y flyers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa escrita</masterLabel>
+            <translation><!-- Prensa escrita --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio</masterLabel>
+            <translation><!-- Radio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV</masterLabel>
+            <translation><!-- TV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Motivio de Alta GCR --></label>
+        <name>Motivio_de_Alta_GCR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo Baja --></label>
+        <name>Motivo_Baja__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo Cerrada perdida --></label>
+        <name>Motivo_Cerrada_perdida__c</name>
+        <picklistValues>
+            <masterLabel>....</masterLabel>
+            <translation><!-- .... --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acompañamiento de auxiliar</masterLabel>
+            <translation><!-- Acompañamiento de auxiliar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acompañamiento de familiar</masterLabel>
+            <translation><!-- Acompañamiento de familiar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contrata con competencia</masterLabel>
+            <translation><!-- Contrata con competencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Datos de contacto erróneos</masterLabel>
+            <translation><!-- Datos de contacto erróneos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fallecimiento</masterLabel>
+            <translation><!-- Fallecimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta de interés en contratar</masterLabel>
+            <translation><!-- Falta de interés en contratar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingreso en centro residencial</masterLabel>
+            <translation><!-- Ingreso en centro residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingreso en hospital</masterLabel>
+            <translation><!-- Ingreso en hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No contesta</masterLabel>
+            <translation><!-- No contesta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No disponer servicio de llaves</masterLabel>
+            <translation><!-- No disponer servicio de llaves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio del servicio</masterLabel>
+            <translation><!-- Precio del servicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio no se adapta a sus necesidades</masterLabel>
+            <translation><!-- Servicio no se adapta a sus necesidades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio público</masterLabel>
+            <translation><!-- Servicio público --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usuario final rechaza servicio</masterLabel>
+            <translation><!-- Usuario final rechaza servicio --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Motivo Rechazo --></label>
+        <name>Motivo_Rechazo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo Sin iniciar actividad --></label>
+        <name>Motivo_Sin_iniciar_actividad__c</name>
+        <picklistValues>
+            <masterLabel>Contrato enviado</masterLabel>
+            <translation><!-- Contrato enviado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta SEPA</masterLabel>
+            <translation><!-- Falta SEPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta contrato</masterLabel>
+            <translation><!-- Falta contrato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta contrato financiera</masterLabel>
+            <translation><!-- Falta contrato financiera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta disponibilidad</masterLabel>
+            <translation><!-- Falta disponibilidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta ficha sociosanitaria</masterLabel>
+            <translation><!-- Falta ficha sociosanitaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motivos técnicos</masterLabel>
+            <translation><!-- Motivos técnicos --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Motivo de Alta Comercial --></label>
+        <name>Motivo_de_Alta_Comercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivo de Alta --></label>
+        <name>Motivo_de_Alta__c</name>
+        <picklistValues>
+            <masterLabel>A domicilio</masterLabel>
+            <translation><!-- A domicilio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A plaza pública mismo centro</masterLabel>
+            <translation><!-- A plaza pública mismo centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A plaza pública otro centro</masterLabel>
+            <translation><!-- A plaza pública otro centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competencia</masterLabel>
+            <translation><!-- Competencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exitus</masterLabel>
+            <translation><!-- Exitus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fin Convalecencia</masterLabel>
+            <translation><!-- Fin Convalecencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fin Respiro</masterLabel>
+            <translation><!-- Fin Respiro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital Agudos</masterLabel>
+            <translation><!-- Hospital Agudos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Motivo de No entrada --></label>
+        <name>Motivo_de_No_entrada__c</name>
+        <picklistValues>
+            <masterLabel>Competencia</masterLabel>
+            <translation><!-- Competencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Derivada SARquavitae</masterLabel>
+            <translation><!-- Derivada SARquavitae --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exitus</masterLabel>
+            <translation><!-- Exitus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitalización</masterLabel>
+            <translation><!-- Hospitalización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interesa a medio plazo</masterLabel>
+            <translation><!-- Interesa a medio plazo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motivos emocionales</masterLabel>
+            <translation><!-- Motivos emocionales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No localizable</masterLabel>
+            <translation><!-- No localizable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros recursos SAD/TAD</masterLabel>
+            <translation><!-- Otros recursos SAD/TAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendiente Plaza Pública</masterLabel>
+            <translation><!-- Pendiente Plaza Pública --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permanece en otro centro residencial</masterLabel>
+            <translation><!-- Permanece en otro centro residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permanencia en domicilio</masterLabel>
+            <translation><!-- Permanencia en domicilio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio caro</masterLabel>
+            <translation><!-- Precio caro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospección</masterLabel>
+            <translation><!-- Prospección --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renta baja</masterLabel>
+            <translation><!-- Renta baja --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en Etapa= &apos;No ingreso&apos; --></help>
+        <label><!-- Motivo no Ingreso --></label>
+        <name>Motivo_no_Ingreso__c</name>
+        <picklistValues>
+            <masterLabel>Competencia</masterLabel>
+            <translation><!-- Competencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Derivada SARquavitae</masterLabel>
+            <translation><!-- Derivada SARquavitae --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exitus</masterLabel>
+            <translation><!-- Exitus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitalización</masterLabel>
+            <translation><!-- Hospitalización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interesa a medio plazo</masterLabel>
+            <translation><!-- Interesa a medio plazo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motivos emocionales</masterLabel>
+            <translation><!-- Motivos emocionales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No localizable</masterLabel>
+            <translation><!-- No localizable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros recursos SAD/TAD</masterLabel>
+            <translation><!-- Otros recursos SAD/TAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendiente Plaza Pública</masterLabel>
+            <translation><!-- Pendiente Plaza Pública --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permanece en otro centro residencial</masterLabel>
+            <translation><!-- Permanece en otro centro residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permanencia en domicilio</masterLabel>
+            <translation><!-- Permanencia en domicilio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio caro</masterLabel>
+            <translation><!-- Precio caro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospección</masterLabel>
+            <translation><!-- Prospección --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renta baja</masterLabel>
+            <translation><!-- Renta baja --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Motivo no ingreso antiguo --></label>
+        <name>Motivo_no_ingreso_antiguo__c</name>
+    </fields>
+    <fields>
+        <label><!-- NOC 11 Centro --></label>
+        <name>NOC_11_Centro__c</name>
+        <relationshipLabel><!-- Oportunidades (NOC 11 Centro) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NOC 11 Persona --></label>
+        <name>NOC_11_Persona__c</name>
+        <relationshipLabel><!-- Oportunidades (NOC 11 Persona) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NOC 11 Renegociado --></label>
+        <name>NOC_11_Renegociado__c</name>
+        <relationshipLabel><!-- Oportunidades (NOC 11 Renegociado) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NOC 12 Convenios --></label>
+        <name>NOC_12_Convenios__c</name>
+        <relationshipLabel><!-- Oportunidades (NOC 12 Convenios) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NOC 9 Campaña --></label>
+        <name>NOC__c</name>
+        <relationshipLabel><!-- Oportunidades (NOC 9 Campaña) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Nº Vivienda --></label>
+        <name>N_Vivienda__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nº días contrato --></label>
+        <name>N_dias_contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Fianza --></label>
+        <name>No_Finanza__c</name>
+    </fields>
+    <fields>
+        <label><!-- No se solicita descuento --></label>
+        <name>No_se_solicita_descuento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Avalista --></label>
+        <name>Nombre_Avalista__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Centro --></label>
+        <name>Nombre_Centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Contacto --></label>
+        <name>Nombre_Contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Edificio --></label>
+        <name>Nombre_Edificio__c</name>
+    </fields>
+    <fields>
+        <help><!-- Residencial: Campo obligatorio en etapa=&apos;Ingreso&apos; / &apos;Cerrada ganada&apos; --></help>
+        <label><!-- Nombre Entidad Bancaria --></label>
+        <name>Nombre_Entidad_Bancaria__c</name>
+    </fields>
+    <fields>
+        <help><!-- En nombre propio y con plena capacidad de obrar y obligarse --></help>
+        <label><!-- Nombre propio y plena capacidad --></label>
+        <name>Nombre_propio_y_plena_capacidad_de__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre representante legal Cond --></label>
+        <name>Nombre_representante_legal_Cond__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre representante legal --></label>
+        <name>Nombre_representante_legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número SS --></label>
+        <name>Numero_SS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pagador First Name --></label>
+        <name>Pagador_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pagador Last Name --></label>
+        <name>Pagador_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pagador --></label>
+        <name>Pagador__c</name>
+        <relationshipLabel><!-- Oportunidades (Pagador) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si Prescriptor = Internet --></help>
+        <label><!-- Página web --></label>
+        <name>Pagina_web__c</name>
+        <picklistValues>
+            <masterLabel>Google</masterLabel>
+            <translation><!-- Google --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infoelder</masterLabel>
+            <translation><!-- Infoelder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inforesidencias</masterLabel>
+            <translation><!-- Inforesidencias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Te Acompaña</masterLabel>
+            <translation><!-- Te Acompaña --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WOHNEN IM ALTER</masterLabel>
+            <translation><!-- WOHNEN IM ALTER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Sarquavitae</masterLabel>
+            <translation><!-- Web Sarquavitae --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Persona de Contacto --></label>
+        <name>Persona_de_Contacto__c</name>
+        <relationshipLabel><!-- Oportunidades (Persona de Contacto) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A través de la persona de referencia --></help>
+        <label><!-- Persona de referencia --></label>
+        <name>Persona_de_referencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Personal --></label>
+        <name>Plan_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planta --></label>
+        <name>Planta__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plantilla Contrato --></label>
+        <name>Plantilla_Contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plus --></label>
+        <name>Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Podología y corte de pelo --></label>
+        <name>Podologia_y_corte_de_pelo__c</name>
+    </fields>
+    <fields>
+        <help><!-- A partir del 2º usuario --></help>
+        <label><!-- Precio Colgantes --></label>
+        <name>Precio_Colgantes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Cuota Mensual Sin Descuento --></label>
+        <name>Precio_Cuota_Mensual_Sin_Descuento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Cuota Mensual --></label>
+        <name>Precio_Cuota_Mensual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Cuota inicial --></label>
+        <name>Precio_Cuota_inicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Diario --></label>
+        <name>Precio_Diario__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Dispositivo --></label>
+        <name>Precio_Dispositivo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Dispositivo new --></label>
+        <name>Precio_Dispositivo_new__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Ofertado --></label>
+        <name>Precio_Ofertado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Plus --></label>
+        <name>Precio_Plus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio reserva --></label>
+        <name>Precio_Reserva__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Servicio --></label>
+        <name>Precio_Servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio Total --></label>
+        <name>Precio_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio --></label>
+        <name>Precio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio sin colgante --></label>
+        <name>Precio_sin_colgante__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio total --></label>
+        <name>Precio_total_ADOREA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prioridad --></label>
+        <name>Prioridad__c</name>
+        <picklistValues>
+            <masterLabel>Alta</masterLabel>
+            <translation><!-- Alta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja</masterLabel>
+            <translation><!-- Baja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Procedencia --></label>
+        <name>Procedencia__c</name>
+        <picklistValues>
+            <masterLabel>Centro Sarquavitae</masterLabel>
+            <translation><!-- Centro Sarquavitae --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clientes</masterLabel>
+            <translation><!-- Clientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colectivo</masterLabel>
+            <translation><!-- Colectivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Institución</masterLabel>
+            <translation><!-- Institución --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet</masterLabel>
+            <translation><!-- Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jornadas</masterLabel>
+            <translation><!-- Jornadas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medios de comunicación</masterLabel>
+            <translation><!-- Medios de comunicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Sarquavitae</masterLabel>
+            <translation><!-- Personal Sarquavitae --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescriptor</masterLabel>
+            <translation><!-- Prescriptor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vecindad</masterLabel>
+            <translation><!-- Vecindad --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recomendador informado --></label>
+        <name>Recomendador_informado__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en Etapa= &apos;Ingreso&apos; --></help>
+        <label><!-- Régimen --></label>
+        <name>Regimen__c</name>
+        <picklistValues>
+            <masterLabel>Discontinuo</masterLabel>
+            <translation><!-- Discontinuo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fin de Semana</masterLabel>
+            <translation><!-- Fin de Semana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencia</masterLabel>
+            <translation><!-- Residencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporal</masterLabel>
+            <translation><!-- Temporal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UED</masterLabel>
+            <translation><!-- UED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UTC</masterLabel>
+            <translation><!-- UTC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reingreso --></label>
+        <name>Reingreso__c</name>
+    </fields>
+    <fields>
+        <help><!-- A través de su representante legal --></help>
+        <label><!-- Representate legal --></label>
+        <name>Representate_legagal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residente First Name --></label>
+        <name>Residente_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residente Last Name --></label>
+        <name>Residente_Last_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en etapa &apos;Visita Planificada&apos; --></help>
+        <label><!-- Residente --></label>
+        <name>Residente__c</name>
+        <relationshipLabel><!-- Oportunidades (Residente) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en Etapa= &apos;Presentado Plan Personal&apos; / &apos;Negociación&apos; --></help>
+        <label><!-- Servicio --></label>
+        <name>Servicio__c</name>
+        <relationshipLabel><!-- Oportunidades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Situación económica --></label>
+        <name>Situacion_economica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sociedad Centro --></label>
+        <name>Sociedad_Centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sociedad --></label>
+        <name>Sociedad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tarifa --></label>
+        <name>Tarifa__c</name>
+        <relationshipLabel><!-- Oportunidades --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Telefono Contacto --></label>
+        <name>Telefono_Contacto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono representante legal Cond --></label>
+        <name>Telefono_representante_legal_Cond__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teléfono representante legal --></label>
+        <name>Telefono_representante_legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Testimonio que acredita su calidad --></label>
+        <name>Testimonio_que_acredita_su_calidad__c</name>
+        <picklistValues>
+            <masterLabel>Auto</masterLabel>
+            <translation><!-- Auto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libro de família</masterLabel>
+            <translation><!-- Libro de família --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poder</masterLabel>
+            <translation><!-- Poder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sentencia</masterLabel>
+            <translation><!-- Sentencia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Texto Antencion Sanitaria --></label>
+        <name>Texto_Antencion_Sanitaria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo Habitacion --></label>
+        <name>Tipo_Habitacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo Servicio --></label>
+        <name>Tipo_Servicio__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en Etapa= &apos;Preingreso&apos; --></help>
+        <label><!-- Tipo de Financiación --></label>
+        <name>Tipo_de_Financiacion__c</name>
+        <picklistValues>
+            <masterLabel>ARTECAM</masterLabel>
+            <translation><!-- ARTECAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ayuntamiento</masterLabel>
+            <translation><!-- Ayuntamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ayuntamiento Privado Barcelona</masterLabel>
+            <translation><!-- Ayuntamiento Privado Barcelona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonos Consellería</masterLabel>
+            <translation><!-- Bonos Consellería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIBS</masterLabel>
+            <translation><!-- CIBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSS CA Madrid - Co Financiados</masterLabel>
+            <translation><!-- CSS CA Madrid - Co Financiados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSS CA Madrid - Financiados</masterLabel>
+            <translation><!-- CSS CA Madrid - Financiados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caja Sol</masterLabel>
+            <translation><!-- Caja Sol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catsalut</masterLabel>
+            <translation><!-- Catsalut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convenio internacional</masterLabel>
+            <translation><!-- Convenio internacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diputación Foral Guipúzcoa</masterLabel>
+            <translation><!-- Diputación Foral Guipúzcoa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diputación Foral de Alaba</masterLabel>
+            <translation><!-- Diputación Foral de Alaba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diputación Foral de Bizkaia</masterLabel>
+            <translation><!-- Diputación Foral de Bizkaia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diputación de Málaga</masterLabel>
+            <translation><!-- Diputación de Málaga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diputación de Toledo</masterLabel>
+            <translation><!-- Diputación de Toledo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diputación de Valencia</masterLabel>
+            <translation><!-- Diputación de Valencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E.R.A.</masterLabel>
+            <translation><!-- E.R.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entidades de seguros libres</masterLabel>
+            <translation><!-- Entidades de seguros libres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FERTECAM</masterLabel>
+            <translation><!-- FERTECAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundació Balear</masterLabel>
+            <translation><!-- Fundació Balear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundación Andaluza</masterLabel>
+            <translation><!-- Fundación Andaluza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GOBIERNO CANTABRIA</masterLabel>
+            <translation><!-- GOBIERNO CANTABRIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generalitat de Valencia</masterLabel>
+            <translation><!-- Generalitat de Valencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IASS</masterLabel>
+            <translation><!-- IASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IASS Gobierno de Aragón</masterLabel>
+            <translation><!-- IASS Gobierno de Aragón --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICASS</masterLabel>
+            <translation><!-- ICASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMSERSO</masterLabel>
+            <translation><!-- IMSERSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Junta de Castilla La Mancha</masterLabel>
+            <translation><!-- Junta de Castilla La Mancha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Junta de Extremadura</masterLabel>
+            <translation><!-- Junta de Extremadura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutualidades públicas No concertadas</masterLabel>
+            <translation><!-- Mutualidades públicas No concertadas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutualidades públicas concertades</masterLabel>
+            <translation><!-- Mutualidades públicas concertades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mútuas de accidentes de tráfico</masterLabel>
+            <translation><!-- Mútuas de accidentes de tráfico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otras comunidades autonomas</masterLabel>
+            <translation><!-- Otras comunidades autonomas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otras fuentes de financiamiento</masterLabel>
+            <translation><!-- Otras fuentes de financiamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otras mútuas o entidades de seguro obligatorio</masterLabel>
+            <translation><!-- Otras mútuas o entidades de seguro obligatorio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros financiamientos públicos</masterLabel>
+            <translation><!-- Otros financiamientos públicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Privado</masterLabel>
+            <translation><!-- Privado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publico</masterLabel>
+            <translation><!-- Publico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xunta de Galicia</masterLabel>
+            <translation><!-- Xunta de Galicia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de Servicio Antiguo --></label>
+        <name>Tipo_de_Servicio_Antiguo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en Etapa= &apos;Ingreso&apos; --></help>
+        <label><!-- Tipo de cobro --></label>
+        <name>Tipo_de_cobro__c</name>
+        <picklistValues>
+            <masterLabel>Anticipado</masterLabel>
+            <translation><!-- Anticipado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vencido</masterLabel>
+            <translation><!-- Vencido --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de estancia --></label>
+        <name>Tipo_de_estancia__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en etapa=&apos;Preingreso&apos; --></help>
+        <label><!-- Tipo de pago --></label>
+        <name>Tipo_de_pago__c</name>
+        <picklistValues>
+            <masterLabel>Cofinanciada</masterLabel>
+            <translation><!-- Cofinanciada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gratis</masterLabel>
+            <translation><!-- Gratis --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en Etapa= &apos;Presentado Plan Personal&apos; --></help>
+        <label><!-- Tipo de tarifa --></label>
+        <name>Tipo_de_tarifa__c</name>
+        <picklistValues>
+            <masterLabel>Diaria</masterLabel>
+            <translation><!-- Diaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo estancia --></label>
+        <name>Tipo_estancia2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo manutención --></label>
+        <name>Tipo_manutencion__c</name>
+        <picklistValues>
+            <masterLabel>comida</masterLabel>
+            <translation><!-- comida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>comida y merienda</masterLabel>
+            <translation><!-- comida y merienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>desayuno</masterLabel>
+            <translation><!-- desayuno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>desayuno y comida</masterLabel>
+            <translation><!-- desayuno y comida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>desayuno, comida y merienda</masterLabel>
+            <translation><!-- desayuno, comida y merienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>merienda</masterLabel>
+            <translation><!-- merienda --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio en Etapa= &apos;Visita Planificada&apos; --></help>
+        <label><!-- Lugar de la visita --></label>
+        <name>Visita_realizada_en__c</name>
+        <picklistValues>
+            <masterLabel>Centro</masterLabel>
+            <translation><!-- Centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centro Hospitalario</masterLabel>
+            <translation><!-- Centro Hospitalario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lugar de residencia</masterLabel>
+            <translation><!-- Lugar de residencia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Zona Territorial --></label>
+        <name>Zona_Territorial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ámbito --></label>
+        <name>ambito__c</name>
+        <picklistValues>
+            <masterLabel>Adorea</masterLabel>
+            <translation><!-- Adorea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centro de Día</masterLabel>
+            <translation><!-- Centro de Día --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial</masterLabel>
+            <translation><!-- Residencial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- idLinia --></label>
+        <name>idLinia__c</name>
+    </fields>
+    <fields>
+        <label><!-- logo ayuntamiento --></label>
+        <name>logo_ayuntamiento__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato Oportunidad Adorea</layout>
+        <sections>
+            <label><!-- Datos Entidad Bancaria --></label>
+            <section>Datos Entidad Bancaria</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Alta --></label>
+            <section>Datos de Alta</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Captación --></label>
+            <section>Datos de Captación</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de No ingreso --></label>
+            <section>Datos de No ingreso</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del cliente Residente --></label>
+            <section>Datos del cliente Residente</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Precios --></label>
+            <section>Precios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Oportunidad Privada</layout>
+        <sections>
+            <label><!-- Datos Entidad Bancaria --></label>
+            <section>Datos Entidad Bancaria</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Alta --></label>
+            <section>Datos de Alta</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Captación --></label>
+            <section>Datos de Captación</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Integración con NAV y GCR --></label>
+            <section>Datos de Integración con NAV y GCR</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de No ingreso --></label>
+            <section>Datos de No ingreso</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Residente --></label>
+            <section>Datos de Residente</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Servicio --></label>
+            <section>Datos de Servicio</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de contrato --></label>
+            <section>Datos de contrato</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Firmante contrato --></label>
+            <section>Firmante contrato</section>
+        </sections>
+        <sections>
+            <label><!-- Precios --></label>
+            <section>Precios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Oportunidad Privada (Admin)</layout>
+        <sections>
+            <label><!-- Datos Entidad Bancaria --></label>
+            <section>Datos Entidad Bancaria</section>
+        </sections>
+        <sections>
+            <label><!-- Datos contrato --></label>
+            <section>Datos contrato</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Alta --></label>
+            <section>Datos de Alta</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Captación --></label>
+            <section>Datos de Captación</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Integración con NAV y GCR --></label>
+            <section>Datos de Integración con NAV y GCR</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de No ingreso --></label>
+            <section>Datos de No ingreso</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Residente --></label>
+            <section>Datos de Residente</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Servicio --></label>
+            <section>Datos de Servicio</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Firmante contrato --></label>
+            <section>Firmante contrato</section>
+        </sections>
+        <sections>
+            <label><!-- Precios --></label>
+            <section>Precios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Oportunidad Pública</layout>
+        <sections>
+            <label><!-- Datos Entidad Bancaria --></label>
+            <section>Datos Entidad Bancaria</section>
+        </sections>
+        <sections>
+            <label><!-- Datos contrato --></label>
+            <section>Datos contrato</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Alta --></label>
+            <section>Datos de Alta</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Captación --></label>
+            <section>Datos de Captación</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Integración con NAV y GCR --></label>
+            <section>Datos de Integración con NAV y GCR</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de No ingreso --></label>
+            <section>Datos de No ingreso</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Servicio --></label>
+            <section>Datos de Servicio</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del Residente --></label>
+            <section>Datos del Residente</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Firmante Contrato --></label>
+            <section>Firmante Contrato</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Oportunidad Pública (Admin)</layout>
+        <sections>
+            <label><!-- Datos Entidad Bancaria --></label>
+            <section>Datos Entidad Bancaria</section>
+        </sections>
+        <sections>
+            <label><!-- Datos contrato --></label>
+            <section>Datos contrato</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Alta --></label>
+            <section>Datos de Alta</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Captación --></label>
+            <section>Datos de Captación</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Contrato --></label>
+            <section>Datos de Contrato</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Integración con NAV y GCR --></label>
+            <section>Datos de Integración con NAV y GCR</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de No ingreso --></label>
+            <section>Datos de No ingreso</section>
+        </sections>
+        <sections>
+            <label><!-- Datos del Residente --></label>
+            <section>Datos del Residente</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Firmante Contrato --></label>
+            <section>Firmante Contrato</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Oportunidad TA</layout>
+        <sections>
+            <label><!-- Datos Entidad Bancaria --></label>
+            <section>Datos Entidad Bancaria</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Captación --></label>
+            <section>Datos de Captación</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Integración con Tele24 --></label>
+            <section>Datos de Integración con Tele24</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de Servicio --></label>
+            <section>Datos de Servicio</section>
+        </sections>
+        <sections>
+            <label><!-- Descripción --></label>
+            <section>Descripción</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Motivos cierre/rechazo/baja --></label>
+            <section>Motivos cierre/rechazo/baja</section>
+        </sections>
+        <sections>
+            <label><!-- Precios --></label>
+            <section>Precios</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Oportunidad Adorea --></label>
+        <name>Oportunidad_Adorea</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Oportunidad TAD --></label>
+        <name>Oportunidad_TAD</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Oportunidad TAM --></label>
+        <name>Oportunidad_TAM</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Oportunidad TA Dúo --></label>
+        <name>Oportunidad_TA_Duo</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Oportunidad privada --></label>
+        <name>Oportunidad_privada</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Oportunidad pública --></label>
+        <name>Oportunidad_publica</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- No tiene que estar informado si Procedencia&lt;&gt;Medios de comunicación --></errorMessage>
+        <name>Campana</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene que estar informado si Procedencia&lt;&gt;Centro Sarquavitae --></errorMessage>
+        <name>Centro_de_procedencia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene que estar informado si Procedencia&lt;&gt;Clientes --></errorMessage>
+        <name>Cliente_recomendador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene que estar informado si Procedencia&lt;&gt;Prescriptor o colectivo --></errorMessage>
+        <name>Contacto_recomendador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El precio o descuento ofertado no es válido --></errorMessage>
+        <name>Descuento_o_precio_ofertados_no_validos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No está permitido informar el precio ofertado y el descuento ofertado simultaneamente --></errorMessage>
+        <name>Descuento_ofertado_y_precio_ofertado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El precio total ofertado no puede ser inferior al precio total de la NOC --></errorMessage>
+        <name>Descuento_y_descuento_ofertado_menor_NOC</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene que estar informado si Procedencia&lt;&gt;Personal Sarquavitae --></errorMessage>
+        <name>Empleado_recomendador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene que estar informado si Procedencia&lt;&gt;Prescriptor o colectivo --></errorMessage>
+        <name>Empresa_recomendadora</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se tiene que haber generado el Plan Personal para guardar la oportunidad en esta etapa. --></errorMessage>
+        <name>Entregar_Plan_Personal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite modificar una oportunidad en estado &quot;Ingreso&quot;, &quot;No ingreso&quot; o &quot;Cerrada por el sistema&quot; --></errorMessage>
+        <name>Etapa_en_Ingreso_no_ingreso_o_cerrada_AD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite modificar una oportunidad en estado &quot;Ingreso&quot;, &quot;No ingreso&quot; o &quot;Cerrada por el sistema&quot; --></errorMessage>
+        <name>Etapa_en_Ingreso_no_ingreso_o_cerrada_re</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Las etapas tienen que ser consecutivas y siempre hacia adelante. --></errorMessage>
+        <name>Etapas_consecutivas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede ser inferior a la fecha prevista de ingreso --></errorMessage>
+        <name>Fecha_finalizacion_no_validad</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede ser inferior al día de hoy --></errorMessage>
+        <name>Fecha_prevista_entrada_incorrecta</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Formato no válido --></errorMessage>
+        <name>IdContrato_no_valido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Centro_procedencia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio en etapa= &apos;Presentado Plan Personal&apos; --></errorMessage>
+        <name>Informar_Fecha_Plan_Personal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio en etapa=&apos;Ingreso&apos; --></errorMessage>
+        <name>Informar_Forma_de_pago</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Obligatorio informar --></errorMessage>
+        <name>Informar_Forma_de_pago_Dispositivo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Obligatorio informar --></errorMessage>
+        <name>Informar_Forma_de_pago_Servicio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_IBAN</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_IBAN_TA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Institucion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio en etapa &apos;Ingreso&apos; --></errorMessage>
+        <name>Informar_Localidad_entidad_bancaria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio en etapa &apos;Cerrada ganada&apos; --></errorMessage>
+        <name>Informar_Localidad_entidad_bancaria_TA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Motivo_cerrada_perdida</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Motivo_no_entrada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Motivo_no_ingreso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio en etapa &apos;Ingreso&apos; --></errorMessage>
+        <name>Informar_Nombre_entidad_bancaria</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio en etapa &apos;Cerrada ganada&apos; --></errorMessage>
+        <name>Informar_Nombre_entidad_bancariat_TA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo &quot;Preferencia de envío de factura&quot; del cliente pagador tiene que estar informado en la etapa Ingreso --></errorMessage>
+        <name>Informar_Preferencia_de_envio_de_factura</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Tipo_financiacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Tipo_pago</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Tipo_tarifa</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_campana_procedencia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Obligatorio informar si no se ofrece ninguna NOC de descuento --></errorMessage>
+        <name>Informar_casilla_No_se_solicita_descuen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_cliente_residente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- En la etapa Ingreso, los campos nombre, apellidos, dirección, DNI, fecha de nacimiento y sexo del pagador tienen que estar informados. Revise que estén todos correctamente informados para continuar. --></errorMessage>
+        <name>Informar_datos_cliente_en_etapa_Ingreso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Si el firmante del contrato es el representate legal, es obligatorio informar su nombre, apellidos y DNI --></errorMessage>
+        <name>Informar_datos_representate_legal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- En la etapa Preingreso, los campos nombre, fecha nacimiento, tipo y número identidad, tipo y número doc sanitario, estado civil, sexo y dirección del residente tienen que estar informados. Revise que estén todos correctamente informados para continuar. --></errorMessage>
+        <name>Informar_datos_residente_en_Preingreso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_descripcion_plus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_empleado_recomendador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede crear una oportunidad desde la etapa seleccionada --></errorMessage>
+        <name>Informar_etapa_previa_requerida</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_fecha_finalizacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_fecha_no_ingreso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_fecha_no_ingreso_Adorea</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_fecha_prevista_entrada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_fecha_prevista_ingreso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_pagador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_precio_Adorea</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_recomendador</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_recomendador2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_regimen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_residente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_servicio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_tipo_cobro</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_visita_realizada_en</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_web_procedencia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No existe acuerdo de facturación en NAV con dicha Institución --></errorMessage>
+        <name>Institucion_facturable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No informar si se está ofreciendo una NOC de descuento --></errorMessage>
+        <name>No_Informar_No_se_solicita_descuento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- xxxxxNo se puede informar un descuento o precio ofertado si no hay una NOC aplicada --></errorMessage>
+        <name>No_informar_Descuento_o_Precio_ofertado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No está permitido modificar una oportunidad cerrada ganada o perdida --></errorMessage>
+        <name>No_modificar_opp_TA_Cerrada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite retroceder una oportunidad a la Etapa &apos;Abierta&apos; --></errorMessage>
+        <name>No_retrocedor_oportunidad_TA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No tiene que estar informado si Procedencia&lt;&gt;Internet --></errorMessage>
+        <name>Pagina_web</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede ser superior al 10% de la tarifa --></errorMessage>
+        <name>Precio_ofertado_no_superior_al_10</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La etapa debe haber pasado por Preingreso --></errorMessage>
+        <name>Preingreso_obligatorio_antes_de_Ingreso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo es posible seleccionar una opción en la sección &quot;Receptro del contrato&quot; --></errorMessage>
+        <name>Receptor_del_contrato</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo puede haber un tipo de NOC informada --></errorMessage>
+        <name>Una_Noc_informada</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Cancelar_Firma --></label>
+        <name>Cancelar_Firma</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Crear_Contrato --></label>
+        <name>Crear_Contrato</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Crear_Plan_Personal --></label>
+        <name>Crear_Plan_Personal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Crear_Plan_Personal_Privado --></label>
+        <name>Crear_Plan_Personal_Privado</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Crear_contrato_TA --></label>
+        <name>Crear_contrato_TA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Descargar_PDF --></label>
+        <name>Descargar_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Enviar_a_tablet --></label>
+        <name>Enviar_a_tablet</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Hoja_resumen_POAS --></label>
+        <name>Hoja_resumen_POAS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Hoja_resumen_cliente --></label>
+        <name>Hoja_resumen_cliente</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reenvio_Cerrada_ganada --></label>
+        <name>Reenvio_Cerrada_ganada</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reenvio_Ingreso --></label>
+        <name>Reenvio_Ingreso</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reenvio_Preingreso --></label>
+        <name>Reenvio_Preingreso</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reenvio_Preingreso_NAV --></label>
+        <name>Reenvio_Preingreso_NAV</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- Ha ingresado un nuevo residente con un recomendador informado. Recuerde llamarlo y agraceder su recomendación. --></description>
+        <name>Agradecer_ingreso_al_recomendador</name>
+        <subject><!-- Agradecer ingreso al recomendador --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Llamar al cliente para reconfirmar la fecha prevista entrada --></description>
+        <name>Recordatorio_Llamar_al_cliente_para_reconfirmar_fecha_prevista_entrada</name>
+        <subject><!-- Recordatorio: Llamar al cliente para reconfirmar fecha prevista entrada --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Póngase en contacto de nuevo con el cliente de esta oportunidad. El motivo de cierre de esta oportunidad fue &apos;Interesa a medio plazo&apos;. --></description>
+        <name>Recordatorio_llamada_No_ingreso_Interesa_a_medio_plazo</name>
+        <subject><!-- Recordatorio llamada No ingreso=Interesa a medio plazo --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- El cliente hace 3 días que ha ingresado y la etapa de la oportunidad aún está en Preingreso. Por favor, complimente los datos de facturación y actualice la etapa de esta oportunidad a &apos;Ingreso&apos; --></description>
+        <name>Solicitar_datos_de_Facturaci_n</name>
+        <subject><!-- Solicitar datos de Facturación --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

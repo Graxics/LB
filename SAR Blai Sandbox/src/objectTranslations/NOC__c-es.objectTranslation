@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NOC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NOCs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Acciones de la campaña --></label>
+        <name>Acciones_de_la_campana__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo informativo --></help>
+        <label><!-- Alcance --></label>
+        <name>Alcance__c</name>
+        <picklistValues>
+            <masterLabel>Centros</masterLabel>
+            <translation><!-- Centros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nacional</masterLabel>
+            <translation><!-- Nacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona Comercial</masterLabel>
+            <translation><!-- Zona Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona Territorial</masterLabel>
+            <translation><!-- Zona Territorial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Anexo --></label>
+        <name>Anexo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Año Tarifa --></label>
+        <name>Ano_Tarifa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si se requiere de validación técnica --></help>
+        <label><!-- Área de validación técnica --></label>
+        <name>Area_de_validacion_tecnica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aspectos económicos --></label>
+        <name>Aspectos_economicos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aspectos no económicos --></label>
+        <name>Aspectos_no_economicos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bloqueado --></label>
+        <name>Bloqueado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cambio de grado --></label>
+        <name>Cambio_de_grado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cambio de tarifa día a mes --></label>
+        <name>Cambio_de_tarifa_dia_a_mes__c</name>
+    </fields>
+    <fields>
+        <help><!-- En caso que aplique a un centro en concreto --></help>
+        <label><!-- Centro --></label>
+        <name>Centro__c</name>
+        <relationshipLabel><!-- NOCs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Centro de ingreso --></label>
+        <name>Centro_de_ingreso__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cliente --></label>
+        <name>Cliente__c</name>
+        <relationshipLabel><!-- NOCs 11 Renegociada --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Código RES --></label>
+        <name>Codigo_RES__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si tipo solicitud=presentación --></help>
+        <label><!-- Comentarios --></label>
+        <name>Comentarios__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comentarios de aprobacion --></label>
+        <name>Comentarios_de_aprobacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condiciones Especiales --></label>
+        <name>Condiciones_Especiales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contador NOC --></label>
+        <name>Contador_NOC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coste --></label>
+        <name>Coste__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dataloader --></label>
+        <name>Dataloader__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descenso de Ocupación --></label>
+        <name>Descenso_de_Ocupacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descripción --></label>
+        <name>Descripcion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Fundación --></label>
+        <name>Descuento_Fundacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 1 --></label>
+        <name>Descuento_Mes_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 2 --></label>
+        <name>Descuento_Mes_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 3 --></label>
+        <name>Descuento_Mes_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 4 --></label>
+        <name>Descuento_Mes_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 5 --></label>
+        <name>Descuento_Mes_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento Periodo 6 --></label>
+        <name>Descuento_Mes_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento --></label>
+        <name>Descuento__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento aplicado --></label>
+        <name>Descuento_aplicado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento de Empleado --></label>
+        <name>Descuento_de_Empleado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento de Matrimonio --></label>
+        <name>Descuento_de_Matrimonio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Descuento permanente --></label>
+        <name>Descuento_permanente__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si Medios de comunicación= Prensa o Radio --></help>
+        <label><!-- Detalle Medios Coumunicación --></label>
+        <name>Detalle_Medios_Coumunicacion__c</name>
+        <picklistValues>
+            <masterLabel>Cuñas Publicitas</masterLabel>
+            <translation><!-- Cuñas Publicitas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Folletos y Flyers</masterLabel>
+            <translation><!-- Folletos y Flyers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microespacio</masterLabel>
+            <translation><!-- Microespacio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa Local</masterLabel>
+            <translation><!-- Prensa Local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa Nacional</masterLabel>
+            <translation><!-- Prensa Nacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revistas Especializadas</masterLabel>
+            <translation><!-- Revistas Especializadas --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Diferencial de tarifas --></label>
+        <name>Diferencial_de_tarifas__c</name>
+    </fields>
+    <fields>
+        <label><!-- División (NOC 11 Persona) --></label>
+        <name>Division2__c</name>
+    </fields>
+    <fields>
+        <label><!-- División (NOC 11 centro) --></label>
+        <name>Division_NOC_11_centro__c</name>
+    </fields>
+    <fields>
+        <label><!-- División --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>Adorea</masterLabel>
+            <translation><!-- Adorea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEX</masterLabel>
+            <translation><!-- CEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domiciliaria</masterLabel>
+            <translation><!-- Domiciliaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formación</masterLabel>
+            <translation><!-- Formación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencial</masterLabel>
+            <translation><!-- Residencial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAR Domus</masterLabel>
+            <translation><!-- SAR Domus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teleasistencia</masterLabel>
+            <translation><!-- Teleasistencia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Domiciliaria --></label>
+        <name>Domiciliaria__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sólo para la división Residencial --></help>
+        <label><!-- Duración del descuento en días --></label>
+        <name>Duracion_del_descuento__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sólo para la división Residencial --></help>
+        <label><!-- Duración del descuento en meses --></label>
+        <name>Duracion_del_descuento_meses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duración en días --></label>
+        <name>Duracion_en_dias__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estado Campaña --></label>
+        <name>Estado_Campana__c</name>
+        <picklistValues>
+            <masterLabel>Abierta</masterLabel>
+            <translation><!-- Abierta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cerrada</masterLabel>
+            <translation><!-- Cerrada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creada</masterLabel>
+            <translation><!-- Creada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactiva</masterLabel>
+            <translation><!-- Inactiva --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estado Flujo --></label>
+        <name>Estado_Flujo__c</name>
+        <picklistValues>
+            <masterLabel>Aprobado</masterLabel>
+            <translation><!-- Aprobado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendiente</masterLabel>
+            <translation><!-- Pendiente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechazado</masterLabel>
+            <translation><!-- Rechazado --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fecha Fin 1 --></label>
+        <name>Fecha_Fin_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Fin 2 --></label>
+        <name>Fecha_Fin_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Fin 3 --></label>
+        <name>Fecha_Fin_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Fin 4 --></label>
+        <name>Fecha_Fin_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Fin 5 --></label>
+        <name>Fecha_Fin_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Fin 6 --></label>
+        <name>Fecha_Fin_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Firma --></label>
+        <name>Fecha_Firma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Inicio 1 --></label>
+        <name>Fecha_Inicio_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Inicio 2 --></label>
+        <name>Fecha_Inicio_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Inicio 3 --></label>
+        <name>Fecha_Inicio_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Inicio 4 --></label>
+        <name>Fecha_Inicio_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Inicio 5 --></label>
+        <name>Fecha_Inicio_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha Inicio 6 --></label>
+        <name>Fecha_Inicio_6__c</name>
+    </fields>
+    <fields>
+        <help><!-- Periodo en el que puede utilizarse la NOC --></help>
+        <label><!-- Fecha fin --></label>
+        <name>Fecha_fin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha fin flujo --></label>
+        <name>Fecha_fin_flujo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Periodo en el que puede utilizarse la NOC --></help>
+        <label><!-- Fecha inicio --></label>
+        <name>Fecha_inicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fecha intervención --></label>
+        <name>Fecha_intervencion__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Fianza a cobrar --></label>
+        <name>Fianza_a_cobrar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grado --></label>
+        <name>Grado_NT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grado --></label>
+        <name>Grado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id Recomendador T24 --></label>
+        <name>Id_Recomendador_T24__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id contrato --></label>
+        <name>Id_contrato__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Fianza a cobrar --></label>
+        <name>Importe_Fianza_a_cobrar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 1 --></label>
+        <name>Importe_Mes_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 2 --></label>
+        <name>Importe_Mes_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 3 --></label>
+        <name>Importe_Mes_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 4 --></label>
+        <name>Importe_Mes_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 5 --></label>
+        <name>Importe_Mes_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Importe Periodo 6 --></label>
+        <name>Importe_Mes_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incremento medio para clientes actuales --></label>
+        <name>Incremento_medio_para_clientes_actuales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incremento medio para nuevos clientes --></label>
+        <name>Incremento_medio_para_nuevos_clientes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si tipo= Jornadas y otros eventos --></help>
+        <label><!-- Jornadas --></label>
+        <name>Jornadas__c</name>
+        <picklistValues>
+            <masterLabel>Corporativas</masterLabel>
+            <translation><!-- Corporativas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jornadas de centro dirigidas a familiares y vecindad</masterLabel>
+            <translation><!-- Jornadas de centro dirigidas a familiares y vecindad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jornadas de centro dirigidas a profesionales</masterLabel>
+            <translation><!-- Jornadas de centro dirigidas a profesionales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- La presentación incluye contenido --></label>
+        <name>La_presentacion_incluye_contenido__c</name>
+    </fields>
+    <fields>
+        <label><!-- Límite de plazas --></label>
+        <name>Limite_de_plazas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Límite de plazas en rotación --></label>
+        <name>Limite_de_plazas_en_rotacion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si tipo=Medios de comunicación --></help>
+        <label><!-- Medios de Comunicación --></label>
+        <name>Medios_de_Comunicacion__c</name>
+        <picklistValues>
+            <masterLabel>Buzoneo/Mailing</masterLabel>
+            <translation><!-- Buzoneo/Mailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guias</masterLabel>
+            <translation><!-- Guias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mailing Salesforce</masterLabel>
+            <translation><!-- Mailing Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mailing Smartfocus</masterLabel>
+            <translation><!-- Mailing Smartfocus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mupis</masterLabel>
+            <translation><!-- Mupis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pancarta</masterLabel>
+            <translation><!-- Pancarta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa</masterLabel>
+            <translation><!-- Prensa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publcidad Autobus y Metro</masterLabel>
+            <translation><!-- Publcidad Autobus y Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio</masterLabel>
+            <translation><!-- Radio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV</masterLabel>
+            <translation><!-- TV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valla Publicitaria</masterLabel>
+            <translation><!-- Valla Publicitaria --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mensaje/ líneas a transmiti --></label>
+        <name>Mensaje_lineas_a_transmiti__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivos aprobación --></label>
+        <name>Motivos_aprobacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Necesaria validación Dirección General --></label>
+        <name>Necesaria_validacion_Direccion_General__c</name>
+    </fields>
+    <fields>
+        <label><!-- No se solicita fianza --></label>
+        <name>No_se_solicita_fianza__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nombre Residente --></label>
+        <name>Nombre_Residente__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nueva Tarifa --></label>
+        <name>Nueva_Tarifa__c</name>
+        <relationshipLabel><!-- NOCs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Nueva tarifa oficial --></label>
+        <name>Nueva_tarifa_oficial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de plazas --></label>
+        <name>Numero_de_plazas__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de plazas en rotación --></label>
+        <name>Numero_de_plazas_en_rotacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de plazas en rotación libres --></label>
+        <name>Numero_de_plazas_en_rotacion_libres__c</name>
+    </fields>
+    <fields>
+        <label><!-- Número de plazas libres --></label>
+        <name>Numero_de_plazas_libres__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objeto de la comunicación/temática --></label>
+        <name>Objeto_de_la_comunicacion_tematica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oportunidad --></label>
+        <name>Oportunidad__c</name>
+        <relationshipLabel><!-- NOCs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oportunidad renegociada --></label>
+        <lookupFilter>
+            <errorMessage><!-- No se puede asignar una NOC Personal a una oportunidad cerrada. Debéis usar la NOC Renegociada --></errorMessage>
+        </lookupFilter>
+        <name>Oportunidad_renegociada__c</name>
+        <relationshipLabel><!-- NOCs (Oportunidad renegociada) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Otros motivos --></label>
+        <name>Otros_motivos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persona que interviene --></label>
+        <name>Persona_que_interviene__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio actual --></label>
+        <name>Precio_actual__c</name>
+    </fields>
+    <fields>
+        <help><!-- IVA incluido --></help>
+        <label><!-- Precio propuesto --></label>
+        <name>Precio_propuesto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precio propuesto op --></label>
+        <name>Precio_propuesto_op__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ratio de ocupación actual --></label>
+        <name>Ratio_de_ocupacion_actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recomendador --></label>
+        <name>Recomendador__c</name>
+        <relationshipLabel><!-- NOCs (Recomendador) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Renegociado --></label>
+        <name>Renegociado__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residencial --></label>
+        <name>Residencial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retorno de inversión --></label>
+        <name>Retorno_de_inversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServicioDiferente --></label>
+        <name>ServicioDiferente__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informar si el convenio aplica para un sólo tipo de servicio --></help>
+        <label><!-- Servicio --></label>
+        <name>Servicio__c</name>
+        <relationshipLabel><!-- NOCs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si tipo= Jornadas y otros eventos --></help>
+        <label><!-- Subclasificación Jornadas --></label>
+        <name>Subclasificacion_Jornadas__c</name>
+        <picklistValues>
+            <masterLabel>Charlas</masterLabel>
+            <translation><!-- Charlas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coloquios</masterLabel>
+            <translation><!-- Coloquios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desayunos</masterLabel>
+            <translation><!-- Desayunos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Encuentros técnicos</masterLabel>
+            <translation><!-- Encuentros técnicos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jornadas de centro</masterLabel>
+            <translation><!-- Jornadas de centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminarios</masterLabel>
+            <translation><!-- Seminarios --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subida anual tarifas --></label>
+        <name>Subida_anual_tarifas__c</name>
+    </fields>
+    <fields>
+        <help><!-- IVA incluido --></help>
+        <label><!-- Tarifa oficial + plus --></label>
+        <name>Tarifa_oficial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tarifas Competencia --></label>
+        <name>Tarifas_Competencia__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo Habitación --></label>
+        <name>Tipo_Habitacion__c</name>
+        <picklistValues>
+            <masterLabel>HD</masterLabel>
+            <translation><!-- HD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HD Uso Individual</masterLabel>
+            <translation><!-- HD Uso Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI Baño Compartido</masterLabel>
+            <translation><!-- HI Baño Compartido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suite</masterLabel>
+            <translation><!-- Suite --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo --></label>
+        <name>Tipo__c</name>
+        <picklistValues>
+            <masterLabel>Acuerdo Comercial</masterLabel>
+            <translation><!-- Acuerdo Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acuerdo Comisionamiento</masterLabel>
+            <translation><!-- Acuerdo Comisionamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convenio</masterLabel>
+            <translation><!-- Convenio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convenio no comercial</masterLabel>
+            <translation><!-- Convenio no comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estrategia comercial</masterLabel>
+            <translation><!-- Estrategia comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fidelización</masterLabel>
+            <translation><!-- Fidelización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jornada y otros eventos</masterLabel>
+            <translation><!-- Jornada y otros eventos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medio de comunicación</masterLabel>
+            <translation><!-- Medio de comunicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renegociación precio</masterLabel>
+            <translation><!-- Renegociación precio --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de estancia --></label>
+        <name>Tipo_de_estancia_NT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de intervención --></label>
+        <name>Tipo_de_intervencion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de ocupación --></label>
+        <name>Tipo_de_ocupacion_NT__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campo obligatorio si tipo solicitud=presentación --></help>
+        <label><!-- Tipo de presetnación --></label>
+        <name>Tipo_de_presetnacion__c</name>
+        <picklistValues>
+            <masterLabel>Corporativa</masterLabel>
+            <translation><!-- Corporativa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Técnica</masterLabel>
+            <translation><!-- Técnica --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de servicio --></label>
+        <name>Tipo_de_servicio_NT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de servicio --></label>
+        <name>Tipo_de_servicio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo de solicitud --></label>
+        <name>Tipo_de_solicitud__c</name>
+        <picklistValues>
+            <masterLabel>Campañas</masterLabel>
+            <translation><!-- Campañas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presentaciones</masterLabel>
+            <translation><!-- Presentaciones --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo de tarifa autorizada --></label>
+        <name>Tipo_de_tarifa_autorizada__c</name>
+        <picklistValues>
+            <masterLabel>Nuevos servicios</masterLabel>
+            <translation><!-- Nuevos servicios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarifas anuales</masterLabel>
+            <translation><!-- Tarifas anuales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tipo estancia --></label>
+        <name>Tipo_estancia2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tipo ocupación --></label>
+        <name>Tipo_ocupacion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validación técnica --></label>
+        <name>Validacion_tecnica__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visibilidad Centros 1 --></label>
+        <name>Visibilidad_Centros_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visibilidad Centros 2 --></label>
+        <name>Visibilidad_Centros_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visibilidad Centros 3 --></label>
+        <name>Visibilidad_Centros_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visibilidad Centros 4 --></label>
+        <name>Visibilidad_Centros_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visibilidad Centros 5 --></label>
+        <name>Visibilidad_Centros_5__c</name>
+    </fields>
+    <fields>
+        <help><!-- Selección de centros afectados por la NOC en función de la Zona Comercial --></help>
+        <label><!-- Zona Comercial --></label>
+        <name>Zona_Comercial__c</name>
+        <picklistValues>
+            <masterLabel>Barcelona</masterLabel>
+            <translation><!-- Barcelona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Centro</masterLabel>
+            <translation><!-- Centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Este</masterLabel>
+            <translation><!-- Este --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mallorca</masterLabel>
+            <translation><!-- Mallorca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navarra</masterLabel>
+            <translation><!-- Navarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norte</masterLabel>
+            <translation><!-- Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oeste</masterLabel>
+            <translation><!-- Oeste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sur Occidental</masterLabel>
+            <translation><!-- Sur Occidental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sur Oriental</masterLabel>
+            <translation><!-- Sur Oriental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valencia</masterLabel>
+            <translation><!-- Valencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zaragoza</masterLabel>
+            <translation><!-- Zaragoza --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- idContratoOp --></label>
+        <name>idContratoOp__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Format NOC 11 Persona (renegociacion)</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de la oportunidad --></label>
+            <section>Datos de la oportunidad</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento --></label>
+            <section>Descuento</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Fianzas --></label>
+            <section>Fianzas</section>
+        </sections>
+        <sections>
+            <label><!-- Importes --></label>
+            <section>Importes</section>
+        </sections>
+        <sections>
+            <label><!-- Motivos de la Solicitud --></label>
+            <section>Motivos de la Solicitud</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato NOC 10 Tarifas</layout>
+        <sections>
+            <label><!-- Datos tarifa y escenario estimado --></label>
+            <section>Datos tarifa y escenario estimado</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato NOC 11 Centro</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Motivos de la Solicitud --></label>
+            <section>Motivos de la Solicitud</section>
+        </sections>
+        <sections>
+            <label><!-- Plazas disponibles --></label>
+            <section>Plazas disponibles</section>
+        </sections>
+        <sections>
+            <label><!-- Visibilidad --></label>
+            <section>Visibilidad</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato NOC 11 Persona</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos de la oportunidad --></label>
+            <section>Datos de la oportunidad</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento --></label>
+            <section>Descuento</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento por periodos --></label>
+            <section>Descuento por periodos</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Fianzas --></label>
+            <section>Fianzas</section>
+        </sections>
+        <sections>
+            <label><!-- Importes --></label>
+            <section>Importes</section>
+        </sections>
+        <sections>
+            <label><!-- Información de sistema --></label>
+            <section>Información de sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Motivos de la Solicitud --></label>
+            <section>Motivos de la Solicitud</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato NOC 11 Personal Renegociada (Admin))</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos oportunidad actual --></label>
+            <section>Datos oportunidad actual</section>
+        </sections>
+        <sections>
+            <label><!-- Datos servicio nueva tarifa --></label>
+            <section>Datos servicio nueva tarifa</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento por periodos --></label>
+            <section>Descuento por periodos</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento solicitado --></label>
+            <section>Descuento solicitado</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Fianzas --></label>
+            <section>Fianzas</section>
+        </sections>
+        <sections>
+            <label><!-- Información de sistema --></label>
+            <section>Información de sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Motivos de la Solicitudss --></label>
+            <section>Motivos de la Solicitudss</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato NOC 11 Personal Renegociada (Propuesta Sq))</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos oportunidad actual --></label>
+            <section>Datos oportunidad actual</section>
+        </sections>
+        <sections>
+            <label><!-- Datos servicio nueva tarifa --></label>
+            <section>Datos servicio nueva tarifa</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento por periodos --></label>
+            <section>Descuento por periodos</section>
+        </sections>
+        <sections>
+            <label><!-- Descuento solicitado --></label>
+            <section>Descuento solicitado</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Fianzas --></label>
+            <section>Fianzas</section>
+        </sections>
+        <sections>
+            <label><!-- Información de sistema --></label>
+            <section>Información de sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Motivos de la Solicitudss --></label>
+            <section>Motivos de la Solicitudss</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato NOC 12 Convenios</layout>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Datos relativos al convenio --></label>
+            <section>Datos relativos al convenio</section>
+        </sections>
+        <sections>
+            <label><!-- División --></label>
+            <section>División</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Información adicional --></label>
+            <section>Información adicional</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato NOC 9 Campaña</layout>
+        <sections>
+            <label><!-- Campañas --></label>
+            <section>Campañas</section>
+        </sections>
+        <sections>
+            <label><!-- División --></label>
+            <section>División</section>
+        </sections>
+        <sections>
+            <label><!-- Fechas --></label>
+            <section>Fechas</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- NOC 10 Tarifas de clientes privados --></label>
+        <name>NOC_10_Tarifas</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NOC 11 Descuento General Centro --></label>
+        <name>NOC_11_Descuento_General_Centro</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NOC 11 Descuento Personal Puntual --></label>
+        <name>NOC_11_Descuento_Personal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NOC 11 Descuento Personal Renegociado --></label>
+        <name>NOC_11_Descuento_Personal_Renegociado</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NOC 12 Convenios --></label>
+        <name>NOC_12_Convenios</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NOC 9 Comunicaciones, presentaciones y campañas --></label>
+        <name>NOC_9_Campana</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- No está permitido modificar una NOC aprobada --></errorMessage>
+        <name>Bloquear_NOC_aprobada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede haber una NOC renegociada con una fecha de inicio de un año anterior a la fecha de creación de la NOC --></errorMessage>
+        <name>Caducitat_Nocs_Renegociades</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fianza no es válida --></errorMessage>
+        <name>Descuento_Fianza_no_valida</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se permite informar descuento fijo y por meses en la misma NOC --></errorMessage>
+        <name>Descuento_fijo_o_por_meses</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Para cambios de tipo de estancia se debe abrir una nueva oportunidad --></errorMessage>
+        <name>Estancia_no_puede_cambiar_en_NOC11</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de fin de un periodo no puede ser más grande que la fecha de inicio del siguiente periodo. --></errorMessage>
+        <name>Fechas_Importes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha de inicio de un periodo no puede ser posterior que la fecha de fin de ese mismo periodo --></errorMessage>
+        <name>Fechas_Importes_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Formato no válido --></errorMessage>
+        <name>IdContrato_no_valido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Importes o descuentos no válidos. --></errorMessage>
+        <name>Importes_no_validos</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Comentarios_campana</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Detalle_Medios_de_comunicacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es obligatorio informar como mínimo una división --></errorMessage>
+        <name>Informar_Division</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Fecha_inicio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Id_Contrato</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Jornada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Medios_de_comunicacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Se tiene que seleccionar una Duración del descuento. --></errorMessage>
+        <name>Informar_Minimo_Una_Duracion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Subjornada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_Tipo_de_presentacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo se permite informar importe o descuento --></errorMessage>
+        <name>Informar_descuento_o_importe</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_fecha_fin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- La fecha fin debe ser mayor a la fecha inicio --></errorMessage>
+        <name>Informar_fecha_fin_valida</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede introducir la fianza en % y en importe a la vez. --></errorMessage>
+        <name>Informar_fianza</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_idContrato</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es obligatorio informar el precio, el descuento o la fianza. --></errorMessage>
+        <name>Informar_precio_o_fianza</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sólo se puede informar una Duración del descuento (en días o en meses). --></errorMessage>
+        <name>Informar_solo_una_duracion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es obligatorio informar un descuento o importe --></errorMessage>
+        <name>Informar_tipo_de_descuento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Informar_validacion_tecnica</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Marcar_Descenso_de_ocupacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Marcar_Tarifas_competencia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede seleccionar una duración si el descuento es permanente --></errorMessage>
+        <name>No_informar_duracion_si_permanente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Para un descuento permanente no se puede informar una fecha fin --></errorMessage>
+        <name>No_informar_fecha_fin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puedes seleccionar importes por periodos si el descuento es permanente --></errorMessage>
+        <name>No_informar_importes_si_permanente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede sobrepasar el 100% --></errorMessage>
+        <name>Ratio_de_ocupacion_superior_a_100</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Seleccionar_Num_Plazas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campo obligatorio --></errorMessage>
+        <name>Seleccionar_Num_Plazas_rotacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No se puede seleccionar más de un límite de plazas --></errorMessage>
+        <name>Seleccionar_solo_un_limite</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Para cambios de servicio se debe abrir una nueva oportunidad --></errorMessage>
+        <name>Servicio_no_puede_cambiar_NOC11</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Las jornadas no deben ser informadas en una campaña de tipo Medio de Comunicación --></errorMessage>
+        <name>Tipo_Comunicacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Los medios de comunicación no deben ser informados en una campaña de tipo Jornada y otros Eventos --></errorMessage>
+        <name>Tipo_Jornadas</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El tipo de estancia de la oportunidad actual y de la nueva tarifa tiene que ser la misma --></errorMessage>
+        <name>Tipo_estancia_NOC_renegociada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El tipo de servicio de la oportunidad actual y de la nueva tarifa tiene que ser el mismo --></errorMessage>
+        <name>Tipo_servicio_NOC_renegociada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede haber la fecha fija y las fechas por periodos informadas a la vez --></errorMessage>
+        <name>Unica_fecha_fin</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Reenvio_NOC_a_NAV --></label>
+        <name>Reenvio_NOC_a_NAV</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- Se ha aprobado un convenio con un nuevo colectivo. Recuerde crearlo en Tele24W y asociarle el IdT24 en Salesforce --></description>
+        <name>Nuevo_colectivo</name>
+        <subject><!-- Nuevo colectivo --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- El convenio ya ha sido aprobado. Recuerde enviar una copia del convenio original firmado al Departamento de Servicios Jurídicos --></description>
+        <name>Recordatorio_Enviar_convenio_firmado</name>
+        <subject><!-- Recordatorio: Enviar convenio firmado --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>prova</name>
+        <subject><!-- prova --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

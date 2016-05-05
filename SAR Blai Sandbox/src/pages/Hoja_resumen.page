@@ -1,0 +1,45 @@
+<apex:page standardController="Oportunidad_platform__c" extensions="hojaResumen" renderAs="pdf" standardStylesheets="false" showHeader="false" sidebar="false" applyBodyTag="false" applyHtmlTag="false">
+
+<head>
+
+<style type="text/css">
+@page {
+    size:8.50in 11.00in;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding:5px;
+}
+.c1{
+    text-align:center;
+    background-color:#FFC000;
+}
+.c2{
+    background-color:#FFCC99;
+}
+.c3{
+    background-color:#CCFFCC;
+}
+.c4{
+    background-color:#CCFFFF;
+}
+.c5{
+    background-color:#CC99FF;
+}
+.c6{
+    background-color:#FFFF99;
+}
+
+
+</style>
+</head>
+<body>  
+    <apex:outputText value="{!htmlText}" escape="false" />
+</body>
+
+
+
+</apex:page>

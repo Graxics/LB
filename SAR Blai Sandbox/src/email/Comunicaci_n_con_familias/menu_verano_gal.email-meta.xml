@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>menu verano gallego</name>
+    <style>none</style>
+    <subject>menú de verán</subject>
+    <textOnly>Documento sin título
+
+
+Menú - SARquavitae Apreciada familia,
+
+Co motivo da chegada do verán, SARquavitae renova os seus  menús diarios.
+
+O equipo de nutricionistas de SARquavitae,  NutriSARquavitae, en colaboración co centro, creou os novos menús utilizando  receitas típicas da nosa gastronomía. Incorporamos pratos estivais hidratantes e nutritivos,  pratos con alimentos de tempada con alto contido en auga, vitaminas, minerais e  antioxidantes. Nutrientes importantes para coidar do organismo nesta época do  ano. Pratos elaborados con métodos de cocción lixeiros ou sen cocción, como as  ensaladas, que axudan ao noso corpo a regular a temperatura corporal.
+
+Se quere coñecer con máis detalle os menús diarios  pode pórse en contacto connosco por teléfono ou respondendo a este mesmo mail.  Con moito gusto facilitarémoslle toda a información que requira.
+
+Así mesmo, lembrámoslle que o centro ofrece a posibilidade de contratar menús para vostede e os seus familiares se lles apetece acompañar ao seu familiar residente e probar as nosas opcións gastronómicas. Para realizar a contratación contacte coa nosa recepción
+
+Non dubiden en contactar co equipo de dirección do centro  para calquera información que requiran.
+
+Estamos á súa disposición.
+
+Reciban un cordial saúdo.
+
+www.sarquavitae.es</textOnly>
+    <type>custom</type>
+</EmailTemplate>

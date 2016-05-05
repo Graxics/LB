@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>WF NOCs</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <role>Direccion_General_Consejo_Delegado</role>
+        <role>Director_Comercial</role>
+        <role>Director_de_Division_Residencial</role>
+        <role>Servicios_Centrales</role>
+    </sharedTo>
+</EmailFolder>

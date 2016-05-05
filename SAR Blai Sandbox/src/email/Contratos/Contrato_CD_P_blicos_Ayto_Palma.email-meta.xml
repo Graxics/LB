@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>c12 Contrato CD Públicos (Ayto Palma)</name>
+    <style>none</style>
+    <subject>Contrato CD Públicos (Ayto Palma)</subject>
+    <textOnly>&lt;p&gt;&lt;img width=&quot;441&quot; height=&quot;110&quot; src=&quot;file:///C|/Users/Usuario/AppData/Roaming/Adobe/Dreamweaver CC 2014/es_ES/OfficeImageTemp/clip_image002_0000.jpg&quot;&gt;&lt;u&gt; &lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;&amp;nbsp;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;MODELO DE CONTRATO  ASISTENCIAL&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+  &lt;p&gt;Datos del centro:&lt;br&gt;
+    Nombre del centro: .............................................................................................&lt;br&gt;
+    Nombre de la entidad:  ...........................          ………………CIF:  .......................................&lt;br&gt;
+    Calle..........................................................Núm.:        ...............Localidad:.........................&lt;br&gt;
+    Director/ responsable del centro ……………………………………………………………&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;p&gt;Datos de la persona usuaria:&lt;br&gt;
+    Nombre y  apellidos..................................................................................&lt;br&gt;
+    Calle:    ............................................................Núm.:  ...........Localidad: ........................&lt;br&gt;
+    DNI:........................................Núm.Seguridad  Social.........................................................&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;p&gt;Datos del familiar responsable/ representante legal:&lt;br&gt;
+    Nombre y Apellidos.............................................................    DNI: ......................................&lt;br&gt;
+    Calle ..........................................................Núm.:       ...............Localidad:.........................  Teléfono contacto:........................................Parentesco:  ...................................................&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;El  centro, usuario  y /o el familiar se  comprometen a los siguientes  ACUERDOS:&lt;/p&gt;
+&lt;p&gt;PRIMERO: Que el ingreso se realiza LIBREMENTE.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;SEGUNDO: El Centro  de día para personas mayores es un centro que ofrece los servicios de acogida y  apoyo, con un fin  terapéutico y  rehabilitador durante unas determinadas horas al día, al mismo tiempo que  ofrece asistencia en  actividades de la  vida diaria a personas mayores con problemas de  dependencia.&lt;/p&gt;
+&lt;p&gt;TERCERO: La persona usuaria, familiar y/o  tutor,  conocen y aceptan  las normas del Reglamento de régimen  interno del  cual se adjunta una copia y del cual se firma  un recibí en prueba de la recepción del mismo y su conformidad con el  contenido.&lt;/p&gt;
+&lt;p&gt;CUARTO: El centro se obliga a respetar  los derechos de los usuarios reconocidos en el Reglamento  de régimen interno.&lt;/p&gt;
+&lt;p&gt;CINCO: Se establece un período de adaptación  o de prueba de 20 días, para dar a  conocer  tanto el servicio como el grado de adaptación, a partir de la firma del presente  contrato.&lt;/p&gt;
+&lt;p&gt;SEXTO: La persona usuaria, familiar y/o  tutor se comprometen a aportar la documentación siguiente:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;DNI&lt;/li&gt;
+  &lt;li&gt;Tarjeta  seguridad social&lt;/li&gt;
+  &lt;li&gt;Informe  médico actualizado&lt;/li&gt;
+  &lt;li&gt;Informe  social&lt;/li&gt;
+  &lt;li&gt;Contactos de familiares  de referencia&lt;/li&gt;
+  &lt;li&gt;Sentencia de  incapacitación legal, curatela o poderes sobre el usuario, en el caso de que  existan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;                                                                                                                                                                                                &lt;br&gt;
+  SEPTIMO: Los  abajo firmantes están  obligados a informar sobre cualquier cambio que pueda producirse  en la  situación  personal, familiar, médica, social y económica  que diera   lugar  a la modificación o  suspensión del servicio. &lt;/p&gt;
+&lt;p&gt;OCTAVO: Los  familiares y/o tutor  conocen y  aceptan, que por el hecho  de estar en un centro, no se les  exime  de  sus responsabilidades sobre  la persona usuaria.&lt;/p&gt;
+&lt;p&gt;NOVENO: Los familiares y/o tutor, se  comprometen a colaborar en aquellas actividades en las que el centro pudiera  solicitar su colaboración. &lt;/p&gt;
+&lt;p&gt;DECIMO: El Centro de día  garantiza la atención socio-sanitaria  complementada por los servicios de IBSALUT.&lt;/p&gt;
+&lt;p&gt;UNDECIMO: El precio del servicio establecido  por la DGAP es de……. €/día. El precio por la estancia se facturará a mes  vencido. La persona usuaria, familiar o tutor abonaran puntualmente la cuota  fijada para la estancia en el  centro,  realizándose a través de  domiciliación  bancaria en los primeros  quince días del mes siguiente. El precio se actualizara  anualmente, contemplando  la subida anual  del IPC.&lt;/p&gt;
+&lt;p&gt;Los datos bancarios a  efectos de domiciliación del pago de los recibos son los siguientes:&lt;/p&gt;
+&lt;p&gt;Nombre de la entidad  bancaria: ……………………………………………………...………………&lt;br&gt;
+  Localidad: ……………………………….…………………………&lt;br&gt;
+  Oficina nº:  ……………………………………Nº de cuenta: ……………………………………&lt;br&gt;
+  Nombre del titular de la  cuenta: ……………………………………………………………………&lt;/p&gt;
+&lt;p&gt;El usuario y/o titular de la  cuenta autoriza el cargo de los recibos en el número de cuenta indicado.&lt;/p&gt;
+&lt;p&gt;En el momento de la entrada  al centro, se exigirá a la persona usuaria un depósito equivalente a15 días del  coste del servicio, en concepto de garantía de pago (la cantidad  no será superior a 15 días del precio del  servicio). Este depósito se devolverá dentro de los 45 días siguientes a la  baja del usuario del centro.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;DUODECIMO: &lt;/p&gt;
+&lt;p&gt;Las  prestaciones que se ofrecen:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Acogida  y convivencia&lt;/li&gt;
+  &lt;li&gt;Servicio  de manutención (desayuno, comida y   merienda)&lt;/li&gt;
+  &lt;li&gt;Servicio  de enfermería&lt;/li&gt;
+  &lt;li&gt;Atención   social personalizada a las familias&lt;/li&gt;
+  &lt;li&gt;Servicio  de fisioterapia&lt;/li&gt;
+  &lt;li&gt;Servicio  de terapia ocupacional&lt;/li&gt;
+  &lt;li&gt;Actividades  de ocio y tiempo libre&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Servicios  complementarios: &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Servicio  de transporte.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DECIMOTERCERO: El horario del centro estipulado es  de  8,00 a 17,00 h. El horario  de visitas será de 10,00 a 16,00 horas &lt;/p&gt;
+&lt;p&gt;DECIMOCUARTO: El presente contrato se podrá  rescindir mediante voluntad expresa de las partes contratantes, y con motivo de  las siguientes circunstancias:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Por  renuncia voluntaria de la persona usuaria o de su representante legal.&lt;/li&gt;
+  &lt;li&gt;Por   incumplimiento de lo acordado.&lt;/li&gt;
+  &lt;li&gt;Por  cierre  debidamente autorizado del centro.&lt;/li&gt;
+  &lt;li&gt;Por   las causas expresadas en el  reglamento de régimen  interno.                                                                         &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DECIMOQUINTO: El presente contrato estará en  vigor mientras se  mantenga la condición  de persona  usuaria. El presente contrato tiene una  duración indefinida. Cualquiera de las partes puede dar por finalizada la  relación, siempre que se comunique por escrito con 15 días de antelación.&lt;/p&gt;
+&lt;p&gt;DECIMOSEXTO: La persona usuaria y la familia  deberán informar al centro  sobre  cualquier cambio que pueda afectar al bienestar  físico y emocional de la persona usuaria  (situación familiar, cambios  de residencia,  problemas de comportamiento....).&lt;/p&gt;
+&lt;p&gt;DECIMOSEPTIMO: La persona usuaria y la familia  deberán respetar los horarios de entrada y de salida.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Decimoctava: &lt;/strong&gt;Los datos personales recogidos  en el presente documento serán incorporados y tratados en un fichero  titularidad de &amp;lt;Sociedad&amp;gt;, con la finalidad de cumplir el propio contrato de prestación de servicios suscrito y gestionar  los agradecimientos, sugerencias y  reclamaciones. Así mismo podrán ser utilizados para el envío de información  sobre productos, servicios y eventos de &amp;lt;Sociedad&amp;gt; y de las distintas  sociedades de SARquavitae, así como para la realización de encuestas de calidad  del servicio.&lt;/p&gt;
+&lt;p&gt;Sus  datos podrán ser cedidos, exclusivamente para las finalidades indicadas  anteriormente, a otras entidades sociosanitarias, siempre que las mismas  pertenezcan directa o indirectamente al Grupo Societario SARquavitae (&lt;a href=&quot;http://www.sarquavitae.es&quot;&gt;www.sarquavitae.es&lt;/a&gt;),  todo ello tanto si se formalizase o no operación alguna como, en su  caso, una vez extinguida la relación contractual existente, respetando en todo  caso la legislación española sobre protección de datos de carácter personal y sin necesidad de que le sea comunicada cada  primera cesión que se efectúe a los referidos cesionarios.&lt;br&gt;
+  El  interesado podrá ejercer los derechos de acceso, rectificación, cancelación y  oposición mediante comunicación escrita dirigida a &lt;em&gt;Departamento Jurídico,  SARquavitae, C/Aribau 185 Entlo, 08021 – Barcelona&lt;/em&gt; o al propio centro en el  que se presta el servicio objeto de contrato.&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;12&quot; height=&quot;12&quot; src=&quot;file:///C|/Users/Usuario/AppData/Roaming/Adobe/Dreamweaver CC 2014/es_ES/OfficeImageTemp/clip_image003_0002.gif&quot;&gt; Vd. Puede  marcar esta casilla en caso de oponerse al tratamiento y comunicación de los  datos de carácter personal para fines comerciales.&lt;/p&gt;
+&lt;p&gt;&lt;img width=&quot;12&quot; height=&quot;12&quot; src=&quot;file:///C|/Users/Usuario/AppData/Roaming/Adobe/Dreamweaver CC 2014/es_ES/OfficeImageTemp/clip_image003_0003.gif&quot;&gt; Vd. Puede  marcar esta casilla en caso de oponerse al tratamiento y comunicación de los  datos de carácter personal para la realización de encuestas de satisfacción.&lt;/p&gt;
+&lt;p&gt;En  caso de que los datos facilitados se refieran a personas físicas distintas del  interesado, éste deberá, con carácter previo a su inclusión en el presente  documento, informarles de los extremos contenidos en los párrafos anteriores.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Palma,  a................ de....................... de   20...&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;ACEPTA Y FIRMA                                           ACEPTA  Y FIRMA                                                                                          &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;La  persona usuaria                                          Familiar y/o Tutor&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;ACEPTA Y FIRMA&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;La  Dirección&lt;/p&gt;
+&lt;br clear=&quot;all&quot;&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/body&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Centro de la Competencia</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Centros de la Competencia</value>
+    </caseValues>
+    <fields>
+        <label><!-- Centro --></label>
+        <name>Centro__c</name>
+        <relationshipLabel><!-- Competidores del centro --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Competidor --></label>
+        <name>Competidor__c</name>
+        <relationshipLabel><!-- Centros afectados por el competidor --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

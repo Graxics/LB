@@ -1,0 +1,14 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p align="RIGHT" style="margin-bottom: 0cm;"><font face="arial">(Ciudad)</font><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">, a (día) de (mes) de (año)</font></p>]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[<p align="JUSTIFY" style="text-align: left; margin-bottom: 0cm;"><span style="font-size: 12pt;">Estimado residente/familiar:&nbsp;</span></p><p align="JUSTIFY" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0cm;"><font face="arial"><br></font></p><p align="JUSTIFY" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0cm;"><font face="arial">Tenemos el gusto de informarle que se ha producido un cambio de profesional en el equipo de dirección del centro.</font></p><p align="JUSTIFY" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0cm;"><font face="arial"><br></font></p><p align="JUSTIFY" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0cm;"><font face="arial">Nos dirigimos a usted para comunicarle que se realizara un cambio en el profesional responsable de Atención al cliente, su horario de atención está a disposición de todos los residentes y familiares en los paneles informativos de la recepción del centro.</font></p><p align="JUSTIFY" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0cm;"><font face="arial"><br></font></p><p align="JUSTIFY" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0cm;"><font face="arial">Quedo a su disposición para cualquier aclaración o especificación que pueda necesitar al respecto.&nbsp;</font></p>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="0" aEditID="c1r3" >
+<![CDATA[<p align="RIGHT" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0cm;">Reciba un cordial saludo</p><p align="RIGHT" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0cm;"><font face="arial"><br></font></p><p align="RIGHT" style="margin-bottom: 0cm;">NOMBRE_DIRECTOR</p><p align="RIGHT" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin-bottom: 0cm;"><font face="arial"><br></font></p><p align="RIGHT" style="margin-bottom: 0cm;"><font face="arial"><b>NOMBRE_CENTRO</b></font></p>]]></td>
+</tr>
+</table>

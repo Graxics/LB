@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Membrete_SarQ</letterhead>
+    <name>Baja Residente</name>
+    <style>formalLetter</style>
+    <subject>Gracias por su estancia</subject>
+    <textOnly>Estimado Sr. xxx,
+
+El motivo de la presente es agradecer su confianza en los servicios y profesionales de nuestro centro residencial.  Esperamos que su estancia con nosotros haya sido lo más confortable posible.
+
+
+
+SARquavitae pone a su disposición una plataforma integral de excelencia en servicios de asistencia y cuidados en su domicilio y en centros especializados, con un equipo de profesionales cualificados, apasionados y comprometidos.
+
+
+
+Deseamos presentarle las ventajas de la compañía para nuevos clientes ofreciéndole condiciones especiales en nuestros servicios:
+
+
+
+• 5% de descuento sobre la tarifa oficial en las estancias permanentes*.
+
+• 10% de descuento en las estancias temporales en los centros residenciales y centros de día indicados en este documento*.
+
+• 10% de descuento en las estancias temporales en nuestros complejos de viviendas con servicios ADOREA de Benalmádena, Sevilla y Girona*.
+
+• 10% de descuento en los servicios de Teleasistencia.
+
+• 10% de descuento en los Servicios de Ayuda a Domicilio o de atención personal y sanitaria (consultar cobertura).
+
+*Siempre según disponibilidad de plazas existentes y durante el periodo de vigencia del convenio.
+
+
+
+Como sabe, estamos a su disposición para cualquier ayuda que precise.
+
+
+
+Saludos cordiales,
+
+
+
+Dirección del centro residencial SARquavitae xxx</textOnly>
+    <type>html</type>
+</EmailTemplate>
